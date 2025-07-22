@@ -1,6 +1,6 @@
-# Text2SQLBench
+# FalCon - Text2SQL Benchmark
 
-**Text2SQLBench** is a continuously-evolving, high-quality benchmark for natural-language-to-SQL (NL2SQL) systems.  
+**FalCon** is a continuously-evolving, high-quality benchmark for natural-language-to-SQL (NL2SQL) systems.  
 The benchmark is designed to stress-test models under **complex, cross-domain analytical scenarios** with a special focus on:
 
 * SQL-computational difficulties – multi-table joins, nested CTEs, window functions, ranking, type casting, regular-expression filters …  
@@ -48,10 +48,6 @@ The file now uses **five mandatory columns**; any additional empty columns are i
 | `sql_answer`       | Ground-truth executable SQL (MaxCompute syntax)                                           |
 | `query_answer`     | Canonical answer returned by the SQL, stored as a JSON string                             |
 
-> **⚠️ Note**   
-> • SQL is guaranteed to follow **Alibaba MaxCompute** syntax.  
-> • `query_answer` is used for exact-match or execution-accuracy evaluation.  
-> • Any blank columns to the right of `query_answer` are placeholders and can be ignored by loaders.
 
 ### 2. `table_relations.csv`  (schema graph)
 
