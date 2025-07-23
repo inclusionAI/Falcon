@@ -26,11 +26,12 @@ Each domain is paired with question sets of **incremental difficulty levels** so
 ```
 text2sqlbench/
 ├── data/
-│   ├── dataset.xlsx          # (core) questions + golden SQL + answers + metadata
-│   ├── table_relations.csv   # explicit relationships between tables
-│   └── dataset_source.csv    # provenance of every table (Kaggle link etc.)
-├── examples/                 # sample loading / evaluation scripts (coming soon)
-└── README.md                 # this file
+│   ├── benchmark_dataset.xlsx      # (core) questions + golden SQL + answers + metadata
+│   ├── table_relations.csv         # explicit relationships between tables
+│   ├── Table Relations.pdf         # ER diagrams for relational database   
+│   └── dataset_source.csv          # provenance of every table (Kaggle link etc.)
+├── examples/                       # sample loading / evaluation scripts (coming soon)
+└── README.md                       # this file
 ```
 
 ### 1. `benchmark_dataset.xlsx`  (the benchmark itself)
