@@ -33,10 +33,7 @@ text2sqlbench/
 └── README.md                 # this file
 ```
 
-### 1. `dataset.xlsx`  (benchmark itself)
-
-
-### 1. `dataset.xlsx`  (the benchmark itself)
+### 1. `benchmark_dataset.xlsx`  (the benchmark itself)
 
 The file now uses **five mandatory columns**; any additional empty columns are ignored.
 
@@ -87,9 +84,9 @@ Detailed guidelines will be published in **CONTRIBUTING.md**.
 
 ## License
 
-The benchmark is released under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
+The benchmark is released under the **Apache License, Version 2.0** license.
 
-For the full legal text, see <https://creativecommons.org/licenses/by/4.0/>.
+For the full legal text, see <https://www.apache.org/licenses/LICENSE-2.0>.
 
 ---
 
