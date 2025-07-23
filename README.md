@@ -42,7 +42,7 @@ The file now uses **five mandatory columns**; any additional empty columns are i
 |--------------------|-------------------------------------------------------------------------------------------|
 | `id`               | Question id (float in the original design, e.g. `1.00`)                                   |
 | `dataset_id`       | Identifier that maps to a specific schema / domain (same id appears in `table_relations.csv` and `dataset_source.csv`) |
-| `quesetion`        | Chinese natural-language question (note the deliberate typo that matches the file)        |
+| `question`        | Chinese natural-language question (note the deliberate typo that matches the file)        |
 | `sql_answer`       | Ground-truth executable SQL (MaxCompute syntax)                                           |
 | `query_answer`     | Canonical answer returned by the SQL, stored as a JSON string                             |
 
