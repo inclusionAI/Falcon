@@ -1,0 +1,1195 @@
+Order ID,Amount,Profit,Quantity,Category,Sub-Category,PaymentMode,Order Date,CustomerName,State,City,Year-Month
+B-26776,9726,1275,5,Electronics,Electronic Games,UPI,2023-06-27,David Padilla,Florida,Miami,2023-06
+B-26776,9726,1275,5,Electronics,Electronic Games,UPI,2024-12-27,Connor Morgan,Illinois,Chicago,2024-12
+B-26776,9726,1275,5,Electronics,Electronic Games,UPI,2021-07-25,Robert Stone,New York,Buffalo,2021-07
+B-26776,4975,1330,14,Electronics,Printers,UPI,2023-06-27,David Padilla,Florida,Miami,2023-06
+B-26776,4975,1330,14,Electronics,Printers,UPI,2024-12-27,Connor Morgan,Illinois,Chicago,2024-12
+B-26776,4975,1330,14,Electronics,Printers,UPI,2021-07-25,Robert Stone,New York,Buffalo,2021-07
+B-26942,1525,185,12,Office Supplies,Pens,Debit Card,2024-05-11,John Fields,Florida,Orlando,2024-05
+B-26942,1525,185,12,Office Supplies,Pens,Debit Card,2021-10-09,Clayton Smith,Florida,Miami,2021-10
+B-26640,883,117,10,Electronics,Laptops,EMI,2022-11-18,Richard Kelley,California,Los Angeles,2022-11
+B-26640,8127,3551,16,Furniture,Tables,Credit Card,2022-11-18,Richard Kelley,California,Los Angeles,2022-11
+B-25890,2516,734,19,Furniture,Chairs,UPI,2023-11-12,Jacqueline Hubbard,New York,New York City,2023-11
+B-25102,2975,462,14,Office Supplies,Pens,Credit Card,2020-03-23,Jessica Anderson,New York,New York City,2020-03
+B-25426,6851,2812,1,Office Supplies,Markers,Debit Card,2020-05-04,Mary Taylor,Florida,Orlando,2020-05
+B-25426,7626,1046,15,Furniture,Sofas,Credit Card,2020-05-04,Mary Taylor,Florida,Orlando,2020-05
+B-25426,1023,78,9,Furniture,Tables,UPI,2020-05-04,Mary Taylor,Florida,Orlando,2020-05
+B-25238,7600,1098,10,Office Supplies,Pens,UPI,2023-11-09,Walter Crawford,Illinois,Springfield,2023-11
+B-25238,7501,262,18,Office Supplies,Paper,COD,2023-11-09,Walter Crawford,Illinois,Springfield,2023-11
+B-25051,725,133,6,Office Supplies,Paper,Credit Card,2024-12-30,Lawrence Robinson,New York,Rochester,2024-12
+B-25051,7201,2685,2,Furniture,Tables,Credit Card,2024-12-30,Lawrence Robinson,New York,Rochester,2024-12
+B-26510,1629,265,1,Office Supplies,Paper,UPI,2025-02-11,Douglas Pennington,Texas,Dallas,2025-02
+B-26510,1629,265,1,Office Supplies,Paper,UPI,2024-01-23,Ricardo Andrews,California,San Diego,2024-01
+B-25104,8971,2971,19,Office Supplies,Binders,Debit Card,2020-11-28,Paul Raymond,California,San Diego,2020-11
+B-25104,2939,894,20,Office Supplies,Binders,COD,2020-11-28,Paul Raymond,California,San Diego,2020-11
+B-25553,9380,414,11,Electronics,Phones,UPI,2024-05-30,Karen Johnson,New York,Rochester,2024-05
+B-25553,8558,1644,18,Office Supplies,Binders,Credit Card,2024-05-30,Karen Johnson,New York,Rochester,2024-05
+B-25553,4080,72,17,Office Supplies,Paper,COD,2024-05-30,Karen Johnson,New York,Rochester,2024-05
+B-26703,4206,1821,17,Electronics,Electronic Games,EMI,2022-01-23,Juan Erickson,Texas,Austin,2022-01
+B-26232,5219,1180,20,Office Supplies,Binders,COD,2021-12-17,Alexander Reed,New York,New York City,2021-12
+B-26232,5219,1180,20,Office Supplies,Binders,COD,2023-02-03,Jacqueline Harris,California,San Francisco,2023-02
+B-25394,3686,760,20,Office Supplies,Pens,Debit Card,2022-10-30,Tyler Park,California,San Francisco,2022-10
+B-25394,3686,760,20,Office Supplies,Pens,Debit Card,2022-01-15,Richard Wolfe,Ohio,Columbus,2022-01
+B-26157,6045,1606,4,Office Supplies,Paper,COD,2023-12-14,Sierra Rios,Florida,Orlando,2023-12
+B-26157,9337,554,11,Office Supplies,Pens,COD,2023-12-14,Sierra Rios,Florida,Orlando,2023-12
+B-25555,4051,1848,12,Electronics,Phones,Credit Card,2023-07-03,Jessica Richardson,California,San Diego,2023-07
+B-25555,4051,1848,12,Electronics,Phones,Credit Card,2021-05-08,Kimberly Warren,Ohio,Cincinnati,2021-05
+B-25555,5011,866,11,Furniture,Bookcases,Credit Card,2023-07-03,Jessica Richardson,California,San Diego,2023-07
+B-25555,5011,866,11,Furniture,Bookcases,Credit Card,2021-05-08,Kimberly Warren,Ohio,Cincinnati,2021-05
+B-26139,3958,630,15,Furniture,Sofas,EMI,2022-10-07,Casey Garcia,Florida,Orlando,2022-10
+B-26139,3132,963,1,Furniture,Tables,Debit Card,2022-10-07,Casey Garcia,Florida,Orlando,2022-10
+B-25032,7784,2937,12,Office Supplies,Markers,UPI,2024-08-06,Denise Hampton,California,San Francisco,2024-08
+B-25032,5591,1696,3,Office Supplies,Pens,COD,2024-08-06,Denise Hampton,California,San Francisco,2024-08
+B-25032,5122,2413,12,Electronics,Electronic Games,COD,2024-08-06,Denise Hampton,California,San Francisco,2024-08
+B-25730,8293,2632,8,Office Supplies,Binders,COD,2022-01-05,Justin Rodriguez,Ohio,Cleveland,2022-01
+B-25730,8293,2632,8,Office Supplies,Binders,COD,2020-10-17,Ms. Emily Baxter,New York,Rochester,2020-10
+B-25730,8293,2632,8,Office Supplies,Binders,COD,2023-08-21,Austin White,California,Los Angeles,2023-08
+B-25730,2863,205,17,Electronics,Phones,UPI,2022-01-05,Justin Rodriguez,Ohio,Cleveland,2022-01
+B-25730,2863,205,17,Electronics,Phones,UPI,2020-10-17,Ms. Emily Baxter,New York,Rochester,2020-10
+B-25730,2863,205,17,Electronics,Phones,UPI,2023-08-21,Austin White,California,Los Angeles,2023-08
+B-26470,3090,573,6,Furniture,Tables,EMI,2024-12-27,Morgan Montes,California,San Diego,2024-12
+B-26470,3090,573,6,Furniture,Tables,EMI,2021-06-18,Christine Mosley,Ohio,Cincinnati,2021-06
+B-26470,3090,573,6,Furniture,Tables,EMI,2023-05-27,Ashley Rodriguez,Texas,Austin,2023-05
+B-26470,3090,573,6,Furniture,Tables,EMI,2021-10-12,Elizabeth King,Texas,Dallas,2021-10
+B-26470,9683,1014,5,Electronics,Printers,UPI,2024-12-27,Morgan Montes,California,San Diego,2024-12
+B-26470,9683,1014,5,Electronics,Printers,UPI,2021-06-18,Christine Mosley,Ohio,Cincinnati,2021-06
+B-26470,9683,1014,5,Electronics,Printers,UPI,2023-05-27,Ashley Rodriguez,Texas,Austin,2023-05
+B-26470,9683,1014,5,Electronics,Printers,UPI,2021-10-12,Elizabeth King,Texas,Dallas,2021-10
+B-25988,2463,648,18,Furniture,Tables,EMI,2022-09-19,Connie Holmes,Ohio,Cincinnati,2022-09
+B-25568,7811,1538,12,Furniture,Sofas,COD,2022-03-25,Melissa Peck,Florida,Miami,2022-03
+B-26730,6139,451,10,Furniture,Tables,Debit Card,2022-02-26,David Smith,Florida,Orlando,2022-02
+B-26730,6139,451,10,Furniture,Tables,Debit Card,2021-04-05,Jacqueline Harris,Texas,Houston,2021-04
+B-26730,8636,3192,3,Furniture,Chairs,COD,2022-02-26,David Smith,Florida,Orlando,2022-02
+B-26730,8636,3192,3,Furniture,Chairs,COD,2021-04-05,Jacqueline Harris,Texas,Houston,2021-04
+B-26730,4439,1712,19,Furniture,Sofas,Credit Card,2022-02-26,David Smith,Florida,Orlando,2022-02
+B-26730,4439,1712,19,Furniture,Sofas,Credit Card,2021-04-05,Jacqueline Harris,Texas,Houston,2021-04
+B-25372,1016,172,20,Furniture,Tables,Debit Card,2020-11-16,Heather Jenkins,New York,Buffalo,2020-11
+B-25372,5768,2059,14,Furniture,Tables,UPI,2020-11-16,Heather Jenkins,New York,Buffalo,2020-11
+B-25372,1217,151,3,Furniture,Tables,Credit Card,2020-11-16,Heather Jenkins,New York,Buffalo,2020-11
+B-26026,953,93,2,Office Supplies,Paper,Debit Card,2024-12-12,Kelsey Castaneda,Ohio,Cleveland,2024-12
+B-26026,953,93,2,Office Supplies,Paper,Debit Card,2023-04-06,Katherine Harris,California,Los Angeles,2023-04
+B-26026,7355,1034,3,Furniture,Sofas,COD,2024-12-12,Kelsey Castaneda,Ohio,Cleveland,2024-12
+B-26026,7355,1034,3,Furniture,Sofas,COD,2023-04-06,Katherine Harris,California,Los Angeles,2023-04
+B-26026,1843,248,3,Electronics,Phones,Credit Card,2024-12-12,Kelsey Castaneda,Ohio,Cleveland,2024-12
+B-26026,1843,248,3,Electronics,Phones,Credit Card,2023-04-06,Katherine Harris,California,Los Angeles,2023-04
+B-26026,1603,361,10,Office Supplies,Pens,Debit Card,2024-12-12,Kelsey Castaneda,Ohio,Cleveland,2024-12
+B-26026,1603,361,10,Office Supplies,Pens,Debit Card,2023-04-06,Katherine Harris,California,Los Angeles,2023-04
+B-25295,2025,528,1,Office Supplies,Pens,Credit Card,2024-01-28,Paul Rogers,Florida,Miami,2024-01
+B-25295,6800,167,16,Office Supplies,Binders,EMI,2024-01-28,Paul Rogers,Florida,Miami,2024-01
+B-26121,1126,55,1,Furniture,Bookcases,UPI,2022-01-16,Jon Banks,Florida,Tampa,2022-01
+B-26121,1126,55,1,Furniture,Bookcases,UPI,2022-12-16,Michelle Williams,New York,Buffalo,2022-12
+B-25560,7533,3508,12,Furniture,Tables,UPI,2023-07-13,Andrew Allen,California,San Diego,2023-07
+B-25560,4734,1178,16,Office Supplies,Binders,Credit Card,2023-07-13,Andrew Allen,California,San Diego,2023-07
+B-25560,4074,1175,6,Electronics,Electronic Games,Debit Card,2023-07-13,Andrew Allen,California,San Diego,2023-07
+B-25560,2334,484,3,Furniture,Sofas,Credit Card,2023-07-13,Andrew Allen,California,San Diego,2023-07
+B-26076,2750,1239,11,Electronics,Phones,Debit Card,2025-03-10,Vanessa Bauer,New York,Buffalo,2025-03
+B-26076,2750,1239,11,Electronics,Phones,Debit Card,2024-09-24,Sean Smith,Ohio,Cleveland,2024-09
+B-26076,8639,3104,19,Office Supplies,Pens,EMI,2025-03-10,Vanessa Bauer,New York,Buffalo,2025-03
+B-26076,8639,3104,19,Office Supplies,Pens,EMI,2024-09-24,Sean Smith,Ohio,Cleveland,2024-09
+B-25872,3808,1192,4,Office Supplies,Markers,UPI,2020-04-13,Shelly Sweeney,New York,New York City,2020-04
+B-25872,2588,705,16,Office Supplies,Pens,Credit Card,2020-04-13,Shelly Sweeney,New York,New York City,2020-04
+B-26185,1591,727,5,Electronics,Electronic Games,Credit Card,2022-06-27,Emily Gill,Illinois,Springfield,2022-06
+B-26185,1591,727,5,Electronics,Electronic Games,Credit Card,2021-03-14,Brian Patrick,Florida,Tampa,2021-03
+B-26185,1591,727,5,Electronics,Electronic Games,Credit Card,2022-02-23,Dr. Sarah Booth,Ohio,Cincinnati,2022-02
+B-26259,1757,622,10,Furniture,Chairs,UPI,2022-03-29,Douglas Mcfarland,Ohio,Cleveland,2022-03
+B-26259,1757,622,10,Furniture,Chairs,UPI,2022-11-20,Kayla Ross,Illinois,Peoria,2022-11
+B-25142,6940,253,15,Furniture,Bookcases,Debit Card,2021-11-12,Marc Strickland,Florida,Orlando,2021-11
+B-25142,5105,465,5,Electronics,Printers,UPI,2021-11-12,Marc Strickland,Florida,Orlando,2021-11
+B-25326,5578,277,16,Furniture,Tables,COD,2021-08-17,Charlene Brown,Florida,Miami,2021-08
+B-25326,5578,277,16,Furniture,Tables,COD,2022-05-16,Charles Smith,Ohio,Columbus,2022-05
+B-26795,5224,1958,16,Furniture,Chairs,Credit Card,2023-07-16,Karen Townsend,Texas,Houston,2023-07
+B-26795,5002,1801,11,Office Supplies,Markers,Credit Card,2023-07-16,Karen Townsend,Texas,Houston,2023-07
+B-26795,7380,1673,18,Office Supplies,Markers,COD,2023-07-16,Karen Townsend,Texas,Houston,2023-07
+B-25660,7595,2873,4,Furniture,Chairs,Debit Card,2020-08-18,Steven Cox,California,Los Angeles,2020-08
+B-25660,7595,2873,4,Furniture,Chairs,Debit Card,2022-04-19,Cynthia Rodriguez,New York,Rochester,2022-04
+B-25410,1954,294,7,Furniture,Sofas,Debit Card,2022-12-23,Jessica Baker,Texas,Austin,2022-12
+B-25690,523,95,20,Electronics,Printers,EMI,2024-12-07,Mark Blackburn,Texas,Dallas,2024-12
+B-26464,5704,714,13,Electronics,Laptops,EMI,2022-02-03,Zachary Perez,Texas,Austin,2022-02
+B-26464,5704,714,13,Electronics,Laptops,EMI,2021-12-12,Brian Green,California,San Diego,2021-12
+B-26464,8797,1010,8,Furniture,Tables,UPI,2022-02-03,Zachary Perez,Texas,Austin,2022-02
+B-26464,8797,1010,8,Furniture,Tables,UPI,2021-12-12,Brian Green,California,San Diego,2021-12
+B-26464,9236,2899,5,Electronics,Laptops,Debit Card,2022-02-03,Zachary Perez,Texas,Austin,2022-02
+B-26464,9236,2899,5,Electronics,Laptops,Debit Card,2021-12-12,Brian Green,California,San Diego,2021-12
+B-26454,9109,586,17,Furniture,Sofas,EMI,2020-05-17,Becky Leach,Florida,Miami,2020-05
+B-26742,4358,526,19,Electronics,Phones,Credit Card,2022-12-05,Bryan Russell,Texas,Dallas,2022-12
+B-26742,4358,526,19,Electronics,Phones,Credit Card,2024-09-17,Tony Maddox,California,San Francisco,2024-09
+B-26742,6459,825,8,Electronics,Phones,Credit Card,2022-12-05,Bryan Russell,Texas,Dallas,2022-12
+B-26742,6459,825,8,Electronics,Phones,Credit Card,2024-09-17,Tony Maddox,California,San Francisco,2024-09
+B-25510,2478,92,12,Furniture,Bookcases,COD,2023-05-08,Jason Randolph,California,San Francisco,2023-05
+B-25510,2478,92,12,Furniture,Bookcases,COD,2021-03-03,Laura Andrews,New York,New York City,2021-03
+B-25510,2478,92,12,Furniture,Bookcases,COD,2021-03-18,Mrs. Stephanie Hooper,California,San Francisco,2021-03
+B-25510,2478,92,12,Furniture,Bookcases,COD,2023-04-24,Anthony Evans,Ohio,Cleveland,2023-04
+B-25936,9992,3696,20,Office Supplies,Pens,Debit Card,2021-10-09,Patrick Williams,New York,Rochester,2021-10
+B-25936,9992,3696,20,Office Supplies,Pens,Debit Card,2022-04-15,Susan Burke,Texas,Austin,2022-04
+B-25936,9992,3696,20,Office Supplies,Pens,Debit Card,2022-08-29,Brent Hernandez,New York,Rochester,2022-08
+B-25936,9619,3420,7,Office Supplies,Binders,UPI,2021-10-09,Patrick Williams,New York,Rochester,2021-10
+B-25936,9619,3420,7,Office Supplies,Binders,UPI,2022-04-15,Susan Burke,Texas,Austin,2022-04
+B-25936,9619,3420,7,Office Supplies,Binders,UPI,2022-08-29,Brent Hernandez,New York,Rochester,2022-08
+B-25884,9538,3158,20,Electronics,Printers,Credit Card,2024-09-04,Sean Elliott,California,San Francisco,2024-09
+B-25884,9538,3158,20,Electronics,Printers,Credit Card,2021-05-18,Wanda West,Ohio,Cleveland,2021-05
+B-25884,9035,1227,14,Furniture,Chairs,EMI,2024-09-04,Sean Elliott,California,San Francisco,2024-09
+B-25884,9035,1227,14,Furniture,Chairs,EMI,2021-05-18,Wanda West,Ohio,Cleveland,2021-05
+B-26287,2684,670,2,Office Supplies,Paper,COD,2024-07-02,Renee Solomon,Florida,Tampa,2024-07
+B-26287,822,147,5,Furniture,Sofas,Credit Card,2024-07-02,Renee Solomon,Florida,Tampa,2024-07
+B-26287,9730,2341,2,Furniture,Chairs,EMI,2024-07-02,Renee Solomon,Florida,Tampa,2024-07
+B-26287,2483,236,2,Electronics,Electronic Games,COD,2024-07-02,Renee Solomon,Florida,Tampa,2024-07
+B-26564,1297,600,7,Office Supplies,Binders,Credit Card,2024-02-16,Daryl Miles,Florida,Orlando,2024-02
+B-26564,7909,1942,19,Electronics,Phones,COD,2024-02-16,Daryl Miles,Florida,Orlando,2024-02
+B-26293,9768,4518,8,Furniture,Tables,Credit Card,2021-11-26,Michael Hunt,Texas,Dallas,2021-11
+B-26293,4968,934,5,Furniture,Sofas,Debit Card,2021-11-26,Michael Hunt,Texas,Dallas,2021-11
+B-26293,1731,149,4,Electronics,Laptops,EMI,2021-11-26,Michael Hunt,Texas,Dallas,2021-11
+B-25915,3433,1169,10,Office Supplies,Binders,COD,2024-02-01,Adam Clark,California,San Francisco,2024-02
+B-25915,3433,1169,10,Office Supplies,Binders,COD,2021-09-09,Amy Olsen,Illinois,Springfield,2021-09
+B-25915,3433,1169,10,Office Supplies,Binders,COD,2021-09-08,Stacey Miller,California,San Diego,2021-09
+B-25915,3887,1490,1,Office Supplies,Binders,Debit Card,2024-02-01,Adam Clark,California,San Francisco,2024-02
+B-25915,3887,1490,1,Office Supplies,Binders,Debit Card,2021-09-09,Amy Olsen,Illinois,Springfield,2021-09
+B-25915,3887,1490,1,Office Supplies,Binders,Debit Card,2021-09-08,Stacey Miller,California,San Diego,2021-09
+B-26496,1801,641,20,Office Supplies,Markers,Credit Card,2024-07-09,Daniel Mosley,California,Los Angeles,2024-07
+B-26496,5301,817,10,Furniture,Tables,Debit Card,2024-07-09,Daniel Mosley,California,Los Angeles,2024-07
+B-26496,1166,520,12,Office Supplies,Paper,Debit Card,2024-07-09,Daniel Mosley,California,Los Angeles,2024-07
+B-26496,3196,1411,15,Office Supplies,Paper,Debit Card,2024-07-09,Daniel Mosley,California,Los Angeles,2024-07
+B-25856,3428,350,1,Furniture,Chairs,Credit Card,2023-02-28,Monica Gibson,Illinois,Springfield,2023-02
+B-25856,7223,2433,12,Office Supplies,Binders,Credit Card,2023-02-28,Monica Gibson,Illinois,Springfield,2023-02
+B-25856,3731,647,1,Office Supplies,Pens,Credit Card,2023-02-28,Monica Gibson,Illinois,Springfield,2023-02
+B-26899,8903,4401,18,Office Supplies,Pens,Credit Card,2022-08-08,Christopher Jordan,Ohio,Columbus,2022-08
+B-25916,6009,2107,7,Electronics,Phones,UPI,2022-12-07,Christina Davis,Illinois,Chicago,2022-12
+B-25916,6009,2107,7,Electronics,Phones,UPI,2024-04-29,Claudia Curry,Texas,Austin,2024-04
+B-25916,2858,230,3,Furniture,Tables,Credit Card,2022-12-07,Christina Davis,Illinois,Chicago,2022-12
+B-25916,2858,230,3,Furniture,Tables,Credit Card,2024-04-29,Claudia Curry,Texas,Austin,2024-04
+B-25916,8175,525,7,Furniture,Sofas,Credit Card,2022-12-07,Christina Davis,Illinois,Chicago,2022-12
+B-25916,8175,525,7,Furniture,Sofas,Credit Card,2024-04-29,Claudia Curry,Texas,Austin,2024-04
+B-25916,5846,586,18,Furniture,Sofas,UPI,2022-12-07,Christina Davis,Illinois,Chicago,2022-12
+B-25916,5846,586,18,Furniture,Sofas,UPI,2024-04-29,Claudia Curry,Texas,Austin,2024-04
+B-26428,706,197,11,Electronics,Laptops,Credit Card,2022-01-02,Brandon Anderson,Texas,Austin,2022-01
+B-26332,9835,2571,16,Furniture,Tables,COD,2022-06-10,George Foster,Texas,Dallas,2022-06
+B-26332,9835,2571,16,Furniture,Tables,COD,2021-11-16,Nicholas Anderson,Florida,Orlando,2021-11
+B-26332,9835,2571,16,Furniture,Tables,COD,2022-08-17,Emily Ellison,California,Los Angeles,2022-08
+B-26332,9691,3056,13,Office Supplies,Markers,Credit Card,2022-06-10,George Foster,Texas,Dallas,2022-06
+B-26332,9691,3056,13,Office Supplies,Markers,Credit Card,2021-11-16,Nicholas Anderson,Florida,Orlando,2021-11
+B-26332,9691,3056,13,Office Supplies,Markers,Credit Card,2022-08-17,Emily Ellison,California,Los Angeles,2022-08
+B-26332,7826,1221,14,Furniture,Bookcases,UPI,2022-06-10,George Foster,Texas,Dallas,2022-06
+B-26332,7826,1221,14,Furniture,Bookcases,UPI,2021-11-16,Nicholas Anderson,Florida,Orlando,2021-11
+B-26332,7826,1221,14,Furniture,Bookcases,UPI,2022-08-17,Emily Ellison,California,Los Angeles,2022-08
+B-25303,770,241,11,Furniture,Sofas,COD,2021-11-23,Darren Perez,Texas,Austin,2021-11
+B-25303,770,241,11,Furniture,Sofas,COD,2023-03-04,Michelle Hunter,Ohio,Cincinnati,2023-03
+B-26507,9895,1598,20,Furniture,Bookcases,COD,2023-12-16,Janet Guerrero,New York,Rochester,2023-12
+B-25983,6517,1581,10,Office Supplies,Paper,Debit Card,2024-05-19,Jeffrey Kline,Florida,Miami,2024-05
+B-25983,6517,1581,10,Office Supplies,Paper,Debit Card,2020-05-14,Ryan Bullock,Florida,Tampa,2020-05
+B-25983,1166,349,11,Furniture,Tables,Credit Card,2024-05-19,Jeffrey Kline,Florida,Miami,2024-05
+B-25983,1166,349,11,Furniture,Tables,Credit Card,2020-05-14,Ryan Bullock,Florida,Tampa,2020-05
+B-25156,9820,793,16,Furniture,Chairs,Credit Card,2021-08-29,Tom Lawson,New York,Buffalo,2021-08
+B-26759,8563,2624,8,Office Supplies,Binders,COD,2024-11-10,Rebecca Smith,Texas,Dallas,2024-11
+B-26759,4441,281,20,Electronics,Printers,COD,2024-11-10,Rebecca Smith,Texas,Dallas,2024-11
+B-26244,7340,2271,8,Office Supplies,Paper,EMI,2021-12-05,William Welch,Florida,Orlando,2021-12
+B-26244,5442,1610,1,Electronics,Phones,EMI,2021-12-05,William Welch,Florida,Orlando,2021-12
+B-26365,1895,391,14,Furniture,Tables,UPI,2024-07-05,Mr. Curtis Bailey,Florida,Tampa,2024-07
+B-26365,5323,322,13,Office Supplies,Binders,COD,2024-07-05,Mr. Curtis Bailey,Florida,Tampa,2024-07
+B-26212,8850,279,13,Office Supplies,Markers,Debit Card,2024-06-25,Janet Carlson,Florida,Miami,2024-06
+B-26212,8667,1266,6,Office Supplies,Paper,Debit Card,2024-06-25,Janet Carlson,Florida,Miami,2024-06
+B-25042,6903,105,1,Furniture,Tables,COD,2024-05-31,Spencer Spears,Illinois,Chicago,2024-05
+B-25042,8793,3010,7,Office Supplies,Pens,COD,2024-05-31,Spencer Spears,Illinois,Chicago,2024-05
+B-25901,9883,4812,16,Office Supplies,Paper,UPI,2020-10-20,Jeffrey Middleton,New York,Buffalo,2020-10
+B-25901,9883,4812,16,Office Supplies,Paper,UPI,2022-08-11,Veronica Kelley,Florida,Orlando,2022-08
+B-25901,9883,4812,16,Office Supplies,Paper,UPI,2021-10-17,Leslie Bean,Illinois,Springfield,2021-10
+B-25901,5210,1185,7,Office Supplies,Paper,UPI,2020-10-20,Jeffrey Middleton,New York,Buffalo,2020-10
+B-25901,5210,1185,7,Office Supplies,Paper,UPI,2022-08-11,Veronica Kelley,Florida,Orlando,2022-08
+B-25901,5210,1185,7,Office Supplies,Paper,UPI,2021-10-17,Leslie Bean,Illinois,Springfield,2021-10
+B-26747,3574,851,4,Electronics,Printers,Credit Card,2022-02-23,Amy Wilson,California,Los Angeles,2022-02
+B-26747,576,76,13,Furniture,Sofas,UPI,2022-02-23,Amy Wilson,California,Los Angeles,2022-02
+B-26698,1860,457,13,Electronics,Printers,EMI,2023-09-20,Susan Ramirez,Ohio,Cleveland,2023-09
+B-25841,782,374,8,Office Supplies,Pens,EMI,2021-01-19,Jacob Meyer,Illinois,Peoria,2021-01
+B-25841,4371,1852,1,Electronics,Laptops,UPI,2021-01-19,Jacob Meyer,Illinois,Peoria,2021-01
+B-26032,8346,1176,1,Electronics,Phones,COD,2020-08-21,Scott Lewis,Texas,Houston,2020-08
+B-26032,8346,1176,1,Electronics,Phones,COD,2023-04-17,Eric Griffith,Illinois,Chicago,2023-04
+B-26032,8346,1176,1,Electronics,Phones,COD,2023-12-24,Anna Ferguson,California,San Francisco,2023-12
+B-26032,6218,1125,5,Furniture,Tables,Debit Card,2020-08-21,Scott Lewis,Texas,Houston,2020-08
+B-26032,6218,1125,5,Furniture,Tables,Debit Card,2023-04-17,Eric Griffith,Illinois,Chicago,2023-04
+B-26032,6218,1125,5,Furniture,Tables,Debit Card,2023-12-24,Anna Ferguson,California,San Francisco,2023-12
+B-26032,5167,253,14,Electronics,Printers,Credit Card,2020-08-21,Scott Lewis,Texas,Houston,2020-08
+B-26032,5167,253,14,Electronics,Printers,Credit Card,2023-04-17,Eric Griffith,Illinois,Chicago,2023-04
+B-26032,5167,253,14,Electronics,Printers,Credit Card,2023-12-24,Anna Ferguson,California,San Francisco,2023-12
+B-26032,2799,1239,5,Furniture,Sofas,Debit Card,2020-08-21,Scott Lewis,Texas,Houston,2020-08
+B-26032,2799,1239,5,Furniture,Sofas,Debit Card,2023-04-17,Eric Griffith,Illinois,Chicago,2023-04
+B-26032,2799,1239,5,Furniture,Sofas,Debit Card,2023-12-24,Anna Ferguson,California,San Francisco,2023-12
+B-25171,3234,1029,20,Office Supplies,Markers,Credit Card,2022-03-20,David Figueroa,Florida,Miami,2022-03
+B-26939,4920,775,12,Furniture,Tables,Debit Card,2021-08-12,Theresa Medina,Illinois,Springfield,2021-08
+B-26939,9078,2213,15,Furniture,Bookcases,EMI,2021-08-12,Theresa Medina,Illinois,Springfield,2021-08
+B-26347,8586,3826,7,Furniture,Bookcases,UPI,2020-12-21,Mary Smith,Florida,Miami,2020-12
+B-26347,8586,3826,7,Furniture,Bookcases,UPI,2023-07-07,Lance Cain,Florida,Tampa,2023-07
+B-25388,5047,2211,13,Furniture,Sofas,EMI,2023-08-13,Alexandra Moran,California,San Francisco,2023-08
+B-25388,5047,2211,13,Furniture,Sofas,EMI,2021-02-04,Sara Castro,Illinois,Chicago,2021-02
+B-25388,5047,2211,13,Furniture,Sofas,EMI,2022-09-16,Shawn Leach,Illinois,Peoria,2022-09
+B-25388,5047,2211,13,Furniture,Sofas,EMI,2022-05-06,Mark Boyle,New York,Buffalo,2022-05
+B-26419,3657,163,1,Furniture,Sofas,UPI,2021-05-28,John Stevens,California,San Francisco,2021-05
+B-25157,6471,2842,18,Electronics,Electronic Games,UPI,2024-07-18,Lisa Graham,Illinois,Peoria,2024-07
+B-25342,949,301,9,Office Supplies,Binders,UPI,2024-12-06,Nancy Jones,Ohio,Cleveland,2024-12
+B-25342,6823,771,6,Office Supplies,Binders,EMI,2024-12-06,Nancy Jones,Ohio,Cleveland,2024-12
+B-25342,4364,831,2,Furniture,Tables,EMI,2024-12-06,Nancy Jones,Ohio,Cleveland,2024-12
+B-26165,6671,2797,10,Electronics,Phones,UPI,2022-12-12,Darryl Robbins,Illinois,Peoria,2022-12
+B-26571,7472,1037,3,Office Supplies,Paper,COD,2022-10-20,Kimberly Smith,Illinois,Springfield,2022-10
+B-26571,9548,1806,9,Electronics,Printers,COD,2022-10-20,Kimberly Smith,Illinois,Springfield,2022-10
+B-25400,7759,3741,17,Electronics,Printers,UPI,2021-03-24,Maria Thomas,Florida,Miami,2021-03
+B-25400,7759,3741,17,Electronics,Printers,UPI,2025-01-06,Nicholas Johnson,Texas,Dallas,2025-01
+B-25400,7521,3457,16,Office Supplies,Markers,Debit Card,2021-03-24,Maria Thomas,Florida,Miami,2021-03
+B-25400,7521,3457,16,Office Supplies,Markers,Debit Card,2025-01-06,Nicholas Johnson,Texas,Dallas,2025-01
+B-25885,9704,4339,12,Office Supplies,Pens,COD,2021-03-06,Dawn Howard,Texas,Houston,2021-03
+B-25885,4948,2356,18,Electronics,Printers,Debit Card,2021-03-06,Dawn Howard,Texas,Houston,2021-03
+B-25885,6435,334,10,Electronics,Electronic Games,Debit Card,2021-03-06,Dawn Howard,Texas,Houston,2021-03
+B-25004,9965,3033,16,Office Supplies,Markers,COD,2020-06-17,Jennifer Marshall,California,San Francisco,2020-06
+B-25004,9965,3033,16,Office Supplies,Markers,COD,2023-09-01,Frank Garcia,New York,Buffalo,2023-09
+B-26213,1523,234,3,Furniture,Sofas,UPI,2023-06-08,Terri Madden,New York,Rochester,2023-06
+B-26213,9073,424,7,Electronics,Electronic Games,Debit Card,2023-06-08,Terri Madden,New York,Rochester,2023-06
+B-25025,6447,3079,20,Electronics,Laptops,COD,2021-03-25,James Gutierrez,New York,Rochester,2021-03
+B-25025,8947,2807,6,Electronics,Electronic Games,Credit Card,2021-03-25,James Gutierrez,New York,Rochester,2021-03
+B-26804,914,400,8,Office Supplies,Pens,Debit Card,2021-01-03,Morgan Sellers,California,Los Angeles,2021-01
+B-26804,1548,666,3,Office Supplies,Paper,Credit Card,2021-01-03,Morgan Sellers,California,Los Angeles,2021-01
+B-26797,2759,1149,6,Furniture,Tables,Credit Card,2024-12-27,Caitlin Thomas,New York,New York City,2024-12
+B-26556,1341,615,4,Electronics,Laptops,UPI,2022-08-12,Kimberly Greene,Florida,Orlando,2022-08
+B-25861,9851,2669,19,Electronics,Electronic Games,Debit Card,2022-03-28,Tammy Anthony,Ohio,Cleveland,2022-03
+B-25861,9851,2669,19,Electronics,Electronic Games,Debit Card,2023-07-15,Jennifer Chase,New York,Buffalo,2023-07
+B-25861,9851,2669,19,Electronics,Electronic Games,Debit Card,2022-09-22,Cassandra Farley,Florida,Orlando,2022-09
+B-25861,9989,3930,14,Furniture,Tables,Debit Card,2022-03-28,Tammy Anthony,Ohio,Cleveland,2022-03
+B-25861,9989,3930,14,Furniture,Tables,Debit Card,2023-07-15,Jennifer Chase,New York,Buffalo,2023-07
+B-25861,9989,3930,14,Furniture,Tables,Debit Card,2022-09-22,Cassandra Farley,Florida,Orlando,2022-09
+B-25112,7421,958,10,Furniture,Tables,COD,2022-12-20,Justin Vasquez,Texas,Houston,2022-12
+B-25112,7421,958,10,Furniture,Tables,COD,2022-01-16,Melissa Morales,Texas,Houston,2022-01
+B-25112,7421,958,10,Furniture,Tables,COD,2023-01-29,Tyler Thompson,Texas,Dallas,2023-01
+B-25223,3099,479,1,Office Supplies,Paper,COD,2022-01-15,Heidi Davis,New York,Buffalo,2022-01
+B-25223,2521,906,7,Electronics,Phones,COD,2022-01-15,Heidi Davis,New York,Buffalo,2022-01
+B-25714,6962,3429,12,Electronics,Electronic Games,UPI,2024-03-24,Charles Lane,Texas,Dallas,2024-03
+B-25714,6962,3429,12,Electronics,Electronic Games,UPI,2025-02-19,Joyce Good MD,Florida,Miami,2025-02
+B-26607,1085,301,20,Furniture,Bookcases,UPI,2024-07-13,Maria Miller,New York,Buffalo,2024-07
+B-25038,738,342,2,Furniture,Chairs,Debit Card,2023-04-28,Terry Mcdaniel,Ohio,Cincinnati,2023-04
+B-25038,738,342,2,Furniture,Chairs,Debit Card,2020-12-05,Lisa Jacobs,New York,Buffalo,2020-12
+B-25038,738,342,2,Furniture,Chairs,Debit Card,2024-05-14,Jeff Duncan,Ohio,Cincinnati,2024-05
+B-25038,738,342,2,Furniture,Chairs,Debit Card,2022-01-18,Pamela Jones,New York,New York City,2022-01
+B-26672,1366,242,17,Electronics,Electronic Games,EMI,2023-09-18,Renee Robinson,Ohio,Columbus,2023-09
+B-26672,1518,155,13,Office Supplies,Markers,Credit Card,2023-09-18,Renee Robinson,Ohio,Columbus,2023-09
+B-25747,2962,1470,1,Electronics,Phones,COD,2021-05-12,Jessica Kidd,New York,Buffalo,2021-05
+B-25747,2962,1470,1,Electronics,Phones,COD,2023-09-17,Nicholas Martin,Florida,Tampa,2023-09
+B-25747,7131,718,12,Electronics,Printers,UPI,2021-05-12,Jessica Kidd,New York,Buffalo,2021-05
+B-25747,7131,718,12,Electronics,Printers,UPI,2023-09-17,Nicholas Martin,Florida,Tampa,2023-09
+B-25747,4200,855,10,Office Supplies,Markers,EMI,2021-05-12,Jessica Kidd,New York,Buffalo,2021-05
+B-25747,4200,855,10,Office Supplies,Markers,EMI,2023-09-17,Nicholas Martin,Florida,Tampa,2023-09
+B-26322,5934,1563,2,Office Supplies,Markers,EMI,2024-09-06,David Brown,Illinois,Peoria,2024-09
+B-26613,2701,322,11,Electronics,Printers,UPI,2022-06-18,Amber Moore,New York,New York City,2022-06
+B-26613,7273,2702,18,Office Supplies,Paper,COD,2022-06-18,Amber Moore,New York,New York City,2022-06
+B-25413,2465,699,18,Office Supplies,Markers,Debit Card,2020-05-22,James Williams,California,San Francisco,2020-05
+B-26466,3479,1087,2,Office Supplies,Markers,EMI,2024-10-17,Karina Barr,Texas,Dallas,2024-10
+B-26466,5457,1765,7,Electronics,Printers,EMI,2024-10-17,Karina Barr,Texas,Dallas,2024-10
+B-26610,4957,1152,8,Office Supplies,Markers,Credit Card,2022-03-22,Meghan Rush,Ohio,Cleveland,2022-03
+B-26209,4404,858,17,Office Supplies,Pens,Debit Card,2024-03-17,Bianca Brown,Ohio,Columbus,2024-03
+B-26209,8776,2529,15,Furniture,Sofas,Credit Card,2024-03-17,Bianca Brown,Ohio,Columbus,2024-03
+B-26622,9536,1437,9,Electronics,Phones,UPI,2020-04-02,Timothy Jensen,Florida,Orlando,2020-04
+B-26622,2225,589,7,Furniture,Sofas,Credit Card,2020-04-02,Timothy Jensen,Florida,Orlando,2020-04
+B-26601,9574,4045,19,Furniture,Bookcases,UPI,2024-03-13,Melinda Montoya,California,San Francisco,2024-03
+B-26601,4382,482,17,Electronics,Electronic Games,COD,2024-03-13,Melinda Montoya,California,San Francisco,2024-03
+B-25894,8200,257,19,Electronics,Laptops,COD,2023-03-21,Tammy Bell,Ohio,Cincinnati,2023-03
+B-25894,9316,3003,13,Furniture,Sofas,Credit Card,2023-03-21,Tammy Bell,Ohio,Cincinnati,2023-03
+B-25894,6379,3128,15,Electronics,Electronic Games,COD,2023-03-21,Tammy Bell,Ohio,Cincinnati,2023-03
+B-26969,3348,568,5,Office Supplies,Markers,Credit Card,2024-03-02,Connie Richards,Ohio,Cleveland,2024-03
+B-26969,3348,568,5,Office Supplies,Markers,Credit Card,2021-04-30,Peter Ward,New York,Rochester,2021-04
+B-26969,8856,2020,9,Office Supplies,Pens,Debit Card,2024-03-02,Connie Richards,Ohio,Cleveland,2024-03
+B-26969,8856,2020,9,Office Supplies,Pens,Debit Card,2021-04-30,Peter Ward,New York,Rochester,2021-04
+B-26312,1760,619,16,Furniture,Sofas,Debit Card,2021-09-15,Jonathan Alvarez,Ohio,Columbus,2021-09
+B-26312,1760,619,16,Furniture,Sofas,Debit Card,2023-01-28,Becky Hodges,Texas,Houston,2023-01
+B-26312,6351,986,15,Electronics,Printers,UPI,2021-09-15,Jonathan Alvarez,Ohio,Columbus,2021-09
+B-26312,6351,986,15,Electronics,Printers,UPI,2023-01-28,Becky Hodges,Texas,Houston,2023-01
+B-26837,869,373,14,Office Supplies,Paper,Credit Card,2021-07-08,Larry Hill,New York,New York City,2021-07
+B-26837,869,373,14,Office Supplies,Paper,Credit Card,2020-04-08,Amber Moon,Ohio,Cleveland,2020-04
+B-26837,1486,114,7,Furniture,Bookcases,UPI,2021-07-08,Larry Hill,New York,New York City,2021-07
+B-26837,1486,114,7,Furniture,Bookcases,UPI,2020-04-08,Amber Moon,Ohio,Cleveland,2020-04
+B-26166,2999,145,13,Office Supplies,Binders,COD,2022-08-23,Cynthia Wilcox,Illinois,Chicago,2022-08
+B-26166,5142,1916,20,Office Supplies,Paper,EMI,2022-08-23,Cynthia Wilcox,Illinois,Chicago,2022-08
+B-25695,1239,575,17,Electronics,Laptops,UPI,2022-12-17,Rebecca Wright,New York,Rochester,2022-12
+B-25695,1239,575,17,Electronics,Laptops,UPI,2022-06-08,Sarah Flores,Illinois,Springfield,2022-06
+B-25695,1262,515,16,Electronics,Electronic Games,EMI,2022-12-17,Rebecca Wright,New York,Rochester,2022-12
+B-25695,1262,515,16,Electronics,Electronic Games,EMI,2022-06-08,Sarah Flores,Illinois,Springfield,2022-06
+B-26068,1033,254,5,Furniture,Bookcases,COD,2020-08-28,Carol Norman,New York,Rochester,2020-08
+B-26023,1518,159,19,Electronics,Printers,UPI,2020-09-26,Stephanie Gardner,California,San Diego,2020-09
+B-26677,8581,2444,2,Office Supplies,Paper,Debit Card,2020-12-13,Philip Baker,Illinois,Peoria,2020-12
+B-26677,8581,2444,2,Office Supplies,Paper,Debit Card,2020-11-19,Randall Dennis,Florida,Orlando,2020-11
+B-25701,1167,463,5,Office Supplies,Pens,UPI,2023-09-13,Suzanne Cross,Texas,Austin,2023-09
+B-25701,2841,803,20,Electronics,Laptops,Credit Card,2023-09-13,Suzanne Cross,Texas,Austin,2023-09
+B-25701,5680,2159,19,Furniture,Tables,UPI,2023-09-13,Suzanne Cross,Texas,Austin,2023-09
+B-26523,8204,2382,6,Office Supplies,Pens,UPI,2020-03-31,Jasmine Delgado,Illinois,Chicago,2020-03
+B-26523,8204,2382,6,Office Supplies,Pens,UPI,2020-10-20,Kristen Harper,New York,Buffalo,2020-10
+B-26523,2850,904,6,Electronics,Phones,EMI,2020-03-31,Jasmine Delgado,Illinois,Chicago,2020-03
+B-26523,2850,904,6,Electronics,Phones,EMI,2020-10-20,Kristen Harper,New York,Buffalo,2020-10
+B-25880,907,391,9,Office Supplies,Pens,Credit Card,2023-08-04,Kaitlyn Graham MD,New York,New York City,2023-08
+B-26898,2174,265,19,Office Supplies,Pens,Credit Card,2022-04-11,Dean Avila,Ohio,Cincinnati,2022-04
+B-26898,8541,2029,12,Electronics,Electronic Games,Credit Card,2022-04-11,Dean Avila,Ohio,Cincinnati,2022-04
+B-26898,1931,551,3,Furniture,Bookcases,EMI,2022-04-11,Dean Avila,Ohio,Cincinnati,2022-04
+B-26035,1281,340,3,Electronics,Electronic Games,Debit Card,2021-12-31,Megan Mack,Texas,Austin,2021-12
+B-26035,2404,253,15,Electronics,Laptops,COD,2021-12-31,Megan Mack,Texas,Austin,2021-12
+B-25573,2119,196,1,Furniture,Sofas,COD,2020-08-16,Heather Johnson,California,Los Angeles,2020-08
+B-25463,3137,571,9,Office Supplies,Pens,Debit Card,2025-02-02,Tina Davies,Illinois,Chicago,2025-02
+B-26277,2323,727,7,Furniture,Tables,COD,2022-02-24,Matthew Harris,Texas,Dallas,2022-02
+B-26277,1368,406,9,Furniture,Bookcases,UPI,2022-02-24,Matthew Harris,Texas,Dallas,2022-02
+B-26508,9204,3289,16,Electronics,Laptops,Credit Card,2024-02-25,Christopher Kirk,Florida,Miami,2024-02
+B-26508,9204,3289,16,Electronics,Laptops,Credit Card,2021-06-15,Eric Stevens,Florida,Miami,2021-06
+B-26508,9894,3698,20,Office Supplies,Paper,EMI,2024-02-25,Christopher Kirk,Florida,Miami,2024-02
+B-26508,9894,3698,20,Office Supplies,Paper,EMI,2021-06-15,Eric Stevens,Florida,Miami,2021-06
+B-26723,5322,1423,18,Furniture,Sofas,COD,2022-12-08,James Dickerson,Texas,Houston,2022-12
+B-26723,5322,1423,18,Furniture,Sofas,COD,2023-12-09,James Jones,Texas,Dallas,2023-12
+B-25526,2666,559,14,Furniture,Chairs,COD,2022-07-16,Hannah Hendricks,Ohio,Cleveland,2022-07
+B-25645,8383,937,4,Furniture,Sofas,UPI,2024-05-05,Brett Mullins,Florida,Orlando,2024-05
+B-25757,7560,821,4,Office Supplies,Paper,EMI,2021-10-04,Ms. Kim Jordan,Illinois,Chicago,2021-10
+B-26716,1314,490,16,Furniture,Sofas,UPI,2021-11-20,Marcus Santiago,New York,Buffalo,2021-11
+B-26716,4390,179,1,Furniture,Tables,Debit Card,2021-11-20,Marcus Santiago,New York,Buffalo,2021-11
+B-26716,1150,58,7,Office Supplies,Binders,Debit Card,2021-11-20,Marcus Santiago,New York,Buffalo,2021-11
+B-25424,1574,258,17,Office Supplies,Pens,EMI,2020-09-15,Jill Perez,California,San Diego,2020-09
+B-25424,5635,318,17,Office Supplies,Binders,UPI,2020-09-15,Jill Perez,California,San Diego,2020-09
+B-25424,6515,961,11,Furniture,Sofas,Debit Card,2020-09-15,Jill Perez,California,San Diego,2020-09
+B-26453,1231,214,20,Electronics,Laptops,Debit Card,2023-01-17,Courtney Williams,Ohio,Columbus,2023-01
+B-26453,1231,214,20,Electronics,Laptops,Debit Card,2020-06-16,Jordan Hahn,New York,Rochester,2020-06
+B-26425,6891,2529,3,Office Supplies,Binders,Debit Card,2024-05-01,William Cook,Ohio,Cleveland,2024-05
+B-25843,7524,2308,15,Electronics,Laptops,EMI,2023-12-07,Stephanie Hayes,Texas,Austin,2023-12
+B-25843,6864,1824,14,Electronics,Printers,Credit Card,2023-12-07,Stephanie Hayes,Texas,Austin,2023-12
+B-25486,4215,432,14,Furniture,Chairs,Debit Card,2024-02-02,Melissa Wise,Ohio,Columbus,2024-02
+B-26975,622,218,19,Furniture,Bookcases,Credit Card,2024-06-23,Elizabeth Gonzalez,California,San Diego,2024-06
+B-26975,1755,495,18,Office Supplies,Pens,UPI,2024-06-23,Elizabeth Gonzalez,California,San Diego,2024-06
+B-26975,8020,3898,20,Electronics,Electronic Games,EMI,2024-06-23,Elizabeth Gonzalez,California,San Diego,2024-06
+B-26890,7333,1576,4,Electronics,Laptops,Credit Card,2024-06-07,Mr. Eric Lopez,New York,Buffalo,2024-06
+B-26125,7690,1134,4,Electronics,Electronic Games,COD,2023-10-13,Benjamin Higgins,New York,Rochester,2023-10
+B-26125,912,246,2,Furniture,Sofas,EMI,2023-10-13,Benjamin Higgins,New York,Rochester,2023-10
+B-26489,2791,894,14,Electronics,Laptops,COD,2022-10-08,Brett Sutton,Texas,Austin,2022-10
+B-26489,2791,894,14,Electronics,Laptops,COD,2023-10-27,Anna Blackburn,Ohio,Cincinnati,2023-10
+B-26489,2791,894,14,Electronics,Laptops,COD,2021-02-09,Michelle Bailey,Texas,Dallas,2021-02
+B-26489,6223,1478,3,Furniture,Sofas,Debit Card,2022-10-08,Brett Sutton,Texas,Austin,2022-10
+B-26489,6223,1478,3,Furniture,Sofas,Debit Card,2023-10-27,Anna Blackburn,Ohio,Cincinnati,2023-10
+B-26489,6223,1478,3,Furniture,Sofas,Debit Card,2021-02-09,Michelle Bailey,Texas,Dallas,2021-02
+B-26489,8943,3121,17,Furniture,Chairs,Debit Card,2022-10-08,Brett Sutton,Texas,Austin,2022-10
+B-26489,8943,3121,17,Furniture,Chairs,Debit Card,2023-10-27,Anna Blackburn,Ohio,Cincinnati,2023-10
+B-26489,8943,3121,17,Furniture,Chairs,Debit Card,2021-02-09,Michelle Bailey,Texas,Dallas,2021-02
+B-26489,3297,102,12,Electronics,Phones,Credit Card,2022-10-08,Brett Sutton,Texas,Austin,2022-10
+B-26489,3297,102,12,Electronics,Phones,Credit Card,2023-10-27,Anna Blackburn,Ohio,Cincinnati,2023-10
+B-26489,3297,102,12,Electronics,Phones,Credit Card,2021-02-09,Michelle Bailey,Texas,Dallas,2021-02
+B-26043,8769,1989,20,Office Supplies,Paper,UPI,2020-11-03,Sara Peterson,Illinois,Chicago,2020-11
+B-26557,9057,1888,19,Electronics,Printers,COD,2022-05-30,Katherine Williams,Florida,Orlando,2022-05
+B-26557,6864,3275,11,Furniture,Tables,Credit Card,2022-05-30,Katherine Williams,Florida,Orlando,2022-05
+B-26557,9200,809,13,Electronics,Laptops,COD,2022-05-30,Katherine Williams,Florida,Orlando,2022-05
+B-25243,6113,2508,6,Electronics,Laptops,UPI,2024-06-16,Cory Evans,Florida,Orlando,2024-06
+B-25243,7733,2784,15,Furniture,Tables,EMI,2024-06-16,Cory Evans,Florida,Orlando,2024-06
+B-25243,8524,154,14,Furniture,Tables,COD,2024-06-16,Cory Evans,Florida,Orlando,2024-06
+B-25243,6187,2344,15,Furniture,Bookcases,EMI,2024-06-16,Cory Evans,Florida,Orlando,2024-06
+B-26932,4364,148,18,Furniture,Tables,EMI,2022-07-15,Michael Rodriguez,Ohio,Cincinnati,2022-07
+B-26932,736,286,12,Office Supplies,Pens,EMI,2022-07-15,Michael Rodriguez,Ohio,Cincinnati,2022-07
+B-25241,9905,633,17,Office Supplies,Pens,EMI,2021-07-18,John Munoz,Texas,Dallas,2021-07
+B-25241,9905,633,17,Office Supplies,Pens,EMI,2021-10-02,David Clark,Florida,Tampa,2021-10
+B-25044,2493,1221,9,Office Supplies,Paper,Credit Card,2024-04-16,April Welch,Illinois,Springfield,2024-04
+B-25044,9849,963,1,Office Supplies,Pens,Credit Card,2024-04-16,April Welch,Illinois,Springfield,2024-04
+B-26137,3423,804,4,Electronics,Printers,Credit Card,2020-07-09,Alan Livingston,Illinois,Peoria,2020-07
+B-26137,3423,804,4,Electronics,Printers,Credit Card,2020-07-25,Angela Jackson,Texas,Dallas,2020-07
+B-26137,3423,804,4,Electronics,Printers,Credit Card,2024-01-24,Amy Williams,Texas,Austin,2024-01
+B-26137,3423,804,4,Electronics,Printers,Credit Card,2020-05-04,Laura Jordan,Texas,Dallas,2020-05
+B-26137,3423,804,4,Electronics,Printers,Credit Card,2021-11-13,Richard Maynard,Ohio,Cincinnati,2021-11
+B-25545,3900,115,9,Furniture,Chairs,COD,2023-10-07,Lawrence Oliver,Illinois,Springfield,2023-10
+B-26800,8568,2419,11,Electronics,Electronic Games,UPI,2021-10-23,Anthony Williams,New York,Rochester,2021-10
+B-26800,3283,71,6,Office Supplies,Pens,EMI,2021-10-23,Anthony Williams,New York,Rochester,2021-10
+B-26987,7643,3720,19,Electronics,Electronic Games,EMI,2022-07-18,Lynn Matthews,Texas,Dallas,2022-07
+B-26144,3461,1537,15,Furniture,Sofas,EMI,2024-08-23,Andrew Griffin,Illinois,Chicago,2024-08
+B-26144,5714,1438,6,Electronics,Electronic Games,Credit Card,2024-08-23,Andrew Griffin,Illinois,Chicago,2024-08
+B-26144,3853,1457,10,Office Supplies,Binders,COD,2024-08-23,Andrew Griffin,Illinois,Chicago,2024-08
+B-25406,6016,431,20,Office Supplies,Pens,UPI,2020-10-28,Megan Williams,Illinois,Chicago,2020-10
+B-25658,1290,204,12,Office Supplies,Markers,UPI,2024-06-15,Alison Martin,New York,Buffalo,2024-06
+B-25658,1290,204,12,Office Supplies,Markers,UPI,2024-12-19,Samuel Wallace,California,San Francisco,2024-12
+B-25733,4569,1693,10,Electronics,Printers,UPI,2020-09-04,Manuel Stark,Illinois,Springfield,2020-09
+B-26993,3083,1151,16,Furniture,Bookcases,Debit Card,2022-04-16,William Villarreal,Florida,Orlando,2022-04
+B-26964,3522,898,15,Office Supplies,Pens,Credit Card,2024-08-29,Brandon Kirk,Ohio,Cleveland,2024-08
+B-26964,3522,898,15,Office Supplies,Pens,Credit Card,2022-01-14,Abigail Brown,California,Los Angeles,2022-01
+B-26955,7301,3602,3,Office Supplies,Binders,Debit Card,2024-04-07,Kristine Carter,Texas,Houston,2024-04
+B-26059,4462,121,8,Electronics,Laptops,COD,2022-04-24,Wesley Deleon,Illinois,Springfield,2022-04
+B-26059,6212,1881,17,Electronics,Phones,COD,2022-04-24,Wesley Deleon,Illinois,Springfield,2022-04
+B-26806,4027,1386,3,Furniture,Bookcases,EMI,2020-08-27,Laura Cole,Florida,Tampa,2020-08
+B-26299,1676,330,14,Electronics,Laptops,EMI,2023-03-01,Lauren Harris,Ohio,Cleveland,2023-03
+B-26299,3927,1133,12,Furniture,Bookcases,COD,2023-03-01,Lauren Harris,Ohio,Cleveland,2023-03
+B-26299,2776,887,9,Electronics,Phones,Debit Card,2023-03-01,Lauren Harris,Ohio,Cleveland,2023-03
+B-26743,7684,1157,12,Furniture,Sofas,COD,2020-10-02,Cameron Miller,Illinois,Chicago,2020-10
+B-26743,7684,1157,12,Furniture,Sofas,COD,2020-06-23,Jacob Carpenter,New York,Buffalo,2020-06
+B-26743,7684,1157,12,Furniture,Sofas,COD,2023-08-21,Pamela Callahan DVM,Ohio,Columbus,2023-08
+B-26757,6008,2498,17,Electronics,Phones,Credit Card,2022-07-16,William Ruiz,Florida,Miami,2022-07
+B-26772,7344,2598,20,Furniture,Bookcases,COD,2022-08-01,Paula Marshall,Texas,Dallas,2022-08
+B-26088,6932,3218,20,Office Supplies,Pens,COD,2020-07-16,Natalie Cox,Florida,Orlando,2020-07
+B-26319,7748,1706,16,Electronics,Electronic Games,EMI,2020-05-02,Andrew Fernandez,Ohio,Cincinnati,2020-05
+B-26319,6381,2763,20,Office Supplies,Markers,UPI,2020-05-02,Andrew Fernandez,Ohio,Cincinnati,2020-05
+B-26319,992,64,6,Electronics,Phones,Credit Card,2020-05-02,Andrew Fernandez,Ohio,Cincinnati,2020-05
+B-25364,8649,2631,13,Electronics,Laptops,EMI,2024-01-10,Alisha Saunders,California,San Francisco,2024-01
+B-25364,8649,2631,13,Electronics,Laptops,EMI,2020-09-30,Travis Chandler DDS,New York,Rochester,2020-09
+B-25655,4099,52,18,Electronics,Laptops,UPI,2022-03-28,Russell Austin,New York,New York City,2022-03
+B-26864,2539,324,5,Electronics,Electronic Games,UPI,2021-01-30,Collin Cameron,California,San Francisco,2021-01
+B-26019,9845,3062,9,Office Supplies,Paper,COD,2025-03-14,Elizabeth Hernandez,Florida,Orlando,2025-03
+B-25849,2901,1411,2,Office Supplies,Paper,Debit Card,2021-10-26,William Russell,Texas,Austin,2021-10
+B-25849,2901,1411,2,Office Supplies,Paper,Debit Card,2023-01-11,Sheri Berg,California,Los Angeles,2023-01
+B-25849,6934,1152,6,Office Supplies,Pens,Credit Card,2021-10-26,William Russell,Texas,Austin,2021-10
+B-25849,6934,1152,6,Office Supplies,Pens,Credit Card,2023-01-11,Sheri Berg,California,Los Angeles,2023-01
+B-25829,9640,2606,2,Furniture,Bookcases,Credit Card,2021-10-31,Anthony Barnett,Illinois,Peoria,2021-10
+B-26065,7930,1981,13,Furniture,Chairs,Credit Card,2023-05-04,Kaitlyn Flores,Ohio,Cleveland,2023-05
+B-26065,7930,1981,13,Furniture,Chairs,Credit Card,2024-08-09,Rebecca Owen,Illinois,Springfield,2024-08
+B-25267,9894,829,1,Office Supplies,Binders,COD,2022-08-21,Michael Bell,California,San Diego,2022-08
+B-25267,4534,2235,4,Furniture,Tables,COD,2022-08-21,Michael Bell,California,San Diego,2022-08
+B-25972,4911,186,20,Electronics,Phones,Debit Card,2022-06-19,Willie Huynh,New York,Buffalo,2022-06
+B-25972,531,189,20,Furniture,Bookcases,Debit Card,2022-06-19,Willie Huynh,New York,Buffalo,2022-06
+B-25511,9707,3483,10,Electronics,Electronic Games,EMI,2025-01-29,Samuel Hayes,Illinois,Peoria,2025-01
+B-25511,8521,2584,7,Office Supplies,Paper,COD,2025-01-29,Samuel Hayes,Illinois,Peoria,2025-01
+B-25744,8438,3427,12,Office Supplies,Binders,Credit Card,2022-01-14,Sherry Tran,New York,Buffalo,2022-01
+B-25744,1689,109,9,Electronics,Electronic Games,UPI,2022-01-14,Sherry Tran,New York,Buffalo,2022-01
+B-25744,3936,1626,14,Office Supplies,Paper,COD,2022-01-14,Sherry Tran,New York,Buffalo,2022-01
+B-26805,7664,1753,19,Electronics,Phones,Debit Card,2023-06-15,Heather Gray,Ohio,Cincinnati,2023-06
+B-25620,721,258,13,Electronics,Laptops,Debit Card,2023-10-18,Benjamin Meadows,Illinois,Peoria,2023-10
+B-25620,721,258,13,Electronics,Laptops,Debit Card,2022-06-13,Micheal Graham,New York,Buffalo,2022-06
+B-25620,8364,3055,17,Electronics,Laptops,Credit Card,2023-10-18,Benjamin Meadows,Illinois,Peoria,2023-10
+B-25620,8364,3055,17,Electronics,Laptops,Credit Card,2022-06-13,Micheal Graham,New York,Buffalo,2022-06
+B-25620,5234,2021,15,Furniture,Bookcases,EMI,2023-10-18,Benjamin Meadows,Illinois,Peoria,2023-10
+B-25620,5234,2021,15,Furniture,Bookcases,EMI,2022-06-13,Micheal Graham,New York,Buffalo,2022-06
+B-25325,3944,1559,18,Electronics,Phones,Credit Card,2024-06-12,Jean Jackson,California,San Francisco,2024-06
+B-25325,6711,1045,12,Office Supplies,Pens,Credit Card,2024-06-12,Jean Jackson,California,San Francisco,2024-06
+B-25325,5031,714,4,Furniture,Tables,Credit Card,2024-06-12,Jean Jackson,California,San Francisco,2024-06
+B-25325,6295,2469,14,Office Supplies,Binders,EMI,2024-06-12,Jean Jackson,California,San Francisco,2024-06
+B-25131,9654,4111,1,Office Supplies,Paper,UPI,2022-06-27,Timothy Murphy,California,San Francisco,2022-06
+B-25131,3112,1065,20,Office Supplies,Binders,COD,2022-06-27,Timothy Murphy,California,San Francisco,2022-06
+B-26654,7838,1142,13,Electronics,Phones,UPI,2021-02-18,Mrs. Jennifer Lewis,California,San Francisco,2021-02
+B-26654,9300,3146,6,Electronics,Phones,Credit Card,2021-02-18,Mrs. Jennifer Lewis,California,San Francisco,2021-02
+B-26654,1733,133,17,Office Supplies,Paper,Debit Card,2021-02-18,Mrs. Jennifer Lewis,California,San Francisco,2021-02
+B-26195,874,235,15,Office Supplies,Binders,Debit Card,2023-05-29,Bryan Brown,New York,Rochester,2023-05
+B-26195,874,235,15,Office Supplies,Binders,Debit Card,2021-06-04,Christopher Johnson,Florida,Miami,2021-06
+B-25842,1248,584,13,Office Supplies,Pens,EMI,2024-01-22,Christina Conner,Ohio,Columbus,2024-01
+B-25842,1248,584,13,Office Supplies,Pens,EMI,2022-12-27,Luis Luna,California,San Francisco,2022-12
+B-25842,3669,154,14,Office Supplies,Markers,EMI,2024-01-22,Christina Conner,Ohio,Columbus,2024-01
+B-25842,3669,154,14,Office Supplies,Markers,EMI,2022-12-27,Luis Luna,California,San Francisco,2022-12
+B-25842,514,109,15,Office Supplies,Paper,Debit Card,2024-01-22,Christina Conner,Ohio,Columbus,2024-01
+B-25842,514,109,15,Office Supplies,Paper,Debit Card,2022-12-27,Luis Luna,California,San Francisco,2022-12
+B-25851,3273,85,16,Electronics,Phones,UPI,2024-03-30,Julie Chavez,Ohio,Cincinnati,2024-03
+B-25427,5035,2008,2,Furniture,Chairs,COD,2020-04-04,Richard Blair,Florida,Miami,2020-04
+B-25427,7702,60,19,Electronics,Printers,UPI,2020-04-04,Richard Blair,Florida,Miami,2020-04
+B-25427,9884,4446,7,Electronics,Printers,EMI,2020-04-04,Richard Blair,Florida,Miami,2020-04
+B-26224,5564,175,11,Electronics,Laptops,COD,2023-01-22,Mitchell Lester,Illinois,Chicago,2023-01
+B-26224,5564,175,11,Electronics,Laptops,COD,2022-04-12,Mr. John Tyler PhD,Texas,Houston,2022-04
+B-26224,5564,175,11,Electronics,Laptops,COD,2023-12-13,Juan Kelly,Florida,Miami,2023-12
+B-26224,3953,1776,15,Electronics,Electronic Games,UPI,2023-01-22,Mitchell Lester,Illinois,Chicago,2023-01
+B-26224,3953,1776,15,Electronics,Electronic Games,UPI,2022-04-12,Mr. John Tyler PhD,Texas,Houston,2022-04
+B-26224,3953,1776,15,Electronics,Electronic Games,UPI,2023-12-13,Juan Kelly,Florida,Miami,2023-12
+B-26896,6488,1591,18,Electronics,Printers,EMI,2023-05-24,Morgan Mccarthy,Texas,Dallas,2023-05
+B-26896,6488,1591,18,Electronics,Printers,EMI,2020-11-29,Morgan Sullivan,Texas,Houston,2020-11
+B-26469,7856,3699,17,Electronics,Electronic Games,UPI,2021-03-24,Eric Clark,Florida,Orlando,2021-03
+B-26469,1165,51,3,Office Supplies,Pens,EMI,2021-03-24,Eric Clark,Florida,Orlando,2021-03
+B-26219,9386,2555,20,Office Supplies,Markers,Credit Card,2020-08-19,Mark Padilla,California,San Diego,2020-08
+B-26219,9386,2555,20,Office Supplies,Markers,Credit Card,2022-10-20,Anthony Lane,Ohio,Cleveland,2022-10
+B-26119,3956,142,12,Office Supplies,Pens,Debit Card,2023-09-20,Jeffrey Henderson,Florida,Tampa,2023-09
+B-26119,3956,142,12,Office Supplies,Pens,Debit Card,2024-12-26,Michelle Hardy,Texas,Dallas,2024-12
+B-26119,6449,2628,11,Furniture,Bookcases,EMI,2023-09-20,Jeffrey Henderson,Florida,Tampa,2023-09
+B-26119,6449,2628,11,Furniture,Bookcases,EMI,2024-12-26,Michelle Hardy,Texas,Dallas,2024-12
+B-26988,6255,437,18,Office Supplies,Markers,COD,2021-12-03,Ms. Barbara Cervantes,New York,Rochester,2021-12
+B-26988,2109,681,20,Electronics,Electronic Games,UPI,2021-12-03,Ms. Barbara Cervantes,New York,Rochester,2021-12
+B-25596,6707,1041,20,Electronics,Phones,Credit Card,2021-09-14,Steven Proctor,Texas,Austin,2021-09
+B-26845,7633,184,13,Office Supplies,Pens,COD,2021-09-30,Shannon Patterson,Illinois,Springfield,2021-09
+B-25099,975,224,18,Office Supplies,Pens,COD,2021-12-22,William Valdez,California,San Diego,2021-12
+B-25099,4492,1450,7,Furniture,Tables,EMI,2021-12-22,William Valdez,California,San Diego,2021-12
+B-25099,7957,2834,12,Furniture,Chairs,UPI,2021-12-22,William Valdez,California,San Diego,2021-12
+B-26153,4906,975,7,Furniture,Tables,Debit Card,2022-05-18,Laura Yu,Texas,Houston,2022-05
+B-25060,1379,250,3,Office Supplies,Pens,Credit Card,2020-10-08,Jonathan Mcmillan,New York,Buffalo,2020-10
+B-25060,4244,340,10,Electronics,Laptops,Debit Card,2020-10-08,Jonathan Mcmillan,New York,Buffalo,2020-10
+B-26572,5911,2333,14,Furniture,Bookcases,EMI,2022-08-20,Austin Davis,California,San Diego,2022-08
+B-26572,5911,2333,14,Furniture,Bookcases,EMI,2024-11-25,Mark Roy,California,San Francisco,2024-11
+B-26572,1818,738,11,Office Supplies,Markers,EMI,2022-08-20,Austin Davis,California,San Diego,2022-08
+B-26572,1818,738,11,Office Supplies,Markers,EMI,2024-11-25,Mark Roy,California,San Francisco,2024-11
+B-25919,2140,970,4,Office Supplies,Paper,Credit Card,2020-09-30,Jillian Williams,California,San Diego,2020-09
+B-25919,2140,970,4,Office Supplies,Paper,Credit Card,2025-02-20,Rebekah Carter,Florida,Orlando,2025-02
+B-25919,2140,970,4,Office Supplies,Paper,Credit Card,2022-03-20,Jonathan Reed,California,San Francisco,2022-03
+B-25919,2670,1026,1,Electronics,Laptops,Debit Card,2020-09-30,Jillian Williams,California,San Diego,2020-09
+B-25919,2670,1026,1,Electronics,Laptops,Debit Card,2025-02-20,Rebekah Carter,Florida,Orlando,2025-02
+B-25919,2670,1026,1,Electronics,Laptops,Debit Card,2022-03-20,Jonathan Reed,California,San Francisco,2022-03
+B-26978,1108,167,18,Electronics,Laptops,Debit Card,2025-03-07,Roger Harris,Illinois,Springfield,2025-03
+B-26978,9776,3750,9,Office Supplies,Binders,UPI,2025-03-07,Roger Harris,Illinois,Springfield,2025-03
+B-26978,535,72,6,Furniture,Bookcases,COD,2025-03-07,Roger Harris,Illinois,Springfield,2025-03
+B-26554,7564,3463,5,Office Supplies,Paper,Credit Card,2024-06-16,Louis Jimenez,Florida,Tampa,2024-06
+B-26554,7564,3463,5,Office Supplies,Paper,Credit Card,2020-11-21,Jessica Jones,Illinois,Peoria,2020-11
+B-26554,7564,3463,5,Office Supplies,Paper,Credit Card,2024-10-01,Renee Gomez,Florida,Miami,2024-10
+B-26554,7564,3463,5,Office Supplies,Paper,Credit Card,2024-07-01,Connie Olson,Texas,Houston,2024-07
+B-26554,3409,1605,20,Electronics,Electronic Games,UPI,2024-06-16,Louis Jimenez,Florida,Tampa,2024-06
+B-26554,3409,1605,20,Electronics,Electronic Games,UPI,2020-11-21,Jessica Jones,Illinois,Peoria,2020-11
+B-26554,3409,1605,20,Electronics,Electronic Games,UPI,2024-10-01,Renee Gomez,Florida,Miami,2024-10
+B-26554,3409,1605,20,Electronics,Electronic Games,UPI,2024-07-01,Connie Olson,Texas,Houston,2024-07
+B-26883,9751,2459,13,Office Supplies,Pens,COD,2020-11-23,Christian Jones,New York,Buffalo,2020-11
+B-25423,6385,2656,11,Electronics,Printers,Credit Card,2023-03-18,Matthew Kelley,Florida,Orlando,2023-03
+B-25423,6385,2656,11,Electronics,Printers,Credit Card,2022-10-19,Candace Martinez,Florida,Tampa,2022-10
+B-26324,6355,1335,15,Electronics,Electronic Games,Debit Card,2023-08-31,Jacob Mann,Texas,Austin,2023-08
+B-26324,6355,1335,15,Electronics,Electronic Games,Debit Card,2021-06-06,Keith Reese,Texas,Austin,2021-06
+B-26945,7377,320,15,Electronics,Printers,Debit Card,2022-12-21,Aaron Jones,Texas,Austin,2022-12
+B-26945,2054,371,12,Office Supplies,Markers,EMI,2022-12-21,Aaron Jones,Texas,Austin,2022-12
+B-26405,7497,319,18,Furniture,Chairs,COD,2024-02-12,Christopher Brooks,Illinois,Peoria,2024-02
+B-26046,2565,983,20,Electronics,Electronic Games,Debit Card,2022-12-05,Charles Moore,Florida,Miami,2022-12
+B-26046,5024,1544,19,Office Supplies,Pens,COD,2022-12-05,Charles Moore,Florida,Miami,2022-12
+B-25746,8243,1346,15,Office Supplies,Binders,Debit Card,2021-04-04,Manuel Walls,Texas,Houston,2021-04
+B-25232,7792,1403,13,Office Supplies,Paper,UPI,2021-02-12,Darren Moore,Illinois,Peoria,2021-02
+B-25232,7792,1403,13,Office Supplies,Paper,UPI,2022-12-27,Stephanie Thomas,New York,Rochester,2022-12
+B-25232,7792,1403,13,Office Supplies,Paper,UPI,2024-01-19,Kristy Hernandez,California,San Diego,2024-01
+B-25232,2346,388,14,Furniture,Chairs,Debit Card,2021-02-12,Darren Moore,Illinois,Peoria,2021-02
+B-25232,2346,388,14,Furniture,Chairs,Debit Card,2022-12-27,Stephanie Thomas,New York,Rochester,2022-12
+B-25232,2346,388,14,Furniture,Chairs,Debit Card,2024-01-19,Kristy Hernandez,California,San Diego,2024-01
+B-25591,7346,1043,10,Furniture,Sofas,Credit Card,2022-12-25,Randy Johnson,Ohio,Columbus,2022-12
+B-25591,9770,4132,7,Electronics,Electronic Games,UPI,2022-12-25,Randy Johnson,Ohio,Columbus,2022-12
+B-25591,7179,683,13,Electronics,Laptops,Credit Card,2022-12-25,Randy Johnson,Ohio,Columbus,2022-12
+B-26325,5449,2389,2,Electronics,Phones,UPI,2022-10-06,James Benitez,Florida,Miami,2022-10
+B-25251,2895,104,6,Furniture,Chairs,COD,2020-04-27,Donald York,New York,Buffalo,2020-04
+B-25251,2895,104,6,Furniture,Chairs,COD,2024-05-13,Tiffany Parker,Texas,Houston,2024-05
+B-25251,697,116,1,Furniture,Chairs,UPI,2020-04-27,Donald York,New York,Buffalo,2020-04
+B-25251,697,116,1,Furniture,Chairs,UPI,2024-05-13,Tiffany Parker,Texas,Houston,2024-05
+B-25464,6145,1414,4,Furniture,Chairs,COD,2020-10-23,Melissa Mcknight,California,Los Angeles,2020-10
+B-25464,2504,440,18,Electronics,Printers,UPI,2020-10-23,Melissa Mcknight,California,Los Angeles,2020-10
+B-25464,3124,138,16,Electronics,Phones,Debit Card,2020-10-23,Melissa Mcknight,California,Los Angeles,2020-10
+B-26678,6934,1226,1,Electronics,Electronic Games,Debit Card,2021-06-11,Mr. Jack Mercado,Ohio,Cincinnati,2021-06
+B-26678,6934,1226,1,Electronics,Electronic Games,Debit Card,2021-09-08,Christian Jones,New York,Rochester,2021-09
+B-25962,4202,1171,3,Office Supplies,Markers,COD,2022-11-23,Rachel Fisher,Illinois,Peoria,2022-11
+B-25962,4202,1171,3,Office Supplies,Markers,COD,2022-10-31,Donald Moore,New York,Rochester,2022-10
+B-25962,4202,1171,3,Office Supplies,Markers,COD,2023-11-06,William Wu,Florida,Tampa,2023-11
+B-25962,4202,1171,3,Office Supplies,Markers,COD,2023-11-12,Jesus Zuniga,Texas,Houston,2023-11
+B-26586,2239,828,1,Electronics,Printers,UPI,2023-06-26,Michael Gallegos,California,Los Angeles,2023-06
+B-26586,2239,828,1,Electronics,Printers,UPI,2023-09-30,Robert Daniels,Illinois,Chicago,2023-09
+B-26586,2450,1002,4,Electronics,Phones,Debit Card,2023-06-26,Michael Gallegos,California,Los Angeles,2023-06
+B-26586,2450,1002,4,Electronics,Phones,Debit Card,2023-09-30,Robert Daniels,Illinois,Chicago,2023-09
+B-26841,9827,4208,13,Furniture,Chairs,Debit Card,2020-09-12,Jill Jones,New York,New York City,2020-09
+B-26841,8077,240,15,Furniture,Sofas,Credit Card,2020-09-12,Jill Jones,New York,New York City,2020-09
+B-26284,5152,2045,14,Electronics,Phones,UPI,2020-11-27,Elizabeth Miller,Illinois,Springfield,2020-11
+B-26284,5152,2045,14,Electronics,Phones,UPI,2022-08-25,Sabrina Clark,California,Los Angeles,2022-08
+B-26284,5152,2045,14,Electronics,Phones,UPI,2023-08-23,Larry Casey,Illinois,Chicago,2023-08
+B-26284,5152,2045,14,Electronics,Phones,UPI,2023-10-11,Daniel Burns,New York,Rochester,2023-10
+B-26478,2542,190,1,Office Supplies,Markers,Credit Card,2022-04-21,James Tanner,Texas,Houston,2022-04
+B-26679,8102,1800,5,Office Supplies,Markers,UPI,2023-09-14,Leonard Gonzalez,California,San Francisco,2023-09
+B-26679,8102,1800,5,Office Supplies,Markers,UPI,2020-04-29,Richard Lee,New York,Buffalo,2020-04
+B-26679,8102,1800,5,Office Supplies,Markers,UPI,2020-12-15,Matthew Schroeder,Ohio,Cleveland,2020-12
+B-26679,3234,1274,10,Furniture,Tables,EMI,2023-09-14,Leonard Gonzalez,California,San Francisco,2023-09
+B-26679,3234,1274,10,Furniture,Tables,EMI,2020-04-29,Richard Lee,New York,Buffalo,2020-04
+B-26679,3234,1274,10,Furniture,Tables,EMI,2020-12-15,Matthew Schroeder,Ohio,Cleveland,2020-12
+B-26397,6200,2321,18,Furniture,Tables,Credit Card,2024-07-11,Marcus Flores,California,Los Angeles,2024-07
+B-26397,6200,2321,18,Furniture,Tables,Credit Card,2024-09-21,Tonya Long,Florida,Miami,2024-09
+B-25957,4470,413,13,Electronics,Laptops,UPI,2025-02-02,Michael Chambers,California,Los Angeles,2025-02
+B-26916,916,362,7,Office Supplies,Pens,UPI,2022-10-21,Kaylee Glover,Illinois,Springfield,2022-10
+B-26916,916,362,7,Office Supplies,Pens,UPI,2020-10-21,Pamela Patterson,California,San Francisco,2020-10
+B-26916,1165,302,20,Furniture,Sofas,UPI,2022-10-21,Kaylee Glover,Illinois,Springfield,2022-10
+B-26916,1165,302,20,Furniture,Sofas,UPI,2020-10-21,Pamela Patterson,California,San Francisco,2020-10
+B-26916,7846,677,12,Furniture,Chairs,UPI,2022-10-21,Kaylee Glover,Illinois,Springfield,2022-10
+B-26916,7846,677,12,Furniture,Chairs,UPI,2020-10-21,Pamela Patterson,California,San Francisco,2020-10
+B-25925,3022,384,1,Office Supplies,Pens,Credit Card,2022-01-11,Ronald Mckinney,Texas,Austin,2022-01
+B-25925,3022,384,1,Office Supplies,Pens,Credit Card,2021-02-17,James Hart,Illinois,Chicago,2021-02
+B-25925,5266,1111,13,Electronics,Electronic Games,Debit Card,2022-01-11,Ronald Mckinney,Texas,Austin,2022-01
+B-25925,5266,1111,13,Electronics,Electronic Games,Debit Card,2021-02-17,James Hart,Illinois,Chicago,2021-02
+B-25602,4853,1764,9,Office Supplies,Pens,Debit Card,2021-11-06,Rhonda Harris,Florida,Orlando,2021-11
+B-25602,4853,1764,9,Office Supplies,Pens,Debit Card,2022-08-30,Randy Fisher,Texas,Houston,2022-08
+B-26592,9832,1270,1,Office Supplies,Pens,COD,2022-10-07,James Hernandez,California,San Francisco,2022-10
+B-26592,796,153,15,Office Supplies,Pens,Credit Card,2022-10-07,James Hernandez,California,San Francisco,2022-10
+B-26251,883,127,7,Furniture,Chairs,COD,2023-06-04,Brenda Murphy,California,San Francisco,2023-06
+B-26251,4539,1155,8,Furniture,Bookcases,Debit Card,2023-06-04,Brenda Murphy,California,San Francisco,2023-06
+B-26251,9659,2226,16,Office Supplies,Binders,Debit Card,2023-06-04,Brenda Murphy,California,San Francisco,2023-06
+B-25979,9562,325,2,Electronics,Printers,Debit Card,2022-05-13,Andrew Kirby,California,San Diego,2022-05
+B-25437,4688,1841,3,Electronics,Laptops,Credit Card,2023-01-23,Justin Thomas,California,San Francisco,2023-01
+B-25437,4688,1841,3,Electronics,Laptops,Credit Card,2021-07-25,Jillian Johnson MD,California,San Diego,2021-07
+B-26986,7900,482,4,Electronics,Phones,COD,2025-03-08,William Martin,Ohio,Columbus,2025-03
+B-25990,6967,3257,17,Furniture,Bookcases,COD,2022-12-25,Mark Dixon,Ohio,Cincinnati,2022-12
+B-25990,1091,277,6,Office Supplies,Paper,COD,2022-12-25,Mark Dixon,Ohio,Cincinnati,2022-12
+B-25990,6027,1530,2,Office Supplies,Binders,Credit Card,2022-12-25,Mark Dixon,Ohio,Cincinnati,2022-12
+B-25222,4852,218,2,Furniture,Tables,EMI,2024-04-24,Alicia Allen,Texas,Dallas,2024-04
+B-25222,4852,218,2,Furniture,Tables,EMI,2021-12-24,Cynthia Meyer,Florida,Tampa,2021-12
+B-25222,4852,218,2,Furniture,Tables,EMI,2023-09-07,Brandon Norton,Illinois,Springfield,2023-09
+B-26402,4314,1453,6,Furniture,Sofas,COD,2021-08-10,Christina Scott,Florida,Tampa,2021-08
+B-26792,3288,1477,3,Office Supplies,Pens,EMI,2024-05-26,Andrew Macias,Texas,Austin,2024-05
+B-26792,3288,1477,3,Office Supplies,Pens,EMI,2022-02-19,Alejandro Williams,Illinois,Springfield,2022-02
+B-25154,3977,813,5,Office Supplies,Binders,Credit Card,2024-12-09,Mark Rodriguez,New York,New York City,2024-12
+B-26114,6252,1377,2,Electronics,Printers,EMI,2023-06-01,Sarah Montgomery,Illinois,Chicago,2023-06
+B-26485,9084,3253,12,Office Supplies,Pens,Debit Card,2023-11-05,Marisa Prince,New York,Buffalo,2023-11
+B-26191,8994,1481,15,Electronics,Phones,Credit Card,2020-06-21,James Bonilla,California,San Diego,2020-06
+B-26754,1089,176,16,Office Supplies,Markers,EMI,2020-10-26,Robin Myers,Texas,Dallas,2020-10
+B-25953,6690,1001,19,Office Supplies,Binders,UPI,2022-06-06,Nancy Sanchez,Illinois,Springfield,2022-06
+B-25953,6690,1001,19,Office Supplies,Binders,UPI,2021-11-13,Sydney Walls,Illinois,Chicago,2021-11
+B-25953,4985,1920,10,Furniture,Bookcases,Credit Card,2022-06-06,Nancy Sanchez,Illinois,Springfield,2022-06
+B-25953,4985,1920,10,Furniture,Bookcases,Credit Card,2021-11-13,Sydney Walls,Illinois,Chicago,2021-11
+B-26516,8590,3565,15,Electronics,Electronic Games,EMI,2021-11-11,Deborah Hoffman,Florida,Miami,2021-11
+B-26516,6973,3038,10,Furniture,Tables,COD,2021-11-11,Deborah Hoffman,Florida,Miami,2021-11
+B-26843,4591,1941,19,Electronics,Printers,EMI,2021-07-31,Megan Williams,Texas,Dallas,2021-07
+B-26843,9612,2572,17,Office Supplies,Pens,Credit Card,2021-07-31,Megan Williams,Texas,Dallas,2021-07
+B-26167,5343,655,1,Furniture,Chairs,EMI,2024-04-13,Shane Clark,California,San Diego,2024-04
+B-26972,6956,318,20,Office Supplies,Markers,Debit Card,2022-04-19,Steven Haynes,Illinois,Springfield,2022-04
+B-25673,5306,2405,17,Furniture,Tables,EMI,2024-03-23,Kimberly Fuller,New York,Buffalo,2024-03
+B-26587,8982,448,17,Furniture,Sofas,UPI,2021-05-07,Angela Lyons,New York,New York City,2021-05
+B-26587,4826,562,5,Office Supplies,Paper,Debit Card,2021-05-07,Angela Lyons,New York,New York City,2021-05
+B-26668,972,106,15,Office Supplies,Pens,EMI,2022-05-06,Betty Tucker,Ohio,Cincinnati,2022-05
+B-26906,3665,802,4,Office Supplies,Markers,Credit Card,2021-08-09,Brianna Hunt,Florida,Miami,2021-08
+B-26906,3665,802,4,Office Supplies,Markers,Credit Card,2025-02-09,Cathy Clark,Florida,Tampa,2025-02
+B-25226,9808,2117,2,Office Supplies,Pens,UPI,2024-04-23,Nicole Warren,California,Los Angeles,2024-04
+B-25166,1133,73,17,Furniture,Chairs,UPI,2023-02-23,Richard Castaneda,Ohio,Cleveland,2023-02
+B-25166,1133,73,17,Furniture,Chairs,UPI,2024-06-06,Sarah Torres,California,San Diego,2024-06
+B-25166,6248,1168,19,Furniture,Bookcases,COD,2023-02-23,Richard Castaneda,Ohio,Cleveland,2023-02
+B-25166,6248,1168,19,Furniture,Bookcases,COD,2024-06-06,Sarah Torres,California,San Diego,2024-06
+B-25454,5666,2733,17,Electronics,Electronic Games,Credit Card,2025-01-27,Vanessa Deleon,Florida,Tampa,2025-01
+B-26215,4171,1450,18,Office Supplies,Markers,COD,2023-04-07,Richard Lyons,Texas,Dallas,2023-04
+B-25777,6236,2839,7,Electronics,Printers,Credit Card,2022-01-20,Eric Adams,Illinois,Springfield,2022-01
+B-25777,6236,2839,7,Electronics,Printers,Credit Card,2022-05-10,Chad Brown,Florida,Orlando,2022-05
+B-25383,5410,2456,8,Furniture,Chairs,Credit Card,2024-05-29,Kayla Becker,California,Los Angeles,2024-05
+B-25383,5410,2456,8,Furniture,Chairs,Credit Card,2022-01-04,Ashley Freeman,Florida,Tampa,2022-01
+B-26409,3024,1353,1,Furniture,Sofas,Credit Card,2024-05-02,Scott Harris,California,Los Angeles,2024-05
+B-26409,3024,1353,1,Furniture,Sofas,Credit Card,2021-12-28,John James,Ohio,Columbus,2021-12
+B-26684,7434,2851,5,Office Supplies,Markers,UPI,2022-12-12,Jesse Bond,Illinois,Springfield,2022-12
+B-26726,7213,508,19,Electronics,Electronic Games,Debit Card,2023-08-17,Brandon Hughes,Texas,Dallas,2023-08
+B-26726,7213,508,19,Electronics,Electronic Games,Debit Card,2021-11-29,Lynn Reynolds,Ohio,Cincinnati,2021-11
+B-26726,3176,586,9,Furniture,Tables,EMI,2023-08-17,Brandon Hughes,Texas,Dallas,2023-08
+B-26726,3176,586,9,Furniture,Tables,EMI,2021-11-29,Lynn Reynolds,Ohio,Cincinnati,2021-11
+B-26136,9144,2220,18,Office Supplies,Binders,Credit Card,2021-06-13,Ronald Good,Florida,Miami,2021-06
+B-26098,4146,865,19,Furniture,Tables,EMI,2022-07-04,Kyle Baker,Texas,Houston,2022-07
+B-26098,3793,875,7,Furniture,Tables,EMI,2022-07-04,Kyle Baker,Texas,Houston,2022-07
+B-25430,7169,2385,11,Furniture,Sofas,COD,2021-06-27,Michael Rivera,California,Los Angeles,2021-06
+B-25430,4046,417,18,Furniture,Chairs,Credit Card,2021-06-27,Michael Rivera,California,Los Angeles,2021-06
+B-25266,4164,905,11,Electronics,Phones,COD,2023-12-04,Lori Adkins,California,San Diego,2023-12
+B-25266,5389,2196,5,Furniture,Tables,UPI,2023-12-04,Lori Adkins,California,San Diego,2023-12
+B-25283,5448,2204,5,Furniture,Sofas,COD,2022-08-09,Luis Warner,New York,New York City,2022-08
+B-25227,4115,1285,1,Furniture,Sofas,UPI,2020-04-08,Donald Perry,Florida,Orlando,2020-04
+B-25227,4761,2231,12,Furniture,Tables,UPI,2020-04-08,Donald Perry,Florida,Orlando,2020-04
+B-25669,5899,2264,6,Office Supplies,Binders,EMI,2023-10-20,Adam Stevens,New York,Buffalo,2023-10
+B-25064,6109,3040,9,Furniture,Chairs,EMI,2022-02-10,Kimberly Johnson,New York,Buffalo,2022-02
+B-25064,6109,3040,9,Furniture,Chairs,EMI,2023-10-05,Kelly Jones,New York,Rochester,2023-10
+B-25064,4628,1491,17,Electronics,Electronic Games,UPI,2022-02-10,Kimberly Johnson,New York,Buffalo,2022-02
+B-25064,4628,1491,17,Electronics,Electronic Games,UPI,2023-10-05,Kelly Jones,New York,Rochester,2023-10
+B-26268,4369,584,13,Office Supplies,Pens,Credit Card,2022-09-22,Ashley Petty,Illinois,Peoria,2022-09
+B-26268,4369,584,13,Office Supplies,Pens,Credit Card,2021-04-03,Crystal Ross,Texas,Austin,2021-04
+B-25456,5632,2358,20,Furniture,Sofas,Credit Card,2021-05-03,Alexis Duffy,California,Los Angeles,2021-05
+B-25456,5632,2358,20,Furniture,Sofas,Credit Card,2024-02-11,Stephanie Sanchez,Florida,Miami,2024-02
+B-25456,5632,2358,20,Furniture,Sofas,Credit Card,2025-02-04,Reginald Espinoza,Ohio,Cleveland,2025-02
+B-25495,7519,402,14,Office Supplies,Paper,UPI,2022-10-12,Sandra Hicks,California,San Diego,2022-10
+B-25495,1564,674,13,Electronics,Electronic Games,Debit Card,2022-10-12,Sandra Hicks,California,San Diego,2022-10
+B-26552,2804,936,10,Electronics,Electronic Games,Credit Card,2022-02-06,Olivia Orozco,Texas,Austin,2022-02
+B-26552,2804,936,10,Electronics,Electronic Games,Credit Card,2020-11-09,Larry Moore,Florida,Tampa,2020-11
+B-26552,2804,936,10,Electronics,Electronic Games,Credit Card,2023-05-03,Mrs. Rachel Cannon DDS,Florida,Tampa,2023-05
+B-25203,2321,505,6,Furniture,Chairs,EMI,2022-10-04,Daniel Flowers,Illinois,Springfield,2022-10
+B-25462,5730,482,6,Electronics,Laptops,COD,2024-08-21,Randy Acosta,Florida,Tampa,2024-08
+B-26145,7441,867,12,Furniture,Sofas,COD,2021-11-20,Deborah Williams,Illinois,Chicago,2021-11
+B-26145,7441,867,12,Furniture,Sofas,COD,2020-05-13,Robert Michael,Texas,Austin,2020-05
+B-25552,1732,766,7,Office Supplies,Binders,UPI,2023-02-28,Danny Ramirez,New York,New York City,2023-02
+B-25552,8788,3944,19,Office Supplies,Paper,EMI,2023-02-28,Danny Ramirez,New York,New York City,2023-02
+B-26069,838,271,11,Office Supplies,Markers,EMI,2021-01-21,Stephen Baker,Ohio,Columbus,2021-01
+B-26069,838,271,11,Office Supplies,Markers,EMI,2022-02-28,Jeffrey Wilcox,Illinois,Peoria,2022-02
+B-26069,3577,699,2,Furniture,Tables,UPI,2021-01-21,Stephen Baker,Ohio,Columbus,2021-01
+B-26069,3577,699,2,Furniture,Tables,UPI,2022-02-28,Jeffrey Wilcox,Illinois,Peoria,2022-02
+B-25120,7122,1836,6,Electronics,Phones,Debit Card,2024-04-25,James Clarke,Texas,Dallas,2024-04
+B-25120,7122,1836,6,Electronics,Phones,Debit Card,2023-03-10,Julia Gallagher,Texas,Houston,2023-03
+B-25120,7122,1836,6,Electronics,Phones,Debit Card,2023-07-10,Ronald Frey Jr.,New York,New York City,2023-07
+B-25120,7327,2596,15,Office Supplies,Markers,Credit Card,2024-04-25,James Clarke,Texas,Dallas,2024-04
+B-25120,7327,2596,15,Office Supplies,Markers,Credit Card,2023-03-10,Julia Gallagher,Texas,Houston,2023-03
+B-25120,7327,2596,15,Office Supplies,Markers,Credit Card,2023-07-10,Ronald Frey Jr.,New York,New York City,2023-07
+B-26146,2239,1094,18,Electronics,Printers,COD,2024-07-28,Megan Charles,Florida,Tampa,2024-07
+B-26146,4932,1153,1,Office Supplies,Markers,COD,2024-07-28,Megan Charles,Florida,Tampa,2024-07
+B-25549,4609,1084,8,Electronics,Printers,UPI,2023-07-30,Amy Duran MD,Florida,Orlando,2023-07
+B-25549,2328,788,4,Office Supplies,Paper,UPI,2023-07-30,Amy Duran MD,Florida,Orlando,2023-07
+B-25549,4734,958,7,Electronics,Printers,Debit Card,2023-07-30,Amy Duran MD,Florida,Orlando,2023-07
+B-25488,1388,345,5,Furniture,Sofas,UPI,2024-10-05,Christopher Thomas,New York,New York City,2024-10
+B-25488,8555,1638,8,Electronics,Laptops,Credit Card,2024-10-05,Christopher Thomas,New York,New York City,2024-10
+B-26885,9024,730,4,Furniture,Tables,Credit Card,2024-02-20,Peter Castro,Texas,Dallas,2024-02
+B-26885,2468,418,4,Electronics,Laptops,Credit Card,2024-02-20,Peter Castro,Texas,Dallas,2024-02
+B-25703,9438,1801,4,Electronics,Electronic Games,COD,2023-04-19,Steven Acosta,Florida,Orlando,2023-04
+B-25703,9438,1801,4,Electronics,Electronic Games,COD,2023-10-29,Lindsay Jackson,Texas,Austin,2023-10
+B-25809,2685,379,18,Electronics,Phones,UPI,2022-03-08,Kelly Smith,Ohio,Cleveland,2022-03
+B-25809,2685,379,18,Electronics,Phones,UPI,2022-12-08,Sabrina Hartman,Florida,Tampa,2022-12
+B-25809,9916,4602,14,Furniture,Chairs,UPI,2022-03-08,Kelly Smith,Ohio,Cleveland,2022-03
+B-25809,9916,4602,14,Furniture,Chairs,UPI,2022-12-08,Sabrina Hartman,Florida,Tampa,2022-12
+B-25809,6184,50,14,Electronics,Electronic Games,Credit Card,2022-03-08,Kelly Smith,Ohio,Cleveland,2022-03
+B-25809,6184,50,14,Electronics,Electronic Games,Credit Card,2022-12-08,Sabrina Hartman,Florida,Tampa,2022-12
+B-25809,4548,2135,8,Office Supplies,Markers,Debit Card,2022-03-08,Kelly Smith,Ohio,Cleveland,2022-03
+B-25809,4548,2135,8,Office Supplies,Markers,Debit Card,2022-12-08,Sabrina Hartman,Florida,Tampa,2022-12
+B-25477,7195,1665,7,Office Supplies,Markers,COD,2024-07-27,Cynthia Smith,New York,Rochester,2024-07
+B-25477,7195,1665,7,Office Supplies,Markers,COD,2022-07-05,Olivia Dickerson,New York,Buffalo,2022-07
+B-26018,3098,957,18,Furniture,Bookcases,COD,2024-07-04,Whitney Stout,Texas,Austin,2024-07
+B-25329,5412,1192,18,Furniture,Tables,Credit Card,2024-02-28,Stephanie Flores,California,San Diego,2024-02
+B-25329,5412,1192,18,Furniture,Tables,Credit Card,2025-01-03,Gregory English,California,Los Angeles,2025-01
+B-25182,1397,686,11,Furniture,Chairs,Credit Card,2021-12-07,Natalie Maxwell,New York,New York City,2021-12
+B-25492,9279,552,14,Furniture,Chairs,EMI,2021-12-14,Tina Blake,New York,Buffalo,2021-12
+B-25492,9279,552,14,Furniture,Chairs,EMI,2020-11-30,Clarence Cooke,California,San Francisco,2020-11
+B-25492,2596,1003,19,Office Supplies,Paper,Credit Card,2021-12-14,Tina Blake,New York,Buffalo,2021-12
+B-25492,2596,1003,19,Office Supplies,Paper,Credit Card,2020-11-30,Clarence Cooke,California,San Francisco,2020-11
+B-25517,6732,911,19,Furniture,Bookcases,EMI,2021-12-29,Tamara Guzman,New York,Buffalo,2021-12
+B-25517,4495,1408,14,Office Supplies,Pens,EMI,2021-12-29,Tamara Guzman,New York,Buffalo,2021-12
+B-25200,9653,2471,6,Office Supplies,Paper,UPI,2024-07-08,Marissa Hartman,New York,Buffalo,2024-07
+B-26009,8945,1728,10,Furniture,Tables,UPI,2021-02-10,Sara Garcia,Illinois,Peoria,2021-02
+B-26580,4007,201,13,Furniture,Bookcases,COD,2020-10-21,Kathryn Rogers,Ohio,Columbus,2020-10
+B-26580,4007,201,13,Furniture,Bookcases,COD,2023-04-17,Kyle Dickson,Texas,Dallas,2023-04
+B-25679,810,231,18,Furniture,Bookcases,EMI,2020-10-21,Jacob Decker,Florida,Tampa,2020-10
+B-26034,9789,2071,18,Furniture,Bookcases,Debit Card,2023-12-28,Aaron Johnson,New York,Rochester,2023-12
+B-26034,9229,4090,8,Electronics,Electronic Games,COD,2023-12-28,Aaron Johnson,New York,Rochester,2023-12
+B-25148,8141,3968,18,Office Supplies,Markers,Debit Card,2022-12-23,William Morse,New York,Rochester,2022-12
+B-25148,8141,3968,18,Office Supplies,Markers,Debit Card,2022-08-10,Carrie Smith,Illinois,Peoria,2022-08
+B-25148,1067,251,14,Furniture,Sofas,EMI,2022-12-23,William Morse,New York,Rochester,2022-12
+B-25148,1067,251,14,Furniture,Sofas,EMI,2022-08-10,Carrie Smith,Illinois,Peoria,2022-08
+B-25830,3839,1415,10,Office Supplies,Binders,UPI,2023-10-17,Vincent Roth,California,Los Angeles,2023-10
+B-25830,3839,1415,10,Office Supplies,Binders,UPI,2022-02-28,Andrew Benson,Florida,Orlando,2022-02
+B-25762,2858,482,13,Electronics,Electronic Games,COD,2024-05-24,Jason Wilson,Texas,Austin,2024-05
+B-26794,2137,638,12,Furniture,Bookcases,Debit Card,2020-10-02,Colin Patterson,New York,New York City,2020-10
+B-26794,2831,1289,12,Furniture,Chairs,Debit Card,2020-10-02,Colin Patterson,New York,New York City,2020-10
+B-25011,3913,961,15,Furniture,Sofas,UPI,2024-02-10,Eric Bates,Ohio,Columbus,2024-02
+B-25011,3913,961,15,Furniture,Sofas,UPI,2021-02-06,Steven Keith,California,San Francisco,2021-02
+B-25515,4468,1940,9,Office Supplies,Paper,COD,2022-03-16,Seth Rodriguez,Florida,Tampa,2022-03
+B-25369,1579,602,9,Electronics,Laptops,Credit Card,2020-05-24,Lauren Jones,Ohio,Cincinnati,2020-05
+B-25369,1579,602,9,Electronics,Laptops,Credit Card,2025-02-16,Thomas Wallace,Texas,Dallas,2025-02
+B-25369,1579,602,9,Electronics,Laptops,Credit Card,2021-11-16,Mr. Daniel Wilson,Ohio,Cincinnati,2021-11
+B-25369,1579,602,9,Electronics,Laptops,Credit Card,2024-09-08,Julie Smith MD,New York,Rochester,2024-09
+B-25369,3760,1849,19,Furniture,Chairs,EMI,2020-05-24,Lauren Jones,Ohio,Cincinnati,2020-05
+B-25369,3760,1849,19,Furniture,Chairs,EMI,2025-02-16,Thomas Wallace,Texas,Dallas,2025-02
+B-25369,3760,1849,19,Furniture,Chairs,EMI,2021-11-16,Mr. Daniel Wilson,Ohio,Cincinnati,2021-11
+B-25369,3760,1849,19,Furniture,Chairs,EMI,2024-09-08,Julie Smith MD,New York,Rochester,2024-09
+B-26222,8706,3099,14,Office Supplies,Pens,Credit Card,2022-06-29,Carol Mitchell,Illinois,Chicago,2022-06
+B-26222,4708,696,14,Electronics,Electronic Games,Credit Card,2022-06-29,Carol Mitchell,Illinois,Chicago,2022-06
+B-26222,8089,3132,17,Furniture,Chairs,COD,2022-06-29,Carol Mitchell,Illinois,Chicago,2022-06
+B-25316,5462,673,12,Electronics,Printers,Debit Card,2022-11-03,John Thompson,Texas,Austin,2022-11
+B-25507,6392,444,18,Electronics,Electronic Games,Credit Card,2023-11-28,Debra Rodriguez,Florida,Tampa,2023-11
+B-25846,8706,1724,3,Electronics,Electronic Games,Debit Card,2020-04-25,Erin Vasquez,Florida,Orlando,2020-04
+B-25763,2349,319,4,Office Supplies,Pens,UPI,2022-01-18,Clayton Lara,Florida,Miami,2022-01
+B-25763,8220,3882,14,Furniture,Chairs,UPI,2022-01-18,Clayton Lara,Florida,Miami,2022-01
+B-25763,2379,279,7,Furniture,Chairs,Debit Card,2022-01-18,Clayton Lara,Florida,Miami,2022-01
+B-25763,7377,2049,4,Office Supplies,Markers,UPI,2022-01-18,Clayton Lara,Florida,Miami,2022-01
+B-25465,717,158,16,Furniture,Tables,Credit Card,2022-03-23,Tony Ray,Ohio,Cleveland,2022-03
+B-25465,717,158,16,Furniture,Tables,Credit Card,2020-06-24,Steven Frey,Florida,Miami,2020-06
+B-25465,717,158,16,Furniture,Tables,Credit Card,2022-12-23,Stephanie Leonard,New York,Buffalo,2022-12
+B-25465,717,158,16,Furniture,Tables,Credit Card,2024-11-24,Crystal Chambers,New York,New York City,2024-11
+B-25465,717,158,16,Furniture,Tables,Credit Card,2020-11-06,Robert White,Florida,Orlando,2020-11
+B-25465,717,158,16,Furniture,Tables,Credit Card,2023-10-24,Sylvia Barron,New York,Rochester,2023-10
+B-25465,508,177,17,Furniture,Sofas,UPI,2022-03-23,Tony Ray,Ohio,Cleveland,2022-03
+B-25465,508,177,17,Furniture,Sofas,UPI,2020-06-24,Steven Frey,Florida,Miami,2020-06
+B-25465,508,177,17,Furniture,Sofas,UPI,2022-12-23,Stephanie Leonard,New York,Buffalo,2022-12
+B-25465,508,177,17,Furniture,Sofas,UPI,2024-11-24,Crystal Chambers,New York,New York City,2024-11
+B-25465,508,177,17,Furniture,Sofas,UPI,2020-11-06,Robert White,Florida,Orlando,2020-11
+B-25465,508,177,17,Furniture,Sofas,UPI,2023-10-24,Sylvia Barron,New York,Rochester,2023-10
+B-26352,9382,1085,3,Electronics,Printers,Debit Card,2023-07-18,Marcus Brown,Illinois,Chicago,2023-07
+B-26352,9382,1085,3,Electronics,Printers,Debit Card,2022-05-16,Annette Pierce,New York,Rochester,2022-05
+B-26352,4936,576,19,Furniture,Tables,COD,2023-07-18,Marcus Brown,Illinois,Chicago,2023-07
+B-26352,4936,576,19,Furniture,Tables,COD,2022-05-16,Annette Pierce,New York,Rochester,2022-05
+B-26528,2663,64,19,Furniture,Sofas,COD,2024-06-16,Donald Hernandez,California,San Francisco,2024-06
+B-26528,2663,64,19,Furniture,Sofas,COD,2021-10-23,Megan Davis,Ohio,Cleveland,2021-10
+B-26670,5151,1680,5,Electronics,Printers,EMI,2022-10-22,Robert Brooks,Texas,Houston,2022-10
+B-25331,2514,95,8,Office Supplies,Pens,UPI,2023-07-17,Miguel Alvarez,New York,Rochester,2023-07
+B-25832,6129,2976,2,Electronics,Laptops,EMI,2025-02-24,Jennifer Arnold,New York,New York City,2025-02
+B-25832,4395,1663,3,Furniture,Bookcases,COD,2025-02-24,Jennifer Arnold,New York,New York City,2025-02
+B-25897,5393,2642,8,Furniture,Chairs,UPI,2021-03-07,Jessica Blankenship,Ohio,Cincinnati,2021-03
+B-25713,2280,509,8,Electronics,Phones,Credit Card,2021-01-03,Peggy Campos,New York,Buffalo,2021-01
+B-25065,6596,1439,9,Office Supplies,Paper,Debit Card,2023-05-03,Craig Ortega,Ohio,Cincinnati,2023-05
+B-25949,4510,1896,5,Office Supplies,Paper,EMI,2023-10-25,Johnny Simon,California,Los Angeles,2023-10
+B-26033,6077,2378,18,Electronics,Phones,COD,2022-08-21,Keith Brooks,New York,New York City,2022-08
+B-26017,5379,2510,17,Electronics,Printers,COD,2022-04-16,Jason Martinez,Ohio,Columbus,2022-04
+B-26926,4629,1660,16,Office Supplies,Markers,EMI,2023-04-02,Steven Herrera,California,San Diego,2023-04
+B-26258,2710,555,20,Electronics,Laptops,Debit Card,2024-10-21,Beverly Lamb,Illinois,Chicago,2024-10
+B-26258,3224,1018,14,Office Supplies,Binders,UPI,2024-10-21,Beverly Lamb,Illinois,Chicago,2024-10
+B-26240,8042,936,15,Office Supplies,Markers,EMI,2021-07-09,Michael Williams,Illinois,Springfield,2021-07
+B-26240,8042,936,15,Office Supplies,Markers,EMI,2022-04-08,Zachary Carpenter,California,Los Angeles,2022-04
+B-26922,3957,151,10,Office Supplies,Binders,EMI,2022-04-30,Timothy Baker,Texas,Austin,2022-04
+B-26894,8769,3178,16,Office Supplies,Markers,Debit Card,2023-01-20,Adam James,Illinois,Chicago,2023-01
+B-25330,2957,917,16,Office Supplies,Pens,Debit Card,2024-11-17,Katrina Wood,Illinois,Chicago,2024-11
+B-26288,5344,2607,6,Office Supplies,Paper,Debit Card,2022-04-23,James Murray,Texas,Dallas,2022-04
+B-26288,5344,2607,6,Office Supplies,Paper,Debit Card,2025-02-18,Mr. Nathaniel Reeves,New York,Rochester,2025-02
+B-25228,6061,2121,19,Electronics,Laptops,EMI,2021-05-27,Jodi Wood,Ohio,Cleveland,2021-05
+B-25228,6061,2121,19,Electronics,Laptops,EMI,2022-01-17,Dr. Thomas Peterson,California,San Diego,2022-01
+B-26457,5376,1928,7,Furniture,Tables,Credit Card,2025-01-15,Mario Hall,New York,New York City,2025-01
+B-25790,2792,1008,8,Electronics,Printers,COD,2021-02-14,Justin Rosales,Florida,Miami,2021-02
+B-25868,2944,249,5,Office Supplies,Binders,Credit Card,2024-08-31,Autumn Lee,Ohio,Columbus,2024-08
+B-25868,2944,249,5,Office Supplies,Binders,Credit Card,2022-12-26,Victoria Duran,Texas,Dallas,2022-12
+B-25381,4220,945,13,Office Supplies,Markers,EMI,2024-03-21,Barry Garcia,Illinois,Springfield,2024-03
+B-25381,4220,945,13,Office Supplies,Markers,EMI,2020-12-15,Dawn Webb,Illinois,Peoria,2020-12
+B-25153,8526,1704,4,Office Supplies,Binders,Debit Card,2023-03-21,Patricia Sanford,Texas,Austin,2023-03
+B-26576,8218,1430,19,Furniture,Bookcases,Credit Card,2023-06-08,William Walters,California,San Francisco,2023-06
+B-26526,599,265,4,Electronics,Phones,Credit Card,2022-07-17,Emma Scott,New York,Buffalo,2022-07
+B-26526,599,265,4,Electronics,Phones,Credit Card,2024-12-05,Sabrina Buckley,New York,Rochester,2024-12
+B-26526,2727,543,10,Furniture,Bookcases,Credit Card,2022-07-17,Emma Scott,New York,Buffalo,2022-07
+B-26526,2727,543,10,Furniture,Bookcases,Credit Card,2024-12-05,Sabrina Buckley,New York,Rochester,2024-12
+B-25819,2589,605,11,Office Supplies,Pens,EMI,2023-11-02,Robert Rojas,California,San Francisco,2023-11
+B-25819,2589,605,11,Office Supplies,Pens,EMI,2024-10-05,Eric Johnson,Ohio,Cleveland,2024-10
+B-25698,3776,1100,9,Electronics,Electronic Games,EMI,2022-11-13,Heather Parker,Texas,Austin,2022-11
+B-25698,3776,1100,9,Electronics,Electronic Games,EMI,2022-12-28,Thomas Matthews,Illinois,Peoria,2022-12
+B-26820,5402,1666,12,Furniture,Bookcases,EMI,2025-02-26,Kimberly Beard,Ohio,Cleveland,2025-02
+B-25396,5165,885,16,Office Supplies,Pens,EMI,2022-11-12,Lydia Donovan,Illinois,Peoria,2022-11
+B-25396,4863,2394,4,Furniture,Bookcases,EMI,2022-11-12,Lydia Donovan,Illinois,Peoria,2022-11
+B-25529,1626,258,15,Office Supplies,Pens,EMI,2021-06-07,Edward Johnson,Florida,Orlando,2021-06
+B-26501,8851,3962,7,Furniture,Tables,EMI,2020-09-26,Ricky Smith,Florida,Miami,2020-09
+B-26910,9680,3295,9,Furniture,Tables,COD,2024-04-29,Mr. Ralph Garcia Jr.,New York,Rochester,2024-04
+B-26910,8468,3666,8,Office Supplies,Pens,UPI,2024-04-29,Mr. Ralph Garcia Jr.,New York,Rochester,2024-04
+B-26910,4441,314,14,Furniture,Chairs,Debit Card,2024-04-29,Mr. Ralph Garcia Jr.,New York,Rochester,2024-04
+B-25978,6622,2673,8,Furniture,Sofas,COD,2024-04-10,Malik Walker,New York,New York City,2024-04
+B-26537,3260,207,17,Furniture,Tables,UPI,2023-12-21,Tanya Walker,California,San Diego,2023-12
+B-25881,8709,2322,8,Furniture,Tables,Debit Card,2024-05-02,Sherri Ferguson DVM,Texas,Austin,2024-05
+B-25881,8709,2322,8,Furniture,Tables,Debit Card,2024-11-21,Kristin Hart,California,San Francisco,2024-11
+B-25237,5250,187,1,Office Supplies,Binders,COD,2022-03-17,Jim Johnson,Ohio,Cincinnati,2022-03
+B-25237,5250,187,1,Office Supplies,Binders,COD,2023-05-14,David Hamilton,Texas,Houston,2023-05
+B-26122,4116,921,20,Office Supplies,Paper,UPI,2024-10-07,Michael Jimenez,California,Los Angeles,2024-10
+B-26122,4116,921,20,Office Supplies,Paper,UPI,2020-09-08,Angela Norman,Illinois,Springfield,2020-09
+B-25709,1109,418,15,Office Supplies,Paper,UPI,2021-08-19,Denise Mcdaniel,California,Los Angeles,2021-08
+B-26656,3573,562,7,Office Supplies,Pens,EMI,2022-10-12,Michael Rodriguez,New York,Rochester,2022-10
+B-26656,3573,562,7,Office Supplies,Pens,EMI,2020-05-23,Matthew Huff,California,San Diego,2020-05
+B-26656,3573,562,7,Office Supplies,Pens,EMI,2020-04-18,Linda Little,Florida,Tampa,2020-04
+B-26656,8055,661,10,Electronics,Phones,EMI,2022-10-12,Michael Rodriguez,New York,Rochester,2022-10
+B-26656,8055,661,10,Electronics,Phones,EMI,2020-05-23,Matthew Huff,California,San Diego,2020-05
+B-26656,8055,661,10,Electronics,Phones,EMI,2020-04-18,Linda Little,Florida,Tampa,2020-04
+B-25801,6829,2609,2,Electronics,Laptops,EMI,2022-06-04,Kerri Andrews,California,San Francisco,2022-06
+B-25801,6390,3089,12,Office Supplies,Paper,COD,2022-06-04,Kerri Andrews,California,San Francisco,2022-06
+B-25006,5831,1574,17,Office Supplies,Pens,Debit Card,2022-11-16,Jeffrey Johnson III,California,San Francisco,2022-11
+B-25006,5831,1574,17,Office Supplies,Pens,Debit Card,2024-07-18,Daniel Dixon,California,San Diego,2024-07
+B-25006,5831,1574,17,Office Supplies,Pens,Debit Card,2023-07-16,Tiffany Robinson,Florida,Miami,2023-07
+B-26106,7952,3865,8,Furniture,Sofas,Debit Card,2020-08-10,Mr. Gregg Sawyer,Illinois,Peoria,2020-08
+B-25789,3659,379,5,Furniture,Bookcases,UPI,2024-06-22,John Silva,California,Los Angeles,2024-06
+B-26292,4183,1159,4,Office Supplies,Pens,Debit Card,2020-07-13,Nathan Moss,Illinois,Springfield,2020-07
+B-25895,7478,1381,11,Electronics,Phones,EMI,2024-04-16,Donald Medina,Texas,Houston,2024-04
+B-25813,702,238,9,Electronics,Phones,COD,2021-03-13,Charles Henderson,Florida,Tampa,2021-03
+B-26863,4037,1494,15,Furniture,Chairs,EMI,2023-04-01,Brenda Davis,California,San Francisco,2023-04
+B-25759,5014,2332,2,Furniture,Chairs,COD,2020-11-10,Leah Calderon,Illinois,Chicago,2020-11
+B-26357,9879,4930,15,Electronics,Laptops,Debit Card,2023-06-08,Brandi Vasquez,New York,Rochester,2023-06
+B-26819,8762,3502,1,Electronics,Phones,Debit Card,2021-08-17,Debra Richards,Florida,Tampa,2021-08
+B-25502,8490,800,1,Office Supplies,Pens,EMI,2020-05-24,Tammy Day,New York,New York City,2020-05
+B-25258,6951,164,10,Furniture,Sofas,UPI,2021-08-12,Sheila Clay,New York,Buffalo,2021-08
+B-26878,1078,309,3,Electronics,Phones,Credit Card,2022-09-03,Nicholas Flores,Ohio,Cleveland,2022-09
+B-26878,1078,309,3,Electronics,Phones,Credit Card,2020-10-01,Jasmin Jones,Illinois,Chicago,2020-10
+B-25170,8560,2166,19,Office Supplies,Binders,EMI,2022-05-27,Matthew Gardner,Florida,Tampa,2022-05
+B-25170,1031,318,20,Electronics,Electronic Games,UPI,2022-05-27,Matthew Gardner,Florida,Tampa,2022-05
+B-26842,6402,2770,19,Office Supplies,Markers,Debit Card,2024-03-10,Joseph Perkins,Florida,Orlando,2024-03
+B-26842,6402,2770,19,Office Supplies,Markers,Debit Card,2023-10-05,Ashley Adams MD,Florida,Orlando,2023-10
+B-26842,5916,1594,19,Electronics,Printers,Debit Card,2024-03-10,Joseph Perkins,Florida,Orlando,2024-03
+B-26842,5916,1594,19,Electronics,Printers,Debit Card,2023-10-05,Ashley Adams MD,Florida,Orlando,2023-10
+B-26599,4015,1751,15,Furniture,Chairs,Debit Card,2022-08-28,Cheryl Stevens,California,San Francisco,2022-08
+B-26599,4015,1751,15,Furniture,Chairs,Debit Card,2020-09-08,Jorge George,New York,New York City,2020-09
+B-25705,9335,557,11,Electronics,Electronic Games,COD,2021-04-27,Ann Mooney,California,Los Angeles,2021-04
+B-26366,4706,594,11,Office Supplies,Binders,COD,2021-08-21,James Mendoza,Ohio,Cleveland,2021-08
+B-26366,4706,594,11,Office Supplies,Binders,COD,2021-05-16,Kaitlin Garrison,Ohio,Columbus,2021-05
+B-26366,6584,371,6,Office Supplies,Markers,UPI,2021-08-21,James Mendoza,Ohio,Cleveland,2021-08
+B-26366,6584,371,6,Office Supplies,Markers,UPI,2021-05-16,Kaitlin Garrison,Ohio,Columbus,2021-05
+B-26116,6389,734,1,Furniture,Sofas,EMI,2022-01-15,Jeremy Jackson,Texas,Dallas,2022-01
+B-26443,9869,4299,12,Electronics,Printers,Debit Card,2023-03-21,Dale Craig,California,San Diego,2023-03
+B-26443,9869,4299,12,Electronics,Printers,Debit Card,2023-12-28,Joseph Hooper,New York,Buffalo,2023-12
+B-25955,655,297,4,Office Supplies,Markers,Debit Card,2022-02-15,Alexander Adams,New York,Buffalo,2022-02
+B-25955,655,297,4,Office Supplies,Markers,Debit Card,2023-11-30,Ashlee Mills,Florida,Orlando,2023-11
+B-26383,798,308,10,Electronics,Phones,Debit Card,2023-01-12,Brittany Jenkins,New York,Buffalo,2023-01
+B-26383,798,308,10,Electronics,Phones,Debit Card,2023-05-19,Eddie Gonzales,Ohio,Cleveland,2023-05
+B-26383,7967,2504,13,Electronics,Printers,EMI,2023-01-12,Brittany Jenkins,New York,Buffalo,2023-01
+B-26383,7967,2504,13,Electronics,Printers,EMI,2023-05-19,Eddie Gonzales,Ohio,Cleveland,2023-05
+B-26999,3756,1318,5,Furniture,Tables,UPI,2024-02-19,Edward Valencia,Florida,Miami,2024-02
+B-26712,5196,2477,1,Office Supplies,Markers,UPI,2021-12-01,Emma Bruce,Texas,Austin,2021-12
+B-26712,6586,1794,19,Furniture,Bookcases,Debit Card,2021-12-01,Emma Bruce,Texas,Austin,2021-12
+B-26066,6673,950,19,Office Supplies,Markers,EMI,2024-12-19,Carl Wade DDS,New York,Buffalo,2024-12
+B-25996,714,232,14,Furniture,Tables,UPI,2023-01-18,Brandon Alvarado,Ohio,Columbus,2023-01
+B-25996,714,232,14,Furniture,Tables,UPI,2020-12-23,Jennifer Clark,Texas,Austin,2020-12
+B-26924,1083,501,6,Office Supplies,Pens,COD,2021-02-28,David Johnson,Texas,Austin,2021-02
+B-25541,2401,1163,10,Furniture,Bookcases,UPI,2023-05-04,April Marquez,Ohio,Cleveland,2023-05
+B-25541,2401,1163,10,Furniture,Bookcases,UPI,2020-04-22,Joseph Guerrero,California,Los Angeles,2020-04
+B-25541,2401,1163,10,Furniture,Bookcases,UPI,2021-08-13,Michael Hanson,New York,Rochester,2021-08
+B-25541,1045,267,11,Electronics,Phones,Debit Card,2023-05-04,April Marquez,Ohio,Cleveland,2023-05
+B-25541,1045,267,11,Electronics,Phones,Debit Card,2020-04-22,Joseph Guerrero,California,Los Angeles,2020-04
+B-25541,1045,267,11,Electronics,Phones,Debit Card,2021-08-13,Michael Hanson,New York,Rochester,2021-08
+B-25196,7806,1127,1,Office Supplies,Markers,Credit Card,2023-07-20,William Hill,Texas,Dallas,2023-07
+B-25855,5263,1743,19,Furniture,Sofas,Credit Card,2022-08-28,Kelsey Huber,Florida,Miami,2022-08
+B-25071,6147,2526,6,Office Supplies,Pens,Debit Card,2023-03-14,Hailey Chandler,Texas,Dallas,2023-03
+B-26159,7484,2871,15,Electronics,Phones,UPI,2023-11-07,Cheyenne Rose,Florida,Orlando,2023-11
+B-26159,7484,2871,15,Electronics,Phones,UPI,2024-04-16,Richard Petersen,Illinois,Chicago,2024-04
+B-26159,7700,2712,1,Furniture,Sofas,Credit Card,2023-11-07,Cheyenne Rose,Florida,Orlando,2023-11
+B-26159,7700,2712,1,Furniture,Sofas,Credit Card,2024-04-16,Richard Petersen,Illinois,Chicago,2024-04
+B-26228,8537,3586,13,Office Supplies,Markers,UPI,2022-09-16,Kathryn Gray,New York,Rochester,2022-09
+B-25888,8858,3394,6,Furniture,Chairs,COD,2024-10-31,Victor Collins,California,San Diego,2024-10
+B-25574,5313,2037,7,Electronics,Printers,Debit Card,2024-11-25,Jason Hernandez,California,San Francisco,2024-11
+B-25574,5313,2037,7,Electronics,Printers,Debit Card,2021-10-29,Jacob Torres,Texas,Houston,2021-10
+B-26938,3281,471,7,Furniture,Sofas,EMI,2023-12-27,Erin Hernandez,California,Los Angeles,2023-12
+B-26938,3281,471,7,Furniture,Sofas,EMI,2023-06-25,Jacob Guzman,Illinois,Peoria,2023-06
+B-26379,8681,2458,9,Office Supplies,Pens,Credit Card,2020-09-01,Mike Armstrong,New York,New York City,2020-09
+B-26623,6195,1556,18,Furniture,Sofas,EMI,2025-02-01,Cindy Rowland,Illinois,Springfield,2025-02
+B-25566,3877,481,16,Furniture,Chairs,Debit Card,2023-07-22,Kenneth Matthews,New York,Rochester,2023-07
+B-25566,3877,481,16,Furniture,Chairs,Debit Card,2022-02-04,Susan Valdez,New York,New York City,2022-02
+B-26740,9369,3297,6,Electronics,Printers,Debit Card,2023-09-27,Stephanie Manning,Florida,Orlando,2023-09
+B-26740,9369,3297,6,Electronics,Printers,Debit Card,2025-01-30,Logan Galloway,New York,New York City,2025-01
+B-26740,8680,4068,20,Electronics,Printers,Credit Card,2023-09-27,Stephanie Manning,Florida,Orlando,2023-09
+B-26740,8680,4068,20,Electronics,Printers,Credit Card,2025-01-30,Logan Galloway,New York,New York City,2025-01
+B-26740,3067,1475,8,Electronics,Laptops,UPI,2023-09-27,Stephanie Manning,Florida,Orlando,2023-09
+B-26740,3067,1475,8,Electronics,Laptops,UPI,2025-01-30,Logan Galloway,New York,New York City,2025-01
+B-25024,9002,4197,2,Office Supplies,Markers,EMI,2025-01-15,Christopher Stone,Ohio,Cincinnati,2025-01
+B-25024,9002,4197,2,Office Supplies,Markers,EMI,2021-03-28,Megan Pitts,Ohio,Columbus,2021-03
+B-26367,7105,2782,19,Office Supplies,Pens,COD,2021-12-25,Richard Gardner,Ohio,Columbus,2021-12
+B-26353,5317,1345,18,Furniture,Chairs,Debit Card,2023-02-03,Samuel Moore,Ohio,Columbus,2023-02
+B-26353,5317,1345,18,Furniture,Chairs,Debit Card,2023-04-28,Robert Stokes,Florida,Orlando,2023-04
+B-26353,5317,1345,18,Furniture,Chairs,Debit Card,2024-11-22,Danielle Ramirez,California,San Francisco,2024-11
+B-26353,6304,766,14,Furniture,Tables,EMI,2023-02-03,Samuel Moore,Ohio,Columbus,2023-02
+B-26353,6304,766,14,Furniture,Tables,EMI,2023-04-28,Robert Stokes,Florida,Orlando,2023-04
+B-26353,6304,766,14,Furniture,Tables,EMI,2024-11-22,Danielle Ramirez,California,San Francisco,2024-11
+B-25742,9565,1691,3,Office Supplies,Paper,Debit Card,2024-07-02,Taylor White,Illinois,Springfield,2024-07
+B-25742,8245,324,11,Office Supplies,Paper,EMI,2024-07-02,Taylor White,Illinois,Springfield,2024-07
+B-26965,1592,480,13,Electronics,Laptops,Debit Card,2022-01-18,Jordan Krause,Ohio,Cleveland,2022-01
+B-26038,8400,267,5,Electronics,Phones,Debit Card,2024-10-08,Kimberly King,Ohio,Columbus,2024-10
+B-26038,4963,1254,15,Office Supplies,Paper,EMI,2024-10-08,Kimberly King,Ohio,Columbus,2024-10
+B-25317,2472,211,5,Electronics,Printers,COD,2020-06-21,Sharon Russell,California,San Diego,2020-06
+B-25970,9132,3096,14,Furniture,Chairs,Debit Card,2023-12-14,Kevin Cooper,Florida,Tampa,2023-12
+B-25590,8305,1577,6,Office Supplies,Binders,Debit Card,2020-12-16,Darrell Ramos,New York,Rochester,2020-12
+B-25580,1010,58,19,Electronics,Electronic Games,COD,2025-03-15,Dr. Terry Alvarado,Florida,Tampa,2025-03
+B-25443,4544,1726,9,Electronics,Phones,EMI,2024-08-21,Kathy Wilson,Texas,Dallas,2024-08
+B-25443,5900,1738,20,Electronics,Phones,UPI,2024-08-21,Kathy Wilson,Texas,Dallas,2024-08
+B-25774,8861,3381,19,Office Supplies,Markers,Credit Card,2021-05-27,Brandon Le,California,San Diego,2021-05
+B-26505,8158,2052,13,Electronics,Phones,Debit Card,2020-09-21,Mary Wright,Ohio,Cincinnati,2020-09
+B-25163,3411,1704,14,Office Supplies,Pens,UPI,2025-01-11,Douglas Reynolds,California,Los Angeles,2025-01
+B-26095,9406,1137,16,Office Supplies,Markers,UPI,2021-10-20,Leroy Harris,Texas,Houston,2021-10
+B-26095,1156,74,15,Electronics,Printers,EMI,2021-10-20,Leroy Harris,Texas,Houston,2021-10
+B-25768,5354,743,10,Furniture,Bookcases,UPI,2021-10-19,Ricardo Dixon,Illinois,Springfield,2021-10
+B-25328,8780,3430,4,Electronics,Electronic Games,Credit Card,2024-07-07,Debra Smith,Texas,Austin,2024-07
+B-25328,8780,3430,4,Electronics,Electronic Games,Credit Card,2023-07-25,Jasmine James,Texas,Austin,2023-07
+B-26573,6783,3306,8,Furniture,Sofas,Debit Card,2020-04-16,Felicia Morton,Ohio,Columbus,2020-04
+B-25138,1778,285,4,Office Supplies,Pens,Credit Card,2020-07-04,Sylvia Jenkins,New York,New York City,2020-07
+B-26803,9399,1949,12,Electronics,Printers,UPI,2022-05-16,Elizabeth White,New York,Rochester,2022-05
+B-26803,7957,965,4,Furniture,Sofas,Credit Card,2022-05-16,Elizabeth White,New York,Rochester,2022-05
+B-25101,1638,661,13,Furniture,Chairs,EMI,2023-11-25,Steven Steele,Illinois,Springfield,2023-11
+B-25827,1786,224,4,Furniture,Tables,COD,2021-08-17,Amanda Ramirez,Texas,Dallas,2021-08
+B-25792,4751,781,9,Office Supplies,Paper,EMI,2023-07-02,Kyle Jackson,New York,Buffalo,2023-07
+B-25646,8979,4477,4,Office Supplies,Paper,Credit Card,2020-08-24,Sharon Wilkins,Illinois,Chicago,2020-08
+B-25043,2727,663,8,Electronics,Phones,Credit Card,2022-11-07,Austin Hammond,Florida,Miami,2022-11
+B-26598,1093,397,17,Electronics,Printers,Credit Card,2024-03-27,Jessica Barajas,Illinois,Peoria,2024-03
+B-26598,1093,397,17,Electronics,Printers,Credit Card,2024-09-01,Jamie Jimenez,New York,Buffalo,2024-09
+B-26598,1093,397,17,Electronics,Printers,Credit Card,2022-02-22,James Carter,Ohio,Columbus,2022-02
+B-26598,2636,88,11,Office Supplies,Paper,Debit Card,2024-03-27,Jessica Barajas,Illinois,Peoria,2024-03
+B-26598,2636,88,11,Office Supplies,Paper,Debit Card,2024-09-01,Jamie Jimenez,New York,Buffalo,2024-09
+B-26598,2636,88,11,Office Supplies,Paper,Debit Card,2022-02-22,James Carter,Ohio,Columbus,2022-02
+B-26643,7344,2251,7,Electronics,Electronic Games,Debit Card,2022-02-11,John Williams,Florida,Miami,2022-02
+B-26643,7306,1547,3,Office Supplies,Paper,COD,2022-02-11,John Williams,Florida,Miami,2022-02
+B-26643,5832,2588,10,Electronics,Printers,COD,2022-02-11,John Williams,Florida,Miami,2022-02
+B-25992,8572,2041,8,Furniture,Tables,EMI,2021-05-27,Alicia Oneill,Illinois,Springfield,2021-05
+B-25992,8572,2041,8,Furniture,Tables,EMI,2023-07-05,Rebecca Huff,Illinois,Springfield,2023-07
+B-25992,8572,2041,8,Furniture,Tables,EMI,2020-10-27,Diana Scott,California,San Diego,2020-10
+B-25992,8059,1834,10,Electronics,Printers,Credit Card,2021-05-27,Alicia Oneill,Illinois,Springfield,2021-05
+B-25992,8059,1834,10,Electronics,Printers,Credit Card,2023-07-05,Rebecca Huff,Illinois,Springfield,2023-07
+B-25992,8059,1834,10,Electronics,Printers,Credit Card,2020-10-27,Diana Scott,California,San Diego,2020-10
+B-25532,3661,436,13,Furniture,Sofas,EMI,2023-01-26,Brian Young,Texas,Austin,2023-01
+B-25564,2451,342,8,Office Supplies,Paper,EMI,2021-09-06,Susan Wright,California,Los Angeles,2021-09
+B-25564,2451,342,8,Office Supplies,Paper,EMI,2021-11-12,Kayla Banks,Ohio,Cincinnati,2021-11
+B-25564,2451,342,8,Office Supplies,Paper,EMI,2024-07-30,Zachary Pierce,Texas,Houston,2024-07
+B-26543,7067,1943,16,Furniture,Tables,Credit Card,2022-03-15,Nicolas Owen,California,San Francisco,2022-03
+B-25976,4307,615,3,Electronics,Electronic Games,UPI,2024-03-15,Martha Carney,New York,New York City,2024-03
+B-25976,4307,615,3,Electronics,Electronic Games,UPI,2020-11-10,Francisco Hicks,Illinois,Springfield,2020-11
+B-25976,5694,1134,5,Furniture,Chairs,EMI,2024-03-15,Martha Carney,New York,New York City,2024-03
+B-25976,5694,1134,5,Furniture,Chairs,EMI,2020-11-10,Francisco Hicks,Illinois,Springfield,2020-11
+B-25929,962,298,18,Office Supplies,Binders,Credit Card,2022-07-23,Matthew Parker,Illinois,Springfield,2022-07
+B-25497,2995,220,14,Furniture,Bookcases,Credit Card,2024-09-13,Paul Bryant,New York,Buffalo,2024-09
+B-25497,2047,914,5,Office Supplies,Markers,Debit Card,2024-09-13,Paul Bryant,New York,Buffalo,2024-09
+B-26735,2078,612,6,Electronics,Laptops,COD,2022-01-25,Bruce Dennis,Texas,Austin,2022-01
+B-25036,2737,1253,3,Electronics,Printers,EMI,2021-04-19,Joseph Bates,New York,New York City,2021-04
+B-25971,8194,2881,6,Office Supplies,Paper,Debit Card,2021-07-18,Kelly Pacheco,Texas,Houston,2021-07
+B-25441,9914,3858,16,Furniture,Sofas,Credit Card,2022-06-24,Jeffrey Weber,New York,Buffalo,2022-06
+B-25441,9914,3858,16,Furniture,Sofas,Credit Card,2024-06-08,Andrew Krueger,New York,Rochester,2024-06
+B-25441,5470,292,7,Office Supplies,Pens,Debit Card,2022-06-24,Jeffrey Weber,New York,Buffalo,2022-06
+B-25441,5470,292,7,Office Supplies,Pens,Debit Card,2024-06-08,Andrew Krueger,New York,Rochester,2024-06
+B-25441,1496,662,17,Furniture,Bookcases,UPI,2022-06-24,Jeffrey Weber,New York,Buffalo,2022-06
+B-25441,1496,662,17,Furniture,Bookcases,UPI,2024-06-08,Andrew Krueger,New York,Rochester,2024-06
+B-25823,3228,476,9,Office Supplies,Paper,COD,2022-09-29,Kathleen Cox,New York,New York City,2022-09
+B-25363,3918,749,8,Electronics,Laptops,Credit Card,2023-05-10,Jamie Bradley,California,San Diego,2023-05
+B-25363,3918,749,8,Electronics,Laptops,Credit Card,2020-05-02,Robert Martinez,Texas,Houston,2020-05
+B-26445,9921,1451,15,Furniture,Sofas,EMI,2021-04-12,Christopher Rogers,Illinois,Chicago,2021-04
+B-26724,9694,4361,1,Furniture,Chairs,EMI,2023-11-04,Roberto Parrish,Illinois,Springfield,2023-11
+B-25447,5028,1553,13,Office Supplies,Paper,EMI,2020-05-04,Amber Kennedy,Florida,Tampa,2020-05
+B-26904,594,67,19,Office Supplies,Paper,Debit Card,2023-09-10,Maria Davis,New York,Buffalo,2023-09
+B-26904,594,67,19,Office Supplies,Paper,Debit Card,2024-01-05,Terry Gilbert,Florida,Miami,2024-01
+B-26904,594,67,19,Office Supplies,Paper,Debit Card,2024-05-08,Devon Schmitt,Texas,Austin,2024-05
+B-26456,5954,2618,11,Furniture,Tables,COD,2024-03-30,Robert Mosley,Ohio,Cincinnati,2024-03
+B-25435,3518,1051,3,Furniture,Bookcases,UPI,2020-09-10,Paul Scott,California,San Francisco,2020-09
+B-25435,4157,1874,8,Electronics,Laptops,EMI,2020-09-10,Paul Scott,California,San Francisco,2020-09
+B-26279,3747,410,5,Office Supplies,Markers,Credit Card,2020-07-12,Kristin Alvarez,Illinois,Springfield,2020-07
+B-26279,3747,410,5,Office Supplies,Markers,Credit Card,2022-12-08,Kevin Jackson,New York,Buffalo,2022-12
+B-26279,3747,410,5,Office Supplies,Markers,Credit Card,2024-03-27,Mrs. Lauren Potter DDS,Ohio,Columbus,2024-03
+B-26279,3747,410,5,Office Supplies,Markers,Credit Card,2023-02-17,Jason Brown,Illinois,Chicago,2023-02
+B-26279,3747,410,5,Office Supplies,Markers,Credit Card,2021-07-21,Jamie Santos,California,Los Angeles,2021-07
+B-26279,3194,534,4,Office Supplies,Binders,UPI,2020-07-12,Kristin Alvarez,Illinois,Springfield,2020-07
+B-26279,3194,534,4,Office Supplies,Binders,UPI,2022-12-08,Kevin Jackson,New York,Buffalo,2022-12
+B-26279,3194,534,4,Office Supplies,Binders,UPI,2024-03-27,Mrs. Lauren Potter DDS,Ohio,Columbus,2024-03
+B-26279,3194,534,4,Office Supplies,Binders,UPI,2023-02-17,Jason Brown,Illinois,Chicago,2023-02
+B-26279,3194,534,4,Office Supplies,Binders,UPI,2021-07-21,Jamie Santos,California,Los Angeles,2021-07
+B-25770,8548,2305,1,Office Supplies,Binders,COD,2022-10-30,James Taylor,Florida,Tampa,2022-10
+B-25715,6089,139,19,Furniture,Tables,Debit Card,2020-12-31,Alicia Vincent,Ohio,Cincinnati,2020-12
+B-25715,6089,139,19,Furniture,Tables,Debit Card,2022-04-15,Kenneth Adams,Ohio,Cleveland,2022-04
+B-25715,6089,139,19,Furniture,Tables,Debit Card,2023-04-05,Shelby Browning,Illinois,Chicago,2023-04
+B-25715,2586,800,16,Furniture,Tables,UPI,2020-12-31,Alicia Vincent,Ohio,Cincinnati,2020-12
+B-25715,2586,800,16,Furniture,Tables,UPI,2022-04-15,Kenneth Adams,Ohio,Cleveland,2022-04
+B-25715,2586,800,16,Furniture,Tables,UPI,2023-04-05,Shelby Browning,Illinois,Chicago,2023-04
+B-25715,3757,1626,9,Office Supplies,Paper,UPI,2020-12-31,Alicia Vincent,Ohio,Cincinnati,2020-12
+B-25715,3757,1626,9,Office Supplies,Paper,UPI,2022-04-15,Kenneth Adams,Ohio,Cleveland,2022-04
+B-25715,3757,1626,9,Office Supplies,Paper,UPI,2023-04-05,Shelby Browning,Illinois,Chicago,2023-04
+B-26961,5193,2530,5,Furniture,Sofas,Debit Card,2021-10-29,Johnny Hill,California,San Diego,2021-10
+B-26961,5193,2530,5,Furniture,Sofas,Debit Card,2024-12-29,Nicholas Tucker,Florida,Miami,2024-12
+B-25902,7493,96,3,Electronics,Electronic Games,UPI,2020-08-11,Theresa Cline,Ohio,Cleveland,2020-08
+B-26321,2062,848,6,Office Supplies,Markers,Credit Card,2024-03-04,Christine Wheeler,Florida,Tampa,2024-03
+B-25612,7163,1536,1,Electronics,Phones,EMI,2023-10-17,Carlos Wells,California,San Diego,2023-10
+B-25605,4026,163,6,Electronics,Phones,COD,2023-07-28,Randall Bell,New York,New York City,2023-07
+B-25810,1894,275,5,Furniture,Chairs,Credit Card,2021-11-27,Kendra Mckinney,Florida,Miami,2021-11
+B-25810,7144,192,13,Electronics,Electronic Games,Credit Card,2021-11-27,Kendra Mckinney,Florida,Miami,2021-11
+B-25935,3482,1554,15,Electronics,Laptops,Debit Card,2020-09-09,Amanda Kim,Ohio,Columbus,2020-09
+B-26245,4172,235,5,Office Supplies,Paper,EMI,2021-06-02,Megan Morgan,Ohio,Cleveland,2021-06
+B-26245,4172,235,5,Office Supplies,Paper,EMI,2022-08-22,Vincent Kramer,Florida,Orlando,2022-08
+B-26245,4172,235,5,Office Supplies,Paper,EMI,2024-04-16,Raymond Bean,Illinois,Springfield,2024-04
+B-25346,6265,155,8,Furniture,Sofas,COD,2022-08-23,Reginald Hebert,Ohio,Cincinnati,2022-08
+B-25346,6265,155,8,Furniture,Sofas,COD,2021-03-12,Jeremy Vazquez,Ohio,Cleveland,2021-03
+B-25594,2931,212,7,Electronics,Electronic Games,Credit Card,2024-06-26,Michael Stewart,Illinois,Peoria,2024-06
+B-25594,2931,212,7,Electronics,Electronic Games,Credit Card,2023-12-08,Kevin Johnson,Florida,Tampa,2023-12
+B-25471,1146,188,9,Furniture,Chairs,Debit Card,2024-11-27,Tara Hughes,Florida,Tampa,2024-11
+B-25398,9215,767,13,Electronics,Printers,COD,2022-01-10,Sandra Perkins,Florida,Tampa,2022-01
+B-25398,9215,767,13,Electronics,Printers,COD,2021-11-01,Heather Bell,California,San Francisco,2021-11
+B-25999,7895,1005,1,Furniture,Chairs,Credit Card,2023-10-28,Nancy Boyd,Ohio,Cincinnati,2023-10
+B-25999,7895,1005,1,Furniture,Chairs,Credit Card,2025-03-01,Raymond Reyes,California,San Diego,2025-03
+B-25999,2740,558,8,Office Supplies,Pens,UPI,2023-10-28,Nancy Boyd,Ohio,Cincinnati,2023-10
+B-25999,2740,558,8,Office Supplies,Pens,UPI,2025-03-01,Raymond Reyes,California,San Diego,2025-03
+B-25159,5338,1354,16,Office Supplies,Markers,UPI,2024-08-01,Cassandra Jordan,Illinois,Peoria,2024-08
+B-25159,5338,1354,16,Office Supplies,Markers,UPI,2023-06-07,Evelyn Harris,New York,Buffalo,2023-06
+B-25159,5338,1354,16,Office Supplies,Markers,UPI,2024-10-21,Shannon Maynard,Florida,Orlando,2024-10
+B-25159,5338,1354,16,Office Supplies,Markers,UPI,2021-01-04,Marie James,New York,Buffalo,2021-01
+B-25496,3095,941,2,Office Supplies,Pens,EMI,2022-04-19,Maria Carroll,Ohio,Cleveland,2022-04
+B-25496,3095,941,2,Office Supplies,Pens,EMI,2022-08-11,Jessica Sloan,Texas,Austin,2022-08
+B-25401,6017,2230,13,Electronics,Printers,Debit Card,2023-08-04,Scott Craig,Illinois,Peoria,2023-08
+B-25707,4904,469,2,Office Supplies,Pens,Debit Card,2020-04-25,Kaitlin Brown,Texas,Dallas,2020-04
+B-25707,3080,737,6,Office Supplies,Binders,UPI,2020-04-25,Kaitlin Brown,Texas,Dallas,2020-04
+B-26225,1992,355,2,Electronics,Phones,COD,2024-12-14,William Beck,Florida,Tampa,2024-12
+B-25662,5346,1246,17,Furniture,Sofas,EMI,2022-07-25,Eric Mason,Florida,Orlando,2022-07
+B-25662,5346,1246,17,Furniture,Sofas,EMI,2022-05-07,Lisa Lowe,Florida,Miami,2022-05
+B-26752,8422,893,18,Electronics,Printers,Debit Card,2022-08-11,Roy Miller,California,San Francisco,2022-08
+B-26752,8422,893,18,Electronics,Printers,Debit Card,2022-08-12,Christopher Espinoza,Ohio,Columbus,2022-08
+B-26752,6105,1447,8,Furniture,Bookcases,Credit Card,2022-08-11,Roy Miller,California,San Francisco,2022-08
+B-26752,6105,1447,8,Furniture,Bookcases,Credit Card,2022-08-12,Christopher Espinoza,Ohio,Columbus,2022-08
+B-25640,670,85,9,Office Supplies,Pens,EMI,2023-08-21,Claire Cole,Texas,Houston,2023-08
+B-25030,4057,1012,6,Electronics,Laptops,Credit Card,2022-09-12,Eric Nunez,California,San Diego,2022-09
+B-25504,8178,2462,10,Office Supplies,Pens,UPI,2023-08-20,David Bell,California,Los Angeles,2023-08
+B-26912,8752,1686,9,Furniture,Tables,Debit Card,2020-12-27,Patrick Hensley MD,Ohio,Cincinnati,2020-12
+B-26912,8752,1686,9,Furniture,Tables,Debit Card,2023-09-04,John Cox,Illinois,Peoria,2023-09
+B-26912,8752,1686,9,Furniture,Tables,Debit Card,2022-01-08,Michelle Sullivan,Illinois,Chicago,2022-01
+B-25193,8974,4441,16,Electronics,Printers,EMI,2023-06-05,Angela Todd,New York,New York City,2023-06
+B-25106,9090,3098,16,Electronics,Phones,Credit Card,2021-04-01,Luke Saunders,Texas,Dallas,2021-04
+B-25106,9090,3098,16,Electronics,Phones,Credit Card,2024-05-28,Dr. Jennifer Benton DVM,Illinois,Springfield,2024-05
+B-25106,851,356,11,Electronics,Electronic Games,Credit Card,2021-04-01,Luke Saunders,Texas,Dallas,2021-04
+B-25106,851,356,11,Electronics,Electronic Games,Credit Card,2024-05-28,Dr. Jennifer Benton DVM,Illinois,Springfield,2024-05
+B-26835,5427,728,3,Electronics,Phones,UPI,2023-03-09,Keith Smith,Florida,Miami,2023-03
+B-25836,2695,914,15,Furniture,Bookcases,Debit Card,2022-07-28,Danielle Mitchell,Illinois,Peoria,2022-07
+B-25836,2695,914,15,Furniture,Bookcases,Debit Card,2021-06-17,Jesus Hernandez,California,Los Angeles,2021-06
+B-26661,2386,999,3,Office Supplies,Pens,COD,2024-02-13,Jason Norman,Florida,Miami,2024-02
+B-26317,2284,149,20,Office Supplies,Pens,Debit Card,2021-08-06,Laura Poole,New York,Rochester,2021-08
+B-26839,6034,608,8,Electronics,Phones,EMI,2022-05-01,Sarah Wagner,Texas,Houston,2022-05
+B-26839,8956,3359,13,Furniture,Bookcases,Credit Card,2022-05-01,Sarah Wagner,Texas,Houston,2022-05
+B-25735,7122,1982,7,Office Supplies,Markers,EMI,2024-03-11,Bryan Baird,Illinois,Peoria,2024-03
+B-25387,9775,4507,5,Office Supplies,Markers,UPI,2020-07-06,Amy Thompson,Ohio,Cincinnati,2020-07
+B-25192,3309,177,13,Furniture,Bookcases,EMI,2020-12-17,Ashley Wright,Ohio,Cleveland,2020-12
+B-26844,4163,897,14,Electronics,Electronic Games,COD,2022-08-30,Michelle Lynch,Illinois,Springfield,2022-08
+B-26844,4163,897,14,Electronics,Electronic Games,COD,2025-02-27,Ryan Hale,Ohio,Cleveland,2025-02
+B-26844,4163,897,14,Electronics,Electronic Games,COD,2021-06-05,Marie Jefferson,Florida,Orlando,2021-06
+B-25236,5518,867,7,Furniture,Sofas,UPI,2022-12-22,Vanessa Smith,Texas,Houston,2022-12
+B-25940,7566,606,6,Electronics,Phones,Debit Card,2025-01-25,Ryan Foster,Ohio,Columbus,2025-01
+B-25940,7566,606,6,Electronics,Phones,Debit Card,2025-02-14,David Lara,California,San Diego,2025-02
+B-26765,762,92,11,Electronics,Printers,COD,2023-01-06,Jonathan Young,Illinois,Springfield,2023-01
+B-26817,3316,126,6,Electronics,Laptops,COD,2020-10-11,Debra Townsend,Ohio,Cincinnati,2020-10
+B-26522,5994,2826,9,Furniture,Bookcases,EMI,2023-05-24,John Thomas,California,San Francisco,2023-05
+B-26522,5994,2826,9,Furniture,Bookcases,EMI,2024-03-12,Bryan Anderson,California,Los Angeles,2024-03
+B-26522,5994,2826,9,Furniture,Bookcases,EMI,2024-03-17,Sarah Miller,New York,New York City,2024-03
+B-25681,3854,245,19,Electronics,Laptops,COD,2022-05-17,Robert Hill,Ohio,Columbus,2022-05
+B-25382,7019,2677,15,Office Supplies,Markers,UPI,2020-12-21,Joshua Rojas,Florida,Miami,2020-12
+B-25944,5954,2640,14,Electronics,Laptops,Credit Card,2021-08-24,Angelica Lewis,New York,New York City,2021-08
+B-25944,5954,2640,14,Electronics,Laptops,Credit Card,2022-10-22,Jessica Russell,Texas,Dallas,2022-10
+B-26980,9752,3618,5,Furniture,Bookcases,Debit Card,2024-02-21,Mary Johnson,New York,Rochester,2024-02
+B-26980,9752,3618,5,Furniture,Bookcases,Debit Card,2022-10-31,Joseph Knight,Illinois,Peoria,2022-10
+B-25780,5335,322,15,Electronics,Electronic Games,COD,2022-05-15,Jessica Greene,New York,New York City,2022-05
+B-25964,1454,80,20,Electronics,Electronic Games,Credit Card,2022-07-22,Vincent Perez,New York,Rochester,2022-07
+B-26767,6724,1539,19,Furniture,Bookcases,COD,2021-12-13,Dennis Rivera,California,San Francisco,2021-12
+B-26767,6724,1539,19,Furniture,Bookcases,COD,2021-06-03,Nancy Keller,Texas,Dallas,2021-06
+B-25501,9874,3895,4,Office Supplies,Binders,EMI,2025-02-24,Michelle Anderson,Ohio,Cleveland,2025-02
+B-26029,4918,1485,7,Electronics,Phones,UPI,2023-02-02,Anthony May,Florida,Tampa,2023-02
+B-25292,3189,1180,19,Office Supplies,Paper,Credit Card,2021-12-31,Michelle Guerra,New York,New York City,2021-12
+B-25873,2684,713,2,Electronics,Electronic Games,UPI,2024-06-15,Meghan Ballard,New York,New York City,2024-06
+B-25873,2684,713,2,Electronics,Electronic Games,UPI,2022-06-05,Brian Wheeler,New York,Buffalo,2022-06
+B-25873,2684,713,2,Electronics,Electronic Games,UPI,2020-05-11,William Rosario,Texas,Dallas,2020-05
+B-25444,7626,229,5,Office Supplies,Pens,EMI,2024-02-11,Jessica Hunt,Illinois,Springfield,2024-02
+B-25444,7626,229,5,Office Supplies,Pens,EMI,2020-11-25,Tony Chavez,Ohio,Columbus,2020-11
+B-26796,6669,3063,19,Electronics,Printers,UPI,2023-08-12,Mary Crawford,Ohio,Cincinnati,2023-08
+B-25537,6123,1686,3,Office Supplies,Markers,Credit Card,2022-05-06,Roger Morrison,Ohio,Cincinnati,2022-05
+B-26083,3265,1390,16,Office Supplies,Paper,Credit Card,2024-01-17,Bethany Harrison,California,Los Angeles,2024-01
+B-25298,8104,1039,6,Office Supplies,Markers,COD,2021-11-24,Lisa Mcintyre,Florida,Orlando,2021-11
+B-25298,8104,1039,6,Office Supplies,Markers,COD,2021-10-06,Carolyn Gonzalez,Florida,Miami,2021-10
+B-25298,8104,1039,6,Office Supplies,Markers,COD,2025-01-27,Christina Oconnell,California,San Francisco,2025-01
+B-26734,847,355,17,Furniture,Tables,COD,2022-05-23,James Garcia,New York,Buffalo,2022-05
+B-26734,847,355,17,Furniture,Tables,COD,2023-11-28,Emily Frederick,Texas,Austin,2023-11
+B-26734,847,355,17,Furniture,Tables,COD,2023-01-18,Shawn Wise,California,San Francisco,2023-01
+B-25483,3129,55,9,Furniture,Bookcases,Debit Card,2021-09-06,Carrie Alvarez,Illinois,Peoria,2021-09
+B-25483,7821,3821,13,Electronics,Laptops,EMI,2021-09-06,Carrie Alvarez,Illinois,Peoria,2021-09
+B-26041,9498,256,12,Electronics,Phones,COD,2021-02-22,Matthew James,Illinois,Peoria,2021-02
+B-26041,9498,256,12,Electronics,Phones,COD,2021-10-06,Jerry Alvarado,New York,New York City,2021-10
+B-26750,5461,1214,7,Furniture,Sofas,Credit Card,2020-06-07,Paul Zimmerman,New York,Rochester,2020-06
+B-26138,3084,611,19,Furniture,Bookcases,UPI,2024-05-21,Carl Ryan,Texas,Dallas,2024-05
+B-26929,6087,3043,1,Furniture,Sofas,COD,2020-08-05,Kelly Roberts,New York,Buffalo,2020-08
+B-25359,611,300,3,Furniture,Bookcases,Credit Card,2020-10-15,Jack Woods,Illinois,Peoria,2020-10
+B-25738,9909,2999,18,Office Supplies,Markers,COD,2021-05-15,Albert Alexander Jr.,Ohio,Cleveland,2021-05
+B-25738,9909,2999,18,Office Supplies,Markers,COD,2022-01-13,Teresa Perez,Texas,Austin,2022-01
+B-25931,6485,3178,18,Furniture,Sofas,UPI,2023-07-18,Amanda Williams,Ohio,Columbus,2023-07
+B-25706,7259,1969,10,Electronics,Laptops,Credit Card,2022-12-08,Kristen Lawson,Illinois,Springfield,2022-12
+B-25352,3333,700,18,Electronics,Printers,COD,2023-04-17,Jacob Stewart,Florida,Miami,2023-04
+B-26909,7786,1202,4,Furniture,Sofas,EMI,2020-06-23,Daniel Brooks,Illinois,Peoria,2020-06
+B-26296,7644,2428,6,Electronics,Phones,Debit Card,2022-01-20,Aaron Dunn,Illinois,Springfield,2022-01
+B-26112,1476,247,5,Furniture,Bookcases,COD,2023-11-18,Jacob Martinez,California,Los Angeles,2023-11
+B-26112,1476,247,5,Furniture,Bookcases,COD,2022-01-19,Raymond Burgess,California,San Diego,2022-01
+B-26790,3445,1405,16,Furniture,Sofas,EMI,2020-09-21,Jennifer Cooke,California,San Francisco,2020-09
+B-26790,9837,384,1,Electronics,Laptops,UPI,2020-09-21,Jennifer Cooke,California,San Francisco,2020-09
+B-25986,1314,457,8,Furniture,Sofas,EMI,2021-06-11,Tyrone White,California,San Diego,2021-06
+B-25630,5951,936,6,Electronics,Laptops,Debit Card,2024-08-07,Charles Williams,Texas,Dallas,2024-08
+B-25630,5951,936,6,Electronics,Laptops,Debit Card,2022-07-26,Amy Page,Ohio,Columbus,2022-07
+B-26872,992,177,6,Electronics,Phones,UPI,2024-01-13,Scott Gibbs,California,Los Angeles,2024-01
+B-26872,4699,625,18,Office Supplies,Markers,EMI,2024-01-13,Scott Gibbs,California,Los Angeles,2024-01
+B-25870,5557,2114,17,Electronics,Laptops,EMI,2021-05-28,Angela Roberts,Ohio,Cleveland,2021-05
+B-25991,3436,933,3,Electronics,Electronic Games,Credit Card,2021-06-13,Kyle Hernandez,Texas,Dallas,2021-06
+B-25198,9840,3870,11,Electronics,Printers,Debit Card,2023-04-25,Cynthia Ferguson,Texas,Austin,2023-04
+B-25189,7620,125,4,Office Supplies,Paper,EMI,2021-07-05,Brandi Garcia,California,San Francisco,2021-07
+B-25189,7620,125,4,Office Supplies,Paper,EMI,2024-10-12,Matthew Blake,California,San Francisco,2024-10
+B-26563,4314,1591,5,Furniture,Tables,Debit Card,2021-10-04,Lauren Howell,New York,Buffalo,2021-10
+B-25548,8851,999,12,Electronics,Laptops,UPI,2024-02-07,Joseph Wilson,Ohio,Cincinnati,2024-02
+B-25965,544,272,2,Electronics,Laptops,Debit Card,2021-03-05,Tanner Vance,Texas,Houston,2021-03
+B-25965,544,272,2,Electronics,Laptops,Debit Card,2023-06-25,Michael Nash,New York,Buffalo,2023-06
+B-26545,537,142,20,Office Supplies,Markers,EMI,2021-08-02,Brent Thomas,Illinois,Peoria,2021-08
+B-26603,5944,2661,7,Electronics,Laptops,EMI,2022-03-17,Harold Mitchell,Texas,Austin,2022-03
+B-26393,2258,135,18,Electronics,Printers,Credit Card,2024-02-07,Ashley Palmer,Florida,Miami,2024-02
+B-26393,2258,135,18,Electronics,Printers,Credit Card,2022-08-19,Stephen Hogan,California,San Diego,2022-08
+B-26628,9609,4339,3,Furniture,Sofas,Debit Card,2024-09-19,George Ashley,Texas,Houston,2024-09
+B-26628,9609,4339,3,Furniture,Sofas,Debit Card,2020-04-05,Sara Bailey,Ohio,Cincinnati,2020-04
+B-25945,9952,3301,15,Electronics,Electronic Games,Debit Card,2023-03-10,Tanya Thomas MD,Texas,Dallas,2023-03
+B-26565,9873,4585,7,Office Supplies,Paper,Credit Card,2020-08-10,Maria Galvan,Ohio,Columbus,2020-08
+B-25684,3560,1335,15,Electronics,Electronic Games,COD,2020-04-29,Duane Kelly,New York,New York City,2020-04
+B-25684,3560,1335,15,Electronics,Electronic Games,COD,2023-03-16,Frank Reynolds,Illinois,Springfield,2023-03
+B-26612,6528,76,9,Electronics,Phones,Debit Card,2020-05-04,Aaron Kim,New York,Buffalo,2020-05
+B-26612,8930,3374,12,Furniture,Sofas,Debit Card,2020-05-04,Aaron Kim,New York,Buffalo,2020-05
+B-25839,4521,1778,9,Office Supplies,Paper,Debit Card,2024-10-15,David Allen,Florida,Tampa,2024-10
+B-25898,7091,2317,10,Furniture,Sofas,Credit Card,2022-06-09,Monica Lee,California,San Diego,2022-06
+B-26120,2101,287,8,Office Supplies,Pens,COD,2020-07-04,Kimberly Fuller,Ohio,Cleveland,2020-07
+B-26120,2101,287,8,Office Supplies,Pens,COD,2023-04-09,Erica Scott,Illinois,Chicago,2023-04
+B-26426,8644,1968,9,Office Supplies,Paper,Debit Card,2023-11-24,Melissa Mitchell,Illinois,Chicago,2023-11
+B-26309,6672,3319,4,Furniture,Tables,UPI,2023-11-29,Joshua Murray,Texas,Dallas,2023-11
+B-26309,6672,3319,4,Furniture,Tables,UPI,2024-05-20,John Jones,California,San Diego,2024-05
+B-26789,4699,103,12,Office Supplies,Binders,UPI,2024-05-21,Cheryl Johnson,Ohio,Cincinnati,2024-05
+B-26420,4897,1001,14,Furniture,Sofas,Debit Card,2021-12-07,Lisa Farmer,Texas,Houston,2021-12
+B-26420,4897,1001,14,Furniture,Sofas,Debit Card,2025-01-06,Christopher Walker,Ohio,Cincinnati,2025-01
+B-26257,5460,2088,14,Furniture,Tables,Debit Card,2022-07-13,Elizabeth Coffey,New York,Buffalo,2022-07
+B-26257,5460,2088,14,Furniture,Tables,Debit Card,2020-04-19,Joseph Clark,Ohio,Cincinnati,2020-04
+B-25603,9272,1771,19,Office Supplies,Markers,UPI,2024-11-14,Jamie Brewer,Illinois,Springfield,2024-11
+B-25603,9272,1771,19,Office Supplies,Markers,UPI,2020-04-18,Lauren Boyer,Texas,Dallas,2020-04
+B-25010,7870,1057,15,Office Supplies,Pens,Credit Card,2023-10-18,Howard Esparza,Texas,Houston,2023-10
+B-25010,7870,1057,15,Office Supplies,Pens,Credit Card,2021-03-21,James Hickman,Ohio,Cleveland,2021-03
+B-25889,7992,893,12,Electronics,Laptops,Credit Card,2024-09-13,Jennifer Hernandez,Ohio,Cleveland,2024-09
+B-25889,7992,893,12,Electronics,Laptops,Credit Card,2023-05-04,Shannon Warren,New York,New York City,2023-05
+B-25889,7992,893,12,Electronics,Laptops,Credit Card,2023-05-31,Ashley Aguilar,Illinois,Chicago,2023-05
+B-26675,6499,2189,18,Electronics,Electronic Games,EMI,2024-06-15,Daniel Price,New York,New York City,2024-06
+B-26675,6499,2189,18,Electronics,Electronic Games,EMI,2021-04-03,James Perez,Florida,Orlando,2021-04
+B-26168,8848,2090,9,Office Supplies,Pens,Debit Card,2025-01-14,Jerry Smith,California,San Diego,2025-01
+B-25436,8044,3634,3,Office Supplies,Markers,COD,2020-12-24,Andre Fernandez,Florida,Orlando,2020-12
+B-25436,8044,3634,3,Office Supplies,Markers,COD,2022-10-07,Anthony West,California,San Diego,2022-10
+B-25794,7417,1334,16,Furniture,Bookcases,COD,2021-10-05,Amber Flowers,Florida,Tampa,2021-10
+B-26495,3451,658,3,Office Supplies,Markers,UPI,2024-12-28,Patricia Davis,Illinois,Chicago,2024-12
+B-25815,8531,2555,4,Electronics,Laptops,EMI,2022-05-14,Jasmine Gibbs,Texas,Austin,2022-05
+B-25022,6646,848,15,Furniture,Sofas,Debit Card,2023-08-19,Nicole Dudley,New York,New York City,2023-08
+B-25022,6646,848,15,Furniture,Sofas,Debit Card,2023-07-14,Lori Colon,New York,Buffalo,2023-07
+B-26928,2553,907,6,Electronics,Laptops,Credit Card,2023-06-22,William Carr,Texas,Dallas,2023-06
+B-25905,8490,3485,3,Electronics,Phones,Credit Card,2023-03-21,Jeffrey Dixon,New York,New York City,2023-03
+B-26739,2689,1330,3,Furniture,Tables,UPI,2020-12-13,Robert Sexton,California,Los Angeles,2020-12
+B-26739,2689,1330,3,Furniture,Tables,UPI,2024-05-29,Brooke Gonzalez,Florida,Miami,2024-05
+B-25697,815,54,14,Furniture,Tables,Debit Card,2021-05-25,Victoria Bryant MD,California,San Francisco,2021-05
+B-25234,5024,379,2,Office Supplies,Paper,UPI,2024-04-02,Nancy Kennedy,Texas,Dallas,2024-04
+B-25234,5024,379,2,Office Supplies,Paper,UPI,2022-12-03,Andrew Barry,Illinois,Peoria,2022-12
+B-25665,8962,2444,18,Electronics,Electronic Games,Debit Card,2021-07-12,Carlos Wheeler,Ohio,Cleveland,2021-07
+B-25665,8962,2444,18,Electronics,Electronic Games,Debit Card,2020-03-22,Isabella Roach,Illinois,Peoria,2020-03
+B-25028,1961,59,12,Office Supplies,Binders,UPI,2020-08-09,Samantha Williams,Florida,Orlando,2020-08
+B-26659,526,83,4,Furniture,Sofas,Credit Card,2022-02-18,Samuel Little MD,Illinois,Chicago,2022-02
+B-25966,6093,3042,9,Furniture,Bookcases,Debit Card,2021-06-14,Paul Taylor,California,San Francisco,2021-06
+B-25966,6093,3042,9,Furniture,Bookcases,Debit Card,2021-03-01,Susan Baker,California,San Diego,2021-03
+B-25350,7699,246,5,Electronics,Electronic Games,Debit Card,2023-09-23,Mark Fry,Texas,Austin,2023-09
+B-26370,8825,3594,15,Furniture,Tables,Debit Card,2024-07-31,Megan Mclean,New York,New York City,2024-07
+B-26298,2082,642,8,Electronics,Phones,EMI,2020-06-02,Caitlin Hunt,New York,Rochester,2020-06
+B-26298,2082,642,8,Electronics,Phones,EMI,2022-12-15,Jenna Holland,Texas,Austin,2022-12
+B-26298,2082,642,8,Electronics,Phones,EMI,2020-08-07,Stephanie Oconnell,New York,Buffalo,2020-08
+B-25068,914,163,13,Office Supplies,Markers,UPI,2024-10-26,Andrea Hill,Illinois,Chicago,2024-10

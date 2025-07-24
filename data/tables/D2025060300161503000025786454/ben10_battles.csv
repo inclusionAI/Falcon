@@ -1,0 +1,301 @@
+battle_id,alien_name,enemy_name,battle_date,winner
+1,Rath,Eatle,01-01-2023,Rath
+2,Lodestar,Wildmutt,31-10-2022,Lodestar
+3,Walkatrout,Grey Matter,04-07-2024,Grey Matter
+4,Four Arms,Wildmutt,07-10-2024,Wildmutt
+5,Shock Rock,Eatle,10-07-2022,Eatle
+6,Terraspin,Ultimate Way Big,11-07-2023,Terraspin
+7,Way Big,Four Arms,31-05-2024,Way Big
+8,Overflow,Big Chill,21-11-2024,Overflow
+9,Gravattack,Wildmutt,03-01-2024,Gravattack
+10,Gravattack,Wildmutt,30-04-2025,Gravattack
+11,Blitzwolfer,Toepick,28-12-2022,Blitzwolfer
+12,Toepick,Heatblast,28-02-2024,Toepick
+13,Frankenstrike,Snare-oh,07-03-2025,Frankenstrike
+14,Ultimate Wildmutt,Jetpack Alien,01-12-2023,Jetpack Alien
+15,Ultimate Humungousaur,Jetray,16-03-2025,Ultimate Humungousaur
+16,Slapback,Bloxx,23-04-2023,Slapback
+17,Bloxx,Ditto,21-10-2022,Bloxx
+18,Whampire,Ultimate Cannonbolt,07-06-2023,Ultimate Cannonbolt
+19,Alien X,Ultimate Big Chill,30-06-2022,Ultimate Big Chill
+20,Humungousaur,Ultimate Gravattack,03-04-2023,Humungousaur
+21,NRG,Walkatrout,29-09-2022,Walkatrout
+22,Walkatrout,Ultimate Wildmutt,25-06-2024,Ultimate Wildmutt
+23,Hot Shot,Toepick,10-08-2024,Toepick
+24,Four Arms,Wildmutt,14-09-2022,Four Arms
+25,Astrodactyl,NRG,06-11-2023,NRG
+26,Astrodactyl,NRG,13-06-2022,Astrodactyl
+27,Ultimate Wildmutt,Jetpack Alien,15-09-2023,Jetpack Alien
+28,Crashhopper,AmpFibian,10-08-2024,Crashhopper
+29,Cannonbolt,Big Chill,06-10-2022,Cannonbolt
+30,Upchuck,Armodrillo,25-02-2025,Upchuck
+31,Glitch Ben,Chamalien,27-12-2023,Glitch Ben
+32,Ultimate Swampfire,Jury Rigg,12-11-2022,Jury Rigg
+33,Jetray,Lodestar,29-09-2024,Jetray
+34,Atomix,Glitch Ben,18-12-2024,Atomix
+35,Brainstorm,Terraspin,11-07-2024,Terraspin
+36,Jury Rigg,Four Arms,29-05-2024,Four Arms
+37,Eatle,Ultimate Way Big,11-03-2024,Ultimate Way Big
+38,Way Big,Four Arms,08-12-2024,Way Big
+39,Atomix,Fasttrack,23-07-2023,Fasttrack
+40,Walkatrout,Grey Matter,26-07-2024,Grey Matter
+41,Shock Rock,Eatle,20-02-2023,Eatle
+42,Humungousaur,Ultimate Gravattack,30-09-2023,Ultimate Gravattack
+43,Ultimate Cannonbolt,Wildmutt,18-12-2024,Ultimate Cannonbolt
+44,Diamondhead,Wildvine,12-02-2024,Diamondhead
+45,Walkatrout,Grey Matter,10-11-2022,Grey Matter
+46,Whampire,Eatle,21-04-2024,Eatle
+47,Ditto,Swampfire,09-06-2022,Ditto
+48,Rath,Eatle,15-02-2023,Eatle
+49,Stinkfly,Slapback,04-04-2023,Slapback
+50,Stinkfly,Slapback,17-03-2025,Stinkfly
+51,Four Arms,The Worst,05-08-2023,The Worst
+52,Astrodactyl,NRG,09-02-2023,NRG
+53,XLR8,Gravattack,08-08-2022,Gravattack
+54,Pesky Dust,Way Big,14-04-2025,Pesky Dust
+55,NRG,Swampfire,03-10-2023,NRG
+56,Crashhopper,AmpFibian,28-09-2022,AmpFibian
+57,Chamalien,Pesky Dust,22-07-2022,Pesky Dust
+58,Fasttrack,Ultimate Spidermonkey,16-01-2024,Ultimate Spidermonkey
+59,Jetray,Lodestar,16-05-2025,Lodestar
+60,Slapback,Bloxx,06-12-2023,Slapback
+61,Goop,Whampire,14-10-2023,Goop
+62,The Worst,Jury Rigg,20-07-2023,Jury Rigg
+63,Fasttrack,Ultimate Spidermonkey,23-07-2023,Fasttrack
+64,Upgrade,Big Chill,06-12-2022,Big Chill
+65,Ditto,Swampfire,29-06-2024,Swampfire
+66,Bullfrag,Ultimate Big Chill,23-05-2025,Ultimate Big Chill
+67,Blitzwolfer,Toepick,04-03-2024,Toepick
+68,Swampfire,Ultimate Echo Echo,23-02-2025,Ultimate Echo Echo
+69,Stinkfly,Slapback,13-08-2022,Stinkfly
+70,Gax,Ball Weevil,27-04-2024,Gax
+71,XLR8,Gravattack,17-12-2023,Gravattack
+72,AmpFibian,Way Big,26-03-2025,AmpFibian
+73,Upchuck,Armodrillo,09-02-2023,Armodrillo
+74,Spidermonkey,Snare-oh,19-09-2023,Snare-oh
+75,Cannonbolt,Big Chill,24-05-2025,Cannonbolt
+76,Ripjaws,Grey Matter,25-05-2023,Grey Matter
+77,Terraspin,Ultimate Way Big,21-04-2024,Ultimate Way Big
+78,Rath,Ditto,10-10-2023,Rath
+79,Atomix,Fasttrack,20-02-2024,Atomix
+80,The Worst,AmpFibian,15-07-2024,The Worst
+81,Big Chill,Ultimate Cannonbolt,28-06-2024,Ultimate Cannonbolt
+82,Jetray,Lodestar,11-05-2023,Lodestar
+83,Feedback,Armodrillo,24-08-2023,Armodrillo
+84,Chromastone,Jetpack Alien,07-04-2025,Chromastone
+85,Terraspin,Ultimate Way Big,29-12-2023,Ultimate Way Big
+86,Bloxx,Ditto,04-12-2023,Ditto
+87,Snare-oh,Jetpack Alien,09-05-2024,Jetpack Alien
+88,Chamalien,Ditto,01-08-2023,Chamalien
+89,Astrodactyl,NRG,11-08-2023,NRG
+90,Rath,Ditto,16-03-2023,Ditto
+91,Snare-oh,Echo Echo,05-05-2023,Snare-oh
+92,Brainstorm,Terraspin,22-09-2022,Terraspin
+93,Snare-oh,Jetpack Alien,23-05-2024,Jetpack Alien
+94,Ultimate Spidermonkey,Four Arms,05-10-2023,Four Arms
+95,Astrodactyl,Ultimate Gravattack,25-08-2022,Astrodactyl
+96,Mole-Stache,Goop,04-06-2023,Mole-Stache
+97,Ultimate Spidermonkey,Four Arms,28-09-2024,Ultimate Spidermonkey
+98,Upchuck,Armodrillo,05-09-2024,Upchuck
+99,Four Arms,The Worst,28-11-2024,The Worst
+100,Clockwork,Ultimate Big Chill,15-10-2022,Clockwork
+101,Terraspin,Ultimate Big Chill,19-02-2024,Ultimate Big Chill
+102,Goop,Whampire,14-04-2024,Goop
+103,Lodestar,Ultimate Gravattack,08-08-2023,Lodestar
+104,Ultimate Big Chill,Ultimate Swampfire,01-07-2023,Ultimate Swampfire
+105,Eye Guy,Fasttrack,27-06-2022,Eye Guy
+106,XLR8,Gravattack,28-01-2025,XLR8
+107,Cannonbolt,Big Chill,06-04-2023,Big Chill
+108,Humungousaur,Ultimate Gravattack,16-07-2022,Humungousaur
+109,Way Big,Four Arms,28-06-2023,Way Big
+110,Mole-Stache,Overflow,29-06-2022,Overflow
+111,Fasttrack,Ultimate Spidermonkey,12-07-2022,Fasttrack
+112,Gax,Ball Weevil,16-11-2022,Ball Weevil
+113,Kickin Hawk,Jetray,13-11-2024,Jetray
+114,Overflow,Big Chill,28-03-2024,Overflow
+115,Slapback,Bloxx,21-12-2023,Slapback
+116,Ultimate Echo Echo,Feedback,02-10-2023,Ultimate Echo Echo
+117,Mole-Stache,Overflow,28-12-2024,Mole-Stache
+118,Hot Shot,Toepick,30-05-2023,Toepick
+119,Ultimate Way Big,Overflow,06-03-2024,Ultimate Way Big
+120,Gax,Snare-oh,27-01-2025,Snare-oh
+121,Ball Weevil,Glitch Ben,30-06-2022,Ball Weevil
+122,Ultimate Wildmutt,Jetpack Alien,13-02-2023,Jetpack Alien
+123,Cannonbolt,Big Chill,15-01-2024,Cannonbolt
+124,Crashhopper,AmpFibian,20-05-2025,Crashhopper
+125,Terraspin,Ultimate Way Big,21-06-2024,Terraspin
+126,Gax,Snare-oh,23-03-2025,Gax
+127,Goop,Whampire,22-09-2022,Goop
+128,Alien X,Ultimate Big Chill,31-08-2022,Ultimate Big Chill
+129,Shocksquatch,Cannonbolt,26-10-2022,Shocksquatch
+130,Pesky Dust,Toepick,02-08-2024,Pesky Dust
+131,Shock Rock,Eatle,27-02-2023,Eatle
+132,Goop,Whampire,09-01-2024,Whampire
+133,Big Chill,Ultimate Cannonbolt,09-03-2025,Ultimate Cannonbolt
+134,Ghostfreak,Gax,16-03-2023,Ghostfreak
+135,Slapback,Ultimate Echo Echo,15-07-2022,Ultimate Echo Echo
+136,Crashhopper,AmpFibian,22-01-2024,Crashhopper
+137,Swampfire,Ultimate Echo Echo,28-01-2024,Swampfire
+138,Mole-Stache,Goop,21-12-2024,Mole-Stache
+139,Wildmutt,Big Chill,16-09-2022,Wildmutt
+140,Eatle,Ditto,29-03-2024,Ditto
+141,Ultimate Echo Echo,Ultimate Swampfire,07-04-2025,Ultimate Echo Echo
+142,Ultimate Wildmutt,Jetpack Alien,07-12-2023,Ultimate Wildmutt
+143,Wildvine,Ultimate Swampfire,06-10-2024,Ultimate Swampfire
+144,Wildvine,Ultimate Swampfire,20-03-2025,Ultimate Swampfire
+145,Brainstorm,Terraspin,31-10-2022,Terraspin
+146,AmpFibian,Way Big,19-12-2023,AmpFibian
+147,Diamondhead,Snare-oh,04-11-2023,Snare-oh
+148,Ultimate Big Chill,Ultimate Swampfire,06-01-2023,Ultimate Big Chill
+149,Gax,Snare-oh,05-08-2024,Gax
+150,Jetpack Alien,Ghostfreak,03-10-2022,Jetpack Alien
+151,Ultimate Wildmutt,Jetpack Alien,19-11-2024,Ultimate Wildmutt
+152,Eye Guy,Blitzwolfer,24-04-2024,Blitzwolfer
+153,Terraspin,Ultimate Big Chill,11-11-2024,Terraspin
+154,The Worst,AmpFibian,29-07-2024,The Worst
+155,Big Chill,Ultimate Cannonbolt,13-05-2023,Big Chill
+156,Fasttrack,Ultimate Swampfire,29-09-2022,Ultimate Swampfire
+157,Brainstorm,Terraspin,18-02-2023,Brainstorm
+158,Bloxx,Ditto,06-10-2024,Ditto
+159,Brainstorm,Terraspin,31-05-2022,Brainstorm
+160,Ultimate Wildmutt,Jetpack Alien,25-11-2022,Jetpack Alien
+161,Ultimate Echo Echo,Ultimate Way Big,13-04-2025,Ultimate Echo Echo
+162,Alien X,Ultimate Swampfire,09-07-2023,Ultimate Swampfire
+163,Toepick,Blitzwolfer,09-06-2024,Blitzwolfer
+164,Heatblast,Terraspin,04-02-2024,Heatblast
+165,Ditto,Swampfire,25-09-2023,Ditto
+166,Lodestar,Ultimate Gravattack,24-07-2024,Ultimate Gravattack
+167,Alien X,Ultimate Swampfire,18-01-2023,Alien X
+168,Kickin Hawk,AmpFibian,13-05-2025,Kickin Hawk
+169,Clockwork,Ultimate Big Chill,06-01-2025,Ultimate Big Chill
+170,Blitzwolfer,Toepick,05-11-2022,Toepick
+171,Upchuck,Armodrillo,11-07-2023,Armodrillo
+172,XLR8,Gravattack,12-07-2023,XLR8
+173,Ultimate Cannonbolt,NRG,17-04-2023,NRG
+174,Slapback,Bloxx,16-09-2022,Slapback
+175,Upchuck,Armodrillo,23-04-2024,Armodrillo
+176,Glitch Ben,Diamondhead,19-07-2024,Diamondhead
+177,Ultimate Swampfire,XLR8,26-10-2024,Ultimate Swampfire
+178,Kickin Hawk,AmpFibian,25-03-2025,AmpFibian
+179,Heatblast,Ultimate Echo Echo,20-08-2024,Heatblast
+180,Humungousaur,Ultimate Gravattack,02-10-2022,Humungousaur
+181,Wildvine,Ultimate Swampfire,15-07-2024,Ultimate Swampfire
+182,Ball Weevil,Glitch Ben,22-11-2022,Glitch Ben
+183,Ultimate Humungousaur,Jetray,08-03-2025,Jetray
+184,Fasttrack,Ultimate Spidermonkey,29-11-2022,Ultimate Spidermonkey
+185,Astrodactyl,Ultimate Gravattack,20-02-2024,Astrodactyl
+186,Jetray,Feedback,07-02-2025,Jetray
+187,Swampfire,Ultimate Echo Echo,30-10-2023,Swampfire
+188,Glitch Ben,Chamalien,03-07-2023,Glitch Ben
+189,Kickin Hawk,Chamalien,19-07-2023,Kickin Hawk
+190,Ultimate Spidermonkey,Ultimate Humungousaur,14-01-2025,Ultimate Humungousaur
+191,Water Hazard,Upgrade,07-06-2022,Upgrade
+192,Gravattack,Wildmutt,07-09-2023,Gravattack
+193,AmpFibian,Way Big,19-09-2023,AmpFibian
+194,Upchuck,Armodrillo,14-12-2023,Upchuck
+195,Big Chill,Chamalien,08-11-2024,Big Chill
+196,Feedback,Armodrillo,13-04-2025,Armodrillo
+197,Gravattack,Feedback,07-03-2025,Gravattack
+198,Frankenstrike,Gutrot,23-07-2022,Frankenstrike
+199,Blitzwolfer,Toepick,22-10-2023,Toepick
+200,Toepick,Way Big,17-09-2022,Toepick
+201,Shocksquatch,Cannonbolt,22-03-2023,Shocksquatch
+202,Shock Rock,Eatle,16-02-2025,Eatle
+203,Ultimate Big Chill,Ultimate Swampfire,24-05-2024,Ultimate Big Chill
+204,Ultimate Humungousaur,Jetray,09-09-2024,Ultimate Humungousaur
+205,Goop,Whampire,14-05-2024,Goop
+206,Atomix,Glitch Ben,20-02-2024,Atomix
+207,Frankenstrike,Snare-oh,29-09-2022,Snare-oh
+208,Glitch Ben,Chamalien,15-09-2024,Chamalien
+209,Terraspin,Ultimate Big Chill,19-05-2024,Ultimate Big Chill
+210,Ultimate Echo Echo,Ultimate Way Big,14-08-2024,Ultimate Echo Echo
+211,Upgrade,Big Chill,29-02-2024,Upgrade
+212,Blitzwolfer,Toepick,04-06-2022,Blitzwolfer
+213,Atomix,Glitch Ben,29-03-2023,Glitch Ben
+214,Ultimate Humungousaur,Jetray,17-07-2022,Ultimate Humungousaur
+215,Water Hazard,Upgrade,09-09-2022,Upgrade
+216,Spidermonkey,Upchuck,26-01-2024,Upchuck
+217,Ultimate Way Big,Overflow,07-03-2023,Overflow
+218,NRG,Swampfire,30-07-2024,NRG
+219,AmpFibian,Way Big,14-12-2023,Way Big
+220,Humungousaur,Ultimate Gravattack,28-05-2024,Humungousaur
+221,AmpFibian,Way Big,15-04-2024,Way Big
+222,Crashhopper,AmpFibian,17-06-2022,Crashhopper
+223,Shock Rock,Eatle,27-05-2022,Eatle
+224,Spidermonkey,Snare-oh,10-06-2022,Snare-oh
+225,Spidermonkey,Upchuck,12-02-2023,Spidermonkey
+226,Chamalien,Ditto,19-09-2023,Chamalien
+227,Upgrade,Big Chill,23-09-2024,Upgrade
+228,Ultimate Big Chill,Ultimate Swampfire,05-02-2023,Ultimate Swampfire
+229,Glitch Ben,Chamalien,17-05-2023,Chamalien
+230,Whampire,Eatle,01-03-2025,Whampire
+231,Ultimate Echo Echo,Ultimate Way Big,17-09-2024,Ultimate Way Big
+232,Toepick,Heatblast,31-10-2024,Toepick
+233,Humungousaur,Ultimate Gravattack,04-05-2025,Humungousaur
+234,Upgrade,Big Chill,22-04-2024,Big Chill
+235,Ultimate Swampfire,XLR8,10-02-2025,Ultimate Swampfire
+236,Ghostfreak,Gax,22-09-2023,Ghostfreak
+237,The Worst,Ultimate Echo Echo,15-06-2023,Ultimate Echo Echo
+238,Feedback,Lodestar,10-11-2022,Feedback
+239,Glitch Ben,Diamondhead,01-07-2024,Glitch Ben
+240,Shocksquatch,Bloxx,12-11-2022,Bloxx
+241,Ultimate Spidermonkey,Four Arms,28-06-2024,Four Arms
+242,Gravattack,Feedback,24-08-2022,Gravattack
+243,Lodestar,Ditto,18-04-2024,Ditto
+244,Four Arms,Wildmutt,25-04-2023,Four Arms
+245,Feedback,Ultimate Swampfire,09-05-2025,Ultimate Swampfire
+246,Overflow,Big Chill,17-06-2023,Big Chill
+247,Glitch Ben,Chamalien,26-11-2024,Chamalien
+248,Ditto,Swampfire,21-01-2024,Swampfire
+249,Ultimate Swampfire,Jury Rigg,15-12-2023,Ultimate Swampfire
+250,Frankenstrike,Snare-oh,03-08-2022,Snare-oh
+251,Bullfrag,Ultimate Big Chill,24-12-2022,Ultimate Big Chill
+252,Eatle,Ultimate Way Big,31-08-2023,Ultimate Way Big
+253,Shocksquatch,Cannonbolt,13-09-2023,Cannonbolt
+254,Big Chill,Chamalien,17-04-2024,Chamalien
+255,Goop,Whampire,16-06-2024,Whampire
+256,Pesky Dust,Way Big,03-06-2023,Way Big
+257,Slapback,Bloxx,19-07-2023,Slapback
+258,Ghostfreak,Cannonbolt,06-05-2025,Ghostfreak
+259,Gax,Ball Weevil,18-11-2023,Ball Weevil
+260,Big Chill,Chamalien,22-10-2024,Big Chill
+261,Snare-oh,Echo Echo,04-06-2024,Echo Echo
+262,Shocksquatch,Cannonbolt,22-02-2023,Shocksquatch
+263,Jury Rigg,Four Arms,16-12-2023,Four Arms
+264,Way Big,Four Arms,22-04-2024,Way Big
+265,Jury Rigg,Four Arms,06-06-2022,Jury Rigg
+266,Wildmutt,Shocksquatch,28-05-2023,Wildmutt
+267,Brainstorm,Terraspin,19-12-2022,Terraspin
+268,Big Chill,Ultimate Cannonbolt,05-09-2022,Ultimate Cannonbolt
+269,Jetpack Alien,Ghostfreak,12-12-2024,Jetpack Alien
+270,Feedback,Lodestar,06-04-2024,Feedback
+271,Pesky Dust,Way Big,18-12-2024,Way Big
+272,Toepick,Blitzwolfer,23-12-2024,Toepick
+273,Upchuck,Armodrillo,26-06-2022,Upchuck
+274,Ultimate Echo Echo,Ultimate Way Big,30-01-2023,Ultimate Echo Echo
+275,Eye Guy,Fasttrack,14-01-2023,Fasttrack
+276,Walkatrout,Grey Matter,30-05-2024,Grey Matter
+277,Rath,Eatle,05-11-2022,Eatle
+278,Hot Shot,Gutrot,25-11-2024,Hot Shot
+279,Big Chill,Chamalien,03-02-2023,Chamalien
+280,Jetray,Lodestar,19-11-2022,Jetray
+281,Wildvine,Ultimate Swampfire,01-07-2022,Wildvine
+282,Ghostfreak,Ultimate Way Big,02-06-2022,Ultimate Way Big
+283,Astrodactyl,Ultimate Gravattack,17-04-2024,Ultimate Gravattack
+284,Jetray,Lodestar,01-08-2022,Lodestar
+285,Frankenstrike,Snare-oh,26-02-2024,Frankenstrike
+286,Kickin Hawk,AmpFibian,26-07-2022,AmpFibian
+287,Terraspin,Ultimate Big Chill,04-12-2022,Terraspin
+288,Ultimate Way Big,Overflow,23-12-2024,Overflow
+289,Diamondhead,Snare-oh,30-11-2023,Diamondhead
+290,Ditto,Swampfire,17-05-2024,Swampfire
+291,Grey Matter,Ultimate Big Chill,22-03-2025,Ultimate Big Chill
+292,Diamondhead,Snare-oh,30-06-2024,Diamondhead
+293,Shock Rock,Eatle,12-08-2023,Eatle
+294,Chamalien,Pesky Dust,17-02-2023,Chamalien
+295,Alien X,Ultimate Swampfire,19-04-2023,Ultimate Swampfire
+296,XLR8,Gravattack,27-11-2023,Gravattack
+297,Big Chill,Chamalien,18-01-2023,Big Chill
+298,Frankenstrike,Snare-oh,12-03-2025,Frankenstrike
+299,Water Hazard,Upgrade,18-11-2024,Water Hazard
+300,Upgrade,Big Chill,08-09-2023,Upgrade

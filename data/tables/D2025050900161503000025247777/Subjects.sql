@@ -1,0 +1,20 @@
+USE [Great School]
+GO
+
+/****** Object:  Table [dbo].[Subjects]    Script Date: 11/24/2023 5:55:18 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Subjects](
+	[SubjectID] [int] NOT NULL,
+	[SubjectName] [varchar](50) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[SubjectID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+

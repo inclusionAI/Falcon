@@ -1,0 +1,549 @@
+---
+title: "Data Wrangling Project"
+author: "Frankie Noguera"
+format: html
+editor: visual
+---
+
+## My thought process:
+
+## 3 Tables to create a relational database on top UFC (Ultimate Fighting Championship) fighters and their statistics and correlations
+
+**Tables Outline**:
+
+1.  Fighter stats
+2.  Country stats
+3.  Events of fights and stats
+
+**Data Sources**:
+
+1.  Fighter stats data source:
+
+<https://www.octagon-api.com/api-documentation> (Fighter Stats \| API)
+
+2.  Country data and stats
+
+<https://databank.worldbank.org/source/world-development-indicators#> (Country Stats \| CSV File)
+
+<https://en.wikipedia.org/wiki/List_of_countries_by_average_elevation> (Country AVG elevation\|webscrape)
+
+<https://en.wikipedia.org/wiki/List_of_countries_by_average_yearly_temperature> (Country avg temperature \| webscrape)
+
+3.  Events and event stats
+
+<https://en.wikipedia.org/wiki/List_of_UFC_events> (UFC Event Stats \| Webscrape)
+
+------------------------------------------------------------------------
+
+# Packages
+
+```{r}
+install.packages("tidyvers")
+install.packages("httr2")
+install.packages("jsonlite")
+install.packages("rvest")
+install.packages("repurrrsive")
+```
+
+```{r}
+library(tidyverse)
+library(httr2)
+library(jsonlite)
+library(rvest)
+library(repurrrsive)
+```
+
+#  1. UFC Fighter's Table (API Importation)
+
+## Using Octagon API to get fighter data
+
+```{r}
+# Here I am pulling data from the API and I specify that I want 'fighter' data
+octagon_key <- "place_your_key_here"
+base_url <- "https://api.octagon-api.com"
+
+fighters_data <- request(base_url) |>
+  req_url_path_append("fighters") |>  #here i am specifying
+  req_headers(`X-RapidAPI-Key` = octagon_key, #the key goes here
+              `X-RapidAPI-Host` = "api.octagon-api.com") |>
+  req_perform() |>
+  resp_body_json() #pulling data into json hierarchical data
+```
+
+```{r}
+# Here I am converting json data format into tabular data
+fighters_data |>
+  tibble() |>
+  unnest_wider(1) -> ufc_api_tibble #since it is all on one column, we must unnest wider
+```
+
+```{r}
+# Here I am selecting onlt the data that I find most valuable and organzing the positioning
+ufc_api_tibble |>
+  select(
+    name,
+    nickname,
+    placeOfBirth,
+    age,
+    wins,
+    losses,
+    draws,
+    status,
+    category,
+    height,
+    weight,
+    reach,
+    legReach,
+    fightingStyle,
+    octagonDebut
+  ) -> ufc_api_tibble
+```
+
+```{r}
+# Here I seperate every full name in the name column, to then conver it into 2 columns (first and last name)
+ufc_api_tibble |>
+  separate(name, into = c("first_name", "last_name"), sep = " ", extra = "merge") ->ufc_api_tibble
+```
+
+```{r}
+#Here I am renaming the columns in snake_case to make it more understandable and easier to read
+ufc_api_tibble |>
+  rename(place_of_birth = placeOfBirth,
+         weight_division = category,
+         leg_reach = legReach,
+         arm_reach = reach,
+         fighting_style = fightingStyle,
+         debut = octagonDebut) ->ufc_api_tibble
+```
+
+```{r}
+#Here I am seperating place_of_birth into 2 columns. city and country.
+ufc_api_tibble |>
+ separate(
+    place_of_birth, 
+    into = c("city", "country"), 
+    sep = ",", 
+    fill = "left",   
+    extra = "merge"   
+  ) ->ufc_api_tibble
+```
+
+```{r}
+ufc_api_tibble
+```
+
+```{r}
+#Here I create a function that would convert any column(s) anything into numeric. This is important for future computation and it is best practice to make data type correct.
+convert_numeric <- function(data, cols) {
+  data |>
+    mutate(across(all_of(cols), as.numeric)) -> data
+  return(data)
+}
+```
+
+```{r}
+# Here I apply the function to these columns (age, wins, losses, etc.)
+ufc_api_tibble |>
+  convert_numeric(cols = c("age", "wins", "losses", "draws", "height", "weight","arm_reach", "leg_reach")) -> ufc_api_tibble
+```
+
+```{r}
+# debut is supposed to be date format so here I changed it to just that
+ufc_api_tibble |>
+  mutate(debut = as.Date(debut, format = "%b. %d, %Y")) ->ufc_api_tibble
+# %b is for the abbreviated month with a dot 
+```
+
+```{r}
+# there were empty strings for nickname and this is not best practice, instead I fill it with NA
+ufc_api_tibble|>
+  mutate(nickname = na_if(nickname, "")) -> ufc_api_tibble
+```
+
+```{r}
+# Here I do some feature engineering to create some new columns by mutating. I create 3 columns: number of fights, the win percentage for each fighter as well as the lose percentage
+ufc_api_tibble |>
+  mutate(
+    num_of_fights = wins + losses, draws,
+    win_percent = (wins/num_of_fights) *100,
+    lose_percent = (losses/num_of_fights)*100
+  ) -> ufc_api_tibble
+```
+
+```{r}
+#Here I decided to make a function that would remove the entire rows of certain fighters
+remove_fighters <- function(data, names_to_remove) {
+  data |>
+    filter(!paste(first_name, last_name) %in% names_to_remove)
+}
+```
+
+```{r}
+# Here I make a vector of the names of the fighters to be removed
+names_to_remove <- c("José Aldo", "Miesha Tate", "Katlyn Cerminara", 
+                     "Kai Asakura", "Michael Page", "Kayla Harrison")
+```
+
+```{r}
+# Here I remove the following fighters due to their data being complicated and messing up the table
+fighters_clean <- remove_fighters(ufc_api_tibble, names_to_remove)
+```
+
+```{r}
+# relocating columns to my liking
+fighters_clean |>
+  relocate(win_percent, lose_percent,num_of_fights, .after = draws) -> final_ufc
+```
+
+```{r}
+# renaming columns to give more information and to be more clear
+final_ufc |> 
+  rename(
+    height_in = height,
+    weight_lbs = weight,
+    arm_reach_inch = arm_reach,
+    leg_reach_inch = leg_reach,
+  ) -> final_ufc
+```
+
+```{r}
+# the string of these countries were misaligned due to extra space either before or after, so i removed any white space
+str_squish(final_ufc$country) -> final_ufc$country
+```
+
+```{r}
+# This one person had trouble with country so I just fixed it 
+final_ufc |>
+  mutate(country = if_else(first_name == "Ciryl", "France", country)) -> final_ufc
+```
+
+```{r}
+# These 2 fighters had NA values and just searched up where they were from on Google and placed the value there
+final_ufc |>
+  mutate(country = case_when(
+    last_name == "Krylov" ~ "Ukraine",
+    last_name == "Chimaev" ~ "Russia",
+    TRUE ~ country)) ->final_ufc
+```
+
+```{r}
+# For my future table it was best to change England to UK
+final_ufc |>
+  mutate(country = case_when(
+    country == "England" ~ "United Kingdom",
+    TRUE ~ country)) -> final_ufc
+```
+
+```{r}
+# Here the last thing I did for this table was remove status column (useless), convert height inches into feet, and relocated it.
+final_ufc |>
+  select(-status) |>
+  mutate(height_ft = height_in/12.0) |>
+  select(-height_in) |>
+  relocate(height_ft, .after = "weight_division") -> ufc_fighters
+```
+
+------------------------------------------------------------------------
+
+# 2. Fighter's Country Data (file importation)
+
+```{r}
+# To have a starting point of my next table (country data) I wanted to see the countries to look up and find more information on
+ufc_fighters |>
+  select(country) -> geo_draft1
+```
+
+```{r}
+# Looking at the unqiue ammount of countries based from last table
+geo_draft1 |>
+  distinct() |>
+  count()
+```
+
+```{r}
+#Put the name of each unique country (at least show up once in table before) into its own tibble
+geo_draft1 |>
+  distinct() ->country_list #doing this to which countries we should look into
+```
+
+### After finding out the countries I need I went to <https://databank.worldbank.org/source/world-development-indicators#>  To get the data I needed for these countries that would make sense or I least thought had some correlation with the fighters
+
+```{r}
+#Importing the dataset CSV file
+read_csv("2023_country_data.csv", col_types = cols()) -> country_data
+```
+
+```{r}
+# There was some metadata so I only got rows 1-38 everything else was not needed
+country_data |>
+  slice(1:38) ->country_data
+```
+
+```{r}
+#replacing (..) with NA values for the dataset. Also dropping gini index since there is no data
+country_data|>
+  mutate(
+    across(everything(), ~ ifelse(. == "..", NA, .))
+         ) |>
+  select(-'2023 [YR2023] - Gini index [SI.POV.GINI]') -> country_data
+```
+
+```{r}
+# Ok! now it is time to snake_case standardize the column names and rename so it makes sense
+# The way the CSV columns came formated was bad practice so I did my best to make it clear
+country_data|>
+  rename(
+    country_name = `Country Name`,
+    country_code = `Country Code`,
+    gdp_2023_usd = `2023 [YR2023] - GDP (current US$) [NY.GDP.MKTP.CD]`,
+    unemployment_rate_2023 = `2023 [YR2023] - Unemployment, total (% of total labor force) (national estimate) [SL.UEM.TOTL.NE.ZS]`,
+    total_population = `2023 [YR2023] - Population, total [SP.POP.TOTL]`,
+    female_pop_total_percent = `2023 [YR2023] - Population, female (% of total population) [SP.POP.TOTL.FE.ZS]`,
+    male_pop_total_percent = `2023 [YR2023] - Population, male (% of total population) [SP.POP.TOTL.MA.ZS]`,
+    population_growth_2023 = `2023 [YR2023] - Population growth (annual %) [SP.POP.GROW]`,
+    working_age_pop_percent = `2023 [YR2023] - Population ages 15-64 (% of total population) [SP.POP.1564.TO.ZS]`,
+    percent_of_internet_users = `2023 [YR2023] - Individuals using the Internet (% of population) [IT.NET.USER.ZS]`,
+    dependency_ratio_2023 = `2023 [YR2023] - Age dependency ratio (% of working-age population) [SP.POP.DPND]`
+  ) ->country_data #fitting it back to a tibble called country_data
+```
+
+```{r}
+# It was hard for me to read and understand what the e+n meant in the rows of the GDP column so I did some math to make it more understandable (in the billions)
+country_data|>
+  mutate(gdp_2023_billion_usd = gdp_2023_usd / 1e9) |> #lets the viewer see the num better (loked up what to divide by online)
+  select(-gdp_2023_usd) |> #taking out the old and putting the new column in.
+  relocate(gdp_2023_billion_usd, .after = "country_code") -> country_data
+```
+
+### A problem I was faced with was that the 2023 data did not include ammount od internet used and I think this is important so I went back one year and got 2022's data
+
+```{r}
+read_csv("2022_country_data.csv", col_types = cols()) ->country_data_2022
+```
+
+```{r}
+# Here just getting the internet data
+country_data_2022$`2022 [YR2022] - Individuals using the Internet (% of population) [IT.NET.USER.ZS]` -> percent_of_internet_users_2022
+```
+
+```{r}
+percent_of_internet_users_2022|>
+  head(-5) ->percent_of_internet_users_2022 #last 5 values were irrelevant so took it out
+```
+
+```{r}
+# since I was missing internet data from most countries in 2023, I implemented 2022 data.
+country_data|>
+  mutate(percent_of_internet_users_2022 = percent_of_internet_users_2022)|>
+  relocate(percent_of_internet_users_2022, .after = "percent_of_internet_users") ->country_data
+```
+
+```{r}
+# removing (..) in cells of percent of internet users 2022
+country_data |>
+  mutate(
+    percent_of_internet_users_2022 = ifelse(percent_of_internet_users_2022 == "..", NA, percent_of_internet_users_2022)
+  ) -> country_data
+```
+
+```{r}
+#renaming so it would be a great foreign key / make it easier to join other tables or data
+country_data |>
+  rename(country = "country_name") ->country_data
+```
+
+```{r}
+# quick lil edit to make country table in alphabetic order
+country_data |>
+  arrange(country) -> country_data
+```
+
+### Here I am webscraping the average elevation of countries. I believe this is important data that could possibly have correlation when it comes to athleticism. 
+
+```{r}
+# webscraping avg elevation from wiki lol
+read_html("https://en.wikipedia.org/wiki/List_of_countries_by_average_elevation") |>
+  html_node("table") |>
+  html_table() -> country_elevation
+```
+
+```{r}
+# I only need the country and country data that match with what I already have, so I filter out anything that is not in my main country dataset
+country_elevation |>
+  rename(country = "Country", elevation = "Elevation") |>
+  filter(country %in% country_data$country) ->country_elevation
+
+```
+
+```{r}
+# There was a problem which was wiki didn't include these 4 which are in my main dataset so i'll come up with a fix. First import as NA then look up answer, then mutate it in.
+data.frame(
+  country = c("Czechia", "Iran", "Kyrgyzstan", "Russia"),
+  elevation = NA
+) -> missing_elev
+```
+
+```{r}
+country_elevation |>
+  bind_rows(missing_elev) ->country_elevation
+```
+
+### Here I am webscraping the average temperature of countries. I believe that this is also important data, which possibly has correlation when it comes to athleticism. 
+
+```{r}
+read_html("https://en.wikipedia.org/wiki/List_of_countries_by_average_yearly_temperature") |>
+  html_node("table") |>
+  html_table() |>
+  select(2:3) ->country_temp
+```
+
+```{r}
+# I only need the country and country data that match with what I already have, so I filter out anything that is not in my main country dataset
+country_temp |>
+  rename(country = "Country", temperature = `Temperature(°C)`) |>
+  filter(country %in% country_data$country) -> country_temp
+```
+
+```{r}
+# There was a problem which was wiki didn't include these 4 which are in my main dataset so i'll come up with a fix. First import as NA then look up answer, then mutate it in.
+data.frame(
+  country = c("Czechia", "Iran", "Kyrgyzstan", "Russia"),
+  temperature = NA
+) -> missing_temp
+```
+
+```{r}
+country_temp |>
+  bind_rows(missing_temp) ->country_temp
+```
+
+### Combining what was web-scraped with the country_data table:
+
+```{r}
+#combining data into main country dataset
+country_data |>
+  left_join(country_temp, by = "country") |>
+  left_join(country_elevation, by = "country") -> country_data
+```
+
+```{r}
+#Here I already joined elevation and temp but the data type is wrong so here's to fix it. On top of that to just get the information there was too much characters so I used regex to remove excess off
+country_data |>
+  mutate(
+temperature = str_extract(temperature, "[-\\d.]+") |> as.numeric(), #takes out temperature (c)
+    elevation = str_extract(elevation, "\\d+(,\\d+)?")|> #takes out only elevation (m)
+      str_replace_all(",", "")|>
+  as.numeric()) -> country_data
+```
+
+```{r}
+# renaming columns to make more sense
+country_data |>
+  rename(
+    temperature_celsius = "temperature",
+    elevation_meters = "elevation"
+  ) |>
+  relocate(elevation_meters, .after = country_code) |>
+  relocate(temperature_celsius, .after = country_code) ->country_data
+```
+
+```{r}
+# sorry i messed up earlier lol. just renaming columns 
+country_data |>
+  rename(
+    avg_temperature_celsius = "temperature_celsius",
+    avg_elevation_meters = "elevation_meters"
+  ) -> country_data
+```
+
+```{r}
+# I did a quick google seach to not leave these empty and am now mutating them into the data
+# this is why I left it NA before so I could then do this (implement correct data)
+country_data |>
+  mutate(
+    avg_temperature_celsius = case_when(
+      country == "Russian Federation" ~ -2,
+      country == "Iran, Islamic Rep." ~ 19,
+      country == "Czechia" ~ 8,
+      TRUE ~ avg_temperature_celsius),
+    avg_elevation_meters = case_when(
+      country == "Russian Federation" ~ 600,
+      country == "Iran, Islamic Rep." ~ 1305,
+      country == "Czechia" ~ 600,
+      TRUE ~ avg_elevation_meters)
+  ) -> country_data
+```
+
+# 3. UFC Events Data (web-scraping)
+
+```{r}
+#Here I am webscraping UFC events data
+read_html("https://en.wikipedia.org/wiki/List_of_UFC_events") |>
+  html_node("table#Past_events") |> # we specifically get the second table which is identified as Past_events
+  html_table() -> ufc_events
+```
+
+```{r}
+# Here I do seperate the 'event' into which 2 fighters went at it. (Both last names)
+#Also some fights were rematches and names as 'II' or 'III' so I removed that
+ufc_events|>
+   separate(Event, into = c("event_category", "fighters"), sep = ":", extra = "merge") |>
+  separate(fighters, into = c("fighter_1", "fighter_2"), sep = "vs.", extra = "merge") |>
+  mutate(
+    fighter_1 = str_remove_all(fighter_1, "\\d+"),  #remove any digits from fighter_1
+    fighter_2 = str_remove_all(fighter_2, "\\d+")   #remove any digits from fighter_2
+  )  ->ufc_events
+```
+
+```{r}
+# Here I seperate location into city_state and country (foreign key for other tables)
+# I then seperated city_state into city and state_province. If there was no state then it jsut filled with NA
+ufc_events |>
+  separate(
+    Location, into = c("city_state", "country"), sep = ", (?=[^,]+$)", extra = "merge"
+    )|>
+  separate(
+    city_state, into = c("city", "state_province"), sep = ", ", extra = "merge", fill = "right") ->ufc_events
+
+```
+
+```{r}
+# Only chose the most important columns in my opinion, and moved columns around
+ufc_events |>
+  select(2:10) |>
+  rename(date = Date,
+         venue = Venue,
+         attendance = Attendance) -> ufc_events
+```
+
+```{r}
+# attendance was not numeric and a string with commas, here I used regex to remove that and then convert it into numerical data
+ufc_events |>
+  mutate(attendance = na_if(attendance, "—")) |>
+  mutate(attendance = str_extract(attendance, "\\d+(,\\d+)*"), #takes only num value w commas
+         attendance = str_replace_all(attendance, ",", ""),    #removing commas
+         attendance = as.numeric(attendance)) -> ufc_events# making it numeric
+```
+
+```{r}
+# Here again I change U.S and U.K. into rows that would be more beneficial for other tables
+ufc_events |>
+  mutate(country = case_when(
+    country == "UK" ~ "United Kingdom",
+    country == "U.S." ~ "United States",
+    TRUE ~ country)) -> ufc_events
+```
+
+# Saving tables as a CSV
+
+```{r}
+write_csv(ufc_fighters, "ufc_fighters_stats.csv")
+```
+
+```{r}
+write_csv(country_data, "ufc_country_data.csv")
+```
+
+```{r}
+write_csv(ufc_events, "ufc_events_stats.csv")
+```

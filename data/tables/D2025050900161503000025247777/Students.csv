@@ -1,0 +1,21 @@
+StudentID,FirstName,LastName,DateOfBirth,Address,ContactNumber,Email
+1,John,Makori,1998-05-15,"Nairobi, Kenya",+254712345678,john.makori@example.com
+2,Amina,Njoroge,1999-08-22,"Nakuru, Kenya",+254723456789,amina.njoroge@example.com
+3,Daniel,Girma,1997-11-05,"Addis Ababa, Ethiopia",+251911234567,daniel.girma@example.com
+4,Sara,Kibet,1998-03-30,"Kampala, Uganda",+256755678901,sara.kibet@example.com
+5,Moses,Kimani,1999-06-12,"Dar es Salaam, Tanzania",+255712345678,moses.kimani@example.com
+6,Zainab,Said,1997-09-18,"Zanzibar, Tanzania",+255765432109,zainab.said@example.com
+7,Patrick,Kamau,1998-01-25,"Nairobi, Kenya",+254700123456,patrick.kamau@example.com
+8,Aisha,Mohammed,1999-04-03,"Mombasa, Kenya",+254711223344,aisha.mohammed@example.com
+9,Abdi,Nur,1997-07-17,"Mogadishu, Somalia",+252612345678,abdi.nur@example.com
+10,Elsa,Makamba,1998-10-20,"Kigali, Rwanda",+250782345678,elsa.makamba@example.com
+11,Omar,Kassim,1999-01-08,"Djibouti City, Djibouti",+25366123456,omar.kassim@example.com
+12,Grace,Wambui,1997-04-14,"Nairobi, Kenya",+254733987654,grace.wambui@example.com
+13,Yohannes,Tesfaye,1998-07-02,"Addis Ababa, Ethiopia",+251922345678,yohannes.tesfaye@example.com
+14,Halima,Abdi,1999-10-11,"Hargeisa, Somaliland",+252634567890,halima.abdi@example.com
+15,Robert,Oduor,1997-01-28,"Kisumu, Kenya",+254710123456,robert.oduor@example.com
+16,Nadia,Gebre,1998-04-09,"Asmara, Eritrea",+291712345678,nadia.gebre@example.com
+17,Suleiman,Ali,1999-07-07,"Mogadishu, Somalia",+252612345678,suleiman.ali@example.com
+18,Jane,Muthoni,1997-10-19,"Nairobi, Kenya",+254799876543,jane.muthoni@example.com
+19,Tewodros,Berhanu,1998-01-14,"Addis Ababa, Ethiopia",+251933456789,tewodros.berhanu@example.com
+20,Fatima,Ali,1998-02-10,"Mogadishu, Somalia",+252612345678,fatima.ali@example.com

@@ -1,0 +1,11 @@
+TeacherID,FirstName,LastName,DateOfBirth,Address,ContactNumber,Email
+1,David,Mwangi,1980-03-15,"Nairobi, Kenya",+254720123456,david.mwangi@example.com
+2,Grace,Kimani,1985-06-22,"Kampala, Uganda",+256755678901,grace.kimani@example.com
+3,Mohammed,Abdi,1978-11-05,"Mogadishu, Somalia",+252634567890,mohammed.abdi@example.com
+4,Alice,Wambua,1982-02-28,"Dar es Salaam, Tanzania",+255712345678,alice.wambua@example.com
+5,Peter,Njoroge,1987-09-18,"Nakuru, Kenya",+254723456789,peter.njoroge@example.com
+6,Amina,Omar,1980-01-25,"Djibouti City, Djibouti",+25366123456,amina.omar@example.com
+7,Joseph,Kassim,1985-04-14,"Addis Ababa, Ethiopia",+251911234567,joseph.kassim@example.com
+8,Wanjiru,Kamau,1982-07-02,"Kigali, Rwanda",+250782345678,wanjiru.kamau@example.com
+9,Moses,Tewolde,1987-10-11,"Asmara, Eritrea",+291712345678,moses.tewolde@example.com
+10,Aisha,Said,1980-05-20,"Zanzibar, Tanzania",+255765432109,aisha.said@example.com

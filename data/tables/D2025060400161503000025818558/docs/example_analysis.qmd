@@ -1,0 +1,155 @@
+---
+title: "Example Analysis - UFC Database"
+author: "Frankie Noguera"
+format: html
+editor: visual
+---
+
+# Example Analysis Notebook
+
+### Welcome new Data Scientist, I am glad you took the time to look at my database. Here I will show you guide you through how to use my database. As well, I will show you how to answer some potential questions so you can be inspired and then give it a try! Let's get into it!
+
+## STOP! BEFORE MOVING ON, IMPORT DATASETS & PACKAGES:
+
+```{r}
+# Install packages
+install.packages("tidyverse") # include " "
+install.packages()
+```
+
+```{r}
+# Library packages in
+library(tidyverse) #Do not incoude " "
+```
+
+```{r}
+# Importing the datasets. Remember that the CSV's should be in the same directory or read it in the directory where you save your CSV's
+read_csv("ufc_fighters_stats.csv") -> ufc_fighters_stats #assign name you want for table
+read_csv("ufc_country_data.csv") -> ufc_country_data #assign name you want for table
+read_csv("ufc_events_stats.csv") -> ufc_events_stats #assign name you want for table
+```
+
+## ONE MORE STEP! LOL MY BAD! BUT ALWAYS OBSERVE YOUR DATASET AND TRY TO UNDERSTAND IT.
+
+```{r}
+ufc_fighters_stats
+```
+
+```{r}
+ufc_country_data
+```
+
+```{r}
+ufc_events_stats
+```
+
+### We will also be using ggplot(). What is ggplot?
+
+-   ggplot is an R package for creating visually appealing, customizable data visualizations. It uses a layered approach, where you define the data, map variables to visual properties (like x/y axes), and add layers (like points, lines, or bars). It’s part of the **tidyverse** and great for making charts like scatterplots, bar plots, and more.
+
+### How to use ggplot?
+
+#### first call on ggplot() then these are the parameters/arguments:
+
+#### data  - The dataset you want to observe  aes() -  Aesthetics. Inside input comparison of x and y data  geom_point() - What type of plot. In this case a point plot  geom_smooth() - Here we visualize the line of best fit to see the trend  labs()  - How we the user want to label the x, y and the title
+
+## 1. Question: Does a fighter's age impact their win percentage?
+
+Answer: Yes, the older the more L's. We see a clear negative trend with this scatter plot (sorry Mr. Tyson)
+
+```{r}
+ggplot(data = ufc_fighters_stats, aes(x = age, y = win_percent)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE) +
+  labs(title = "Win Percentage vs. Age", x = "Age", y = "Win Percentage")
+```
+
+## 2. Question: Which weight division has fighters with the highest number of wins?
+
+answer: looks like it's Heavyweight Division
+
+bonus: find out how many wins
+
+```{r}
+#this is a box plot and fill is what color we want the inside of our boxes to be. Since I put weight divsion it would make a different color per weight division
+ggplot(data = ufc_fighters_stats, aes(x =weight_division, y=wins, fill = weight_division)) +
+  geom_boxplot() +
+  coord_flip() +
+  labs(title = "Wins by Weight Division", x = "Weight Division", y ="Number of Wins")
+```
+
+## 3. Which country has the most amount of wins?
+
+answer: United States
+
+```{r}
+ufc_fighters_stats |> #loading in the data
+  group_by(country) |> #grouping data by the country
+  summarize(total_wins = sum(wins, na.rm = TRUE)) |> #here we create a new column "total_wins"
+  arrange(desc(total_wins)) -> country_wins #here we arrange it for highest wins on top
+```
+
+```{r}
+ggplot(country_wins, aes(x = country, y = total_wins)) + 
+  geom_col(fill = "blue") + #fill is what color we want to fill the columns with
+  coord_flip() + # swaps x and y axes for a horizontalchart
+  ggtitle("Total Wins by Country") + #the title will always be at the bottom
+  xlab("Country") + # remember since this is flipped this will be to the left
+  ylab("Total Wins") # since this is flipped it will be on the top
+```
+
+## 4. Which country has the highest total attendance across UFC events?
+
+```{r}
+# Here I am joining 2 tables by the country (ufc event and ufc conutry tables)
+ufc_events_stats |>
+  left_join(ufc_country_data, by = "country") -> event_country_data #saving result as this
+```
+
+```{r}
+event_country_data |>
+  group_by(country) |>
+  summarize(total_attendance = sum(attendance, na.rm = TRUE)) |> # creating a new column based on only the sum of the attendance by country
+  arrange(desc(total_attendance)) -> country_attendance #highest attendance/country first
+```
+
+```{r}
+ggplot(country_attendance, aes(x = country, y = total_attendance)) +
+  geom_point(size = 4, color = "darkblue") + #here we made a point plot to visualize
+  coord_flip() +
+  ggtitle("Total Attendance by Country") +
+  xlab("Country") +
+  ylab("Attendance")
+
+```
+
+## 5. Which country has the tallest average fighters in terms of height?
+
+answer: Austria
+
+```{r}
+# joining both fighters and country datasets
+ufc_fighters_stats |>
+  left_join(ufc_country_data, by = "country") -> fighters_country_join
+```
+
+```{r}
+fighters_country_join |>
+  group_by(country) |> #observing this by country
+  summarize(average_height = mean(height_ft, na.rm = TRUE)) |> #here we are creating a new column that finds the average height by country
+  arrange(desc(average_height)) -> average_height_by_country #from tallest to shortest then saving it in average_height_by_country
+```
+
+```{r}
+average_height_by_country |>
+  slice(1) #isolating row 1
+```
+
+```{r}
+ggplot(average_height_by_country, aes(x = country, y = average_height)) +
+  geom_bar(stat = "identity", fill = "red", width = 0.7) + # here we made a bar chart and made it's width slimmer to be able to see most country names
+  coord_flip()+
+  ggtitle("Average Fighter Height by Country") +
+  xlab("Country") +
+  ylab("Average Height (ft)")
+```

@@ -1,0 +1,6 @@
+ProductID,ProductName,Category,Price,StockQuantity
+1001,Widget A,Widgets,100.0,10
+1002,Widget B,Widgets,150.0,0
+1003,Widget C,Gadgets,120.0,5
+1004,Widget D,Gadgets,90.0,0
+1005,Widget E,Tools,110.0,3

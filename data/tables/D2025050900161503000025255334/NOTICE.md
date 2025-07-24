@@ -1,0 +1,1 @@
+# PLEASE DOWNLOAD sales.csv from Kaggle: https://www.kaggle.com/datasets/andrexibiza/grocery-sales-dataset
