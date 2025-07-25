@@ -1,6 +1,6 @@
-# FalCon - Text2SQL Benchmark
+# Falcon - Text2SQL Benchmark
 
-**FalCon** is a continuously-evolving, high-quality benchmark for natural-language-to-SQL (NL2SQL) systems.  
+**Falcon** is a continuously-evolving, high-quality benchmark for natural-language-to-SQL (NL2SQL) systems.  
 The benchmark is designed to stress-test models under **complex, cross-domain analytical scenarios** with a special focus on:
 
 * SQL-computational difficulties – multi-table joins, nested CTEs, window functions, ranking, type casting, regular-expression filters …  
