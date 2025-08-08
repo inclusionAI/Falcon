@@ -24,49 +24,78 @@ Each domain is paired with question sets of **incremental difficulty levels** so
 ## Repository Layout
 
 ```
-text2sqlbench/
-├── data/
-│   ├── tables                      # source tables
-│   ├── benchmark_dataset.xlsx      # (core) questions + golden SQL + answers + metadata
-│   ├── table_relations.csv         # explicit relationships between tables
-│   ├── Table Relations.pdf         # ER diagrams for relational database   
-│   └── dataset_source.csv          # provenance of every table (Kaggle link etc.)
-├── examples/                       # sample loading / evaluation scripts (coming soon)
-└── README.md                       # this file
+FALCON/
+└── data/
+    ├── source/                     # raw tables for every dataset_id
+    │   └── 1/ , 2/ , 10/ …         # each sub-folder = one dataset
+    └── result/                     # benchmark resources & ground-truth
+        ├── sql/                    # final executable SQL, one file per question
+        │   ├── 1.sql
+        │   ├── 2.sql
+        │   └── …
+        ├── query_answer.jsonl      # canonical answers produced by the SQL
+        ├── questions.jsonl         # NL questions + dataset_id mapping
+        ├── table_relations.jsonl   # PK / FK graph for every dataset
+        └── dataset_source.csv      # provenance / download URL of each dataset
 ```
 
-### 1. `benchmark_dataset.xlsx`  (the benchmark itself)
+### 1. `result/sql/`  – ground-truth SQL
 
-The file now uses **five mandatory columns**; any additional empty columns are ignored.
+* File name pattern: `question_id.sql`  
+* Example files: `1.sql`, `2.sql`, …
 
-| Column Name        | Description                                                                               |
-|--------------------|-------------------------------------------------------------------------------------------|
-| `id`               | Question id (float in the original design, e.g. `1.00`)                                   |
-| `dataset_id`       | Identifier that maps to a specific schema / domain (same id appears in `table_relations.csv` and `dataset_source.csv`) |
-| `question`        | Chinese natural-language question (note the deliberate typo that matches the file)        |
-| `sql_answer`       | Ground-truth executable SQL (MaxCompute syntax)                                           |
-| `query_answer`     | Canonical answer returned by the SQL, stored as a JSON string                             |
+### 2. `query_answer.jsonl`  – canonical answers
 
+Each line is a JSON object:
 
-### 2. `table_relations.csv`  (schema graph)
+```json
+{"question_id": "1", "answer": {"Gender": ["Female", "Male"], "AvgAge": ["27.7333","27.84"]}}
+{"question_id": "2", "answer": {"objective": ["Capital Appreciation","Growth","Income"], "GovBondTotal": ["117","15","54"]}}
+```
 
-Example:
+### 3. `questions.jsonl`  – natural-language questions
 
-| dataset_id                              | relationships                                  |
-|--------------------------------------|------------------------------------------------|
-| `D2025041800161503000024863833`      | `indexData` **many-to-one** `indexInfo`        |
+```json
+{"question_id": "1", "question": "What is the average age for each gender, ordered by age?", "dataset_id": "1"}
+{"question_id": "2", "question": "What is the total amount of government bonds for each investment objective, ordered by objective name?", "dataset_id": "1"}
+```
 
-Each row describes **one pairwise relationship**.  
-The file helps NL2SQL parsers avoid guessing FK/PK constraints.
+Fields  
+| Field          | Meaning                                |
+|----------------|----------------------------------------|
+| `question_id`  | unique identifier of the question      |
+| `question`     | Chinese NL query (UTF-8 encoded)       |
+| `dataset_id`   | which schema / table folder to use     |
 
-### 3. `dataset_source.csv`  (data provenance)
+### 4. `table_relations.jsonl`  – schema graph
 
-Example:
+```json
+{"dataset_id": "10", "tables": {"indexInfo":  {"pk": ["index"], "fk": {}},
+                                "indexData": {"pk": [],       "fk": {"index": "indexInfo.index"}}}}
+{"dataset_id": "11", "tables": {"price": {"pk": ["name"], "fk": {}},
+                                "sales": {"pk": [],       "fk": {"product_name": "price.name"}}}}
+```
 
-| dataset_id                              | source (Kaggle URL or internal location) |
-|--------------------------------------|-------------------------------------------|
-| `D2025050900161503000025249569`      | https://www.kaggle.com/xxx/finance-data  |
+One line per `dataset_id`, covering all tables and their PK/FK relationships.
 
+### 5. `dataset_source.csv`  – data provenance
+
+| dataset_id | source URL |
+|------------|------------|
+| 1 | https://www.kaggle.com/datasets/nitindatta/finance-data?select=Finance_data.csv |
+| 2 | https://www.kaggle.com/datasets/krishnaraj30/finance-loan-approval-prediction-data?select=test.csv |
+
+### 6. `data/source/`  – original tables
+
+Each sub-folder is named after a `dataset_id` and contains the raw CSV/Parquet files used to build the benchmark.
+
+---
+
+Key changes compared to the previous structure  
+* The old `benchmark_dataset.xlsx` is split into several machine-friendly files (`questions.jsonl`, `query_answer.jsonl`, individual `.sql` files, etc.).  
+* All ground-truth SQL moves to `result/sql/`.  
+* `table_relations.jsonl` replaces the previous `table_relations.csv`.  
+* All benchmark results and metadata now live under `data/result/`.
 
 ---
 
