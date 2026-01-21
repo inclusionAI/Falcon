@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Falcon: Text-to-SQL Benchmark</title>
-    <meta name="description" content="Falcon is a continuously-evolving, high-quality benchmark for natural-language-to-SQL (Text2SQL) systems.">
+    <title>Falcon: Enterprise-Grade Text-to-SQL Benchmark</title>
+    <meta name="description" content="A Comprehensive Chinese Text-to-SQL Benchmark for Complex, Cross-Domain Analytical Scenarios.">
     
-    <!-- ✅ 浏览器标签页图标 (Favicon) -->
+    <!-- ✅ Favicon -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦅</text></svg>">
 
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -23,13 +23,24 @@
         } 
         
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
             line-height: 1.6;
             color: var(--dark);
             margin: 0;
             padding: 0;
             scroll-behavior: smooth;
         }
+
+        /* --- 语言切换逻辑 --- */
+        /* 默认隐藏中文 */
+        [lang="zh"] { display: none; }
+        
+        /* 当 body 有 .lang-zh 类时，隐藏英文，显示中文 */
+        body.lang-zh [lang="en"] { display: none !important; }
+        body.lang-zh [lang="zh"] { display: block; }
+        body.lang-zh span[lang="zh"], 
+        body.lang-zh strong[lang="zh"],
+        body.lang-zh a[lang="zh"] { display: inline; }
 
         /* 导航栏 */
         .navbar {
@@ -64,61 +75,95 @@
             gap: 8px;
         }
 
+        .nav-links {
+            display: flex;
+            align-items: center;
+        }
+
         .nav-links a {
             margin-left: 20px;
             text-decoration: none;
             color: #57606a;
             font-size: 0.95rem;
             font-weight: 500;
+            cursor: pointer;
         }
         .nav-links a:hover { color: var(--primary); }
+
+        /* 语言切换按钮样式 */
+        .lang-btn {
+            margin-left: 20px;
+            padding: 4px 12px;
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            font-size: 0.85rem;
+            background: white;
+            color: var(--dark);
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .lang-btn:hover {
+            border-color: var(--primary);
+            color: var(--primary);
+        }
 
         /* Hero 区域 */
         .hero {
             background: linear-gradient(to bottom, #ffffff, var(--light));
-            padding: 5rem 0;
+            padding: 4rem 0 5rem;
             text-align: center;
             border-bottom: 1px solid var(--border);
         }
 
         .hero h1 {
-            font-size: 3rem;
-            margin-bottom: 1rem;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
             color: var(--dark);
             display: flex;
             align-items: center;
             justify-content: center;
             gap: 15px;
+            flex-wrap: wrap;
         }
 
-        .hero-icon {
-            display: inline-block;
-            transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            cursor: default;
-        }
-        
-        .hero-icon:hover { transform: scale(1.4); }
-
-        .hero p {
+        .hero-subtitle {
             font-size: 1.25rem;
             color: #57606a;
-            max-width: 700px;
-            margin: 0 auto 2rem;
+            max-width: 800px;
+            margin: 0.5rem auto 1.5rem;
+            font-weight: 300;
+        }
+
+        .badges {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 2rem;
+            align-items: center;
+        }
+        
+        .badges svg {
+            display: block;
+            height: 20px;
         }
 
         .btn-group {
             display: flex;
             gap: 15px;
             justify-content: center;
-            flex-wrap: wrap; /* 防止小屏幕按钮溢出 */
+            flex-wrap: wrap;
         }
 
         .btn {
-            padding: 12px 24px;
+            padding: 10px 20px;
             border-radius: 6px;
             text-decoration: none;
             font-weight: 600;
             transition: all 0.2s;
+            font-size: 0.95rem;
         }
 
         .btn-primary {
@@ -143,18 +188,19 @@
             padding-bottom: 0.5rem;
             margin-bottom: 1.5rem;
             font-size: 1.75rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
         }
 
-        h3 { font-size: 1.25rem; margin-bottom: 0.5rem; }
+        h3 { font-size: 1.25rem; margin-bottom: 0.5rem; color: var(--dark); }
 
         /* 链接通用样式 */
         a.text-link {
             color: var(--primary);
             text-decoration: none;
         }
-        a.text-link:hover {
-            text-decoration: underline;
-        }
+        a.text-link:hover { text-decoration: underline; }
 
         /* --- 排行榜样式 --- */
         .table-wrapper {
@@ -185,27 +231,9 @@
             white-space: nowrap;
         }
 
-        /* 模型列样式 */
-        .model-cell {
-            display: flex;
-            flex-direction: column;
-        }
-        
-        .model-name {
-            font-weight: 600;
-            color: var(--dark);
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
+        .model-name { font-weight: 600; color: var(--dark); }
+        .model-meta { font-size: 0.8rem; color: #656d76; display: block; margin-top: 2px; }
 
-        .model-meta {
-            font-size: 0.8rem;
-            color: #656d76;
-            margin-top: 4px;
-        }
-
-        /* 标签样式 */
         .tag {
             display: inline-block;
             padding: 2px 6px;
@@ -213,29 +241,25 @@
             font-size: 0.7rem;
             font-weight: 600;
             line-height: 1;
+            margin-left: 6px;
+            vertical-align: middle;
         }
         .tag-sota { background: #dafbe1; color: #1a7f37; border: 1px solid rgba(26,127,55,0.2); }
         .tag-new { background: #ddf4ff; color: #0969da; border: 1px solid rgba(9,105,218,0.2); } 
 
-        /* 排名样式 */
         .rank-cell { font-weight: 700; color: #6e7781; text-align: center; width: 60px; }
         .rank-1 { background-color: var(--gold-bg) !important; }
         .rank-2 { background-color: var(--silver-bg) !important; }
         .rank-3 { background-color: var(--bronze-bg) !important; }
 
-        /* 分数样式 */
         .score-primary { font-weight: 700; color: var(--dark); }
         .score-secondary { color: #656d76; font-size: 0.85rem; }
 
-        tr:last-child td { border-bottom: none; }
-        tbody tr:hover { background-color: #fafafa; }
-
-        /* --- 其他板块样式 --- */
+        /* --- 特性卡片 --- */
         .features-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            margin-top: 2rem;
+            gap: 1.5rem;
         }
 
         .feature-card {
@@ -243,9 +267,14 @@
             border: 1px solid var(--border);
             border-radius: 8px;
             padding: 1.5rem;
+            transition: transform 0.2s;
         }
-        .feature-card h3 { margin-top: 0; color: var(--primary); }
+        .feature-card:hover { border-color: var(--primary); }
+        .feature-card h3 { color: var(--primary); margin-top: 0; }
+        .feature-card ul { padding-left: 1.2rem; color: #57606a; }
+        .feature-card li { margin-bottom: 0.5rem; }
 
+        /* --- 代码块 --- */
         pre {
             background: var(--code-bg);
             padding: 1.5rem;
@@ -254,25 +283,38 @@
             font-size: 0.9rem;
             border: 1px solid var(--border);
             font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+            margin: 1rem 0;
         }
 
         .code-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 0.5rem;
             font-weight: 600;
             color: #57606a;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
         }
 
-        .data-details {
+        /* --- 评估方法 --- */
+        .method-container {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 2rem;
         }
-        
-        .file-tree {
-            line-height: 1.5;
+        .method-box {
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.5rem;
+        }
+        .method-step {
+            margin-bottom: 1rem;
+        }
+        .method-step strong { display: block; color: var(--dark); margin-bottom: 0.25rem; }
+        .method-step code { 
+            background: var(--silver-bg); 
+            padding: 2px 5px; 
+            border-radius: 4px; 
+            font-size: 0.85em; 
+            font-family: monospace;
         }
 
         footer {
@@ -286,9 +328,10 @@
         } 
 
         @media (max-width: 768px) {
-            .nav-links { display: none; }
-            .hero h1 { font-size: 2rem; flex-direction: column; }
-            .data-details { grid-template-columns: 1fr; }
+            .nav-links a { display: none; } /* 移动端隐藏普通链接 */
+            .nav-links .lang-btn { display: flex; margin-left: auto; } /* 保留切换按钮 */
+            .hero h1 { font-size: 2rem; }
+            .method-container { grid-template-columns: 1fr; }
             th, td { padding: 10px; }
         }
     </style>
@@ -299,47 +342,224 @@
     <div class="container nav-content">
         <a href="#" class="logo">🦅 Falcon</a>
         <div class="nav-links">
-            <a href="#leaderboard">Leaderboard</a>
-            <a href="#submission-helper">Submission</a>
-            <a href="#about">About</a>
-            <a href="#data">Data</a>
-            <a href="#features">Features</a>
+            <a href="#introduction">
+                <span lang="en">Introduction</span>
+                <span lang="zh">项目简介</span>
+            </a>
+            <a href="#structure">
+                <span lang="en">Structure</span>
+                <span lang="zh">数据结构</span>
+            </a>
+            <a href="#leaderboard">
+                <span lang="en">Leaderboard</span>
+                <span lang="zh">排行榜</span>
+            </a>
+            <a href="#getting-started">
+                <span lang="en">Getting Started</span>
+                <span lang="zh">快速开始</span>
+            </a>
+            <a href="#citation">
+                <span lang="en">Citation</span>
+                <span lang="zh">引用</span>
+            </a>
             <a href="https://github.com/eosphoros-ai/Falcon" target="_blank">GitHub</a>
+            
+            <button class="lang-btn" onclick="toggleLanguage()">
+                <span lang="en">🇨🇳 中文</span>
+                <span lang="zh">🇺🇸 English</span>
+            </button>
         </div>
     </div>
 </nav> 
 
 <div class="hero">
     <div class="container">
-        <h1><span class="hero-icon">🦅</span> Falcon Benchmark</h1>
-        <p>A continuously-evolving, high-quality benchmark designed to stress-test Text-to-SQL models under complex, cross-domain analytical scenarios.</p>
+        <h1>
+            <span lang="en">🦅 Falcon: Enterprise-Grade Text-to-SQL Benchmark</span>
+            <span lang="zh">🦅 Falcon：企业级 Text-to-SQL 基准测试</span>
+        </h1>
+        <p class="hero-subtitle">
+            <span lang="en">A Comprehensive Chinese Text-to-SQL Benchmark for Complex, Cross-Domain Analytical Scenarios</span>
+            <span lang="zh">面向复杂跨领域分析场景的综合性中文 Text-to-SQL 基准测试</span>
+        </p>
+        
+        <div class="badges">
+            <!-- License: Apache 2.0 SVG -->
+            <a href="LICENSE">
+                <svg xmlns="http://www.w3.org/2000/svg" width="124" height="20" role="img"><title>License: Apache 2.0</title><linearGradient id="s_lic" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1" /><stop offset="1" stop-opacity=".1" /></linearGradient><clipPath id="r_lic"><rect width="124" height="20" rx="3" fill="#fff" /></clipPath><g clip-path="url(#r_lic)"><rect width="51" height="20" fill="#555" /><rect x="51" width="73" height="20" fill="#007ec6" /><rect width="124" height="20" fill="url(#s_lic)" /></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110"><text x="265" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="410">License</text><text x="265" y="140" transform="scale(.1)" fill="#fff" textLength="410">License</text><text x="865" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="630">Apache 2.0</text><text x="865" y="140" transform="scale(.1)" fill="#fff" textLength="630">Apache 2.0</text></g></svg>
+            </a>
+            <!-- arXiv: 2510.24762 SVG -->
+            <a href="https://arxiv.org/abs/2510.24762">
+                <svg xmlns="http://www.w3.org/2000/svg" width="116" height="20" role="img"><title>arXiv: 2510.24762</title><linearGradient id="s_arx" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1" /><stop offset="1" stop-opacity=".1" /></linearGradient><clipPath id="r_arx"><rect width="116" height="20" rx="3" fill="#fff" /></clipPath><g clip-path="url(#r_arx)"><rect width="39" height="20" fill="#b31b1b" /><rect x="39" width="77" height="20" fill="#b31b1b" /><rect width="116" height="20" fill="url(#s_arx)" /></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110"><text x="205" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="290">arXiv</text><text x="205" y="140" transform="scale(.1)" fill="#fff" textLength="290">arXiv</text><text x="765" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="670">2510.24762</text><text x="765" y="140" transform="scale(.1)" fill="#fff" textLength="670">2510.24762</text></g></svg>
+            </a>
+        </div>
+
         <div class="btn-group">
-            <a href="https://github.com/eosphoros-ai/Falcon" class="btn btn-primary">View on GitHub</a>
-            <a href="https://arxiv.org/abs/2510.24762" class="btn btn-outline">Read Paper</a>
-            <a href="https://docs.google.com/document/d/16KWw1GjrF6aUwumQxxsi_N3GEB5LPzzzHSqHsBE9TBw/edit?usp=sharing" target="_blank" class="btn btn-outline">Submission Guidelines</a>
+            <a href="https://github.com/eosphoros-ai/Falcon" class="btn btn-primary">
+                <span lang="en">View on GitHub</span>
+                <span lang="zh">访问 GitHub</span>
+            </a>
+            <a href="https://arxiv.org/abs/2510.24762" class="btn btn-outline">
+                <span lang="en">Read Paper</span>
+                <span lang="zh">阅读论文</span>
+            </a>
+            <a href="https://docs.google.com/document/d/16KWw1GjrF6aUwumQxxsi_N3GEB5LPzzzHSqHsBE9TBw/edit?usp=sharing" target="_blank" class="btn btn-outline">
+                <span lang="en">Submission Guidelines</span>
+                <span lang="zh">提交指南</span>
+            </a>
         </div>
     </div>
 </div> 
 
 <div class="container">
     
+    <section id="introduction">
+        <h2>
+            <span lang="en">📖 Introduction</span>
+            <span lang="zh">📖 项目简介</span>
+        </h2>
+        <p lang="en">
+            Falcon is a continuously evolving, high-quality benchmark designed to bridge the gap between academic Text-to-SQL datasets and real-world enterprise requirements. Unlike traditional benchmarks, Falcon focuses on <strong>MaxCompute/Hive dialects</strong> and stresses models with complex SQL patterns and linguistic ambiguities common in production environments.
+        </p>
+        <p lang="zh">
+            Falcon 是一个持续迭代的高质量基准测试，旨在弥合学术界 Text-to-SQL 数据集与真实企业需求之间的差距。与传统基准测试不同，Falcon 专注于 <strong>MaxCompute/Hive 方言</strong>，并着重测试模型在生产环境中常见的复杂 SQL 模式和语言歧义处理能力。
+        </p>
+
+        <div class="features-grid">
+            <div class="feature-card">
+                <h3>
+                    <span lang="en">SQL Complexity</span>
+                    <span lang="zh">SQL 复杂度</span>
+                </h3>
+                <ul>
+                    <li lang="en">Heavy focus on multi-table joins (77% of samples)</li>
+                    <li lang="zh">重点关注多表关联（77% 的样本）</li>
+                    
+                    <li lang="en">Nested CTEs (Common Table Expressions)</li>
+                    <li lang="zh">嵌套 CTE（公用表表达式）</li>
+                    
+                    <li lang="en">Window functions & Ranking</li>
+                    <li lang="zh">窗口函数与排名计算</li>
+                    
+                    <li lang="en">Type casting & Regular-expression filters</li>
+                    <li lang="zh">类型转换与正则表达式过滤</li>
+                </ul>
+            </div>
+            <div class="feature-card">
+                <h3>
+                    <span lang="en">Linguistic Challenges</span>
+                    <span lang="zh">语言挑战</span>
+                </h3>
+                <ul>
+                    <li lang="en">Chinese fuzzy time expressions</li>
+                    <li lang="zh">中文模糊时间表达</li>
+                    
+                    <li lang="en">Colloquial business jargon</li>
+                    <li lang="zh">口语化业务术语</li>
+                    
+                    <li lang="en">Ellipsis (omitted information)</li>
+                    <li lang="zh">省略表达（信息缺失）</li>
+                    
+                    <li lang="en">Multi-intent questions</li>
+                    <li lang="zh">多意图复杂提问</li>
+                </ul>
+            </div>
+            <div class="feature-card">
+                <h3>
+                    <span lang="en">Enterprise Scale</span>
+                    <span lang="zh">企业级规模</span>
+                </h3>
+                <ul>
+                    <li lang="en">Schemas involve denormalized fields</li>
+                    <li lang="zh">包含非规范化字段的 Schema</li>
+                    
+                    <li lang="en">Implicit foreign keys</li>
+                    <li lang="zh">隐式外键关系</li>
+                    
+                    <li lang="en">Domain-specific synonyms</li>
+                    <li lang="zh">领域特定同义词</li>
+                    
+                    <li lang="en">Real-world "dirty" data scenarios</li>
+                    <li lang="zh">真实世界的“脏数据”场景</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="structure">
+        <h2>
+            <span lang="en">📂 Dataset Structure</span>
+            <span lang="zh">📂 数据集结构</span>
+        </h2>
+        <p lang="en">The Falcon benchmark is split into a <strong>Development Set</strong> (with ground truth) and a <strong>Test Set</strong> (blind). The repository structure is designed for easy integration with evaluation pipelines.</p>
+        <p lang="zh">Falcon 基准测试分为 <strong>开发集 (Development Set)</strong>（包含标准答案）和 <strong>测试集 (Test Set)</strong>（盲测）。仓库结构设计便于与评估流程集成。</p>
+        
+        <div class="code-header">
+            <span lang="en">Repository Layout</span>
+            <span lang="zh">仓库目录结构</span>
+        </div>
+        <pre><code>FALCON/
+├── dev_data/                   # Development Set (开发集)
+│   ├── dev.json                # Questions, SQL, and Execution Results
+│   ├── tables.json             # Schema definitions (PK/FK/Columns)
+│   └── dev_databases/          # SQLite/CSV source files for execution
+│
+├── test_data/                  # Test Set (测试集)
+│   ├── test.json               # Questions ONLY (Ground truth hidden)
+│   ├── tables.json             # Schema definitions
+│   └── test_databases/         # SQLite/CSV source files
+│
+├── simple_agent/               # [NEW] Lightweight Evaluation Scripts (轻量级评估脚本)
+│   ├── comparator.py           # SQL execution result comparator
+│   ├── utils.py                # Utilities for SQL extraction
+│   └── simple_benchmark.py     # Main script to run dev/test evaluation
+│
+├── submission/                 # [NEW] Submission Helpers & Examples (提交辅助工具)
+│   ├── example_submission_csv/ # Example CSV files for leaderboard
+│   ├── example_submission_sql/ # Example SQL files for leaderboard
+│   └── format_submission.py    # Helper to convert DB-GPT Excel output
+│
+└── README.md</code></pre>
+    </section>
+
     <section id="leaderboard">
-        <h2>🏆 Leaderboard</h2>
-        <p>
+        <h2>
+            <span lang="en">🏆 Leaderboard</span>
+            <span lang="zh">🏆 排行榜</span>
+        </h2>
+        <p lang="en">
             Current evaluation results on the Falcon benchmark (500 Questions). <br>
-            Sorted by <strong>Execution Accuracy (EX)</strong>. "VES" denotes Valid Executable SQL rate. <br>
-            To submit your results, please refer to the <a href="https://docs.google.com/document/d/16KWw1GjrF6aUwumQxxsi_N3GEB5LPzzzHSqHsBE9TBw/edit?usp=sharing" target="_blank" class="text-link">Submission Guidelines</a>.
+            Sorted by <strong>Execution Accuracy (EX)</strong>. "VES" denotes Valid Executable SQL rate.
+        </p>
+        <p lang="zh">
+            Falcon 基准测试（500题）的当前评估结果。<br>
+            按 <strong>执行准确率 (Execution Accuracy, EX)</strong> 排序。"VES" 代表有效可执行 SQL 比率。
         </p>
         
         <div class="table-wrapper">
             <table>
                 <thead>
                     <tr>
-                        <th class="rank-cell">Rank</th>
-                        <th>Model</th>
-                        <th>Execution Accuracy (EX)</th>
-                        <th>Executable Rate (VES)</th>
-                        <th>Date</th>
+                        <th class="rank-cell">
+                            <span lang="en">Rank</span>
+                            <span lang="zh">排名</span>
+                        </th>
+                        <th>
+                            <span lang="en">Model</span>
+                            <span lang="zh">模型</span>
+                        </th>
+                        <th>
+                            <span lang="en">Execution Accuracy (EX)</span>
+                            <span lang="zh">执行准确率 (EX)</span>
+                        </th>
+                        <th>
+                            <span lang="en">Executable Rate (VES)</span>
+                            <span lang="zh">可执行率 (VES)</span>
+                        </th>
+                        <th>
+                            <span lang="en">Date</span>
+                            <span lang="zh">日期</span>
+                        </th>
                     </tr>
                 </thead>
                 <tbody>
@@ -347,10 +567,8 @@
                     <tr class="rank-1">
                         <td class="rank-cell">1 🏆</td>
                         <td>
-                            <div class="model-cell">
-                                <span class="model-name">Falcon-Agent + DeepSeek R1 <span class="tag tag-sota">SOTA</span></span>
-                                <span class="model-meta">Ant Group</span>
-                            </div>
+                            <span class="model-name">Falcon-Agent + DeepSeek R1 <span class="tag tag-sota">SOTA</span></span>
+                            <span class="model-meta">Ant Group</span>
                         </td>
                         <td>
                             <div class="score-primary">45.2%</div>
@@ -367,10 +585,8 @@
                     <tr class="rank-2">
                         <td class="rank-cell">2 🥈</td>
                         <td>
-                            <div class="model-cell">
-                                <span class="model-name">Falcon-Agent + o1</span>
-                                <span class="model-meta">Ant Group</span>
-                            </div>
+                            <span class="model-name">Falcon-Agent + o1</span>
+                            <span class="model-meta">Ant Group</span>
                         </td>
                         <td>
                             <div class="score-primary">43.0%</div>
@@ -387,10 +603,8 @@
                     <tr class="rank-3">
                         <td class="rank-cell">3 🥉</td>
                         <td>
-                            <div class="model-cell">
-                                <span class="model-name">Falcon-Agent + o3-mini</span>
-                                <span class="model-meta">Ant Group</span>
-                            </div>
+                            <span class="model-name">Falcon-Agent + o3-mini</span>
+                            <span class="model-meta">Ant Group</span>
                         </td>
                         <td>
                             <div class="score-primary">42.2%</div>
@@ -407,10 +621,8 @@
                     <tr>
                         <td class="rank-cell">4</td>
                         <td>
-                            <div class="model-cell">
-                                <span class="model-name">Falcon-Agent + Claude 3.7 Sonnet (Thinking) <span class="tag tag-new">NEW</span></span>
-                                <span class="model-meta">Ant Group</span>
-                            </div>
+                            <span class="model-name">Falcon-Agent + Claude 3.7 Sonnet (Thinking) <span class="tag tag-new">NEW</span></span>
+                            <span class="model-meta">Ant Group</span>
                         </td>
                         <td>
                             <div class="score-primary">41.0%</div>
@@ -427,10 +639,8 @@
                     <tr>
                         <td class="rank-cell">5</td>
                         <td>
-                            <div class="model-cell">
-                                <span class="model-name">Falcon-Agent + GPT4.1 (Preview)</span>
-                                <span class="model-meta">Ant Group</span>
-                            </div>
+                            <span class="model-name">Falcon-Agent + GPT4.1 (Preview)</span>
+                            <span class="model-meta">Ant Group</span>
                         </td>
                         <td>
                             <div class="score-primary">40.2%</div>
@@ -447,10 +657,8 @@
                     <tr>
                         <td class="rank-cell">6</td>
                         <td>
-                            <div class="model-cell">
-                                <span class="model-name">Falcon-Agent + Claude 3.7 Sonnet</span>
-                                <span class="model-meta">Ant Group</span>
-                            </div>
+                            <span class="model-name">Falcon-Agent + Claude 3.7 Sonnet</span>
+                            <span class="model-meta">Ant Group</span>
                         </td>
                         <td>
                             <div class="score-primary">40.0%</div>
@@ -467,10 +675,8 @@
                     <tr>
                         <td class="rank-cell">7</td>
                         <td>
-                            <div class="model-cell">
-                                <span class="model-name">Falcon-Agent + Qwen3-Coder-480B-Instruct</span>
-                                <span class="model-meta">Ant Group</span>
-                            </div>
+                            <span class="model-name">Falcon-Agent + Qwen3-Coder-480B-Instruct</span>
+                            <span class="model-meta">Ant Group</span>
                         </td>
                         <td>
                             <div class="score-primary">37.0%</div>
@@ -487,10 +693,8 @@
                     <tr>
                         <td class="rank-cell">8</td>
                         <td>
-                            <div class="model-cell">
-                                <span class="model-name">Falcon-Agent + Gemini 2.5 Pro</span>
-                                <span class="model-meta">Ant Group</span>
-                            </div>
+                            <span class="model-name">Falcon-Agent + Gemini 2.5 Pro</span>
+                            <span class="model-meta">Ant Group</span>
                         </td>
                         <td>
                             <div class="score-primary">36.8%</div>
@@ -503,34 +707,12 @@
                         <td>2025-09</td>
                     </tr>
 
-                    <!-- Rank 9: Gemini 2.5 Pro Reasoning -->
-                    <tr>
-                        <td class="rank-cell">9</td>
-                        <td>
-                            <div class="model-cell">
-                                <span class="model-name">Falcon-Agent + Gemini 2.5 Pro (Reasoning)</span>
-                                <span class="model-meta">Ant Group</span>
-                            </div>
-                        </td>
-                        <td>
-                            <div class="score-primary">34.8%</div>
-                            <div class="score-secondary">174 / 500</div>
-                        </td>
-                        <td>
-                            <div class="score-primary">82.4%</div>
-                            <div class="score-secondary">412 / 500</div>
-                        </td>
-                        <td>2025-09</td>
-                    </tr>
-
                     <!-- Rank 10: Llama 3.3-70B -->
                     <tr>
                         <td class="rank-cell">10</td>
                         <td>
-                            <div class="model-cell">
-                                <span class="model-name">Falcon-Agent + Llama 3.3 70B</span>
-                                <span class="model-meta">Ant Group</span>
-                            </div>
+                            <span class="model-name">Falcon-Agent + Llama 3.3 70B</span>
+                            <span class="model-meta">Ant Group</span>
                         </td>
                         <td>
                             <div class="score-primary">24.0%</div>
@@ -542,166 +724,78 @@
                         </td>
                         <td>2025-09</td>
                     </tr>
-
-                    <!-- Rank 11: DeepSeek-R1-Distill-Qwen-32B -->
-                    <tr>
-                        <td class="rank-cell">11</td>
-                        <td>
-                            <div class="model-cell">
-                                <span class="model-name">Falcon-Agent + DeepSeek-R1-Distill-Qwen-32B</span>
-                                <span class="model-meta">Ant Group</span>
-                            </div>
-                        </td>
-                        <td>
-                            <div class="score-primary">23.4%</div>
-                            <div class="score-secondary">117 / 500</div>
-                        </td>
-                        <td>
-                            <div class="score-primary">62.4%</div>
-                            <div class="score-secondary">312 / 500</div>
-                        </td>
-                        <td>2025-09</td>
-                    </tr>
-
-                    <!-- Rank 12: GPT-4o -->
-                    <tr>
-                        <td class="rank-cell">12</td>
-                        <td>
-                            <div class="model-cell">
-                                <span class="model-name">Falcon-Agent + GPT-4o</span>
-                                <span class="model-meta">Ant Group</span>
-                            </div>
-                        </td>
-                        <td>
-                            <div class="score-primary">23.4%</div>
-                            <div class="score-secondary">117 / 500</div>
-                        </td>
-                        <td>
-                            <div class="score-primary">62.0%</div>
-                            <div class="score-secondary">310 / 500</div>
-                        </td>
-                        <td>2025-09</td>
-                    </tr>
-
-                    <!-- Rank 13: qwen3-32B -->
-                    <tr>
-                        <td class="rank-cell">13</td>
-                        <td>
-                            <div class="model-cell">
-                                <span class="model-name">Falcon-Agent + Qwen3-32B</span>
-                                <span class="model-meta">Ant Group</span>
-                            </div>
-                        </td>
-                        <td>
-                            <div class="score-primary">20.4%</div>
-                            <div class="score-secondary">102 / 500</div>
-                        </td>
-                        <td>
-                            <div class="score-primary">49.4%</div>
-                            <div class="score-secondary">247 / 500</div>
-                        </td>
-                        <td>2025-09</td>
-                    </tr>
                 </tbody>
             </table>
         </div>
     </section>
 
-    <section id="about">
-        <h2>About Falcon</h2>
-        <p>
-            Falcon is built on public Kaggle datasets covering <strong>Finance, Internet, and Retail</strong> domains. 
-            The benchmark distinguishes itself by pairing each domain with question sets of <strong>incremental difficulty levels</strong>, allowing for a fine-grained measurement of model capabilities.
-        </p>
-        <p>
-            The current release includes 500 Chinese questions derived from Kaggle datasets.  Future updates will include questions focusing on fuzzy linguistic expressions and real-world production scenarios from Ant Group.
-        </p>
-    </section>
-
-    <section id="data">
-        <h2>📂 Data & Repository Structure</h2>
-        <p>The Falcon benchmark is divided into two main splits: a <strong>Development Set (200 questions)</strong> and a <strong>Test Set (300 questions)</strong>. The repository structure is designed for easy integration with evaluation pipelines.</p>
+    <section id="getting-started">
+        <h2>
+            <span lang="en">🚀 Getting Started</span>
+            <span lang="zh">🚀 快速开始</span>
+        </h2>
+        <p lang="en">We provide two methods for evaluating your models on the Falcon benchmark.</p>
+        <p lang="zh">我们提供两种方法来在 Falcon 基准上评估您的模型。</p>
         
-        <div class="data-details">
-            <div>
-                <h3>Repository Layout</h3>
-                <pre class="file-tree">FALCON/
-├── dev_data/                # Development Set (200 Samples)
-│   ├── dev.json             # Questions, SQL & Answers
-│   ├── tables.json          # Schema information
-│   └── db/                  # Database files (SQLite/CSV)
-│
-└── test_data/               # Test Set (300 Samples)
-    ├── test.json            # Questions ONLY (No SQL/Answer)
-    ├── tables.json          # Schema information
-    └── db/                  # Database files</pre>
-            </div>
-            <div>
-                <h3>Core File Formats</h3>
-                <p><strong>dev.json</strong> (in <code>dev_data/</code>)</p>
-                <pre>{
-  "question_id": "1",
-  "question": "What is the average age...?",
-  "sql": "SELECT avg(age) FROM ...",
-  "answer": [...],
-  "dataset_id": "1"
-}</pre>
-                <p><strong>test.json</strong> (in <code>test_data/</code>)</p>
-                <pre>{
-  "question_id": "201",
-  "question": "Show the total sales...",
-  "dataset_id": "10"
-  // Note: No 'sql' or 'answer' fields
-}</pre>
-            </div>
-        </div>
-    </section>
+        <div class="method-container">
+            <div class="method-box">
+                <h3>
+                    <span lang="en">Method 1: Script-based</span>
+                    <span lang="zh">方法 1：脚本评估</span>
+                </h3>
+                <p lang="en">Use the lightweight <code>simple_agent</code> pipeline.</p>
+                <p lang="zh">使用轻量级的 <code>simple_agent</code> 流程。</p>
+                <div class="method-step">
+                    <strong lang="en">1. Clone & Install</strong>
+                    <strong lang="zh">1. 克隆与安装</strong>
+                    <code>pip install openai pandas tqdm</code>
+                </div>
+                <div class="method-step">
+                    <strong lang="en">2. Run Evaluation</strong>
+                    <strong lang="zh">2. 运行评估</strong>
+                    <pre style="margin: 0.5rem 0; padding: 0.8rem;"># For Development Set (开发集)
+python simple_benchmark.py dev
 
-    <section id="features">
-        <h2>Key Challenges</h2>
-        <div class="features-grid">
-            <div class="feature-card">
-                <h3>SQL-Computational Difficulties</h3>
-                <p>Designed to test complex logic including:</p>
-                <ul>
-                    <li>Multi-table joins</li>
-                    <li>Nested CTEs (Common Table Expressions)</li>
-                    <li>Window functions & Ranking</li>
-                    <li>Type casting & Regular-expression filters</li>
-                </ul>
+# For Test Set (测试集)
+python simple_benchmark.py test</pre>
+                </div>
+                <p style="font-size: 0.85rem; color: #666;">
+                    <span lang="en">Generates a <code>submission.zip</code> automatically.</span>
+                    <span lang="zh">自动生成 <code>submission.zip</code> 文件。</span>
+                </p>
             </div>
-            <div class="feature-card">
-                <h3>Linguistic Difficulties</h3>
-                <p>Focuses on natural language ambiguity:</p>
-                <ul>
-                    <li>Chinese fuzzy time expressions</li>
-                    <li>Colloquial business jargon</li>
-                    <li>Ellipsis (omitted information)</li>
-                    <li>Multi-intent questions</li>
-                </ul>
-            </div>
-        </div>
-    </section> 
 
-    <section id="submission-helper">
-        <h2>🛠 Submission Helper</h2>
-        <p>
-            For users using DB-GPT for testset execution, we provide a helper script <code>submission/submission_format.py</code>. This script converts your execution result Excel file into the required <code>submission.zip</code> format containing <code>result_sql</code> and <code>result_csv</code> folders.
-        </p>
-        
-        <div class="code-header">
-            <span>submission/submission_format.py</span>
+            <div class="method-box">
+                <h3>
+                    <span lang="en">Method 2: DB-GPT (GUI)</span>
+                    <span lang="zh">方法 2：DB-GPT (可视化)</span>
+                </h3>
+                <p lang="en">Evaluate Models and Agents via visual interface.</p>
+                <p lang="zh">通过可视化界面评估模型和智能体。</p>
+                <div class="method-step">
+                    <strong lang="en">1. Run Evaluation</strong>
+                    <strong lang="zh">1. 运行评估</strong>
+                    <span lang="en">Use the "Models Evaluation" module in DB-GPT to generate an Excel report.</span>
+                    <span lang="zh">使用 DB-GPT 中的“模型评估”模块生成 Excel 报告。</span>
+                </div>
+                <div class="method-step">
+                    <strong lang="en">2. Format Submission</strong>
+                    <strong lang="zh">2. 格式化提交</strong>
+                    <pre style="margin: 0.5rem 0; padding: 0.8rem;">python submission/format_submission.py \
+--input &lt;dbgpt_output.xlsx&gt; \
+--output submission.zip</pre>
+                </div>
+            </div>
         </div>
-        <pre><code>if __name__ == "__main__":
-    # Input file name - excel
-    INPUT_FILE = "execute.xlsx" # REPLACE WITH ACTUAL EXECEL FILE NAME
-    # Output file name - zip
-    OUTPUT_ZIP = "submission.zip"</code></pre>
     </section>
 
     <section id="citation">
-        <h2>📝 Citation</h2>
-        <p>For methodology, dataset construction details, and evaluation protocols, please refer to our arXiv paper:</p>
+        <h2>
+            <span lang="en">📝 Citation</span>
+            <span lang="zh">📝 引用</span>
+        </h2>
+        <p lang="en">If you use Falcon in your research or development, please cite our paper:</p>
+        <p lang="zh">如果您在研究或开发中使用了 Falcon，请引用我们的论文：</p>
         <pre><code>@article{falcon2025,
   title={Falcon: A Comprehensive Chinese Text-to-SQL Benchmark for Enterprise-Grade Evaluation},
   author={Luo, Wenzhen and Guan, Wei and Yao, Yifan and Pan, Yimin and Wang, Feng and Yu, Zhipeng and Wen, Zhe and Chen, Liang and Zhuang, Yihong},
@@ -715,11 +809,40 @@
 <footer>
     <div class="container">
         <p>
-            Licensed under Apache-2.0. <br>
-            Maintained by <a href="https://github.com/eosphoros-ai" style="color: #0969da; text-decoration: none;">eosphoros-ai</a>.
+            Licensed under <strong>Apache-2.0</strong>.<br>
+            Maintained by <a href="https://github.com/eosphoros-ai" class="text-link">Eosphoros AI</a>.
         </p>
     </div>
 </footer>
+
+<script>
+    function toggleLanguage() {
+        const body = document.body;
+        const isZh = body.classList.contains('lang-zh');
+        
+        if (isZh) {
+            body.classList.remove('lang-zh');
+            document.documentElement.lang = 'en';
+            localStorage.setItem('falcon-lang', 'en');
+        } else {
+            body.classList.add('lang-zh');
+            document.documentElement.lang = 'zh-CN';
+            localStorage.setItem('falcon-lang', 'zh');
+        }
+    }
+
+    // 初始化语言设置
+    (function() {
+        const savedLang = localStorage.getItem('falcon-lang');
+        const userLang = navigator.language || navigator.userLanguage;
+        
+        // 如果用户之前选择过中文，或者浏览器首选语言是中文，则默认显示中文
+        if (savedLang === 'zh' || (!savedLang && userLang.includes('zh'))) {
+            document.body.classList.add('lang-zh');
+            document.documentElement.lang = 'zh-CN';
+        }
+    })();
+</script>
 
 </body>
 </html>
