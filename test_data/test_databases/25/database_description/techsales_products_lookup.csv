@@ -1,0 +1,112 @@
+ProductKey,ProductSubcategoryKey,ProductName,ModelName,ProductDescription,ProductColor,ProductCost,ProductPrice
+100,5,Motorola MB8600 Cable Modem,Motorola MB8600 Cable Modem Model 1,A Motorola MB8600 Cable Modem for Motorola MB8600 Cable Modem Model 1,red,205.74,741.88
+101,5,D-Link DAP-1720 WiFi Range Extender,D-Link DAP-1720 WiFi Range Extender Model 2,A D-Link DAP-1720 WiFi Range Extender for D-Link DAP-1720 WiFi Range Extender Model 2,black,225.62,365.31
+102,1,Alienware m15,Alienware m15 Model 3,A Alienware m15 for Alienware m15 Model 3,white,445.26,741.01
+103,3,Harman Kardon SoundSticks III Speakers,Harman Kardon SoundSticks III Speakers Model 4,A Harman Kardon SoundSticks III Speakers for Harman Kardon SoundSticks III Speakers Model 4,black,215.52,795.94
+104,5,Google Wifi,Google Wifi Model 5,A Google Wifi for Google Wifi Model 5,red,365.62,532.34
+105,4,Native Union Belt Cable,Native Union Belt Cable Model 6,A Native Union Belt Cable for Native Union Belt Cable Model 6,black,376.99,212.92
+106,2,Google Nest Audio,Google Nest Audio Model 7,A Google Nest Audio for Google Nest Audio Model 7,red,155.4,537.26
+107,4,RavPower Portable Charger,RavPower Portable Charger Model 8,A RavPower Portable Charger for RavPower Portable Charger Model 8,red,386.06,265.97
+108,4,Jackery Solar Generator,Jackery Solar Generator Model 9,A Jackery Solar Generator for Jackery Solar Generator Model 9,red,243.91,787.16
+109,5,Linksys Velop Mesh WiFi Extender,Linksys Velop Mesh WiFi Extender Model 10,A Linksys Velop Mesh WiFi Extender for Linksys Velop Mesh WiFi Extender Model 10,black,331.28,708.0
+110,3,Dell UltraSharp Monitor,Dell UltraSharp Monitor Model 11,A Dell UltraSharp Monitor for Dell UltraSharp Monitor Model 11,white,394.16,397.43
+111,1,Dell Inspiron,Dell Inspiron Model 12,A Dell Inspiron for Dell Inspiron Model 12,black,230.11,708.29
+112,2,Ultimate Ears Wonderboom 2,Ultimate Ears Wonderboom 2 Model 13,A Ultimate Ears Wonderboom 2 for Ultimate Ears Wonderboom 2 Model 13,red,335.46,391.29
+113,2,JBL Flip 5,JBL Flip 5 Model 14,A JBL Flip 5 for JBL Flip 5 Model 14,black,454.39,381.98
+114,4,Samsung Wireless Charger,Samsung Wireless Charger Model 15,A Samsung Wireless Charger for Samsung Wireless Charger Model 15,black,372.33,230.92
+115,3,APC Back-UPS Pro UPS,APC Back-UPS Pro UPS Model 16,A APC Back-UPS Pro UPS for APC Back-UPS Pro UPS Model 16,white,239.54,498.83
+116,5,Ubiquiti EdgeRouter X Router,Ubiquiti EdgeRouter X Router Model 17,A Ubiquiti EdgeRouter X Router for Ubiquiti EdgeRouter X Router Model 17,red,360.68,422.32
+117,4,CyberPower CP1500PFCLCD UPS,CyberPower CP1500PFCLCD UPS Model 18,A CyberPower CP1500PFCLCD UPS for CyberPower CP1500PFCLCD UPS Model 18,white,188.74,274.92
+118,3,Tomtoc Laptop Shoulder Bag,Tomtoc Laptop Shoulder Bag Model 19,A Tomtoc Laptop Shoulder Bag for Tomtoc Laptop Shoulder Bag Model 19,red,148.69,768.47
+119,1,ASUS ZenBook,ASUS ZenBook Model 20,A ASUS ZenBook for ASUS ZenBook Model 20,white,175.86,484.68
+120,2,Beats Studio3,Beats Studio3 Model 21,A Beats Studio3 for Beats Studio3 Model 21,black,324.21,694.05
+121,2,Sony WH-1000XM4,Sony WH-1000XM4 Model 22,A Sony WH-1000XM4 for Sony WH-1000XM4 Model 22,white,313.52,651.61
+122,2,Bose SoundLink Revolve,Bose SoundLink Revolve Model 23,A Bose SoundLink Revolve for Bose SoundLink Revolve Model 23,black,175.35,676.01
+123,2,Audio-Technica ATH-M50x,Audio-Technica ATH-M50x Model 24,A Audio-Technica ATH-M50x for Audio-Technica ATH-M50x Model 24,black,454.91,283.52
+124,1,HP Spectre,HP Spectre Model 25,A HP Spectre for HP Spectre Model 25,black,316.06,760.21
+125,2,Bose SoundLink Revolve,Bose SoundLink Revolve Model 26,A Bose SoundLink Revolve for Bose SoundLink Revolve Model 26,white,342.8,278.72
+126,3,LaCie Rugged Portable Hard Drive,LaCie Rugged Portable Hard Drive Model 27,A LaCie Rugged Portable Hard Drive for LaCie Rugged Portable Hard Drive Model 27,white,143.91,251.86
+127,4,RavPower Portable Charger,RavPower Portable Charger Model 28,A RavPower Portable Charger for RavPower Portable Charger Model 28,red,316.17,560.7
+128,5,NETGEAR Nighthawk Cable Modem Router,NETGEAR Nighthawk Cable Modem Router Model 29,A NETGEAR Nighthawk Cable Modem Router for NETGEAR Nighthawk Cable Modem Router Model 29,red,348.77,669.13
+129,4,Apple MagSafe Charger,Apple MagSafe Charger Model 30,A Apple MagSafe Charger for Apple MagSafe Charger Model 30,red,343.59,359.2
+130,5,ASUS RP-AC1900 WiFi Range Extender,ASUS RP-AC1900 WiFi Range Extender Model 31,A ASUS RP-AC1900 WiFi Range Extender for ASUS RP-AC1900 WiFi Range Extender Model 31,red,449.36,536.85
+131,2,Plantronics BackBeat Go 810,Plantronics BackBeat Go 810 Model 32,A Plantronics BackBeat Go 810 for Plantronics BackBeat Go 810 Model 32,black,441.67,383.82
+132,4,Moshi Otto Q Wireless Charger,Moshi Otto Q Wireless Charger Model 33,A Moshi Otto Q Wireless Charger for Moshi Otto Q Wireless Charger Model 33,red,207.33,275.19
+133,1,ASUS ROG Zephyrus,ASUS ROG Zephyrus Model 34,A ASUS ROG Zephyrus for ASUS ROG Zephyrus Model 34,white,207.66,273.05
+134,3,Sennheiser HD 660 S Headphones,Sennheiser HD 660 S Headphones Model 35,A Sennheiser HD 660 S Headphones for Sennheiser HD 660 S Headphones Model 35,black,269.48,283.49
+135,3,Logitech MX Master 3 Mouse,Logitech MX Master 3 Mouse Model 36,A Logitech MX Master 3 Mouse for Logitech MX Master 3 Mouse Model 36,red,401.47,321.29
+136,4,Anker PowerLine+ Lightning Cable,Anker PowerLine+ Lightning Cable Model 37,A Anker PowerLine+ Lightning Cable for Anker PowerLine+ Lightning Cable Model 37,black,318.15,391.0
+137,5,Netgear Nighthawk Pro Gaming Router,Netgear Nighthawk Pro Gaming Router Model 38,A Netgear Nighthawk Pro Gaming Router for Netgear Nighthawk Pro Gaming Router Model 38,black,116.72,791.14
+138,3,Herschel Pop Quiz Backpack,Herschel Pop Quiz Backpack Model 39,A Herschel Pop Quiz Backpack for Herschel Pop Quiz Backpack Model 39,red,185.64,414.72
+139,2,Sony WH-1000XM4,Sony WH-1000XM4 Model 40,A Sony WH-1000XM4 for Sony WH-1000XM4 Model 40,red,468.86,500.37
+140,5,NETGEAR Nighthawk Cable Modem Router,NETGEAR Nighthawk Cable Modem Router Model 41,A NETGEAR Nighthawk Cable Modem Router for NETGEAR Nighthawk Cable Modem Router Model 41,white,172.42,572.92
+141,5,TP-Link Deco Mesh WiFi,TP-Link Deco Mesh WiFi Model 42,A TP-Link Deco Mesh WiFi for TP-Link Deco Mesh WiFi Model 42,red,494.66,690.21
+142,1,MacBook Pro,MacBook Pro Model 43,A MacBook Pro for MacBook Pro Model 43,black,176.67,738.93
+143,4,Belkin Boost Charge Power Bank,Belkin Boost Charge Power Bank Model 44,A Belkin Boost Charge Power Bank for Belkin Boost Charge Power Bank Model 44,white,434.95,608.5
+144,3,Belkin SurgePlus USB Swivel Charger,Belkin SurgePlus USB Swivel Charger Model 45,A Belkin SurgePlus USB Swivel Charger for Belkin SurgePlus USB Swivel Charger Model 45,red,205.08,687.25
+145,1,Alienware m15,Alienware m15 Model 46,A Alienware m15 for Alienware m15 Model 46,red,463.62,427.63
+146,2,Sony WH-1000XM4,Sony WH-1000XM4 Model 47,A Sony WH-1000XM4 for Sony WH-1000XM4 Model 47,black,281.48,694.12
+147,4,Belkin Boost Charge Power Bank,Belkin Boost Charge Power Bank Model 48,A Belkin Boost Charge Power Bank for Belkin Boost Charge Power Bank Model 48,white,196.54,249.65
+148,4,Native Union Belt Cable,Native Union Belt Cable Model 49,A Native Union Belt Cable for Native Union Belt Cable Model 49,red,144.28,441.3
+149,2,Sennheiser Momentum,Sennheiser Momentum Model 50,A Sennheiser Momentum for Sennheiser Momentum Model 50,white,468.03,642.79
+150,3,SanDisk Ultra Dual Drive,SanDisk Ultra Dual Drive Model 51,A SanDisk Ultra Dual Drive for SanDisk Ultra Dual Drive Model 51,white,186.66,639.17
+151,3,Belkin SurgePlus USB Swivel Charger,Belkin SurgePlus USB Swivel Charger Model 52,A Belkin SurgePlus USB Swivel Charger for Belkin SurgePlus USB Swivel Charger Model 52,black,132.41,314.07
+152,2,Apple HomePod mini,Apple HomePod mini Model 53,A Apple HomePod mini for Apple HomePod mini Model 53,white,496.56,574.05
+153,2,Bang & Olufsen Beoplay H9,Bang & Olufsen Beoplay H9 Model 54,A Bang & Olufsen Beoplay H9 for Bang & Olufsen Beoplay H9 Model 54,black,358.29,355.17
+154,1,ASUS ROG Zephyrus,ASUS ROG Zephyrus Model 55,A ASUS ROG Zephyrus for ASUS ROG Zephyrus Model 55,black,423.17,471.44
+155,1,Apple iMac,Apple iMac Model 56,A Apple iMac for Apple iMac Model 56,white,259.35,455.96
+156,3,Logitech MX Master 3 Mouse,Logitech MX Master 3 Mouse Model 57,A Logitech MX Master 3 Mouse for Logitech MX Master 3 Mouse Model 57,black,224.26,203.25
+157,5,Linksys Velop Mesh WiFi Extender,Linksys Velop Mesh WiFi Extender Model 58,A Linksys Velop Mesh WiFi Extender for Linksys Velop Mesh WiFi Extender Model 58,red,102.74,415.4
+158,4,Jackery Solar Generator,Jackery Solar Generator Model 59,A Jackery Solar Generator for Jackery Solar Generator Model 59,red,452.46,403.02
+159,1,Alienware m15,Alienware m15 Model 60,A Alienware m15 for Alienware m15 Model 60,white,485.05,593.78
+160,1,Huawei MateBook,Huawei MateBook Model 61,A Huawei MateBook for Huawei MateBook Model 61,black,417.06,211.88
+161,2,Google Nest Audio,Google Nest Audio Model 62,A Google Nest Audio for Google Nest Audio Model 62,white,166.81,239.44
+162,5,ARRIS SURFboard SB6183 Cable Modem,ARRIS SURFboard SB6183 Cable Modem Model 63,A ARRIS SURFboard SB6183 Cable Modem for ARRIS SURFboard SB6183 Cable Modem Model 63,white,331.35,573.51
+163,4,Belkin MIXIT DuraTek Lightning Cable,Belkin MIXIT DuraTek Lightning Cable Model 64,A Belkin MIXIT DuraTek Lightning Cable for Belkin MIXIT DuraTek Lightning Cable Model 64,white,156.0,427.14
+164,3,Samsung T5 Portable SSD,Samsung T5 Portable SSD Model 65,A Samsung T5 Portable SSD for Samsung T5 Portable SSD Model 65,black,232.64,633.93
+165,4,Nimble Wireless Charging Pad,Nimble Wireless Charging Pad Model 66,A Nimble Wireless Charging Pad for Nimble Wireless Charging Pad Model 66,black,141.07,437.1
+166,4,Native Union Belt Cable,Native Union Belt Cable Model 67,A Native Union Belt Cable for Native Union Belt Cable Model 67,red,306.09,442.74
+167,2,Jabra Elite 85t,Jabra Elite 85t Model 68,A Jabra Elite 85t for Jabra Elite 85t Model 68,black,107.18,533.42
+168,1,ASUS ZenBook,ASUS ZenBook Model 69,A ASUS ZenBook for ASUS ZenBook Model 69,red,197.36,450.13
+169,3,Seagate Expansion Desktop Hard Drive,Seagate Expansion Desktop Hard Drive Model 70,A Seagate Expansion Desktop Hard Drive for Seagate Expansion Desktop Hard Drive Model 70,red,429.91,420.66
+170,2,Audio-Technica ATH-M50x,Audio-Technica ATH-M50x Model 71,A Audio-Technica ATH-M50x for Audio-Technica ATH-M50x Model 71,red,393.14,581.63
+171,4,Nomad Base Station Pro,Nomad Base Station Pro Model 72,A Nomad Base Station Pro for Nomad Base Station Pro Model 72,red,299.73,550.81
+172,4,Jackery Solar Generator,Jackery Solar Generator Model 73,A Jackery Solar Generator for Jackery Solar Generator Model 73,red,198.59,501.16
+173,5,NETGEAR AC1200 WiFi Range Extender,NETGEAR AC1200 WiFi Range Extender Model 74,A NETGEAR AC1200 WiFi Range Extender for NETGEAR AC1200 WiFi Range Extender Model 74,black,392.99,640.83
+174,2,Ultimate Ears Wonderboom 2,Ultimate Ears Wonderboom 2 Model 75,A Ultimate Ears Wonderboom 2 for Ultimate Ears Wonderboom 2 Model 75,white,140.26,499.93
+175,5,NETGEAR AC1200 WiFi Range Extender,NETGEAR AC1200 WiFi Range Extender Model 76,A NETGEAR AC1200 WiFi Range Extender for NETGEAR AC1200 WiFi Range Extender Model 76,red,126.2,545.69
+176,2,AKG K371,AKG K371 Model 77,A AKG K371 for AKG K371 Model 77,red,489.46,545.9
+177,2,Amazon Echo Dot,Amazon Echo Dot Model 78,A Amazon Echo Dot for Amazon Echo Dot Model 78,red,201.69,649.93
+178,1,Huawei MateBook,Huawei MateBook Model 79,A Huawei MateBook for Huawei MateBook Model 79,red,458.89,550.26
+179,4,Anker PowerCore 10000,Anker PowerCore 10000 Model 80,A Anker PowerCore 10000 for Anker PowerCore 10000 Model 80,red,166.1,447.65
+180,5,Motorola MB7621 Cable Modem,Motorola MB7621 Cable Modem Model 81,A Motorola MB7621 Cable Modem for Motorola MB7621 Cable Modem Model 81,red,424.36,324.16
+181,3,Blue Yeti USB Microphone,Blue Yeti USB Microphone Model 82,A Blue Yeti USB Microphone for Blue Yeti USB Microphone Model 82,red,153.59,649.62
+182,2,Amazon Echo Dot,Amazon Echo Dot Model 83,A Amazon Echo Dot for Amazon Echo Dot Model 83,red,399.54,483.01
+183,2,Sennheiser Momentum,Sennheiser Momentum Model 84,A Sennheiser Momentum for Sennheiser Momentum Model 84,black,486.26,495.06
+184,3,Sennheiser HD 660 S Headphones,Sennheiser HD 660 S Headphones Model 85,A Sennheiser HD 660 S Headphones for Sennheiser HD 660 S Headphones Model 85,white,140.73,500.88
+185,2,AKG K371,AKG K371 Model 86,A AKG K371 for AKG K371 Model 86,red,136.46,706.2
+186,3,SanDisk Ultra Dual Drive,SanDisk Ultra Dual Drive Model 87,A SanDisk Ultra Dual Drive for SanDisk Ultra Dual Drive Model 87,red,144.89,733.73
+187,4,Samsung Wireless Charger,Samsung Wireless Charger Model 88,A Samsung Wireless Charger for Samsung Wireless Charger Model 88,red,483.03,299.94
+188,4,Zendure SuperTank Power Bank,Zendure SuperTank Power Bank Model 89,A Zendure SuperTank Power Bank for Zendure SuperTank Power Bank Model 89,red,250.22,220.14
+189,5,Linksys Velop Mesh WiFi Extender,Linksys Velop Mesh WiFi Extender Model 90,A Linksys Velop Mesh WiFi Extender for Linksys Velop Mesh WiFi Extender Model 90,black,103.95,436.32
+190,1,Lenovo Yoga,Lenovo Yoga Model 91,A Lenovo Yoga for Lenovo Yoga Model 91,black,195.44,212.26
+191,4,Anker PowerLine+ Lightning Cable,Anker PowerLine+ Lightning Cable Model 92,A Anker PowerLine+ Lightning Cable for Anker PowerLine+ Lightning Cable Model 92,red,268.85,385.44
+192,5,NETGEAR Nighthawk Pro Gaming Modem,NETGEAR Nighthawk Pro Gaming Modem Model 93,A NETGEAR Nighthawk Pro Gaming Modem for NETGEAR Nighthawk Pro Gaming Modem Model 93,red,283.4,620.09
+193,5,ASUS RP-AC1900 WiFi Range Extender,ASUS RP-AC1900 WiFi Range Extender Model 94,A ASUS RP-AC1900 WiFi Range Extender for ASUS RP-AC1900 WiFi Range Extender Model 94,white,250.47,538.61
+194,4,RavPower Portable Charger,RavPower Portable Charger Model 95,A RavPower Portable Charger for RavPower Portable Charger Model 95,red,407.13,789.87
+195,1,HP EliteBook,HP EliteBook Model 96,A HP EliteBook for HP EliteBook Model 96,red,451.5,337.91
+196,3,APC Back-UPS Pro UPS,APC Back-UPS Pro UPS Model 97,A APC Back-UPS Pro UPS for APC Back-UPS Pro UPS Model 97,black,257.3,378.78
+197,1,Lenovo Yoga,Lenovo Yoga Model 98,A Lenovo Yoga for Lenovo Yoga Model 98,black,467.09,460.97
+198,4,Anker Powerline+ USB-C to USB-A Cable,Anker Powerline+ USB-C to USB-A Cable Model 99,A Anker Powerline+ USB-C to USB-A Cable for Anker Powerline+ USB-C to USB-A Cable Model 99,black,245.62,719.38
+199,3,Belkin Thunderbolt 3 Dock,Belkin Thunderbolt 3 Dock Model 100,A Belkin Thunderbolt 3 Dock for Belkin Thunderbolt 3 Dock Model 100,black,374.87,212.31
+200,4,Anker PowerLine+ Lightning Cable,Anker PowerLine+ Lightning Cable Model 101,A Anker PowerLine+ Lightning Cable for Anker PowerLine+ Lightning Cable Model 101,red,417.09,640.25
+201,2,Google Nest Audio,Google Nest Audio Model 102,A Google Nest Audio for Google Nest Audio Model 102,white,208.99,629.07
+202,5,ASUS RT-AC88U Router,ASUS RT-AC88U Router Model 103,A ASUS RT-AC88U Router for ASUS RT-AC88U Router Model 103,red,369.77,762.81
+203,5,TP-Link RE220 WiFi Range Extender,TP-Link RE220 WiFi Range Extender Model 104,A TP-Link RE220 WiFi Range Extender for TP-Link RE220 WiFi Range Extender Model 104,white,460.92,631.9
+204,5,NETGEAR AC1200 WiFi Range Extender,NETGEAR AC1200 WiFi Range Extender Model 105,A NETGEAR AC1200 WiFi Range Extender for NETGEAR AC1200 WiFi Range Extender Model 105,white,453.42,426.56
+205,1,Samsung Notebook,Samsung Notebook Model 106,A Samsung Notebook for Samsung Notebook Model 106,white,125.55,705.78
+206,1,Lenovo ThinkPad,Lenovo ThinkPad Model 107,A Lenovo ThinkPad for Lenovo ThinkPad Model 107,black,482.05,270.83
+207,1,HP Spectre,HP Spectre Model 108,A HP Spectre for HP Spectre Model 108,white,405.8,572.46
+208,5,ARRIS SURFboard SB6183 Cable Modem,ARRIS SURFboard SB6183 Cable Modem Model 109,A ARRIS SURFboard SB6183 Cable Modem for ARRIS SURFboard SB6183 Cable Modem Model 109,white,372.65,473.16
+209,3,AmazonBasics Laptop Sleeve,AmazonBasics Laptop Sleeve Model 110,A AmazonBasics Laptop Sleeve for AmazonBasics Laptop Sleeve Model 110,red,349.67,507.21
+210,4,Nimble Wireless Charging Pad,Nimble Wireless Charging Pad Model 111,A Nimble Wireless Charging Pad for Nimble Wireless Charging Pad Model 111,black,120.13,631.88

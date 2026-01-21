@@ -1,0 +1,75 @@
+﻿alien_id,alien_name,species,home_planet,strength_level,speed_level,intelligence
+1,Alien X,Indeedite,Andromeda Prime,7,8,6
+2,AmpFibian,Particularite,Zantron,5,8,5
+3,Armodrillo,Discussionite,Tierra Nova,5,4,10
+4,Astrodactyl,Acrossite,Hala,10,7,8
+5,Atomix,Eastite,Sirius,10,5,10
+6,Ball Weevil,Darkite,Tierra Nova,10,10,8
+7,Big Chill,Sourceite,Vortis,9,5,8
+8,Blitzwolfer,Storeite,Talos IV,9,6,6
+9,Bloxx,Agentite,Hala,8,10,9
+10,Brainstorm,Somebodyite,Xenon,7,4,7
+11,Bullfrag,Politicalite,Ego the Living Planet,5,10,5
+12,Cannonbolt,Minuteite,Nebulon,10,10,7
+13,Chamalien,Articleite,Alpha Centauri,5,4,5
+14,Chromastone,Growthite,Vega,10,5,6
+15,Clockwork,Individualite,Tierra Nova,9,9,6
+16,Crashhopper,Colorite,Vega,7,7,9
+17,Diamondhead,Evidenceite,Vega,7,7,9
+18,Ditto,Workite,Alpha Centauri,8,4,6
+19,Eatle,Valueite,Orion Nebula,5,7,5
+20,Echo Echo,Leaderite,Rylos,8,4,8
+21,Eye Guy,Middleite,Kratos IV,10,4,8
+22,Fasttrack,Programite,Altair IV,9,10,10
+23,Feedback,Norite,Beta Hydri,7,4,10
+24,Four Arms,Decideite,Epsilon Eridani,8,4,5
+25,Frankenstrike,Actionite,Rylos,10,7,8
+26,Gax,Girlite,Altair IV,9,5,6
+27,Ghostfreak,Maybeite,Solaris,8,8,6
+28,Glitch Ben,Oilite,Vega,8,4,8
+29,Goop,Alsoite,Ego the Living Planet,9,8,7
+30,Gravattack,Greenite,Kratos IV,5,7,6
+31,Grey Matter,Groundite,Krypton,8,4,6
+32,Gutrot,Thusite,Krypton,6,10,10
+33,Heatblast,Ontoite,Talos IV,9,6,9
+34,Hot Shot,Personite,Epsilon Eridani,9,9,7
+35,Humungousaur,Lateite,Rylos,5,8,10
+36,Jetpack Alien,Townite,Tau Ceti,8,9,8
+37,Jetray,Dealite,Tau Ceti,9,8,9
+38,Jury Rigg,Toughite,Qonos,7,4,8
+39,Kickin Hawk,Loseite,Tierra Nova,8,5,8
+40,Lodestar,Cellite,Krypton,6,8,10
+41,Mole-Stache,Yardite,Vega,5,4,6
+42,NRG,Earlyite,Rylos,7,5,10
+43,Overflow,Receiveite,Nebulon,6,7,8
+44,Pesky Dust,Simpleite,Nexus Prime,6,7,7
+45,Rath,Bestite,Vega,5,8,8
+46,Ripjaws,Addite,Tierra Nova,5,7,10
+47,Shock Rock,Littleite,Rylos,7,6,6
+48,Shocksquatch,Everite,Omega Centauri,9,6,6
+49,Slapback,Personite,Hala,9,6,5
+50,Snare-oh,Aite,Vulcan,5,6,7
+51,Spidermonkey,Faceite,Zygara,7,9,9
+52,Stinkfly,Nameite,Alpha Centauri,5,5,10
+53,Swampfire,Electionite,Krypton,9,4,10
+54,Terraspin,Mostite,Orion Nebula,10,6,7
+55,The Worst,Candidateite,Vortis,6,8,6
+56,Toepick,Whereite,Xandar,7,6,9
+57,Ultimate Big Chill,Herite,Sirius,9,10,9
+58,Ultimate Cannonbolt,Spaceite,Xandar,8,9,9
+59,Ultimate Echo Echo,Totalite,Solaris,6,6,9
+60,Ultimate Gravattack,Actite,Rylos,10,4,7
+61,Ultimate Humungousaur,Togetherite,Vega,10,4,6
+62,Ultimate Spidermonkey,Sendite,Nebulon,10,10,5
+63,Ultimate Swampfire,Centuryite,Ego the Living Planet,9,10,10
+64,Ultimate Way Big,Threeite,Hala,7,4,6
+65,Ultimate Wildmutt,Respondite,Altair IV,10,9,5
+66,Upchuck,Particularlyite,Altair IV,7,10,5
+67,Upgrade,Minuteite,Pandora,9,7,10
+68,Walkatrout,Taxite,Vulcan,5,9,9
+69,Water Hazard,Seaite,Xandar,9,10,8
+70,Way Big,Formite,Tierra Nova,7,8,10
+71,Whampire,Riskite,Zygara,9,10,6
+72,Wildmutt,Chanceite,Epsilon Eridani,8,6,10
+73,Wildvine,Withoutite,Solaris,9,5,8
+74,XLR8,Withoutite,Beta Hydri,9,5,8

@@ -1,0 +1,21 @@
+user_id,ga_session_id,country,device,type,item_id,date
+2133,16909,US,mobile,purchase,94,2020-11-01 00:27:14
+2133,16909,US,mobile,purchase,425,2020-11-01 00:27:14
+5789,16908,SE,desktop,purchase,1,2020-11-01 01:44:44
+5789,16908,SE,desktop,purchase,62,2020-11-01 01:44:44
+5808,4267,US,mobile,add_to_cart,842,2020-11-01 03:06:29
+5808,4267,US,mobile,add_to_cart,951,2020-11-01 03:06:29
+5808,4267,US,mobile,add_to_cart,950,2020-11-01 03:06:29
+5808,4267,US,mobile,add_to_cart,1068,2020-11-01 03:06:29
+5808,4267,US,mobile,add_to_cart,862,2020-11-01 03:06:29
+5808,4267,US,mobile,add_to_cart,1119,2020-11-01 03:06:29
+5808,4267,US,mobile,add_to_cart,252,2020-11-01 03:06:29
+5808,4267,US,mobile,add_to_cart,1085,2020-11-01 03:06:29
+5808,4267,US,mobile,add_to_cart,1074,2020-11-01 03:06:29
+5808,4267,US,mobile,add_to_cart,1045,2020-11-01 03:06:29
+5808,4267,US,mobile,add_to_cart,953,2020-11-01 03:06:29
+5808,4267,US,mobile,add_to_cart,1058,2020-11-01 03:06:29
+5808,4267,US,mobile,add_to_cart,862,2020-11-01 03:09:47
+5808,4267,US,mobile,add_to_cart,1119,2020-11-01 03:09:47
+5808,4267,US,mobile,add_to_cart,1044,2020-11-01 03:09:47
+5808,4267,US,mobile,add_to_cart,950,2020-11-01 03:09:47

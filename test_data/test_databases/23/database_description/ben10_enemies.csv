@@ -1,0 +1,148 @@
+﻿enemy_id,alien_name,enemy_name
+1,Alien X,Ultimate Big Chill
+2,Alien X,Ultimate Swampfire
+3,AmpFibian,Way Big
+4,Armodrillo,Astrodactyl
+5,Astrodactyl,NRG
+6,Astrodactyl,Ultimate Gravattack
+7,Atomix,Glitch Ben
+8,Atomix,Fasttrack
+9,Ball Weevil,Water Hazard
+10,Ball Weevil,Glitch Ben
+11,Big Chill,Ultimate Cannonbolt
+12,Big Chill,Chamalien
+13,Big Chill,Grey Matter
+14,Blitzwolfer,Toepick
+15,Bloxx,AmpFibian
+16,Bloxx,Ditto
+17,Brainstorm,Terraspin
+18,Bullfrag,Hot Shot
+19,Bullfrag,Ultimate Big Chill
+20,Cannonbolt,Big Chill
+21,Chamalien,Ultimate Big Chill
+22,Chamalien,Pesky Dust
+23,Chamalien,Ditto
+24,Chromastone,Jetpack Alien
+25,Chromastone,Bloxx
+26,Chromastone,Gutrot
+27,Clockwork,Diamondhead
+28,Clockwork,Astrodactyl
+29,Clockwork,Ultimate Big Chill
+30,Crashhopper,AmpFibian
+31,Diamondhead,Wildvine
+32,Diamondhead,Gravattack
+33,Diamondhead,Snare-oh
+34,Ditto,Swampfire
+35,Eatle,Ditto
+36,Eatle,Ultimate Way Big
+37,Echo Echo,Four Arms
+38,Echo Echo,Whampire
+39,Eye Guy,Blitzwolfer
+40,Eye Guy,Ultimate Gravattack
+41,Eye Guy,Fasttrack
+42,Fasttrack,Ultimate Spidermonkey
+43,Fasttrack,Ultimate Swampfire
+44,Feedback,Ultimate Swampfire
+45,Feedback,Armodrillo
+46,Feedback,Lodestar
+47,Four Arms,Wildmutt
+48,Four Arms,The Worst
+49,Frankenstrike,Snare-oh
+50,Frankenstrike,Gutrot
+51,Gax,Ball Weevil
+52,Gax,Snare-oh
+53,Ghostfreak,Cannonbolt
+54,Ghostfreak,Gax
+55,Ghostfreak,Ultimate Way Big
+56,Glitch Ben,Diamondhead
+57,Glitch Ben,Chamalien
+58,Goop,Whampire
+59,Gravattack,Feedback
+60,Gravattack,Wildmutt
+61,Grey Matter,Four Arms
+62,Grey Matter,Ultimate Big Chill
+63,Grey Matter,Brainstorm
+64,Gutrot,Grey Matter
+65,Heatblast,Spidermonkey
+66,Heatblast,Ultimate Echo Echo
+67,Heatblast,Terraspin
+68,Hot Shot,Toepick
+69,Hot Shot,Echo Echo
+70,Hot Shot,Gutrot
+71,Humungousaur,Ultimate Gravattack
+72,Jetpack Alien,Ghostfreak
+73,Jetray,Lodestar
+74,Jetray,Feedback
+75,Jury Rigg,Four Arms
+76,Kickin Hawk,Jetray
+77,Kickin Hawk,AmpFibian
+78,Kickin Hawk,Chamalien
+79,Lodestar,Wildmutt
+80,Lodestar,Ultimate Gravattack
+81,Lodestar,Ditto
+82,Mole-Stache,Goop
+83,Mole-Stache,Overflow
+84,NRG,Swampfire
+85,NRG,Walkatrout
+86,Overflow,Four Arms
+87,Overflow,Big Chill
+88,Pesky Dust,Toepick
+89,Pesky Dust,Way Big
+90,Pesky Dust,Wildmutt
+91,Rath,Ditto
+92,Rath,Eatle
+93,Ripjaws,Ultimate Echo Echo
+94,Ripjaws,Grey Matter
+95,Shock Rock,Eatle
+96,Shocksquatch,Cannonbolt
+97,Shocksquatch,Bloxx
+98,Shocksquatch,Ultimate Gravattack
+99,Slapback,Ultimate Echo Echo
+100,Slapback,Bloxx
+101,Snare-oh,Fasttrack
+102,Snare-oh,Jetpack Alien
+103,Snare-oh,Echo Echo
+104,Spidermonkey,Snare-oh
+105,Spidermonkey,Upchuck
+106,Stinkfly,Slapback
+107,Stinkfly,Jetpack Alien
+108,Swampfire,Ultimate Echo Echo
+109,Terraspin,Ultimate Big Chill
+110,Terraspin,Ultimate Way Big
+111,The Worst,Ultimate Echo Echo
+112,The Worst,AmpFibian
+113,The Worst,Jury Rigg
+114,Toepick,Blitzwolfer
+115,Toepick,Heatblast
+116,Toepick,Way Big
+117,Ultimate Big Chill,Ultimate Swampfire
+118,Ultimate Cannonbolt,Wildmutt
+119,Ultimate Cannonbolt,NRG
+120,Ultimate Echo Echo,Feedback
+121,Ultimate Echo Echo,Ultimate Way Big
+122,Ultimate Echo Echo,Ultimate Swampfire
+123,Ultimate Gravattack,Bullfrag
+124,Ultimate Gravattack,Shocksquatch
+125,Ultimate Gravattack,Shock Rock
+126,Ultimate Humungousaur,Jetray
+127,Ultimate Spidermonkey,Ultimate Humungousaur
+128,Ultimate Spidermonkey,Four Arms
+129,Ultimate Swampfire,XLR8
+130,Ultimate Swampfire,Jury Rigg
+131,Ultimate Way Big,Overflow
+132,Ultimate Wildmutt,Jetpack Alien
+133,Upchuck,Armodrillo
+134,Upgrade,Eye Guy
+135,Upgrade,Big Chill
+136,Walkatrout,Heatblast
+137,Walkatrout,Ultimate Wildmutt
+138,Walkatrout,Grey Matter
+139,Water Hazard,Upgrade
+140,Way Big,Four Arms
+141,Whampire,Eatle
+142,Whampire,Ultimate Cannonbolt
+143,Wildmutt,Shocksquatch
+144,Wildmutt,Big Chill
+145,Wildmutt,Toepick
+146,Wildvine,Ultimate Swampfire
+147,XLR8,Gravattack

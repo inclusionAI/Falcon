@@ -1,0 +1,16 @@
+ProductSubcategoryKey,SubcategoryName,ProductCategoryKey
+1,Laptops,1
+2,Desktops,1
+3,Tablets,1
+4,Wireless Headphones,2
+5,Wired Headphones,2
+6,Gaming Headsets,2
+7,Keyboards,3
+8,Mice,3
+9,Mousepads,3
+10,Wall Chargers,4
+11,Car Chargers,4
+12,Portable Chargers,4
+13,Routers,5
+14,Modems,5
+15,Switches,5

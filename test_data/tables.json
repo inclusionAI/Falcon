@@ -1,0 +1,2524 @@
+[
+    {
+        "db_id": "12",
+        "tables": [
+            {
+                "table_id": 0,
+                "table_name": "google_merchandise_users",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            251652,
+                            177098,
+                            87737
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "ltv",
+                        "column_type": "integer",
+                        "sample_values": [
+                            477,
+                            432,
+                            656
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "date",
+                        "column_type": "text",
+                        "sample_values": [
+                            "2020-12-11 19:39:36",
+                            "2021-01-05 23:46:54",
+                            "2020-11-05 21:30:42"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"google_merchandise_users\" (\n\"id\" INTEGER,\n  \"ltv\" INTEGER,\n  \"date\" TEXT\n)"
+            },
+            {
+                "table_id": 1,
+                "table_name": "google_merchandise_items",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            16,
+                            793,
+                            925
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "name",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Snowflake Android Cardboard Sculpture",
+                            "Google SF Campus Ladies Tee",
+                            "Google Incognito Zip Pack"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "brand",
+                        "column_type": "text",
+                        "sample_values": [
+                            "#IamRemarkable",
+                            "Android",
+                            "Google Cloud"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "variant",
+                        "column_type": "text",
+                        "sample_values": [
+                            " 5T",
+                            " 6M",
+                            " 2XL"
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "category",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Stationery",
+                            "Black Lives Matter",
+                            "Writing Instruments"
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "price_in_usd",
+                        "column_type": "integer",
+                        "sample_values": [
+                            9,
+                            38,
+                            45
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"google_merchandise_items\" (\n\"id\" INTEGER,\n  \"name\" TEXT,\n  \"brand\" TEXT,\n  \"variant\" TEXT,\n  \"category\" TEXT,\n  \"price_in_usd\" INTEGER\n)"
+            },
+            {
+                "table_id": 2,
+                "table_name": "google_merchandise_events",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "user_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            8073,
+                            13674,
+                            22940
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "ga_session_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            14493,
+                            7242,
+                            15585
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "country",
+                        "column_type": "text",
+                        "sample_values": [
+                            "CO",
+                            "MX",
+                            "KW"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "device",
+                        "column_type": "text",
+                        "sample_values": [
+                            "tablet",
+                            "desktop",
+                            "mobile"
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "type",
+                        "column_type": "text",
+                        "sample_values": [
+                            "add_to_cart",
+                            "begin_checkout",
+                            "purchase"
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "item_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            1186,
+                            70,
+                            670
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "date",
+                        "column_type": "text",
+                        "sample_values": [
+                            "2021-01-26 15:49:15",
+                            "2020-11-19 06:36:34",
+                            "2020-12-09 05:18:22"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"google_merchandise_events\" (\n\"user_id\" INTEGER,\n  \"ga_session_id\" INTEGER,\n  \"country\" TEXT,\n  \"device\" TEXT,\n  \"type\" TEXT,\n  \"item_id\" INTEGER,\n  \"date\" TEXT\n)"
+            }
+        ]
+    },
+    {
+        "db_id": "27",
+        "tables": [
+            {
+                "table_id": 0,
+                "table_name": "grocery_products",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "ProductID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            111,
+                            298,
+                            437
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "ProductName",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Cream Of Tartar",
+                            "Pastry - Raisin Muffin - Mini",
+                            "Nut - Chestnuts, Whole"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "Price",
+                        "column_type": "real",
+                        "sample_values": [
+                            60.9698,
+                            8.9372,
+                            98.8263
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "CategoryID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            5,
+                            8,
+                            9
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "Class",
+                        "column_type": "text",
+                        "sample_values": [
+                            "High",
+                            "Low",
+                            "Medium"
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "ModifyDate",
+                        "column_type": "text",
+                        "sample_values": [
+                            "2017-11-05 15:15:31.080",
+                            "2017-01-31 09:11:45.450",
+                            "2017-09-16 12:51:38.780"
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "Resistant",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Weak",
+                            "Unknown",
+                            "Durable"
+                        ]
+                    },
+                    {
+                        "column_id": 7,
+                        "column_name": "IsAllergic",
+                        "column_type": "text",
+                        "sample_values": [
+                            "True",
+                            "Unknown",
+                            "False"
+                        ]
+                    },
+                    {
+                        "column_id": 8,
+                        "column_name": "VitalityDays",
+                        "column_type": "real",
+                        "sample_values": [
+                            52.0,
+                            63.0,
+                            111.0
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"grocery_products\" (\n\"ProductID\" INTEGER,\n  \"ProductName\" TEXT,\n  \"Price\" REAL,\n  \"CategoryID\" INTEGER,\n  \"Class\" TEXT,\n  \"ModifyDate\" TEXT,\n  \"Resistant\" TEXT,\n  \"IsAllergic\" TEXT,\n  \"VitalityDays\" REAL\n)"
+            },
+            {
+                "table_id": 1,
+                "table_name": "grocery_countries",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "CountryID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            51,
+                            38,
+                            84
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "CountryName",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Eritrea",
+                            "Comoros",
+                            "Guinea"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "CountryCode",
+                        "column_type": "text",
+                        "sample_values": [
+                            "SO",
+                            "NZ",
+                            "KN"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"grocery_countries\" (\n\"CountryID\" INTEGER,\n  \"CountryName\" TEXT,\n  \"CountryCode\" TEXT\n)"
+            },
+            {
+                "table_id": 2,
+                "table_name": "grocery_customers",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "CustomerID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            50816,
+                            31024,
+                            14702
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "FirstName",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Darryl",
+                            "Susan",
+                            "Sam"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "MiddleInitial",
+                        "column_type": "text",
+                        "sample_values": [
+                            "C",
+                            "L",
+                            "J"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "LastName",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Morse",
+                            "Copeland",
+                            "Pham"
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "CityID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            95,
+                            82,
+                            7
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "Address",
+                        "column_type": "text",
+                        "sample_values": [
+                            "948 West Milton Drive",
+                            "316 Hague Freeway",
+                            "42 East Green Clarendon Boulevard"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"grocery_customers\" (\n\"CustomerID\" INTEGER,\n  \"FirstName\" TEXT,\n  \"MiddleInitial\" TEXT,\n  \"LastName\" TEXT,\n  \"CityID\" INTEGER,\n  \"Address\" TEXT\n)"
+            },
+            {
+                "table_id": 3,
+                "table_name": "grocery_sales",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "SalesID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            94130,
+                            85795,
+                            118614
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "SalesPersonID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            6,
+                            20,
+                            5
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "CustomerID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            67388,
+                            31761,
+                            9689
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "ProductID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            425,
+                            392,
+                            75
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "Quantity",
+                        "column_type": "integer",
+                        "sample_values": [
+                            4,
+                            15,
+                            7
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "Discount",
+                        "column_type": "real",
+                        "sample_values": [
+                            0.0,
+                            0.1,
+                            0.2
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "TotalPrice",
+                        "column_type": "integer",
+                        "sample_values": [
+                            0
+                        ]
+                    },
+                    {
+                        "column_id": 7,
+                        "column_name": "SalesDate",
+                        "column_type": "text",
+                        "sample_values": [
+                            "2018-03-09 18:45:00",
+                            "2018-04-22 12:08:00",
+                            "2018-02-01 15:05:00"
+                        ]
+                    },
+                    {
+                        "column_id": 8,
+                        "column_name": "TransactionNumber",
+                        "column_type": "text",
+                        "sample_values": [
+                            "4T5QUJV363Q159E8KS9P",
+                            "YUR9RZ76KQ5R10PYCP7R",
+                            "S287HRW8NZUQ3M7VIP1N"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"grocery_sales\" (\n\"SalesID\" INTEGER,\n  \"SalesPersonID\" INTEGER,\n  \"CustomerID\" INTEGER,\n  \"ProductID\" INTEGER,\n  \"Quantity\" INTEGER,\n  \"Discount\" REAL,\n  \"TotalPrice\" INTEGER,\n  \"SalesDate\" TEXT,\n  \"TransactionNumber\" TEXT\n)"
+            },
+            {
+                "table_id": 4,
+                "table_name": "grocery_categories",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "CategoryID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            9,
+                            6,
+                            11
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "CategoryName",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Snails",
+                            "Grain",
+                            "Produce"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"grocery_categories\" (\n\"CategoryID\" INTEGER,\n  \"CategoryName\" TEXT\n)"
+            },
+            {
+                "table_id": 5,
+                "table_name": "grocery_cities",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "CityID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            42,
+                            59,
+                            22
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "CityName",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Wichita",
+                            "St. Paul",
+                            "Grand Rapids"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "Zipcode",
+                        "column_type": "integer",
+                        "sample_values": [
+                            45666,
+                            83634,
+                            81678
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "CountryID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            32
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"grocery_cities\" (\n\"CityID\" INTEGER,\n  \"CityName\" TEXT,\n  \"Zipcode\" INTEGER,\n  \"CountryID\" INTEGER\n)"
+            },
+            {
+                "table_id": 6,
+                "table_name": "grocery_employees",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "EmployeeID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            14,
+                            5,
+                            12
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "FirstName",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Janet",
+                            "Bernard",
+                            "Seth"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "MiddleInitial",
+                        "column_type": "text",
+                        "sample_values": [
+                            "U",
+                            "X",
+                            "Y"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "LastName",
+                        "column_type": "text",
+                        "sample_values": [
+                            "King",
+                            "Bartlett",
+                            "Palmer"
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "BirthDate",
+                        "column_type": "text",
+                        "sample_values": [
+                            "1987-01-13 00:00:00.000",
+                            "1972-02-17 00:00:00.000",
+                            "1989-02-06 00:00:00.000"
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "Gender",
+                        "column_type": "text",
+                        "sample_values": [
+                            "F",
+                            "M"
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "CityID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            23,
+                            18,
+                            32
+                        ]
+                    },
+                    {
+                        "column_id": 7,
+                        "column_name": "HireDate",
+                        "column_type": "text",
+                        "sample_values": [
+                            "2011-12-12 10:43:52.940",
+                            "2013-04-17 14:48:02.700",
+                            "2016-08-10 15:59:30.360"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"grocery_employees\" (\n\"EmployeeID\" INTEGER,\n  \"FirstName\" TEXT,\n  \"MiddleInitial\" TEXT,\n  \"LastName\" TEXT,\n  \"BirthDate\" TEXT,\n  \"Gender\" TEXT,\n  \"CityID\" INTEGER,\n  \"HireDate\" TEXT\n)"
+            }
+        ]
+    },
+    {
+        "db_id": "13",
+        "tables": [
+            {
+                "table_id": 0,
+                "table_name": "walmart_features",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "Store",
+                        "column_type": "integer",
+                        "sample_values": [
+                            3,
+                            20,
+                            6
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "Date",
+                        "column_type": "text",
+                        "sample_values": [
+                            "2011-01-28",
+                            "2010-05-07",
+                            "2012-03-16"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "Temperature",
+                        "column_type": "real",
+                        "sample_values": [
+                            67.2,
+                            70.41,
+                            52.91
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "Fuel_Price",
+                        "column_type": "real",
+                        "sample_values": [
+                            3.611,
+                            3.814,
+                            3.509
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "MarkDown1",
+                        "column_type": "real",
+                        "sample_values": [
+                            7297.72,
+                            3501.15,
+                            8806.8
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "MarkDown2",
+                        "column_type": "real",
+                        "sample_values": [
+                            283.19,
+                            7.98,
+                            219.8
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "MarkDown3",
+                        "column_type": "real",
+                        "sample_values": [
+                            5.99,
+                            649.0,
+                            25.5
+                        ]
+                    },
+                    {
+                        "column_id": 7,
+                        "column_name": "MarkDown4",
+                        "column_type": "real",
+                        "sample_values": [
+                            19117.99,
+                            773.23,
+                            3518.0
+                        ]
+                    },
+                    {
+                        "column_id": 8,
+                        "column_name": "MarkDown5",
+                        "column_type": "real",
+                        "sample_values": [
+                            2144.12,
+                            1613.36,
+                            1515.46
+                        ]
+                    },
+                    {
+                        "column_id": 9,
+                        "column_name": "CPI",
+                        "column_type": "real",
+                        "sample_values": [
+                            197.0457208,
+                            211.5224596,
+                            136.183129
+                        ]
+                    },
+                    {
+                        "column_id": 10,
+                        "column_name": "Unemployment",
+                        "column_type": "real",
+                        "sample_values": [
+                            7.343,
+                            6.108,
+                            5.936
+                        ]
+                    },
+                    {
+                        "column_id": 11,
+                        "column_name": "IsHoliday",
+                        "column_type": "text",
+                        "sample_values": [
+                            0,
+                            1
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"walmart_features\" (\n\"Store\" INTEGER,\n  \"Date\" TEXT,\n  \"Temperature\" REAL,\n  \"Fuel_Price\" REAL,\n  \"MarkDown1\" REAL,\n  \"MarkDown2\" REAL,\n  \"MarkDown3\" REAL,\n  \"MarkDown4\" REAL,\n  \"MarkDown5\" REAL,\n  \"CPI\" REAL,\n  \"Unemployment\" REAL,\n  \"IsHoliday\" INTEGER\n)"
+            },
+            {
+                "table_id": 1,
+                "table_name": "walmart_stores",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "Store",
+                        "column_type": "integer",
+                        "sample_values": [
+                            18,
+                            8,
+                            1
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "Type",
+                        "column_type": "text",
+                        "sample_values": [
+                            "A",
+                            "B"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "Size",
+                        "column_type": "integer",
+                        "sample_values": [
+                            155078,
+                            203742,
+                            120653
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"walmart_stores\" (\n\"Store\" INTEGER,\n  \"Type\" TEXT,\n  \"Size\" INTEGER\n)"
+            },
+            {
+                "table_id": 2,
+                "table_name": "walmart_sales",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "Store",
+                        "column_type": "integer",
+                        "sample_values": [
+                            15,
+                            20,
+                            1
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "Dept",
+                        "column_type": "integer",
+                        "sample_values": [
+                            31,
+                            40,
+                            19
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "Date",
+                        "column_type": "text",
+                        "sample_values": [
+                            "2012-03-16",
+                            "2012-07-06",
+                            "2012-07-13"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "Weekly_Sales",
+                        "column_type": "real",
+                        "sample_values": [
+                            1442.64,
+                            304.4,
+                            9686.98
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "IsHoliday",
+                        "column_type": "text",
+                        "sample_values": [
+                            0,
+                            1
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"walmart_sales\" (\n\"Store\" INTEGER,\n  \"Dept\" INTEGER,\n  \"Date\" TEXT,\n  \"Weekly_Sales\" REAL,\n  \"IsHoliday\" INTEGER\n)"
+            }
+        ]
+    },
+    {
+        "db_id": "22",
+        "tables": [
+            {
+                "table_id": 0,
+                "table_name": "ufc_country_data",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "country",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Germany",
+                            "Austria",
+                            "Spain"
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "country_code",
+                        "column_type": "text",
+                        "sample_values": [
+                            "JPN",
+                            "NGA",
+                            "MEX"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "avg_temperature_celsius",
+                        "column_type": "real",
+                        "sample_values": [
+                            9.24,
+                            7.59,
+                            27.3
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "avg_elevation_meters",
+                        "column_type": "real",
+                        "sample_values": [
+                            1432.0,
+                            760.0,
+                            380.0
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "gdp_2023_billion_usd",
+                        "column_type": "real",
+                        "sample_values": [
+                            2300.94115299181,
+                            30.7778335854441,
+                            178.757021965008
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "unemployment_rate_2023",
+                        "column_type": "real",
+                        "sample_values": [
+                            3.022,
+                            2.58,
+                            3.729
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "total_population",
+                        "column_type": "integer",
+                        "sample_values": [
+                            143826130,
+                            10536632,
+                            45538401
+                        ]
+                    },
+                    {
+                        "column_id": 7,
+                        "column_name": "female_pop_total_percent",
+                        "column_type": "real",
+                        "sample_values": [
+                            53.5037970641804,
+                            51.3182840244341,
+                            50.2744618297726
+                        ]
+                    },
+                    {
+                        "column_id": 8,
+                        "column_name": "male_pop_total_percent",
+                        "column_type": "real",
+                        "sample_values": [
+                            50.1710307853639,
+                            49.5049196296601,
+                            49.4664738821869
+                        ]
+                    },
+                    {
+                        "column_id": 9,
+                        "column_name": "population_growth_2023",
+                        "column_type": "real",
+                        "sample_values": [
+                            0.326319200823468,
+                            -0.487370782049143,
+                            1.20408185634218
+                        ]
+                    },
+                    {
+                        "column_id": 10,
+                        "column_name": "working_age_pop_percent",
+                        "column_type": "real",
+                        "sample_values": [
+                            73.0037052087728,
+                            66.0876417150889,
+                            69.0943118083391
+                        ]
+                    },
+                    {
+                        "column_id": 11,
+                        "column_name": "percent_of_internet_users",
+                        "column_type": "real",
+                        "sample_values": [
+                            100.0,
+                            89.229,
+                            92.245
+                        ]
+                    },
+                    {
+                        "column_id": 12,
+                        "column_name": "percent_of_internet_users_2022",
+                        "column_type": "real",
+                        "sample_values": [
+                            86.9411,
+                            35.4563,
+                            78.6322
+                        ]
+                    },
+                    {
+                        "column_id": 13,
+                        "column_name": "dependency_ratio_2023",
+                        "column_type": "real",
+                        "sample_values": [
+                            53.040171083641,
+                            57.1296262620538,
+                            57.6444238962333
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"ufc_country_data\" (\n\"country\" TEXT,\n  \"country_code\" TEXT,\n  \"avg_temperature_celsius\" REAL,\n  \"avg_elevation_meters\" REAL,\n  \"gdp_2023_billion_usd\" REAL,\n  \"unemployment_rate_2023\" REAL,\n  \"total_population\" INTEGER,\n  \"female_pop_total_percent\" REAL,\n  \"male_pop_total_percent\" REAL,\n  \"population_growth_2023\" REAL,\n  \"working_age_pop_percent\" REAL,\n  \"percent_of_internet_users\" REAL,\n  \"percent_of_internet_users_2022\" REAL,\n  \"dependency_ratio_2023\" REAL\n)"
+            },
+            {
+                "table_id": 1,
+                "table_name": "ufc_events_stats",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "event_category",
+                        "column_type": "text",
+                        "sample_values": [
+                            "UFC 255",
+                            "UFC 215",
+                            "UFC 164"
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "fighter_1",
+                        "column_type": "text",
+                        "sample_values": [
+                            " Strickland ",
+                            " First Defense",
+                            " Grasso "
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "fighter_2",
+                        "column_type": "text",
+                        "sample_values": [
+                            " Leben",
+                            " Adesanya",
+                            " Nunes"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "date",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Jul 19, 2014",
+                            "Jan 16, 2006",
+                            "Feb 11, 2017"
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "venue",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Royal Albert Hall",
+                            "Kingdom Arena",
+                            "Augusta Civic Center"
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "city",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Lincoln",
+                            "Montreal",
+                            "Hidalgo"
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "state_province",
+                        "column_type": "text",
+                        "sample_values": [
+                            "New York",
+                            "Saskatchewan",
+                            "Minnesota"
+                        ]
+                    },
+                    {
+                        "column_id": 7,
+                        "column_name": "country",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Croatia",
+                            "United States",
+                            "Canada"
+                        ]
+                    },
+                    {
+                        "column_id": 8,
+                        "column_name": "attendance",
+                        "column_type": "real",
+                        "sample_values": [
+                            13814.0,
+                            6751.0,
+                            1000.0
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"ufc_events_stats\" (\n\"event_category\" TEXT,\n  \"fighter_1\" TEXT,\n  \"fighter_2\" TEXT,\n  \"date\" TEXT,\n  \"venue\" TEXT,\n  \"city\" TEXT,\n  \"state_province\" TEXT,\n  \"country\" TEXT,\n  \"attendance\" REAL\n)"
+            },
+            {
+                "table_id": 2,
+                "table_name": "ufc_fighters_stats",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "first_name",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Rob",
+                            "Cory",
+                            "Marlon"
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "last_name",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Jones",
+                            "Holm",
+                            "Holloway"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "nickname",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Sweet Dreams",
+                            "Tha Killa Gorilla",
+                            "El Fenomeno"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "city",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Phoenix",
+                            "Chone",
+                            "Dagestan Republic"
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "country",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Spain",
+                            "Austria",
+                            "Japan"
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "age",
+                        "column_type": "integer",
+                        "sample_values": [
+                            22,
+                            30,
+                            33
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "wins",
+                        "column_type": "integer",
+                        "sample_values": [
+                            21,
+                            6,
+                            15
+                        ]
+                    },
+                    {
+                        "column_id": 7,
+                        "column_name": "losses",
+                        "column_type": "integer",
+                        "sample_values": [
+                            14,
+                            12,
+                            11
+                        ]
+                    },
+                    {
+                        "column_id": 8,
+                        "column_name": "draws",
+                        "column_type": "integer",
+                        "sample_values": [
+                            0,
+                            1,
+                            2
+                        ]
+                    },
+                    {
+                        "column_id": 9,
+                        "column_name": "win_percent",
+                        "column_type": "real",
+                        "sample_values": [
+                            77.77777777777779,
+                            82.85714285714286,
+                            82.75862068965517
+                        ]
+                    },
+                    {
+                        "column_id": 10,
+                        "column_name": "lose_percent",
+                        "column_type": "real",
+                        "sample_values": [
+                            17.142857142857142,
+                            31.818181818181817,
+                            23.809523809523807
+                        ]
+                    },
+                    {
+                        "column_id": 11,
+                        "column_name": "num_of_fights",
+                        "column_type": "integer",
+                        "sample_values": [
+                            22,
+                            11,
+                            14
+                        ]
+                    },
+                    {
+                        "column_id": 12,
+                        "column_name": "weight_division",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Featherweight Division",
+                            "Welterweight Division",
+                            "Flyweight Division"
+                        ]
+                    },
+                    {
+                        "column_id": 13,
+                        "column_name": "height_ft",
+                        "column_type": "real",
+                        "sample_values": [
+                            6.0,
+                            5.666666666666667,
+                            5.708333333333333
+                        ]
+                    },
+                    {
+                        "column_id": 14,
+                        "column_name": "weight_lbs",
+                        "column_type": "real",
+                        "sample_values": [
+                            135.6,
+                            241.0,
+                            170.5
+                        ]
+                    },
+                    {
+                        "column_id": 15,
+                        "column_name": "arm_reach_inch",
+                        "column_type": "real",
+                        "sample_values": [
+                            84.0,
+                            79.0,
+                            66.0
+                        ]
+                    },
+                    {
+                        "column_id": 16,
+                        "column_name": "leg_reach_inch",
+                        "column_type": "real",
+                        "sample_values": [
+                            37.5,
+                            39.0,
+                            35.5
+                        ]
+                    },
+                    {
+                        "column_id": 17,
+                        "column_name": "fighting_style",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Wrestling",
+                            "Brawler",
+                            "Grappler"
+                        ]
+                    },
+                    {
+                        "column_id": 18,
+                        "column_name": "debut",
+                        "column_type": "text",
+                        "sample_values": [
+                            "2019-05-11",
+                            "2014-10-04",
+                            "2019-08-10"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"ufc_fighters_stats\" (\n\"first_name\" TEXT,\n  \"last_name\" TEXT,\n  \"nickname\" TEXT,\n  \"city\" TEXT,\n  \"country\" TEXT,\n  \"age\" INTEGER,\n  \"wins\" INTEGER,\n  \"losses\" INTEGER,\n  \"draws\" INTEGER,\n  \"win_percent\" REAL,\n  \"lose_percent\" REAL,\n  \"num_of_fights\" INTEGER,\n  \"weight_division\" TEXT,\n  \"height_ft\" REAL,\n  \"weight_lbs\" REAL,\n  \"arm_reach_inch\" REAL,\n  \"leg_reach_inch\" REAL,\n  \"fighting_style\" TEXT,\n  \"debut\" TEXT\n)"
+            }
+        ]
+    },
+    {
+        "db_id": "11",
+        "tables": [
+            {
+                "table_id": 0,
+                "table_name": "bakery_price",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "Name",
+                        "column_type": "text",
+                        "sample_values": [
+                            "pain au chocolat",
+                            "angbutter",
+                            "lemon ade"
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "price",
+                        "column_type": "integer",
+                        "sample_values": [
+                            4500,
+                            1500,
+                            4000
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"bakery_price\" (\n\"Name\" TEXT,\n  \"price\" INTEGER\n)"
+            },
+            {
+                "table_id": 1,
+                "table_name": "bakery_sales",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "datetime",
+                        "column_type": "text",
+                        "sample_values": [
+                            "2020/4/20 14:56",
+                            "2020/3/1 14:57",
+                            "2020/3/18 11:10"
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "day_of_week",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Tues",
+                            "Thur",
+                            "Sun"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "total",
+                        "column_type": "integer",
+                        "sample_values": [
+                            24500,
+                            28500,
+                            32900
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "product_name",
+                        "column_type": "text",
+                        "sample_values": [
+                            "croissant",
+                            "vanila latte",
+                            "angbutter"
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "amount",
+                        "column_type": "integer",
+                        "sample_values": [
+                            16,
+                            10,
+                            5
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"bakery_sales\" (\n\"datetime\" TEXT,\n  \"day_of_week\" TEXT,\n  \"total\" INTEGER,\n  \"product_name\" TEXT,\n  \"amount\" INTEGER\n)"
+            }
+        ]
+    },
+    {
+        "db_id": "10",
+        "tables": [
+            {
+                "table_id": 0,
+                "table_name": "stock_exchange_data",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "Index",
+                        "column_type": "text",
+                        "sample_values": [
+                            "N100",
+                            "SSMI",
+                            "000001.SS"
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "Date",
+                        "column_type": "text",
+                        "sample_values": [
+                            "1998-12-15",
+                            "1973-02-27",
+                            "2018-12-14"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "Open",
+                        "column_type": "real",
+                        "sample_values": [
+                            1871.810059,
+                            6479.040039,
+                            9349.519531
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "High",
+                        "column_type": "real",
+                        "sample_values": [
+                            12436.86035,
+                            2408.110107,
+                            1737.420044
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "Low",
+                        "column_type": "real",
+                        "sample_values": [
+                            7548.649902,
+                            220.240005,
+                            706.330017
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "Close",
+                        "column_type": "real",
+                        "sample_values": [
+                            20771.10938,
+                            16916.76953,
+                            4417.551758
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "Adj Close",
+                        "column_type": "real",
+                        "sample_values": [
+                            16901.66992,
+                            15199.67969,
+                            844.789978
+                        ]
+                    },
+                    {
+                        "column_id": 7,
+                        "column_name": "Volume",
+                        "column_type": "integer",
+                        "sample_values": [
+                            43100.0,
+                            427842000.0,
+                            103660000.0
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"stock_exchange_data\" (\n\"Index\" TEXT,\n  \"Date\" TEXT,\n  \"Open\" REAL,\n  \"High\" REAL,\n  \"Low\" REAL,\n  \"Close\" REAL,\n  \"Adj Close\" REAL,\n  \"Volume\" REAL\n)"
+            },
+            {
+                "table_id": 1,
+                "table_name": "stock_exchange_info",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "Region",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Taiwan",
+                            "South Africa",
+                            "Europe"
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "Exchange",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Toronto Stock Exchange",
+                            "Shenzhen Stock Exchange",
+                            "Korea Exchange"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "Index",
+                        "column_type": "text",
+                        "sample_values": [
+                            "SSMI",
+                            "N100",
+                            "IXIC"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "Currency",
+                        "column_type": "text",
+                        "sample_values": [
+                            "CNY",
+                            "JPY",
+                            "INR"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"stock_exchange_info\" (\n\"Region\" TEXT,\n  \"Exchange\" TEXT,\n  \"Index\" TEXT,\n  \"Currency\" TEXT\n)"
+            }
+        ]
+    },
+    {
+        "db_id": "1",
+        "tables": []
+    },
+    {
+        "db_id": "6",
+        "tables": [
+            {
+                "table_id": 0,
+                "table_name": "sales_data",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "order_id",
+                        "column_type": "TEXT",
+                        "sample_values": [
+                            "B-26120",
+                            "B-26009",
+                            "B-26928"
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "amount",
+                        "column_type": "INTEGER",
+                        "sample_values": [
+                            1591,
+                            2553,
+                            4569
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "profit",
+                        "column_type": "INTEGER",
+                        "sample_values": [
+                            663,
+                            3618,
+                            58
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "quantity",
+                        "column_type": "INTEGER",
+                        "sample_values": [
+                            7,
+                            10,
+                            5
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "category",
+                        "column_type": "TEXT",
+                        "sample_values": [
+                            "Office Supplies",
+                            "Furniture",
+                            "Electronics"
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "sub_category",
+                        "column_type": "TEXT",
+                        "sample_values": [
+                            "Bookcases",
+                            "Pens",
+                            "Paper"
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "paymentmode",
+                        "column_type": "TEXT",
+                        "sample_values": [
+                            "COD",
+                            "Credit Card",
+                            "Debit Card"
+                        ]
+                    },
+                    {
+                        "column_id": 7,
+                        "column_name": "order_date",
+                        "column_type": "TEXT",
+                        "sample_values": [
+                            "2021-12-01",
+                            "2021-12-22",
+                            "2023-06-25"
+                        ]
+                    },
+                    {
+                        "column_id": 8,
+                        "column_name": "customername",
+                        "column_type": "TEXT",
+                        "sample_values": [
+                            "Sherri Ferguson DVM",
+                            "Betty Tucker",
+                            "James Gutierrez"
+                        ]
+                    },
+                    {
+                        "column_id": 9,
+                        "column_name": "state",
+                        "column_type": "TEXT",
+                        "sample_values": [
+                            "Florida",
+                            "Illinois",
+                            "Ohio"
+                        ]
+                    },
+                    {
+                        "column_id": 10,
+                        "column_name": "city",
+                        "column_type": "TEXT",
+                        "sample_values": [
+                            "Orlando",
+                            "Tampa",
+                            "Columbus"
+                        ]
+                    },
+                    {
+                        "column_id": 11,
+                        "column_name": "year_month",
+                        "column_type": "TEXT",
+                        "sample_values": [
+                            "2020-06",
+                            "2021-11",
+                            "2024-04"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"sales_data\" (\n\"order_id\" TEXT,\n  \"amount\" INTEGER,\n  \"profit\" INTEGER,\n  \"quantity\" INTEGER,\n  \"category\" TEXT,\n  \"sub_category\" TEXT,\n  \"paymentmode\" TEXT,\n  \"order_date\" TEXT,\n  \"customername\" TEXT,\n  \"state\" TEXT,\n  \"city\" TEXT,\n  \"year_month\" TEXT\n)"
+            }
+        ]
+    },
+    {
+        "db_id": "3",
+        "tables": [
+            {
+                "table_id": 0,
+                "table_name": "stock_details_data",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "Date",
+                        "column_type": "text",
+                        "sample_values": [
+                            "2020-05-29 00:00:00-04:00",
+                            "2022-12-01 00:00:00-05:00",
+                            "2020-10-13 00:00:00-04:00"
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "Open",
+                        "column_type": "real",
+                        "sample_values": [
+                            417.950012207031,
+                            181.837669000911,
+                            6.80365717095498
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "High",
+                        "column_type": "real",
+                        "sample_values": [
+                            69.4476722645834,
+                            59.4086788336277,
+                            19.8165510171923
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "Low",
+                        "column_type": "real",
+                        "sample_values": [
+                            25.8057834731772,
+                            76.2573639088737,
+                            29.7938612909523
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "Close",
+                        "column_type": "real",
+                        "sample_values": [
+                            29.0308723449707,
+                            28.9387607574463,
+                            46.9013977050781
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "Volume",
+                        "column_type": "integer",
+                        "sample_values": [
+                            26880700,
+                            19765594,
+                            6538800
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "Dividends",
+                        "column_type": "real",
+                        "sample_values": [
+                            1.07,
+                            0.552,
+                            1.46
+                        ]
+                    },
+                    {
+                        "column_id": 7,
+                        "column_name": "Stock Splits",
+                        "column_type": "integer",
+                        "sample_values": [
+                            0.928,
+                            1.5,
+                            1.487
+                        ]
+                    },
+                    {
+                        "column_id": 8,
+                        "column_name": "Company",
+                        "column_type": "text",
+                        "sample_values": [
+                            "TRV",
+                            "VICI",
+                            "SBUX"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"stock_details_data\" (\n\"Date\" TEXT,\n  \"Open\" REAL,\n  \"High\" REAL,\n  \"Low\" REAL,\n  \"Close\" REAL,\n  \"Volume\" INTEGER,\n  \"Dividends\" REAL,\n  \"Stock Splits\" REAL,\n  \"Company\" TEXT\n)"
+            }
+        ]
+    },
+    {
+        "db_id": "25",
+        "tables": [
+            {
+                "table_id": 0,
+                "table_name": "techsales_products_lookup",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "ProductKey",
+                        "column_type": "integer",
+                        "sample_values": [
+                            195,
+                            139,
+                            170
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "ProductSubcategoryKey",
+                        "column_type": "integer",
+                        "sample_values": [
+                            5,
+                            3,
+                            1
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "ProductName",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Nimble Wireless Charging Pad",
+                            "MacBook Pro",
+                            "Amazon Echo Dot"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "ModelName",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Netgear Nighthawk Pro Gaming Router Model 38",
+                            "Motorola MB7621 Cable Modem Model 81",
+                            "Google Nest Audio Model 102"
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "ProductDescription",
+                        "column_type": "text",
+                        "sample_values": [
+                            "A Audio-Technica ATH-M50x for Audio-Technica ATH-M50x Model 24",
+                            "A Audio-Technica ATH-M50x for Audio-Technica ATH-M50x Model 71",
+                            "A Dell UltraSharp Monitor for Dell UltraSharp Monitor Model 11"
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "ProductColor",
+                        "column_type": "text",
+                        "sample_values": [
+                            "black",
+                            "red",
+                            "white"
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "ProductCost",
+                        "column_type": "real",
+                        "sample_values": [
+                            166.81,
+                            489.46,
+                            188.74
+                        ]
+                    },
+                    {
+                        "column_id": 7,
+                        "column_name": "ProductPrice",
+                        "column_type": "real",
+                        "sample_values": [
+                            738.93,
+                            649.62,
+                            533.42
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"techsales_products_lookup\" (\n\"ProductKey\" INTEGER,\n  \"ProductSubcategoryKey\" INTEGER,\n  \"ProductName\" TEXT,\n  \"ModelName\" TEXT,\n  \"ProductDescription\" TEXT,\n  \"ProductColor\" TEXT,\n  \"ProductCost\" REAL,\n  \"ProductPrice\" REAL\n)"
+            },
+            {
+                "table_id": 1,
+                "table_name": "techsales_sales_data",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "OrderDate",
+                        "column_type": "text",
+                        "sample_values": [
+                            "07/16/2022",
+                            "11/07/2022",
+                            "03/06/2022"
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "StockDate",
+                        "column_type": "text",
+                        "sample_values": [
+                            "01/15/2022",
+                            "11/12/2022",
+                            "04/27/2022"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "OrderNumber",
+                        "column_type": "integer",
+                        "sample_values": [
+                            2502,
+                            7527,
+                            5083
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "ProductKey",
+                        "column_type": "integer",
+                        "sample_values": [
+                            189,
+                            122,
+                            184
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "CustomerKey",
+                        "column_type": "integer",
+                        "sample_values": [
+                            572,
+                            437,
+                            1173
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "OrderLineItem",
+                        "column_type": "integer",
+                        "sample_values": [
+                            1
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "OrderQuantity",
+                        "column_type": "integer",
+                        "sample_values": [
+                            1
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"techsales_sales_data\" (\n\"OrderDate\" TEXT,\n  \"StockDate\" TEXT,\n  \"OrderNumber\" INTEGER,\n  \"ProductKey\" INTEGER,\n  \"CustomerKey\" INTEGER,\n  \"OrderLineItem\" INTEGER,\n  \"OrderQuantity\" INTEGER\n)"
+            },
+            {
+                "table_id": 2,
+                "table_name": "techsales_assets",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "Cash Assets",
+                        "column_type": "integer",
+                        "sample_values": [
+                            500000
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "Inventory",
+                        "column_type": "integer",
+                        "sample_values": [
+                            1000000
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "Equipment",
+                        "column_type": "integer",
+                        "sample_values": [
+                            200000
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "Accounts Receivable",
+                        "column_type": "integer",
+                        "sample_values": [
+                            250000
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "Total Assets",
+                        "column_type": "integer",
+                        "sample_values": [
+                            3980000
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "Shareholder Equity",
+                        "column_type": "integer",
+                        "sample_values": [
+                            3680000
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "Total Liabilities",
+                        "column_type": "integer",
+                        "sample_values": [
+                            300000
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"techsales_assets\" (\n\"Cash Assets\" INTEGER,\n  \"Inventory\" INTEGER,\n  \"Equipment\" INTEGER,\n  \"Accounts Receivable\" INTEGER,\n  \"Total Assets\" INTEGER,\n  \"Shareholder Equity\" INTEGER,\n  \"Total Liabilities\" INTEGER\n)"
+            },
+            {
+                "table_id": 3,
+                "table_name": "techsales_dates",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "Date",
+                        "column_type": "text",
+                        "sample_values": [
+                            "09/30/2022",
+                            "07/22/2022",
+                            "11/22/2022"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"techsales_dates\" (\n\"Date\" TEXT\n)"
+            },
+            {
+                "table_id": 4,
+                "table_name": "techsales_customer_lookup",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "customer_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            1690,
+                            879,
+                            801
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "Name",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Nail",
+                            "Gulnara",
+                            "Rafiqa"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "Surname",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Zamanova",
+                            "Faracov",
+                            "Zamanov"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "Email",
+                        "column_type": "text",
+                        "sample_values": [
+                            "vugar@eunvan.az",
+                            "ali@eunvan.az",
+                            "aysel@eunvan.az"
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "Age",
+                        "column_type": "integer",
+                        "sample_values": [
+                            35,
+                            23,
+                            18
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "Education",
+                        "column_type": "text",
+                        "sample_values": [
+                            "High School",
+                            "Bachelor",
+                            "Master"
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "City",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Baku",
+                            "Sumgait",
+                            "Lankaran"
+                        ]
+                    },
+                    {
+                        "column_id": 7,
+                        "column_name": "Marital Status",
+                        "column_type": "text",
+                        "sample_values": [
+                            "YES",
+                            "NO"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"techsales_customer_lookup\" (\n\"customer_id\" INTEGER,\n  \"Name\" TEXT,\n  \"Surname\" TEXT,\n  \"Email\" TEXT,\n  \"Age\" INTEGER,\n  \"Education\" TEXT,\n  \"City\" TEXT,\n  \"Marital Status\" TEXT\n)"
+            },
+            {
+                "table_id": 5,
+                "table_name": "techsales_product_categories",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "ProductCategoryKey",
+                        "column_type": "integer",
+                        "sample_values": [
+                            1,
+                            5,
+                            3
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "CategoryName",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Audio & Headphones",
+                            "Networking & Modems",
+                            "Power & Charging"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"techsales_product_categories\" (\n\"ProductCategoryKey\" INTEGER,\n  \"CategoryName\" TEXT\n)"
+            },
+            {
+                "table_id": 6,
+                "table_name": "techsales_product_subcategories",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "ProductSubcategoryKey",
+                        "column_type": "integer",
+                        "sample_values": [
+                            7,
+                            12,
+                            1
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "SubcategoryName",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Gaming Headsets",
+                            "Keyboards",
+                            "Mousepads"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "ProductCategoryKey",
+                        "column_type": "integer",
+                        "sample_values": [
+                            4,
+                            5,
+                            1
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"techsales_product_subcategories\" (\n\"ProductSubcategoryKey\" INTEGER,\n  \"SubcategoryName\" TEXT,\n  \"ProductCategoryKey\" INTEGER\n)"
+            },
+            {
+                "table_id": 7,
+                "table_name": "techsales_product_returns",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "ReturnDate",
+                        "column_type": "text",
+                        "sample_values": [
+                            "2022-10-13",
+                            "2022-01-17",
+                            "2022-11-04"
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "ProductKey",
+                        "column_type": "integer",
+                        "sample_values": [
+                            143,
+                            114,
+                            131
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "ReturnQuantity",
+                        "column_type": "integer",
+                        "sample_values": [
+                            1
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"techsales_product_returns\" (\n\"ReturnDate\" TEXT,\n  \"ProductKey\" INTEGER,\n  \"ReturnQuantity\" INTEGER\n)"
+            }
+        ]
+    },
+    {
+        "db_id": "23",
+        "tables": [
+            {
+                "table_id": 0,
+                "table_name": "ben10_aliens",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "alien_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            44,
+                            66,
+                            70
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "alien_name",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Walkatrout",
+                            "Whampire",
+                            "Way Big"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "species",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Minuteite",
+                            "Togetherite",
+                            "Growthite"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "home_planet",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Qonos",
+                            "Vega",
+                            "Tau Ceti"
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "strength_level",
+                        "column_type": "integer",
+                        "sample_values": [
+                            5,
+                            9,
+                            8
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "speed_level",
+                        "column_type": "integer",
+                        "sample_values": [
+                            6,
+                            5,
+                            10
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "intelligence",
+                        "column_type": "integer",
+                        "sample_values": [
+                            7,
+                            9,
+                            10
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"ben10_aliens\" (\n\"alien_id\" INTEGER,\n  \"alien_name\" TEXT,\n  \"species\" TEXT,\n  \"home_planet\" TEXT,\n  \"strength_level\" INTEGER,\n  \"speed_level\" INTEGER,\n  \"intelligence\" INTEGER\n)"
+            },
+            {
+                "table_id": 1,
+                "table_name": "ben10_enemies",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "enemy_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            56,
+                            1,
+                            67
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "alien_name",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Ultimate Big Chill",
+                            "Echo Echo",
+                            "Ultimate Echo Echo"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "enemy_name",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Ball Weevil",
+                            "Ultimate Cannonbolt",
+                            "Fasttrack"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"ben10_enemies\" (\n\"enemy_id\" INTEGER,\n  \"alien_name\" TEXT,\n  \"enemy_name\" TEXT\n)"
+            },
+            {
+                "table_id": 2,
+                "table_name": "ben10_battles",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "battle_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            254,
+                            281,
+                            101
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "alien_name",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Big Chill",
+                            "Upgrade",
+                            "Shocksquatch"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "enemy_name",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Jetpack Alien",
+                            "Gax",
+                            "Echo Echo"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "battle_date",
+                        "column_type": "text",
+                        "sample_values": [
+                            "05-10-2023",
+                            "22-07-2022",
+                            "23-04-2023"
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "winner",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Frankenstrike",
+                            "XLR8",
+                            "Ball Weevil"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"ben10_battles\" (\n\"battle_id\" INTEGER,\n  \"alien_name\" TEXT,\n  \"enemy_name\" TEXT,\n  \"battle_date\" TEXT,\n  \"winner\" TEXT\n)"
+            }
+        ]
+    },
+    {
+        "db_id": "2",
+        "tables": [
+            {
+                "table_id": 0,
+                "table_name": "finance_loan_approval_prediction_data",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "Loan_ID",
+                        "column_type": "text",
+                        "sample_values": [
+                            "LP002527",
+                            "LP002855",
+                            "LP002789"
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "Gender",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Female",
+                            "Male"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "Married",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Yes",
+                            "No"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "Dependents",
+                        "column_type": "text",
+                        "sample_values": [
+                            "0",
+                            "2",
+                            "3+"
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "Education",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Graduate",
+                            "Not Graduate"
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "Self_Employed",
+                        "column_type": "text",
+                        "sample_values": [
+                            "No",
+                            "Yes"
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "ApplicantIncome",
+                        "column_type": "integer",
+                        "sample_values": [
+                            4691,
+                            2213,
+                            8080
+                        ]
+                    },
+                    {
+                        "column_id": 7,
+                        "column_name": "CoapplicantIncome",
+                        "column_type": "integer",
+                        "sample_values": [
+                            2365.0,
+                            2417.0,
+                            3066.0
+                        ]
+                    },
+                    {
+                        "column_id": 8,
+                        "column_name": "LoanAmount",
+                        "column_type": "real",
+                        "sample_values": [
+                            134.0,
+                            26.0,
+                            312.0
+                        ]
+                    },
+                    {
+                        "column_id": 9,
+                        "column_name": "Loan_Amount_Term",
+                        "column_type": "real",
+                        "sample_values": [
+                            12.0,
+                            60.0,
+                            180.0
+                        ]
+                    },
+                    {
+                        "column_id": 10,
+                        "column_name": "Credit_History",
+                        "column_type": "real",
+                        "sample_values": [
+                            0.0,
+                            1.0
+                        ]
+                    },
+                    {
+                        "column_id": 11,
+                        "column_name": "Property_Area",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Rural",
+                            "Urban",
+                            "Semiurban"
+                        ]
+                    },
+                    {
+                        "column_id": 12,
+                        "column_name": "Loan_Status",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Y",
+                            "N"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"finance_loan_approval_prediction_data\" (\n\"Loan_ID\" TEXT,\n  \"Gender\" TEXT,\n  \"Married\" TEXT,\n  \"Dependents\" TEXT,\n  \"Education\" TEXT,\n  \"Self_Employed\" TEXT,\n  \"ApplicantIncome\" INTEGER,\n  \"CoapplicantIncome\" REAL,\n  \"LoanAmount\" REAL,\n  \"Loan_Amount_Term\" REAL,\n  \"Credit_History\" REAL,\n  \"Property_Area\" TEXT,\n  \"Loan_Status\" TEXT\n)"
+            }
+        ]
+    }
+]

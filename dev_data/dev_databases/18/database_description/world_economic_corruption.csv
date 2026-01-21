@@ -1,0 +1,111 @@
+country,annual_income,corruption_index
+Denmark,68110,12
+Finland,53660,12
+New Zealand,45340,12
+Norway,84090,15
+Singapore,64010,15
+Sweden,58890,15
+Switzerland,90360,16
+Netherlands,56370,18
+Luxembourg,81110,19
+Germany,51040,20
+United Kingdom,45380,22
+Hong Kong,54450,24
+Austria,52210,26
+Canada,48310,26
+Estonia,25970,26
+Iceland,64410,26
+Ireland,74520,26
+Australia,56760,27
+Belgium,50510,27
+Japan,42620,27
+France,43880,29
+United Arab Emirates,39410,31
+United States,70430,33
+Qatar,57120,37
+Portugal,23730,38
+South Korea,34980,38
+Spain,29740,39
+Israel,49560,41
+Italy,35710,44
+Poland,16670,44
+Saudi Arabia,22270,47
+Greece,20140,51
+Malaysia,10930,52
+China,11890,55
+Romania,14170,55
+South Africa,6440,56
+India,2170,60
+Vietnam,3560,61
+Argentina,10050,62
+Brazil,7720,62
+Indonesia,4140,62
+Turkey,9830,62
+Sri Lanka,3820,63
+Ecuador,5930,64
+Thailand,7260,65
+El Salvador,4140,66
+Sierra Leone,510,66
+Algeria,3660,67
+Egypt,3510,67
+Nepal,1230,67
+Philippines,3640,67
+Zambia,1040,67
+Eswatini,3680,68
+Ukraine,4120,68
+Gabon,7100,69
+Mexico,9380,69
+Niger,590,69
+Papua New Guinea,2790,69
+Azerbaijan,4880,70
+Bolivia,3360,70
+Djibouti,3300,70
+Dominican Republic,8220,70
+Kenya,2010,70
+Laos,2520,70
+Paraguay,5340,70
+Togo,980,70
+Angola,1770,71
+Liberia,620,71
+Mali,870,71
+Russia,11600,71
+Burma,1140,72
+Mauritania,1730,72
+Pakistan,1500,72
+Uzbekistan,1960,72
+Cameroon,1590,73
+Kyrgyzstan,1180,73
+Uganda,840,73
+Bangladesh,2620,74
+Madagascar,500,74
+Mozambique,480,74
+Guatemala,4940,75
+Guinea,1010,75
+Iran,3370,75
+Tajikistan,1150,75
+Central Africa,530,76
+Lebanon,3450,76
+Nigeria,2100,76
+Cambodia,1550,77
+Honduras,2540,77
+Iraq,5040,77
+Zimbabwe,1400,77
+Eritrea,600,78
+Cape Verde,3330,79
+Congo,1630,79
+Chad,650,80
+Comoros,1460,80
+Haiti,1420,80
+Nicaragua,2010,80
+Sudan,670,80
+Burundi,240,81
+Congo (Dem. Republic),580,81
+Turkmenistan,7220,81
+Equatorial Guinea,5810,83
+Libya,8430,83
+Afghanistan,500,84
+Yemen,670,84
+Venezuela,13080,86
+Somalia,450,87
+Syria,1170,87
+South Sudan,460,89

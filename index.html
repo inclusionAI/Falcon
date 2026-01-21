@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Falcon: Text-to-SQL Benchmark</title>
+    <meta name="description" content="Falcon is a continuously-evolving, high-quality benchmark for natural-language-to-SQL (Text2SQL) systems.">
+    
+    <!-- ✅ 浏览器标签页图标 (Favicon) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦅</text></svg>">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #0969da;
+            --dark: #1f2328;
+            --light: #f6f8fa;
+            --border: #d0d7de;
+            --code-bg: #f6f8fa;
+            --gold-bg: #fff8c5;
+            --silver-bg: #f0f2f4;
+            --bronze-bg: #fff1e5;
+        } 
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+
+        /* 导航栏 */
+        .navbar {
+            border-bottom: 1px solid var(--border);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(5px);
+            z-index: 100;
+        } 
+        
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .nav-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-weight: 700;
+            font-size: 1.25rem;
+            text-decoration: none;
+            color: var(--dark);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .nav-links a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #57606a;
+            font-size: 0.95rem;
+            font-weight: 500;
+        }
+        .nav-links a:hover { color: var(--primary); }
+
+        /* Hero 区域 */
+        .hero {
+            background: linear-gradient(to bottom, #ffffff, var(--light));
+            padding: 5rem 0;
+            text-align: center;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: var(--dark);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .hero-icon {
+            display: inline-block;
+            transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            cursor: default;
+        }
+        
+        .hero-icon:hover { transform: scale(1.4); }
+
+        .hero p {
+            font-size: 1.25rem;
+            color: #57606a;
+            max-width: 700px;
+            margin: 0 auto 2rem;
+        }
+
+        .btn-group {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap; /* 防止小屏幕按钮溢出 */
+        }
+
+        .btn {
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+
+        .btn-primary {
+            background-color: var(--primary);
+            color: white;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .btn-primary:hover { background-color: #0856b3; transform: translateY(-1px); }
+
+        .btn-outline {
+            border: 1px solid var(--border);
+            background-color: white;
+            color: var(--dark);
+        }
+        .btn-outline:hover { background-color: #f3f4f6; transform: translateY(-1px); }
+
+        /* 内容区块通用 */
+        section { padding: 3.5rem 0; }
+        
+        h2 {
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+            font-size: 1.75rem;
+        }
+
+        h3 { font-size: 1.25rem; margin-bottom: 0.5rem; }
+
+        /* 链接通用样式 */
+        a.text-link {
+            color: var(--primary);
+            text-decoration: none;
+        }
+        a.text-link:hover {
+            text-decoration: underline;
+        }
+
+        /* --- 排行榜样式 --- */
+        .table-wrapper {
+            overflow-x: auto;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.95rem;
+            background: white;
+        }
+        
+        th, td {
+            text-align: left;
+            padding: 14px 16px;
+            border-bottom: 1px solid var(--border);
+            vertical-align: middle;
+        }
+        
+        th { 
+            background-color: var(--light); 
+            font-weight: 600; 
+            color: #424a53;
+            white-space: nowrap;
+        }
+
+        /* 模型列样式 */
+        .model-cell {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .model-name {
+            font-weight: 600;
+            color: var(--dark);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .model-meta {
+            font-size: 0.8rem;
+            color: #656d76;
+            margin-top: 4px;
+        }
+
+        /* 标签样式 */
+        .tag {
+            display: inline-block;
+            padding: 2px 6px;
+            border-radius: 10px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            line-height: 1;
+        }
+        .tag-sota { background: #dafbe1; color: #1a7f37; border: 1px solid rgba(26,127,55,0.2); }
+        .tag-new { background: #ddf4ff; color: #0969da; border: 1px solid rgba(9,105,218,0.2); } 
+
+        /* 排名样式 */
+        .rank-cell { font-weight: 700; color: #6e7781; text-align: center; width: 60px; }
+        .rank-1 { background-color: var(--gold-bg) !important; }
+        .rank-2 { background-color: var(--silver-bg) !important; }
+        .rank-3 { background-color: var(--bronze-bg) !important; }
+
+        /* 分数样式 */
+        .score-primary { font-weight: 700; color: var(--dark); }
+        .score-secondary { color: #656d76; font-size: 0.85rem; }
+
+        tr:last-child td { border-bottom: none; }
+        tbody tr:hover { background-color: #fafafa; }
+
+        /* --- 其他板块样式 --- */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .feature-card {
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.5rem;
+        }
+        .feature-card h3 { margin-top: 0; color: var(--primary); }
+
+        pre {
+            background: var(--code-bg);
+            padding: 1.5rem;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-size: 0.9rem;
+            border: 1px solid var(--border);
+            font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+        }
+
+        .code-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: #57606a;
+        }
+
+        .data-details {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+        
+        .file-tree {
+            line-height: 1.5;
+        }
+
+        footer {
+            text-align: center;
+            padding: 3rem 0;
+            color: #57606a;
+            font-size: 0.9rem;
+            border-top: 1px solid var(--border);
+            background: var(--light);
+            margin-top: 2rem;
+        } 
+
+        @media (max-width: 768px) {
+            .nav-links { display: none; }
+            .hero h1 { font-size: 2rem; flex-direction: column; }
+            .data-details { grid-template-columns: 1fr; }
+            th, td { padding: 10px; }
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="container nav-content">
+        <a href="#" class="logo">🦅 Falcon</a>
+        <div class="nav-links">
+            <a href="#leaderboard">Leaderboard</a>
+            <a href="#submission-helper">Submission</a>
+            <a href="#about">About</a>
+            <a href="#data">Data</a>
+            <a href="#features">Features</a>
+            <a href="https://github.com/eosphoros-ai/Falcon" target="_blank">GitHub</a>
+        </div>
+    </div>
+</nav> 
+
+<div class="hero">
+    <div class="container">
+        <h1><span class="hero-icon">🦅</span> Falcon Benchmark</h1>
+        <p>A continuously-evolving, high-quality benchmark designed to stress-test Text-to-SQL models under complex, cross-domain analytical scenarios.</p>
+        <div class="btn-group">
+            <a href="https://github.com/eosphoros-ai/Falcon" class="btn btn-primary">View on GitHub</a>
+            <a href="https://arxiv.org/abs/2510.24762" class="btn btn-outline">Read Paper</a>
+            <a href="https://docs.google.com/document/d/16KWw1GjrF6aUwumQxxsi_N3GEB5LPzzzHSqHsBE9TBw/edit?usp=sharing" target="_blank" class="btn btn-outline">Submission Guidelines</a>
+        </div>
+    </div>
+</div> 
+
+<div class="container">
+    
+    <section id="leaderboard">
+        <h2>🏆 Leaderboard</h2>
+        <p>
+            Current evaluation results on the Falcon benchmark (500 Questions). <br>
+            Sorted by <strong>Execution Accuracy (EX)</strong>. "VES" denotes Valid Executable SQL rate. <br>
+            To submit your results, please refer to the <a href="https://docs.google.com/document/d/16KWw1GjrF6aUwumQxxsi_N3GEB5LPzzzHSqHsBE9TBw/edit?usp=sharing" target="_blank" class="text-link">Submission Guidelines</a>.
+        </p>
+        
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="rank-cell">Rank</th>
+                        <th>Model</th>
+                        <th>Execution Accuracy (EX)</th>
+                        <th>Executable Rate (VES)</th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Rank 1: DeepSeek R1 -->
+                    <tr class="rank-1">
+                        <td class="rank-cell">1 🏆</td>
+                        <td>
+                            <div class="model-cell">
+                                <span class="model-name">Falcon-Agent + DeepSeek R1 <span class="tag tag-sota">SOTA</span></span>
+                                <span class="model-meta">Ant Group</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="score-primary">45.2%</div>
+                            <div class="score-secondary">226 / 500</div>
+                        </td>
+                        <td>
+                            <div class="score-primary">83.8%</div>
+                            <div class="score-secondary">419 / 500</div>
+                        </td>
+                        <td>2025-09</td>
+                    </tr> 
+
+                    <!-- Rank 2: o1 -->
+                    <tr class="rank-2">
+                        <td class="rank-cell">2 🥈</td>
+                        <td>
+                            <div class="model-cell">
+                                <span class="model-name">Falcon-Agent + o1</span>
+                                <span class="model-meta">Ant Group</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="score-primary">43.0%</div>
+                            <div class="score-secondary">215 / 500</div>
+                        </td>
+                        <td>
+                            <div class="score-primary">84.6%</div>
+                            <div class="score-secondary">423 / 500</div>
+                        </td>
+                        <td>2025-09</td>
+                    </tr>
+
+                    <!-- Rank 3: o3-mini -->
+                    <tr class="rank-3">
+                        <td class="rank-cell">3 🥉</td>
+                        <td>
+                            <div class="model-cell">
+                                <span class="model-name">Falcon-Agent + o3-mini</span>
+                                <span class="model-meta">Ant Group</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="score-primary">42.2%</div>
+                            <div class="score-secondary">211 / 500</div>
+                        </td>
+                        <td>
+                            <div class="score-primary">82.0%</div>
+                            <div class="score-secondary">410 / 500</div>
+                        </td>
+                        <td>2025-09</td>
+                    </tr>
+
+                    <!-- Rank 4: Claude 3.7 Sonnet Thinking -->
+                    <tr>
+                        <td class="rank-cell">4</td>
+                        <td>
+                            <div class="model-cell">
+                                <span class="model-name">Falcon-Agent + Claude 3.7 Sonnet (Thinking) <span class="tag tag-new">NEW</span></span>
+                                <span class="model-meta">Ant Group</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="score-primary">41.0%</div>
+                            <div class="score-secondary">205 / 500</div>
+                        </td>
+                        <td>
+                            <div class="score-primary">80.6%</div>
+                            <div class="score-secondary">403 / 500</div>
+                        </td>
+                        <td>2025-09</td>
+                    </tr>
+
+                    <!-- Rank 5: GPT4.1 -->
+                    <tr>
+                        <td class="rank-cell">5</td>
+                        <td>
+                            <div class="model-cell">
+                                <span class="model-name">Falcon-Agent + GPT4.1 (Preview)</span>
+                                <span class="model-meta">Ant Group</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="score-primary">40.2%</div>
+                            <div class="score-secondary">201 / 500</div>
+                        </td>
+                        <td>
+                            <div class="score-primary">76.2%</div>
+                            <div class="score-secondary">381 / 500</div>
+                        </td>
+                        <td>2025-09</td>
+                    </tr>
+
+                    <!-- Rank 6: Claude 3.7 Sonnet -->
+                    <tr>
+                        <td class="rank-cell">6</td>
+                        <td>
+                            <div class="model-cell">
+                                <span class="model-name">Falcon-Agent + Claude 3.7 Sonnet</span>
+                                <span class="model-meta">Ant Group</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="score-primary">40.0%</div>
+                            <div class="score-secondary">200 / 500</div>
+                        </td>
+                        <td>
+                            <div class="score-primary">79.0%</div>
+                            <div class="score-secondary">395 / 500</div>
+                        </td>
+                        <td>2025-09</td>
+                    </tr>
+
+                    <!-- Rank 7: qwen3-coder-480b -->
+                    <tr>
+                        <td class="rank-cell">7</td>
+                        <td>
+                            <div class="model-cell">
+                                <span class="model-name">Falcon-Agent + Qwen3-Coder-480B-Instruct</span>
+                                <span class="model-meta">Ant Group</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="score-primary">37.0%</div>
+                            <div class="score-secondary">185 / 500</div>
+                        </td>
+                        <td>
+                            <div class="score-primary">77.4%</div>
+                            <div class="score-secondary">387 / 500</div>
+                        </td>
+                        <td>2025-09</td>
+                    </tr>
+
+                    <!-- Rank 8: Gemini 2.5 Pro -->
+                    <tr>
+                        <td class="rank-cell">8</td>
+                        <td>
+                            <div class="model-cell">
+                                <span class="model-name">Falcon-Agent + Gemini 2.5 Pro</span>
+                                <span class="model-meta">Ant Group</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="score-primary">36.8%</div>
+                            <div class="score-secondary">184 / 500</div>
+                        </td>
+                        <td>
+                            <div class="score-primary">84.2%</div>
+                            <div class="score-secondary">421 / 500</div>
+                        </td>
+                        <td>2025-09</td>
+                    </tr>
+
+                    <!-- Rank 9: Gemini 2.5 Pro Reasoning -->
+                    <tr>
+                        <td class="rank-cell">9</td>
+                        <td>
+                            <div class="model-cell">
+                                <span class="model-name">Falcon-Agent + Gemini 2.5 Pro (Reasoning)</span>
+                                <span class="model-meta">Ant Group</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="score-primary">34.8%</div>
+                            <div class="score-secondary">174 / 500</div>
+                        </td>
+                        <td>
+                            <div class="score-primary">82.4%</div>
+                            <div class="score-secondary">412 / 500</div>
+                        </td>
+                        <td>2025-09</td>
+                    </tr>
+
+                    <!-- Rank 10: Llama 3.3-70B -->
+                    <tr>
+                        <td class="rank-cell">10</td>
+                        <td>
+                            <div class="model-cell">
+                                <span class="model-name">Falcon-Agent + Llama 3.3 70B</span>
+                                <span class="model-meta">Ant Group</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="score-primary">24.0%</div>
+                            <div class="score-secondary">120 / 500</div>
+                        </td>
+                        <td>
+                            <div class="score-primary">65.6%</div>
+                            <div class="score-secondary">328 / 500</div>
+                        </td>
+                        <td>2025-09</td>
+                    </tr>
+
+                    <!-- Rank 11: DeepSeek-R1-Distill-Qwen-32B -->
+                    <tr>
+                        <td class="rank-cell">11</td>
+                        <td>
+                            <div class="model-cell">
+                                <span class="model-name">Falcon-Agent + DeepSeek-R1-Distill-Qwen-32B</span>
+                                <span class="model-meta">Ant Group</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="score-primary">23.4%</div>
+                            <div class="score-secondary">117 / 500</div>
+                        </td>
+                        <td>
+                            <div class="score-primary">62.4%</div>
+                            <div class="score-secondary">312 / 500</div>
+                        </td>
+                        <td>2025-09</td>
+                    </tr>
+
+                    <!-- Rank 12: GPT-4o -->
+                    <tr>
+                        <td class="rank-cell">12</td>
+                        <td>
+                            <div class="model-cell">
+                                <span class="model-name">Falcon-Agent + GPT-4o</span>
+                                <span class="model-meta">Ant Group</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="score-primary">23.4%</div>
+                            <div class="score-secondary">117 / 500</div>
+                        </td>
+                        <td>
+                            <div class="score-primary">62.0%</div>
+                            <div class="score-secondary">310 / 500</div>
+                        </td>
+                        <td>2025-09</td>
+                    </tr>
+
+                    <!-- Rank 13: qwen3-32B -->
+                    <tr>
+                        <td class="rank-cell">13</td>
+                        <td>
+                            <div class="model-cell">
+                                <span class="model-name">Falcon-Agent + Qwen3-32B</span>
+                                <span class="model-meta">Ant Group</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="score-primary">20.4%</div>
+                            <div class="score-secondary">102 / 500</div>
+                        </td>
+                        <td>
+                            <div class="score-primary">49.4%</div>
+                            <div class="score-secondary">247 / 500</div>
+                        </td>
+                        <td>2025-09</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Falcon</h2>
+        <p>
+            Falcon is built on public Kaggle datasets covering <strong>Finance, Internet, and Retail</strong> domains. 
+            The benchmark distinguishes itself by pairing each domain with question sets of <strong>incremental difficulty levels</strong>, allowing for a fine-grained measurement of model capabilities.
+        </p>
+        <p>
+            The current release includes 500 Chinese questions derived from Kaggle datasets.  Future updates will include questions focusing on fuzzy linguistic expressions and real-world production scenarios from Ant Group.
+        </p>
+    </section>
+
+    <section id="data">
+        <h2>📂 Data & Repository Structure</h2>
+        <p>The Falcon benchmark is divided into two main splits: a <strong>Development Set (200 questions)</strong> and a <strong>Test Set (300 questions)</strong>. The repository structure is designed for easy integration with evaluation pipelines.</p>
+        
+        <div class="data-details">
+            <div>
+                <h3>Repository Layout</h3>
+                <pre class="file-tree">FALCON/
+├── dev_data/                # Development Set (200 Samples)
+│   ├── dev.json             # Questions, SQL & Answers
+│   ├── tables.json          # Schema information
+│   └── db/                  # Database files (SQLite/CSV)
+│
+└── test_data/               # Test Set (300 Samples)
+    ├── test.json            # Questions ONLY (No SQL/Answer)
+    ├── tables.json          # Schema information
+    └── db/                  # Database files</pre>
+            </div>
+            <div>
+                <h3>Core File Formats</h3>
+                <p><strong>dev.json</strong> (in <code>dev_data/</code>)</p>
+                <pre>{
+  "question_id": "1",
+  "question": "What is the average age...?",
+  "sql": "SELECT avg(age) FROM ...",
+  "answer": [...],
+  "dataset_id": "1"
+}</pre>
+                <p><strong>test.json</strong> (in <code>test_data/</code>)</p>
+                <pre>{
+  "question_id": "201",
+  "question": "Show the total sales...",
+  "dataset_id": "10"
+  // Note: No 'sql' or 'answer' fields
+}</pre>
+            </div>
+        </div>
+    </section>
+
+    <section id="features">
+        <h2>Key Challenges</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <h3>SQL-Computational Difficulties</h3>
+                <p>Designed to test complex logic including:</p>
+                <ul>
+                    <li>Multi-table joins</li>
+                    <li>Nested CTEs (Common Table Expressions)</li>
+                    <li>Window functions & Ranking</li>
+                    <li>Type casting & Regular-expression filters</li>
+                </ul>
+            </div>
+            <div class="feature-card">
+                <h3>Linguistic Difficulties</h3>
+                <p>Focuses on natural language ambiguity:</p>
+                <ul>
+                    <li>Chinese fuzzy time expressions</li>
+                    <li>Colloquial business jargon</li>
+                    <li>Ellipsis (omitted information)</li>
+                    <li>Multi-intent questions</li>
+                </ul>
+            </div>
+        </div>
+    </section> 
+
+    <section id="submission-helper">
+        <h2>🛠 Submission Helper</h2>
+        <p>
+            For users using DB-GPT for testset execution, we provide a helper script <code>submission/submission_format.py</code>. This script converts your execution result Excel file into the required <code>submission.zip</code> format containing <code>result_sql</code> and <code>result_csv</code> folders.
+        </p>
+        
+        <div class="code-header">
+            <span>submission/submission_format.py</span>
+        </div>
+        <pre><code>if __name__ == "__main__":
+    # Input file name - excel
+    INPUT_FILE = "execute.xlsx" # REPLACE WITH ACTUAL EXECEL FILE NAME
+    # Output file name - zip
+    OUTPUT_ZIP = "submission.zip"</code></pre>
+    </section>
+
+    <section id="citation">
+        <h2>📝 Citation</h2>
+        <p>For methodology, dataset construction details, and evaluation protocols, please refer to our arXiv paper:</p>
+        <pre><code>@article{falcon2025,
+  title={Falcon: A Comprehensive Chinese Text-to-SQL Benchmark for Enterprise-Grade Evaluation},
+  author={Luo, Wenzhen and Guan, Wei and Yao, Yifan and Pan, Yimin and Wang, Feng and Yu, Zhipeng and Wen, Zhe and Chen, Liang and Zhuang, Yihong},
+  journal={arXiv preprint arXiv:2510.24762},
+  year={2025},
+  url={https://arxiv.org/abs/2510.24762}
+}</code></pre>
+    </section>
+</div> 
+
+<footer>
+    <div class="container">
+        <p>
+            Licensed under Apache-2.0. <br>
+            Maintained by <a href="https://github.com/eosphoros-ai" style="color: #0969da; text-decoration: none;">eosphoros-ai</a>.
+        </p>
+    </div>
+</footer>
+
+</body>
+</html>

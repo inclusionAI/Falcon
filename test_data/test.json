@@ -1,0 +1,1530 @@
+[
+    {
+        "question_id": 0,
+        "db_id": "1",
+        "question": "筛选出投资目标为增长且储蓄目标为教育的投资者，并计算投资期限最多的类型和对应人数",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 1,
+        "db_id": "3",
+        "question": "找出收盘价超过开盘价20%那天对应的公司及其涨幅值",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 2,
+        "db_id": "10",
+        "question": "统计各交易所的指数各个季度波动幅度？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 3,
+        "db_id": "22",
+        "question": "哪些城市举办的UFC赛事观众人数超过1.5万人且对应国家的互联网用户比例高于90%？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 4,
+        "db_id": "11",
+        "question": "计算总销售额超过100万的产品，并确定其利润率（假设成本为单价的50%）？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 5,
+        "db_id": "10",
+        "question": "筛选成交量突破年度均值且收盘价创区域新高的指数",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 6,
+        "db_id": "13",
+        "question": "按门店类型统计的每周销售额超过该类型平均值的门店有哪些？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 7,
+        "db_id": "11",
+        "question": "统计周末销售数量超过1000的产品？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 8,
+        "db_id": "25",
+        "question": "分析退货量高于平均的产品的子类别分布及其平均售价",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 9,
+        "db_id": "23",
+        "question": "哪些家乡星球的外星人平均力量等级高于所有敌人的平均速度等级？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 10,
+        "db_id": "22",
+        "question": "找出美国轻量级运动员中臂展与腿长差值最大的前3名选手及其首秀年份？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "1"
+    },
+    {
+        "question_id": 11,
+        "db_id": "12",
+        "question": "计算高价值用户（LTV大于50）在不同设备上的客单价？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 12,
+        "db_id": "3",
+        "question": "2018年各公司股票月度平均收盘价超过100美元的月份有哪些，并按平均收盘价排序？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "1"
+    },
+    {
+        "question_id": 13,
+        "db_id": "10",
+        "question": "在美元计价的各股票指数中，1988年第二季度开盘价低于收盘价的天数有多少？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 14,
+        "db_id": "27",
+        "question": "各个城市客户的平均购买数量是多少，并按城市购买力进行排名？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "1"
+    },
+    {
+        "question_id": 15,
+        "db_id": "22",
+        "question": "查找UFC赛事中加拿大主办的城市里，总胜率排名前五的运动员的赛事，要求展示赛事城市及对应运动员平均身高？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 16,
+        "db_id": "27",
+        "question": "哪些员工在生日(月日)早于入职日期(月日)的情况下销售了折扣率高于0.1的产品？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 17,
+        "db_id": "3",
+        "question": "微软公司2018年每月股票最高价与最低价差值超10美元的月份有哪些？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 18,
+        "db_id": "10",
+        "question": "各地区的指数单日最高价与最低价的最大差值是多少，出现在那个交易日？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 19,
+        "db_id": "23",
+        "question": "Rath对抗Eatle的胜利次数是多少？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 20,
+        "db_id": "10",
+        "question": "恒生指数在1998年后的交易日中，最大连续上涨天数是多少？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 21,
+        "db_id": "23",
+        "question": "来自Ego the Living Planet的外星人中，力量属性最高的是谁？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 22,
+        "db_id": "25",
+        "question": "哪个产品类别的2022年5月销售额环比2022年4月增长率最高？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 23,
+        "db_id": "1",
+        "question": "储蓄目标为退休计划的投资者，投资政府债券的主要原因及其平均年龄是多少？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 24,
+        "db_id": "11",
+        "question": "2019年各月份销售环比增长是多少",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 25,
+        "db_id": "23",
+        "question": "Big Chill在战斗中的所有记录是什么？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 26,
+        "db_id": "27",
+        "question": "统计每位销售人员在谷物类产品上的总销量，并筛选出销量超过其个人平均销量50%的销售记录",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 27,
+        "db_id": "25",
+        "question": "哪些教育背景的客户在黑色星期五期间退货率高于10%？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 28,
+        "db_id": "11",
+        "question": "统计每种商品在周末的平均销量，并筛选平均销量超过1件的商品",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 29,
+        "db_id": "12",
+        "question": "在瑞典完成结算的用户中，哪些人的购买次数超过1次，且其最近一次购买金额高于历史平均？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 30,
+        "db_id": "23",
+        "question": "列出对抗Ultimate Big Chill战斗中胜场数最多的前三名敌人，并计算其战斗强度（力量等级乘以速度等级）",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 31,
+        "db_id": "22",
+        "question": "2023年哪些国家的总人口超过全球平均水平且GDP高于全球平均GDP？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 32,
+        "db_id": "23",
+        "question": "战斗力最强的外星人（智力与力量总和最高）平均击败过多少种敌人？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 33,
+        "db_id": "25",
+        "question": "在亚洲城市销量排名前三的充电器是哪些产品型号",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 34,
+        "db_id": "3",
+        "question": "哪些交易日的成交量较其30日平均成交量萎缩超过90%？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 35,
+        "db_id": "22",
+        "question": "2023年人口增长率低于前一年的国家中，哪个国家的互联网用户增长最快？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 36,
+        "db_id": "22",
+        "question": "展示各国2023年GDP排名并标注是否超过中位数水平。",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 37,
+        "db_id": "27",
+        "question": "如何统计各产品类别中价格高出品类均价40%的产品及其过敏属性？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 38,
+        "db_id": "23",
+        "question": "拥有超过3次胜利且家乡星球为Vega的外星人有哪些？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 39,
+        "db_id": "13",
+        "question": "非节假日期间，各门店类型下月销售额累计排名前五的门店中，其总销售额是否超过50000？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 40,
+        "db_id": "22",
+        "question": "列出奥地利国家的平均海拔、总人口和互联网用户百分比。",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 41,
+        "db_id": "23",
+        "question": "找出在同一天参与过多次战斗且智力等级高于平均水平的外星人？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 42,
+        "db_id": "1",
+        "question": "不同性别投资者选择公募基金作为主要投资渠道时，考虑因素为收益的人数占其比例是多少",
+        "SQL": [],
+        "answer": [],
+        "is_order": "1"
+    },
+    {
+        "question_id": 43,
+        "db_id": "3",
+        "question": "微软股票在2018年每日成交量按成交量倒排之后的前10个交易日及其成交量是多少？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "1"
+    },
+    {
+        "question_id": 44,
+        "db_id": "23",
+        "question": "找出速度与智力综合评分高于平均水平的来自Vega星球的外星人及其最新战斗日期",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 45,
+        "db_id": "23",
+        "question": "截止到2025年，找出在近三年战斗中胜利数量前三排名的外星人，并统计其平均战斗速度等级？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 46,
+        "db_id": "1",
+        "question": "在投资期限超过3年的投资者中，期望收益率在30%以上的群体最常使用的三大投资渠道是什么？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "1"
+    },
+    {
+        "question_id": 47,
+        "db_id": "23",
+        "question": "每个外星人的总胜利次数及其对应的母星是什么？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 48,
+        "db_id": "10",
+        "question": "哪些指数1988年超过一半交易日在上涨？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 49,
+        "db_id": "3",
+        "question": "特斯拉每日最高价与最低价差值的累计差值总和是多少？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 50,
+        "db_id": "11",
+        "question": "按产品统计工作日与周末的销售数量差异是多少？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 51,
+        "db_id": "6",
+        "question": "统计纽约市各支付方式的平均订单金额，筛选出平均金额超过500的支付方式，并按支付方式排序",
+        "SQL": [],
+        "answer": [],
+        "is_order": "1"
+    },
+    {
+        "question_id": 52,
+        "db_id": "11",
+        "question": "列出总销售额排名前三的商品名称及其销售额",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 53,
+        "db_id": "22",
+        "question": "各国2023年GDP总和对应的赛事平均参与人数是多少？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 54,
+        "db_id": "12",
+        "question": "按商品类别统计每月新增到购物车的平均次数是多少？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 55,
+        "db_id": "1",
+        "question": "按投资者性别和年龄分组，统计各分组中不同投资途径的人数",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 56,
+        "db_id": "11",
+        "question": "周日销售的croissant在哪些日期创造了超过9000韩元的单笔销售额",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 57,
+        "db_id": "13",
+        "question": "失业率低于全国平均水平的商店中，各类型商店的最高温度记录是多少？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 58,
+        "db_id": "12",
+        "question": "找出美国用户中购买次数超过1次的用户及其总消费金额，并计算每人消费金额占总金额的比例？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 59,
+        "db_id": "22",
+        "question": "找出人口总数大于500万且举办过超过2次UFC赛事的国家有哪些？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 60,
+        "db_id": "13",
+        "question": "各商店的总销售额及其对应的商店类型是什么？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 61,
+        "db_id": "10",
+        "question": "在多伦多证券交易所上市的股票指数中，成交量超过10亿的交易日占比是多少，并按年份输出占比排名？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 62,
+        "db_id": "27",
+        "question": "列出高耐久性分类产品中价格高于平均价的商品信息",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 63,
+        "db_id": "13",
+        "question": "促销期间各门店销售额排名前五的部门有哪些？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 64,
+        "db_id": "22",
+        "question": "平均海拔超过500米且选手平均年龄小于40岁的国家有哪些？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 65,
+        "db_id": "6",
+        "question": "找出每个类别中利润超过该类别平均利润3000美元以上的订单",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 66,
+        "db_id": "13",
+        "question": "找出在2013年上半年CPI高于200且燃料价格低于3.8的店铺，并计算其各类型店铺的平均周销售额排名。",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 67,
+        "db_id": "13",
+        "question": "计算每个商店在假日和非假日期间的总销售额及平均温度，并找出总销售额超过5000且平均温度高于60度的商店",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 68,
+        "db_id": "23",
+        "question": "统计每种物种中速度等级和战斗胜率均在前三名的外星人？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 69,
+        "db_id": "10",
+        "question": "按月份统计各指数的总交易量趋势？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 70,
+        "db_id": "22",
+        "question": "互联网用户占比前十的国家中，运动员平均胜率是多少？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "1"
+    },
+    {
+        "question_id": 71,
+        "db_id": "22",
+        "question": "统计俄罗斯格斗选手按年龄分组的平均胜率。",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 72,
+        "db_id": "12",
+        "question": "各品牌商品中价格高于该品牌平均价的商品数量是多少？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 73,
+        "db_id": "6",
+        "question": "哪些支付方式的订单平均利润高于整体平均且总订单量超过50？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 74,
+        "db_id": "22",
+        "question": "找出巴西年轻格斗家（低于30岁）中臂展与腿展比例最大的选手姓名及年龄。",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 75,
+        "db_id": "23",
+        "question": "哪些外星人的胜利次数超过了敌人平均胜利次数的50%？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 76,
+        "db_id": "22",
+        "question": "哪些国家的GDP超过2000亿美金且对应的UFC选手平均胜率高于60%？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 77,
+        "db_id": "11",
+        "question": "周末平均销量前五名的面包有哪些？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 78,
+        "db_id": "25",
+        "question": "哪些产品的总销售额超过了该产品所在子类别的平均销售额？请列出这些产品ID。",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 79,
+        "db_id": "23",
+        "question": "Terraspin对抗Ultimate Big Chill的战斗中外星人种族如何，并显示自己的速度与力量的水平？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 80,
+        "db_id": "25",
+        "question": "查询每个客户最近一次购买记录中单价超过790的商品名称",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 81,
+        "db_id": "25",
+        "question": "找出每个产品子类别中价格最高的产品，并显示其对应的客户所在城市及购买次数",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 82,
+        "db_id": "2",
+        "question": "统计不同地区申请人及其配偶的总收入，并筛选出总收入高于区域平均值的地区",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 83,
+        "db_id": "25",
+        "question": "退货量top10的产品型号有哪些？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 84,
+        "db_id": "3",
+        "question": "查询苹果公司2018年每月的平均收盘价是多少？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 85,
+        "db_id": "25",
+        "question": "哪些城市的客户购买的笔记本电脑总销售额超过1000美元？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 86,
+        "db_id": "6",
+        "question": "计算每年在洛杉矶的总利润，筛选出总利润超过5000的年份，并按年份排序",
+        "SQL": [],
+        "answer": [],
+        "is_order": "1"
+    },
+    {
+        "question_id": 87,
+        "db_id": "6",
+        "question": "列出每个全类别（全类别表示为：类别 - 子类别）在芝加哥的总销售额超过10000的组合，并按类别和子类别排序",
+        "SQL": [],
+        "answer": [],
+        "is_order": "1"
+    },
+    {
+        "question_id": 88,
+        "db_id": "1",
+        "question": "按投资目标分组的投资者人数及其最常考虑的储蓄目标是什么？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "1"
+    },
+    {
+        "question_id": 89,
+        "db_id": "10",
+        "question": "列出各指数2000、2013、2014年在交易量最高峰日的开盘价与收盘价差值",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 90,
+        "db_id": "13",
+        "question": "如何统计A类型商店在温度高于86度天气下的燃油价格对周销售额的影响，并按日期排序显示每个商店的销售效率排名？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "1"
+    },
+    {
+        "question_id": 91,
+        "db_id": "23",
+        "question": "哪些外星人在2024年的战斗中战胜过Snare-oh类型的敌人？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 92,
+        "db_id": "11",
+        "question": "哪种产品在周六周日的平均销售额最高？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 93,
+        "db_id": "25",
+        "question": "计算2022年12月订单中笔记本电脑产品的平均利润率，并显示各产品型号的利润排名",
+        "SQL": [],
+        "answer": [],
+        "is_order": "1"
+    },
+    {
+        "question_id": 94,
+        "db_id": "23",
+        "question": "哪些外星人的胜利次数超过3次且对战的独特敌人数量超过2个？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 95,
+        "db_id": "23",
+        "question": "筛选来自Vega星球且战斗胜率超过50%的外星人，并评估其战斗效率（胜率与总战斗次数的乘积）？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 96,
+        "db_id": "1",
+        "question": "在投资公募基金的用户群体中，其top3的投资信息来源是哪些？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "1"
+    },
+    {
+        "question_id": 97,
+        "db_id": "23",
+        "question": "智慧等级高于7的外星人中，他们各物种的平均战斗速度等级是多少？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 98,
+        "db_id": "23",
+        "question": "Ego the Living Planet出身的外星人中力量与速度综合值最高的是谁？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 99,
+        "db_id": "22",
+        "question": "失业率超过5%的国家举办的赛事中，最早举办日期是什么时候？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 100,
+        "db_id": "10",
+        "question": "哪些交易所的股票指数最高价与最低价年平均差值超过700点？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 101,
+        "db_id": "27",
+        "question": "找出员工中入职时间早于所在城市最早客户注册时间的员工信息，只需列出员工id即可",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 102,
+        "db_id": "22",
+        "question": "拥有格斗运动员数量最多的前二个国家，其劳动年龄人口比例是多少？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "1"
+    },
+    {
+        "question_id": 103,
+        "db_id": "23",
+        "question": "统计每个星球物种中力量属性前五名的外星人及其速度等级？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 104,
+        "db_id": "3",
+        "question": "列出特斯拉股票日波动幅度大于10美元时对应的收盘价记录，并按日期倒序排列，日期输出年月日格式即可。",
+        "SQL": [],
+        "answer": [],
+        "is_order": "1"
+    },
+    {
+        "question_id": 105,
+        "db_id": "6",
+        "question": "各城市每月销售额排名前三的月份及其销售额是多少？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 106,
+        "db_id": "22",
+        "question": "列出巴西籍UFC选手中臂展超过80英寸并在2019年后参赛的选手编号及胜率，要求按城市分组统计最高胜率选手",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 107,
+        "db_id": "12",
+        "question": "用户LTV高于平均值的用户中，哪些用户最近一次加购事件发生在桌面端？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 108,
+        "db_id": "11",
+        "question": "哪些周日销售的提拉米苏可颂销售额比该品类当周平均销售额高出50%？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 109,
+        "db_id": "13",
+        "question": "统计不同部门在高温天气（温度超过30度）下的总销售额，并计算其与整体平均销售额的差异百分比？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 110,
+        "db_id": "22",
+        "question": "温度高于20摄氏度的国家中，格斗选手平均臂展是多少英寸？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 111,
+        "db_id": "10",
+        "question": "找出1998年1月第4周收盘价环比连续三日上涨的指数及其所属交易所",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 112,
+        "db_id": "3",
+        "question": "查找苹果公司中间价大于190的日期及其平均交易量，并按日期先后顺序排列",
+        "SQL": [],
+        "answer": [],
+        "is_order": "1"
+    },
+    {
+        "question_id": 113,
+        "db_id": "23",
+        "question": "列出每个外星人最近三次战斗的敌人名称及战斗日期，并按战斗日期降序排列？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "1"
+    },
+    {
+        "question_id": 114,
+        "db_id": "6",
+        "question": "如何获取加利福尼亚州家具类订单的累计销售额，并按月份进行滚动汇总？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 115,
+        "db_id": "10",
+        "question": "2000年各指数哪些日子的交易量大于当日所有指数平均交易量的0.3倍",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 116,
+        "db_id": "25",
+        "question": "黑色产品在不同客户教育水平下的总退货数量是多少？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 117,
+        "db_id": "10",
+        "question": "统计最近20年各指数收盘价高于该指数平均值的收盘价的交易日数量是多少？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 118,
+        "db_id": "3",
+        "question": "苹果公司股票在2018年每日收盘价高于开盘价的天数有多少",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 119,
+        "db_id": "3",
+        "question": "以底表最新日期为基准, 哪些公司在过去30天内的累计交易量排名前十且当日成交量高于当日平均水平？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 120,
+        "db_id": "3",
+        "question": "统计各公司每日最高价与最低价的价差，并筛选价差超过100美元的日期中按交易量排名的前五记录",
+        "SQL": [],
+        "answer": [],
+        "is_order": "1"
+    },
+    {
+        "question_id": 121,
+        "db_id": "22",
+        "question": "找出人口增长率高于平均水平的国家中，场馆出席率超过该国总人口千分之一的赛事。",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 122,
+        "db_id": "12",
+        "question": "YouTube品牌商品在不同国家的桌面端销售额占比是多少？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 123,
+        "db_id": "25",
+        "question": "不同城市的客户购买台式电脑的订单数量是多少，按订单数量降序排序",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 124,
+        "db_id": "23",
+        "question": "哪些外星人对抗过来自自身母星的敌人？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 125,
+        "db_id": "22",
+        "question": "找出近三年美国轻量级选手中胜率超过70%的选手，按臂展长度排名并统计各城市平均体重",
+        "SQL": [],
+        "answer": [],
+        "is_order": "1"
+    },
+    {
+        "question_id": 126,
+        "db_id": "12",
+        "question": "统计每个品牌在移动端和桌面端不同设备上的销售额占比？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 127,
+        "db_id": "2",
+        "question": "各区域贷款批准数量及其占该区域总申请量的比例是多少？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 128,
+        "db_id": "23",
+        "question": "哪些外星人战胜过Ultimate Big Chill且智力等级超过5？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 129,
+        "db_id": "12",
+        "question": "找出各商品首次购买时间，时间使用年月日显示",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 130,
+        "db_id": "13",
+        "question": "如何找出失业率高于平均水平的门店中周销售额最高的前五家门店及其规模？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "1"
+    },
+    {
+        "question_id": 131,
+        "db_id": "3",
+        "question": "根据各公司最近七天收盘价的日移动平均，找出值超过6300美元的公司中交易量最高的三个日期",
+        "SQL": [],
+        "answer": [],
+        "is_order": "1"
+    },
+    {
+        "question_id": 132,
+        "db_id": "3",
+        "question": "哪些日期的公司收盘价相比其30日移动平均价高出50%以上？30日移动平均按交易日算，日期输出年月日格式即可。",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 133,
+        "db_id": "22",
+        "question": "统计每个拳手参赛次数及其所属国家互联网用户比例，并按臂展与腿展总和排名。",
+        "SQL": [],
+        "answer": [],
+        "is_order": "1"
+    },
+    {
+        "question_id": 134,
+        "db_id": "10",
+        "question": "中国地区的各股票指数中，1998年每日收盘价超过该年平均收盘价的日期有哪些，并按日期正序？日期输出年月日格式即可。",
+        "SQL": [],
+        "answer": [],
+        "is_order": "1"
+    },
+    {
+        "question_id": 135,
+        "db_id": "6",
+        "question": "列出各州中单笔订单金额高于该州平均订单金额的订单，并显示其与平均值的差额",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 136,
+        "db_id": "3",
+        "question": "哪些日期哪些股票的最高最低价差超过当日过去30日平均价格的50%？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 137,
+        "db_id": "22",
+        "question": "失业率高于全球平均水平的国家中，哪个国家工作年龄人口比例最高？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 138,
+        "db_id": "11",
+        "question": "计算迄今为止有销量的各类面包销售额占比？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 139,
+        "db_id": "12",
+        "question": "哪些Android品牌商品被美国用户加入购物车，并求出加入购物车的次数",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 140,
+        "db_id": "23",
+        "question": "Big Chill在2024年1月1日后的战斗有哪些，展现的速度和力量水平如何",
+        "SQL": [],
+        "answer": [],
+        "is_order": "1"
+    },
+    {
+        "question_id": 141,
+        "db_id": "22",
+        "question": "失业率低于10%且UFC选手平均臂展超过70英寸的国家是哪些？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 142,
+        "db_id": "25",
+        "question": "各产品最近一次退货的日期及对应的产品颜色是什么？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 143,
+        "db_id": "22",
+        "question": "在中东国家举办的赛事中，选手平均年龄低于30岁且胜率超过80%的城市场馆温度分布如何？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 144,
+        "db_id": "23",
+        "question": "每个物种中的战斗力（力量、速度和智力之和）排名第一的是哪个外星人？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 145,
+        "db_id": "22",
+        "question": "统计2020年后首秀的巴西运动员在羽量级赛事中的平均体重及所在城市失业率？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 146,
+        "db_id": "2",
+        "question": "计算教育程度为毕业生的申请人，其总申请收入（申请人收入+共同申请人收入）大于贷款金额的总人数。",
+        "SQL": [],
+        "answer": [],
+        "is_order": "1"
+    },
+    {
+        "question_id": 147,
+        "db_id": "23",
+        "question": "展示每个物种中外星人战斗胜利次数最多的个体及其力量等级",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 148,
+        "db_id": "6",
+        "question": "如何统计各支付方式中单笔交易金额高于该方式平均金额的客户数量并显示降序排名？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "1"
+    },
+    {
+        "question_id": 149,
+        "db_id": "1",
+        "question": "各性别的投资者平均年龄是多少，并按年龄正序显示结果",
+        "SQL": [],
+        "answer": [],
+        "is_order": "1"
+    },
+    {
+        "question_id": 150,
+        "db_id": "12",
+        "question": "哪些品牌的商品在移动端设备上的总购买次数超过1次？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 151,
+        "db_id": "1",
+        "question": "各信息来源渠道的投资者人数及其最常考虑的投资因素是什么？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 152,
+        "db_id": "6",
+        "question": "如何筛选出各客户订单中利润率超过45%的记录并按利润率排名？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 153,
+        "db_id": "27",
+        "question": "查询2018年5月3日当天的22:45:00-23:00:00销售记录",
+        "SQL": [],
+        "answer": [],
+        "is_order": "1"
+    },
+    {
+        "question_id": 154,
+        "db_id": "23",
+        "question": "在综合战斗力评分（速度、智力与力量评分之和）超过13的外星人中，哪些敌人参与了2024年之后的战斗？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 155,
+        "db_id": "27",
+        "question": "不同城市的客户购买次数排名如何？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "1"
+    },
+    {
+        "question_id": 156,
+        "db_id": "23",
+        "question": "哪些外星人在与'Snare-oh'的战斗中保持了50%以上胜率？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 157,
+        "db_id": "23",
+        "question": "查询综合战斗力评分（速度、智力与力量评分之和）前三位外星人的最新战斗的对手及对手所在星球",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 158,
+        "db_id": "13",
+        "question": "各类型门店中周销售额排名前五的门店，并使用1和0分别标记其平均周销售额是否超过10000？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 159,
+        "db_id": "23",
+        "question": "力量等级超过8且参与过至少5场战斗的外星人有哪些？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 160,
+        "db_id": "10",
+        "question": "找出各交易所历史最高价与最低价差异最大的交易日记录",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 161,
+        "db_id": "2",
+        "question": "获取农村地区自营职业者的申请人，按信用历史分组后的平均申请人收入，且平均收入低于10000，并按信用历史降序排列。",
+        "SQL": [],
+        "answer": [],
+        "is_order": "1"
+    },
+    {
+        "question_id": 162,
+        "db_id": "22",
+        "question": "分析每位运动员的胜率是否高于其所在国家的平均胜率，并按体重级别分组展示。",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 163,
+        "db_id": "25",
+        "question": "路由器类产品中退货数量超过1件的产品有哪些？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 164,
+        "db_id": "22",
+        "question": "筛选出参赛次数超过10场的选手所属国家，并统计这些国家的平均温度与经济依赖比。",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 165,
+        "db_id": "6",
+        "question": "各州采用信用卡支付的订单总利润超过5000的州及其平均利润是多少？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 166,
+        "db_id": "25",
+        "question": "每个产品子类别的平均成本与对应品类的最高价格差异是多少？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 167,
+        "db_id": "27",
+        "question": "统计最近10个名为Aaron的所有客户的消费记录，展示客户全名、所在城市ID和最近购买时间，最近购买时间展示到年月日即可",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 168,
+        "db_id": "27",
+        "question": "找出每个产品类别中销量超过该类别平均销量的产品，并显示其在每个类别中的销量排名",
+        "SQL": [],
+        "answer": [],
+        "is_order": "1"
+    },
+    {
+        "question_id": 169,
+        "db_id": "23",
+        "question": "找出总战斗次数超过3次且智力高于8的外星人，并列出其速度与力量的指数？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 170,
+        "db_id": "22",
+        "question": "哪些国家的劳动年龄人口占比高于65%且互联网用户增长率超过3%，其举办的UFC赛事平均上座人数是多少？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 171,
+        "db_id": "23",
+        "question": "速度等级高于5的外星人中，胜利次数最多的有哪些？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 172,
+        "db_id": "27",
+        "question": "哪些低耐久性商品在2018年3月后的总销量超过100件，且在其所属类别中销量排名前五？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 173,
+        "db_id": "6",
+        "question": "各支付方式在不同月份的总利润排名如何，并显示各支付方式的月均利润？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 174,
+        "db_id": "23",
+        "question": "在速度等级高于8的外星人参与的胜利战斗中，敌方名称出现的频率如何？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 175,
+        "db_id": "23",
+        "question": "在Tierra Nova星球的外星人平均战斗力量值是多少？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 176,
+        "db_id": "27",
+        "question": "居住在梅萨市的客户购买的高过敏风险产品订单总量等于25件的交易有哪些？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 177,
+        "db_id": "3",
+        "question": "计算各公司月累计交易量，并找出累计交易量超过300000000的月份中开盘价涨幅最大的前三月",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 178,
+        "db_id": "6",
+        "question": "电子产品类别的子类别中年度销售额增长率超过10%的子类别及其增长率是多少？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 179,
+        "db_id": "27",
+        "question": "计算美国客户中购买次数最多的产品类别及其平均折扣率？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 180,
+        "db_id": "11",
+        "question": "找出总销售额超过100万的产品",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 181,
+        "db_id": "13",
+        "question": "每个商店在假期和非假期期间的周销售额总和分别是多少？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 182,
+        "db_id": "12",
+        "question": "统计各商品类别中被加入购物车次数最多的前10个商品，并计算其加入次数占同类别的比例？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 183,
+        "db_id": "27",
+        "question": "列出各产品类别中耐久性为'Durable'且价格高于类别均价的产品，并显示其与类别均价的价差",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 184,
+        "db_id": "1",
+        "question": "不同投资期限的投资者数量及其中选择定期存款的比例是多少？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 185,
+        "db_id": "10",
+        "question": "各股票指数的日均交易量及其对应的货币是什么？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 186,
+        "db_id": "22",
+        "question": "统计俄罗斯运动员参与过的赛事中，平均观众人数超过1万的赛事类型及其举办国家的GDP？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 187,
+        "db_id": "22",
+        "question": "按国家分区统计每位选手的胜场排名，并计算这些国家GDP与人口比。",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 188,
+        "db_id": "13",
+        "question": "如何按商店类型统计节假日期间各门店的销售排名及其占总销售额的比例？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    },
+    {
+        "question_id": 189,
+        "db_id": "27",
+        "question": "分析2014年后入职员工负责的过敏类产品销售额排名",
+        "SQL": [],
+        "answer": [],
+        "is_order": "1"
+    },
+    {
+        "question_id": 190,
+        "db_id": "12",
+        "question": "YouTube品牌商品在不同设备端的加购物车比例是怎样的？",
+        "SQL": [],
+        "answer": [],
+        "is_order": "0"
+    }
+]

@@ -1,0 +1,168 @@
+first_name,last_name,nickname,city,country,age,wins,losses,draws,win_percent,lose_percent,num_of_fights,weight_division,height_ft,weight_lbs,arm_reach_inch,leg_reach_inch,fighting_style,debut
+Islam,Makhachev,NA,Dagestan Republic,Russia,33,26,1,0,96.29629629629629,3.7037037037037033,27,Lightweight Division,5.833333333333333,155,70.5,40.5,Sambo,2015-05-23
+Jon,Jones,Bones,Rochester,United States,37,28,1,0,96.55172413793103,3.4482758620689653,29,Heavyweight Division,6.333333333333333,237.6,84.5,45,NA,2008-08-09
+Alex,Pereira,Poatan,São Bernardo do Campo,Brazil,37,12,2,0,85.71428571428571,14.285714285714285,14,Light Heavyweight Division,6.333333333333333,205,79,44,Kickboxer,2021-11-06
+Ilia,Topuria,El  Matador,NA,Germany,27,16,0,0,100,0,16,Featherweight Division,5.583333333333333,145,69,37,Brazilian Jiu-Jitsu,2020-10-10
+Belal,Muhammad,Remember The Name,Chicago,United States,36,24,3,0,88.88888888888889,11.11111111111111,27,Welterweight Division,5.916666666666667,169,72,40,NA,2016-07-07
+Dricus,Du Plessis,Stillknocks,Welkom,South Africa,30,22,2,0,91.66666666666666,8.333333333333332,24,Middleweight Division,6.083333333333333,185,76,43,MMA,2020-10-10
+Merab,Dvalishvili,The Machine,Tbilisi,Georgia,33,18,4,0,81.81818181818183,18.181818181818183,22,Bantamweight Division,5.5,134,68,38,Freestyle,2017-12-09
+Tom,Aspinall,NA,Salford,United Kingdom,31,15,3,0,83.33333333333334,16.666666666666664,18,Heavyweight Division,6.416666666666667,255,78,44,Freestyle,2020-03-21
+Alexandre,Pantoja,The Cannibal,NA,Brazil,34,29,5,0,85.29411764705883,14.705882352941178,34,Flyweight Division,5.416666666666667,124.5,67,36.5,MMA,2017-01-29
+Leon,Edwards,Rocky,Kingston,Jamaica,33,22,4,0,84.61538461538461,15.384615384615385,26,Welterweight Division,6,170,74,43,MMA,2014-11-09
+Alexander,Volkanovski,The Great,Wollongong,Australia,36,26,4,0,86.66666666666667,13.333333333333334,30,Featherweight Division,5.5,144.5,71.5,36,NA,2016-10-15
+Max,Holloway,Blessed,Oahu,United States,32,26,8,0,76.47058823529412,23.52941176470588,34,Featherweight Division,5.916666666666667,145,69,42,Muay Thai,2012-02-04
+Sean,O'Malley,Suga,Helena,United States,30,18,2,0,90,10,20,Bantamweight Division,5.916666666666667,135,72,40,NA,2017-07-18
+Sean,Strickland,NA,NA,United States,33,29,6,0,82.85714285714286,17.142857142857142,35,Middleweight Division,6.083333333333333,185,76,41.5,MMA,2014-03-15
+Charles,Oliveira,Do Bronxs,State of São Paulo,Brazil,35,35,10,0,77.77777777777779,22.22222222222222,45,Lightweight Division,5.833333333333333,155.6,74,41,Jiu-Jitsu,2010-08-01
+Brandon,Royval,Raw Dawg,Denver,United States,32,17,7,0,70.83333333333334,29.166666666666668,24,Flyweight Division,5.75,125.5,68,38.5,Brawler,2020-05-30
+Brandon,Moreno,The Assassin Baby,Tijuana,Mexico,30,22,8,2,73.33333333333333,26.666666666666668,30,Flyweight Division,5.583333333333333,135,70,38,Jiu-Jitsu,2016-10-02
+Amir,Albazi,The Prince,Baghdad,Iraq,31,17,2,0,89.47368421052632,10.526315789473683,19,Flyweight Division,5.416666666666667,125.5,68,38,Jiu-Jitsu,2020-07-18
+Kai,Kara-France,Don't Blink,Auckland,New Zealand,31,25,11,0,69.44444444444444,30.555555555555557,36,Flyweight Division,5.333333333333333,125,69,37,Kickboxer,2018-12-02
+Tatsuro,Taira,NA,NA,Japan,24,16,1,0,94.11764705882352,5.88235294117647,17,Flyweight Division,5.583333333333333,125.5,70,38,NA,2022-04-30
+Manel,Kape,StarBoy,NA,Angola,31,20,7,0,74.07407407407408,25.925925925925924,27,Flyweight Division,5.416666666666667,125,68,39,MMA,2021-02-06
+Alex,Perez,NA,Hanford,United States,32,25,9,0,73.52941176470588,26.47058823529412,34,Flyweight Division,5.5,126,65.5,38,Freestyle,2017-08-08
+Asu,Almabayev ,Zulfikar,NA,Kazakhstan,30,21,2,0,91.30434782608695,8.695652173913043,23,Flyweight Division,5.333333333333333,125.5,65,36,NA,2023-08-05
+Steve,Erceg,Astroboy,Perth,Australia,29,12,3,0,80,20,15,Flyweight Division,5.666666666666667,125.5,68,38,MMA,2023-05-20
+Tim,Elliott,NA,NA,United States,37,21,13,1,61.76470588235294,38.23529411764706,34,Bantamweight Division,5.583333333333333,136,66,38,Freestyle,2012-05-05
+Tagir,Ulanbekov,NA,Dagestan,Russia,33,16,2,0,88.88888888888889,11.11111111111111,18,Flyweight Division,5.583333333333333,129.5,70,39,Grappler,2020-10-10
+Charles,Johnson,Inner G,Topeka,United States,33,17,6,0,73.91304347826086,26.08695652173913,23,Flyweight Division,5.75,126,70,40,NA,2022-07-23
+Bruno,Silva,Bulldog,Piracicaba,Brazil,34,14,6,2,70,30,20,Flyweight Division,5.333333333333333,126,65,35,Grappler,2019-09-07
+Joshua,Van,The Fearless,Hakha ,Myanmar (Burma),23,12,2,0,85.71428571428571,14.285714285714285,14,Flyweight Division,5.416666666666667,126,65,35,Freestyle,2023-06-24
+Umar,Nurmagomedov,NA,Republic of Dagestan,Russia,28,18,0,0,100,0,18,Bantamweight Division,5.666666666666667,135,69,39,MMA,2021-01-20
+Petr,Yan,No Mercy,Krasnoyarsk Krai,Russia,31,18,5,0,78.26086956521739,21.73913043478261,23,Bantamweight Division,5.625,135.5,67,38,Boxer,2018-06-23
+Cory,Sandhagen,NA,Aurora,United States,32,17,5,0,77.27272727272727,22.727272727272727,22,Bantamweight Division,5.916666666666667,136,70,40,MMA,2018-01-28
+Deiveson,Figueiredo,Deus da Guerra,Soure,Brazil,37,24,4,1,85.71428571428571,14.285714285714285,28,Bantamweight Division,5.416666666666667,135,68,38,Boxing,2017-06-03
+Marlon,Vera,Chito,Chone,Ecuador,32,23,10,1,69.6969696969697,30.303030303030305,33,Bantamweight Division,5.666666666666667,136,70.5,40.5,Grappler,2014-11-15
+Henry,Cejudo,Triple C,Los Angeles,United States,37,16,4,0,80,20,20,Bantamweight Division,5.333333333333333,135,64,37,Wrestling,2014-12-13
+Song,Yadong,Kung Fu Kid,Heilongjiang,China,27,21,8,1,72.41379310344827,27.586206896551722,29,Bantamweight Division,5.666666666666667,136,67,38,Boxer,2017-11-25
+Rob,Font,NA,Leominster,United States,37,21,8,0,72.41379310344827,27.586206896551722,29,Bantamweight Division,5.666666666666667,135.5,71.5,38.5,Striker,2014-07-05
+Mario,Bautista,NA,Winnemucca,United States,31,15,2,0,88.23529411764706,11.76470588235294,17,Bantamweight Division,5.75,136,72,39,Freestyle,2019-01-19
+Kyler,Phillips,The Matrix,Torrance,United States,29,12,3,0,80,20,15,Bantamweight Division,5.666666666666667,135.5,72,38,NA,2017-08-01
+Aiemann,Zahabi,NA,Laval,Canada,37,12,2,0,85.71428571428571,14.285714285714285,14,Bantamweight Division,5.666666666666667,135.5,68.5,38,MMA,2017-02-20
+Marcus,McGhee,The Maniac,Detroit,United States,34,10,1,0,90.9090909090909,9.090909090909092,11,Bantamweight Division,5.666666666666667,135.6,69,38,Brazilian Jiu-Jitsu,2023-04-29
+Montel,Jackson,Quik,Milwaukee,United States,32,15,2,0,88.23529411764706,11.76470588235294,17,Bantamweight Division,5.833333333333333,135,75.5,41,MMA,2018-08-04
+Diego,Lopes,NA,Manaus,Brazil,29,26,6,0,81.25,18.75,32,Featherweight Division,5.916666666666667,145,72.5,41,Jiu-Jitsu,2023-05-06
+Movsar,Evloev,NA,Ingushetia,Russia,30,19,0,0,100,0,19,Featherweight Division,5.583333333333333,145.5,72.5,36,Freestyle,2019-04-20
+Yair,Rodriguez,El Pantera,Hidalgo Del Parral,Mexico,32,16,5,0,76.19047619047619,23.809523809523807,21,Featherweight Division,5.916666666666667,146,71,41.5,Freestyle,2014-11-15
+Brian,Ortega,T-City,Carson,United States,33,16,4,0,80,20,20,Featherweight Division,5.666666666666667,146,69,39,Jiu-Jitsu,2014-07-26
+Arnold,Allen,Almighty,Ipswich,United Kingdom,30,20,3,0,86.95652173913044,13.043478260869565,23,Featherweight Division,5.666666666666667,145,70,39,MMA,2015-06-20
+Josh,Emmett,CC0 (C-C-OH),Phoenix,United States,39,19,4,0,82.6086956521739,17.391304347826086,23,Featherweight Division,5.541666666666667,146,70,39.5,Freestyle,2016-05-08
+Aljamain,Sterling,Funk Master,NA,United States,35,24,5,0,82.75862068965517,17.24137931034483,29,Featherweight Division,5.583333333333333,145.5,71,39,Kickboxer,2014-02-22
+Calvin,Kattar,NA,Methuen,United States,36,23,8,0,74.19354838709677,25.806451612903224,31,Featherweight Division,5.916666666666667,145.5,72,40,Freestyle,2017-07-29
+Lerone,Murphy,The Miracle,Manchester,United Kingdom,33,15,0,1,100,0,15,Featherweight Division,5.75,145.5,73.5,39,Kickboxer,2019-09-07
+Giga,Chikadze,Ninja,Tbilisi,Georgia,36,15,4,0,78.94736842105263,21.052631578947366,19,Featherweight Division,6,146,74,40.5,Karate,2019-09-28
+Bryce,Mitchell,Thug Nasty,Texarkana,United States,30,17,3,0,85,15,20,Featherweight Division,5.833333333333333,146,70,40,MMA,2018-07-06
+Dan,Ige,50K,San Clemente,United States,33,18,9,0,66.66666666666666,33.33333333333333,27,Featherweight Division,5.583333333333333,146,71,38,Jiu-Jitsu,2017-07-25
+Edson,Barboza,Junior,Nova Friburgo,Brazil,38,24,12,0,66.66666666666666,33.33333333333333,36,Featherweight Division,5.916666666666667,145.5,75,41,Striker,2010-11-21
+Arman,Tsarukyan,Ahalkalakets,NA,Georgia,28,22,3,0,88,12,25,Lightweight Division,5.583333333333333,156,72.5,39.5,Kickboxer,2019-04-20
+Justin,Gaethje,The Highlight,Tucson,United States,36,26,5,0,83.87096774193549,16.129032258064516,31,Lightweight Division,5.916666666666667,156,70,40,MMA,2017-07-08
+Dustin,Poirier,The Diamond,Lafayette,United States,35,30,9,0,76.92307692307693,23.076923076923077,39,Lightweight Division,5.75,155,72,40.5,Jiu-Jitsu,2011-01-02
+Dan,Hooker,The Hangman,Aukland,New Zealand,34,24,12,0,66.66666666666666,33.33333333333333,36,Lightweight Division,6,155.5,75,42.5,MMA,2014-06-28
+Michael,Chandler,Iron,High Ridge,United States,38,23,9,0,71.875,28.125,32,Lightweight Division,5.666666666666667,155.6,71.5,37.5,Wrestler,2021-01-23
+Mateusz,Gamrot,Gamer,Bielsko,Poland,34,24,3,0,88.88888888888889,11.11111111111111,27,Lightweight Division,5.833333333333333,156,70.5,39,Wrestling,2020-10-17
+Beneil,Dariush,NA,NA,Iran,35,22,6,1,78.57142857142857,21.428571428571427,28,Lightweight Division,5.833333333333333,156,72,40.5,MMA,2014-01-15
+Renato,Moicano,NA,Brasilia,Brazil,35,20,5,1,80,20,25,Lightweight Division,5.916666666666667,156,72,42.5,Jiu-Jitsu,2014-12-20
+Rafael,Fiziev,Ataman,NA,Kyrgyzstan,31,12,3,0,80,20,15,Lightweight Division,5.666666666666667,156,71.5,40,Muay Thai,2019-04-20
+Benoît,Saint Denis ,God of War,Nîmes,France,29,13,3,0,81.25,18.75,16,Lightweight Division,5.916666666666667,156,73,40,MMA,2021-10-30
+Paddy,Pimblett,The Baddy,Liverpool,United Kingdom,29,22,3,0,88,12,25,Lightweight Division,5.833333333333333,156,73,40,NA,2021-09-04
+Jalin,Turner,The Tarantula,Los Angeles,United States,29,14,8,0,63.63636363636363,36.36363636363637,22,Lightweight Division,6.25,155.5,77,46,MMA,2018-10-07
+Joel,Álvarez,El Fenomeno,Gijón,Spain,31,22,3,0,88,12,25,Lightweight Division,6.166666666666667,156,77,42,Striker,2019-02-23
+Shavkat,Rakhmonov,Nomad,NA,Uzbekistan,30,19,0,0,100,0,19,Welterweight Division,6.083333333333333,171,77,42,Sambo,2020-03-21
+Kamaru,Usman,Nigerian Nightmare,Auchi,Nigeria,37,20,4,0,83.33333333333334,16.666666666666664,24,Middleweight Division,6,184.5,76,41,Freestyle,2015-07-12
+Jack,Della Maddalena,NA,NA,Australia,28,17,2,0,89.47368421052632,10.526315789473683,19,Welterweight Division,5.916666666666667,170,73,40.5,MMA,2022-01-22
+Sean,Brady,NA,Philadelphia,United States,32,17,1,0,94.44444444444444,5.555555555555555,18,Welterweight Division,5.833333333333333,171,72,40,Brazilian Jiu-Jitsu,2019-10-18
+Joaquin,Buckley,New Mansa,NA,United States,30,21,6,0,77.77777777777779,22.22222222222222,27,Welterweight Division,5.833333333333333,171,76,40,Freestyle,2020-08-08
+Ian,Machado Garry,The Future,Dublin,Ireland,27,15,1,0,93.75,6.25,16,Welterweight Division,6.25,171,74.5,42,NA,2021-11-06
+Gilbert,Burns,Durinho,Niterói,Brazil,38,22,8,0,73.33333333333333,26.666666666666668,30,Welterweight Division,5.833333333333333,171,71,40,Brazilian Jiu-Jitsu,2014-07-26
+Colby,Covington,Chaos,NA,United States,36,17,5,0,77.27272727272727,22.727272727272727,22,Welterweight Division,5.916666666666667,171,72,41,Wrestling,2014-08-23
+Geoff,Neal,Handz of Steel,Austin,United States,34,16,6,0,72.72727272727273,27.27272727272727,22,Welterweight Division,5.916666666666667,171,75,41,Striker,2018-02-18
+Stephen,Thompson,Wonderboy,Greenville,United States,41,17,8,1,68,32,25,Welterweight Division,6,171,75,42,Karate,2012-02-04
+Michael,Morales,NA,Pasaje,Ecuador,25,17,0,0,100,0,17,Welterweight Division,6,171,79,41,Striker,2022-01-22
+Carlos,Prates,The Nightmare,State of São Paulo,Brazil,31,21,6,0,77.77777777777779,22.22222222222222,27,Welterweight Division,6.083333333333333,170.5,78,43.5,Striker,2024-02-10
+Vicente,Luque,The Silent Assassin,Westwood,United States,33,23,10,1,69.6969696969697,30.303030303030305,33,Welterweight Division,5.916666666666667,170.5,75.5,38,Muay Thai,2015-07-12
+Israel,Adesanya,The Last Stylebender,Lagos,Nigeria,35,24,4,0,85.71428571428571,14.285714285714285,28,Middleweight Division,6.333333333333333,184,80,44.5,Freestyle,2018-02-11
+Khamzat,Chimaev,Borz,NA,Russia,29,14,0,0,100,0,14,Middleweight Division,6.166666666666667,185,75,40,Wrestler,2020-07-15
+Robert,Whittaker,The Reaper,Otahuhu,Australia,33,27,8,0,77.14285714285715,22.857142857142858,35,Middleweight Division,6,185.5,73.5,43,Brazilian Jiu-Jitsu,2012-12-16
+Nassourdine,Imavov,The Sniper,NA,Russia,29,15,4,0,78.94736842105263,21.052631578947366,19,Middleweight Division,6.25,186,75,42,Striker,2020-10-03
+Caio,Borralho,The Natural,State of Maranhão,Brazil,31,17,1,0,94.44444444444444,5.555555555555555,18,Middleweight Division,6.125,186,75,42,MMA,2022-04-16
+Marvin,Vettori,The Italian Dream,Trento,Italy,31,19,7,1,73.07692307692307,26.923076923076923,26,Middleweight Division,6,185.5,74,41,MMA,2016-08-21
+Jared,Cannonier,Tha Killa Gorilla,Dallas,United States,40,17,8,0,68,32,25,Middleweight Division,5.916666666666667,184,77.5,41.5,Striker,2015-01-03
+Brendan,Allen,All In,Beaufort,United States,28,24,6,0,80,20,30,Middleweight Division,6.166666666666667,186,75,42,MMA,2019-10-18
+Roman,Dolidze,NA,Batumi,Georgia,36,14,3,0,82.35294117647058,17.647058823529413,17,Middleweight Division,6.166666666666667,185.5,76,41,MMA,2020-07-18
+Paulo,Costa,The Eraser,State of Minas Gerais,Brazil,33,14,4,0,77.77777777777779,22.22222222222222,18,Middleweight Division,6.083333333333333,185,72,39.5,Striker,2017-03-12
+Jack,Hermansson,The Joker,Uddevalla,Sweden,36,24,8,0,75,25,32,Middleweight Division,6.083333333333333,185,77.5,46.5,MMA,2016-09-03
+Anthony,Hernandez,Fluffy,Oakland,United States,31,13,2,0,86.66666666666667,13.333333333333334,15,Middleweight Division,6,185.5,75,40,Striker,2019-02-02
+Shara,Magomedov,Bullet,Republic of Dagestan,Russia,30,15,0,0,100,0,15,Middleweight Division,6.166666666666667,185,73,41.5,NA,2023-10-21
+Michel,Pereira,Demolidor,Marabá,Brazil,31,31,12,0,72.09302325581395,27.906976744186046,43,Middleweight Division,6.083333333333333,185.5,73,42,Striker,2019-05-18
+Magomed,Ankalaev,NA,NA,Russia,32,20,1,1,95.23809523809523,4.761904761904762,21,Light Heavyweight Division,6.25,204.5,75,46,MMA,2018-03-17
+Jiří,Procházka ,NA,Hostěradice,Czechia,32,30,5,1,85.71428571428571,14.285714285714285,35,Light Heavyweight Division,6.25,204.5,80,45,Muay Thai,2020-07-11
+Jamahal,Hill,Sweet Dreams,Chicago,United States,33,12,2,0,85.71428571428571,14.285714285714285,14,Light Heavyweight Division,6.333333333333333,205,79,43.5,MMA,2020-01-25
+Jan,Błachowicz,NA,Cieszyn,Poland,41,29,10,1,74.35897435897436,25.64102564102564,39,Light Heavyweight Division,6.166666666666667,205,78,44,MMA,2014-10-04
+Aleksandar,Rakić,Rocket,Vienna,Austria,32,14,5,0,73.68421052631578,26.31578947368421,19,Light Heavyweight Division,6.333333333333333,206,78,46,Freestyle,2017-09-02
+Carlos,Ulberg,Black Jag,Auckland,New Zealand,34,12,1,0,92.3076923076923,7.6923076923076925,13,Light Heavyweight Division,6.333333333333333,205.5,77,43.5,Kickboxer,2021-03-06
+Khalil,Rountree Jr.,NA,Los Angeles,United States,34,14,6,0,70,30,20,Light Heavyweight Division,6.083333333333333,205,76.5,44,MMA,2016-07-09
+Nikita,Krylov,The Miner,NA,Ukraine,32,30,9,0,76.92307692307693,23.076923076923077,39,Light Heavyweight Division,6.25,213,77.5,44.5,Karate,2013-09-01
+Volkan,Oezdemir,No Time,Fribourg,Switzerland,35,20,8,0,71.42857142857143,28.57142857142857,28,Light Heavyweight Division,6.166666666666667,206,75,40.5,Striker,2017-02-05
+Johnny,Walker,NA,Belford Roxo,Brazil,32,21,9,0,70,30,30,Light Heavyweight Division,6.5,206,82,44.5,MMA,2018-11-17
+Dominick,Reyes,The Devastator,Apple Valley,United States,34,14,4,0,77.77777777777779,22.22222222222222,18,Light Heavyweight Division,6.333333333333333,205,77,43.5,Kickboxer,2017-06-26
+Azamat,Murzakanov,Professional,Nalchik,Russia,35,14,0,0,100,0,14,Light Heavyweight Division,5.833333333333333,205,71.5,41,MMA,2021-11-20
+Bogdan,Guskov,Czarevitch,Tashkent,Uzbekistan,32,16,3,0,84.21052631578947,15.789473684210526,19,Light Heavyweight Division,6.25,204.5,76,41,MMA,2023-09-02
+Anthony,Smith,Lionheart,Corpus Christi,United States,36,38,21,0,64.40677966101694,35.59322033898305,59,Light Heavyweight Division,6.333333333333333,205.5,76,44,Freestyle,2012-08-19
+Alonzo,Menifield,Atomic,Los Angeles,United States,37,15,5,1,75,25,20,Light Heavyweight Division,6,205,76,41,Freestyle,2019-01-19
+Ciryl,Gane,Bon Gamin,La Roche-sur-Yon,France,34,13,2,0,86.66666666666667,13.333333333333334,15,Heavyweight Division,6.333333333333333,245.5,81,42,Muay Thai,2019-08-10
+Alexander,Volkov,Drago,Moscow,Russia,36,38,11,0,77.55102040816327,22.448979591836736,49,Heavyweight Division,6.583333333333333,254.5,80,47.5,Brazilian Jiu-Jitsu,2016-11-19
+Sergei,Pavlovich,NA,NA,Russia,32,18,3,0,85.71428571428571,14.285714285714285,21,Heavyweight Division,6.25,260,84,45,MMA,2018-11-24
+Curtis,Blaydes,Razor,Naperville,United States,33,18,5,0,78.26086956521739,21.73913043478261,23,Heavyweight Division,6.333333333333333,256,80,46,MMA,2016-04-10
+Jailton,Almeida,Malhadinho,NA,Brazil,33,21,3,0,87.5,12.5,24,Heavyweight Division,6.25,241,79,43.5,Boxing,2021-11-13
+Serghei,Spivac,Polar Bear,Chisinau,Moldova,29,17,4,0,80.95238095238095,19.047619047619047,21,Heavyweight Division,6.25,260,78,44,Sambo,2019-05-04
+Marcin,Tybura,Tybur,Uniejow,Poland,39,26,9,0,74.28571428571429,25.71428571428571,35,Heavyweight Division,6.25,251,78,46,MMA,2016-04-10
+Jairzinho,Rozenstruik,Bigi Boy,Paramaribo,Suriname,36,15,5,0,75,25,20,Heavyweight Division,6.166666666666667,259,78,41,MMA,2019-02-02
+Derrick,Lewis,The Black Beast,New Orleans,United States,39,28,12,0,70,30,40,Heavyweight Division,6.25,266,79,43.5,Brawler,2014-04-19
+Tai,Tuivasa,Bam Bam,Kingswood,Australia,31,15,8,0,65.21739130434783,34.78260869565217,23,Heavyweight Division,6.166666666666667,265,75,39.5,NA,2017-11-18
+Marcos,Rogerio de Lima,Pezao,NA,Brazil,39,22,10,1,68.75,31.25,32,Heavyweight Division,6.083333333333333,261,75,43,Striker,2014-05-31
+Waldo,Cortes Acosta,Salsa Boy,NA,Dominican Republic,33,12,1,0,92.3076923076923,7.6923076923076925,13,Heavyweight Division,6.333333333333333,262,70,43.5,Striker,2022-10-29
+Shamil,Gaziev,NA,Dagestan,Russia,34,13,1,0,92.85714285714286,7.142857142857142,14,Heavyweight Division,6.333333333333333,262,78.5,45,MMA,2023-12-16
+Mick,Parkin,NA,Sunderland,United Kingdom,29,10,0,0,100,0,10,Heavyweight Division,6.333333333333333,265,79,43,MMA,2023-07-22
+Valentina,Shevchenko,Bullet,Bishkek,Kyrgyzstan,36,24,4,1,85.71428571428571,14.285714285714285,28,Women's Flyweight Division,5.416666666666667,125,67,38,Muay Thai,2015-12-19
+Zhang,Weili,Magnum,Hebei,China,35,25,3,0,89.28571428571429,10.714285714285714,28,Women's Strawweight Division,5.333333333333333,115,63,36,Muay Thai,2018-08-04
+Alexa,Grasso,NA,Guadalajara,Mexico,31,16,4,1,80,20,20,Women's Flyweight Division,5.416666666666667,124,66,37.5,MMA,2016-11-06
+Julianna,Peña,The Venezuelan Vixen,Spokane,United States,35,13,5,0,72.22222222222221,27.77777777777778,18,Women's Bantamweight Division,5.5,134.5,69,39,NA,2013-12-01
+Manon,Fiorot,The Beast,Nice,France,34,12,1,0,92.3076923076923,7.6923076923076925,13,Women's Flyweight Division,5.583333333333333,124.5,65,38,Karate,2021-01-20
+Erin,Blanchfield,Cold Blooded,NA,United States,25,13,2,0,86.66666666666667,13.333333333333334,15,Women's Flyweight Division,5.333333333333333,125.5,66,36,Jiu-Jitsu,2021-09-18
+Rose,Namajunas,Thug,Milwaukee,United States,32,14,7,0,66.66666666666666,33.33333333333333,21,Women's Flyweight Division,5.416666666666667,125,65,39.5,MMA,2014-12-12
+Raquel,Pennington,Rocky,Colorado Springs,United States,36,16,10,0,61.53846153846154,38.46153846153847,26,Women's Bantamweight Division,5.583333333333333,135,67.5,37,Freestyle,2013-12-01
+Tatiana,Suarez,NA,Bellflower,United States,33,11,0,0,100,0,11,Women's Strawweight Division,5.416666666666667,115.5,66,39,MMA,2016-07-09
+Yan,Xiaonan,NA,Liaoning,China,35,19,4,0,82.6086956521739,17.391304347826086,23,Women's Strawweight Division,5.416666666666667,116,63,37,Striker,2017-11-25
+Virna,Jandiroba,Carcara,State of Bahia,Brazil,36,21,3,0,87.5,12.5,24,Women's Strawweight Division,5.25,115.5,64,37,Jiu-Jitsu,2019-04-27
+Jéssica,Andrade ,Bate Estaca,Umuarama,Brazil,33,26,13,0,66.66666666666666,33.33333333333333,39,Women's Flyweight Division,5.125,124.5,62,35,Muay Thai,2013-07-27
+Natalia,Silva,NA,Timóteo,Brazil,27,18,5,1,78.26086956521739,21.73913043478261,23,Women's Flyweight Division,5.333333333333333,125.5,65,36,Taekwondo,2022-06-18
+Maycee,Barber,The Future,Greeley,United States,26,14,2,0,87.5,12.5,16,Women's Flyweight Division,5.416666666666667,125,65,38,Freestyle,2018-11-10
+Amanda,Lemos,NA,Belém,Brazil,37,14,4,1,77.77777777777779,22.22222222222222,18,Women's Strawweight Division,5.333333333333333,116,65,36,Boxing,2017-07-16
+Mackenzie,Dern,NA,NA,United States,31,14,5,0,73.68421052631578,26.31578947368421,19,Women's Strawweight Division,5.333333333333333,115.5,63,37.5,Brazilian Jiu-Jitsu,2018-03-03
+Iasmin,Lucindo,NA,Fortaleza,Brazil,22,17,5,0,77.27272727272727,22.727272727272727,22,Women's Strawweight Division,5.25,116,66,36,Striker,2022-08-13
+Amanda,Ribas,NA,Varginha,Brazil,31,12,5,0,70.58823529411765,29.411764705882355,17,Women's Strawweight Division,5.333333333333333,125.5,66,37,Judo,2019-06-29
+Marina,Rodriguez,NA,State of Rio Grande do Sul,Brazil,37,17,5,2,77.27272727272727,22.727272727272727,22,Women's Strawweight Division,5.5,115.5,65,38.5,Muay Thai,2018-09-23
+Tabatha,Ricci,Baby Shark,State of São Paulo,Brazil,29,11,3,0,78.57142857142857,21.428571428571427,14,Women's Strawweight Division,5.083333333333333,115.5,61,36,Judo,2021-06-05
+Loopy,Godinez,NA,Aguascalientes,Mexico,31,12,5,0,70.58823529411765,29.411764705882355,17,Women's Strawweight Division,5.166666666666667,115.5,61,35,NA,2021-04-17
+Gillian,Robertson,The Savage,Niagara Falls,Canada,29,15,8,0,65.21739130434783,34.78260869565217,23,Women's Strawweight Division,5.416666666666667,116,63,35.5,MMA,2017-12-01
+Angela,Hill,Overkill,Clinton,United States,39,17,14,0,54.83870967741935,45.16129032258064,31,Women's Strawweight Division,5.25,115.5,64.5,38.5,Muay Thai,2014-12-12
+Luana,Pinheiro,NA,João Pessoa,Brazil,32,11,4,0,73.33333333333333,26.666666666666668,15,Women's Strawweight Division,5.208333333333333,115.5,62.5,38,Judo,2021-03-27
+Tecia,Pennington,Tiny Tornado,Fall River,United States,35,14,7,0,66.66666666666666,33.33333333333333,21,Women's Strawweight Division,5.083333333333333,115,60.5,35,Kickboxer,2014-12-12
+Viviane,Araújo,Vivi,Brasília,Brazil,38,13,6,0,68.42105263157895,31.57894736842105,19,Women's Flyweight Division,5.333333333333333,125.6,68,36.5,MMA,2019-05-11
+Tracy,Cortez,NA,Phoenix,United States,31,11,2,0,84.61538461538461,15.384615384615385,13,Women's Flyweight Division,5.416666666666667,126,65.5,38.5,MMA,2019-11-16
+Jasmine,Jasudavicius,NA,St. Catharines,Canada,35,12,3,0,80,20,15,Women's Flyweight Division,5.583333333333333,125,68,38,Brawler,2022-01-22
+Karine,Silva,Killer,Dourados,Brazil,31,18,5,0,78.26086956521739,21.73913043478261,23,Women's Flyweight Division,5.416666666666667,125.8,67,37,Brazilian Jiu-Jitsu,2022-06-04
+Ariane,da Silva ,The Queen,Curitiba,Brazil,30,17,10,0,62.96296296296296,37.03703703703704,27,Women's Flyweight Division,5.5,125,67,38.5,Striker,2019-01-19
+Miranda,Maverick,Fear The,Jefferson City,United States,27,17,5,0,77.27272727272727,22.727272727272727,22,Women's Flyweight Division,5.291666666666667,126,65.5,38,Jiu-Jitsu,2020-06-27
+Ketlen,Vieira,Fenomeno,State of Amazonas,Brazil,33,14,4,0,77.77777777777779,22.22222222222222,18,Women's Bantamweight Division,5.666666666666667,136,68,39.5,Judo,2016-10-02
+Norma,Dumont,The Immortal,Belo Horizonte,Brazil,34,12,2,0,85.71428571428571,14.285714285714285,14,Women's Bantamweight Division,5.583333333333333,136,67,38.5,NA,2020-02-29
+Macy,Chiasson,NA,NA,United States,33,11,3,0,78.57142857142857,21.428571428571427,14,Women's Bantamweight Division,5.916666666666667,135.5,72,42,MMA,2018-11-30
+Irene,Aldana,NA,Culiacán,Mexico,36,15,8,0,65.21739130434783,34.78260869565217,23,Women's Bantamweight Division,5.75,136,68.5,38.5,Striker,2016-12-18
+Mayra,Bueno Silva,Sheetara,Uberlândia,Brazil,33,10,4,1,71.42857142857143,28.57142857142857,14,Women's Flyweight Division,5.5,136,66.5,39,Striker,2018-09-23
+Holly,Holm,The Preacher's Daughter,Albuquerque,United States,43,15,7,0,68.18181818181817,31.818181818181817,22,Women's Bantamweight Division,5.666666666666667,136,69,38,Kickboxer,2015-02-28
+Karol,Rosa,NA,Vila Velha,Brazil,29,18,6,0,75,25,24,Women's Bantamweight Division,5.416666666666667,135.5,67.5,36,Muay Thai,2019-08-31
+Yana,Santos,NA,NA,Russia,35,15,8,0,65.21739130434783,34.78260869565217,23,Women's Bantamweight Division,5.5,135.5,68.5,40,MMA,2018-03-03
+Julia,Avila,Raging Panda,Los Angeles,United States,36,9,3,0,75,25,12,Women's Bantamweight Division,5.583333333333333,135.5,68,38,NA,2019-07-06
+Ailin,Perez,Fiona,CABA,Argentina,30,11,2,0,84.61538461538461,15.384615384615385,13,Women's Bantamweight Division,5.416666666666667,136.5,66,36,Kung Fu,2022-09-03
+Jacqueline,Cavalcanti,NA,NA,Brazil,27,8,1,0,88.88888888888889,11.11111111111111,9,Women's Bantamweight Division,5.666666666666667,135,70,41,Striker,2023-09-02
+Chelsea,Chandler,NA,Stockton,United States,34,6,3,0,66.66666666666666,33.33333333333333,9,Women's Bantamweight Division,5.708333333333333,141,68,40,MMA,2022-10-01

@@ -1,0 +1,3 @@
+StudentID,FirstName,LastName,DateOfBirth,Address,ContactNumber,Email
+1,John,Makori,1998-05-15,"Nairobi, Kenya",254712345678,john.makori@example.com
+2,Amina,Njoroge,1999-08-22,"Nakuru, Kenya",254723456789,amina.njoroge@example.com

@@ -1,0 +1,4565 @@
+[
+    {
+        "db_id": "7",
+        "tables": [
+            {
+                "table_id": 0,
+                "table_name": "vgsales",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "Rank",
+                        "column_type": "integer",
+                        "sample_values": [
+                            14055,
+                            11022,
+                            6609
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "Name",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Konjiki no Gashbell!! Makai no Bookmark",
+                            "Destiny: The Taken King",
+                            "Jikkyou Powerful Pro Yakyuu 2012"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "Platform",
+                        "column_type": "text",
+                        "sample_values": [
+                            "GBA",
+                            "X360",
+                            "PSV"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "Year",
+                        "column_type": "integer",
+                        "sample_values": [
+                            1986.0,
+                            1995.0,
+                            1991.0
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "Genre",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Strategy",
+                            "Platform",
+                            "Puzzle"
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "Publisher",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Pack-In-Video",
+                            "PlayV",
+                            "Popcorn Arcade"
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "NA_Sales",
+                        "column_type": "real",
+                        "sample_values": [
+                            0.61,
+                            3.88,
+                            1.3
+                        ]
+                    },
+                    {
+                        "column_id": 7,
+                        "column_name": "EU_Sales",
+                        "column_type": "real",
+                        "sample_values": [
+                            1.4,
+                            1.63,
+                            2.48
+                        ]
+                    },
+                    {
+                        "column_id": 8,
+                        "column_name": "JP_Sales",
+                        "column_type": "real",
+                        "sample_values": [
+                            1.91,
+                            0.24,
+                            0.01
+                        ]
+                    },
+                    {
+                        "column_id": 9,
+                        "column_name": "Other_Sales",
+                        "column_type": "real",
+                        "sample_values": [
+                            1.63,
+                            2.26,
+                            0.48
+                        ]
+                    },
+                    {
+                        "column_id": 10,
+                        "column_name": "Global_Sales",
+                        "column_type": "real",
+                        "sample_values": [
+                            0.26,
+                            9.3,
+                            3.28
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"vgsales\" (\n\"Rank\" INTEGER,\n  \"Name\" TEXT,\n  \"Platform\" TEXT,\n  \"Year\" REAL,\n  \"Genre\" TEXT,\n  \"Publisher\" TEXT,\n  \"NA_Sales\" REAL,\n  \"EU_Sales\" REAL,\n  \"JP_Sales\" REAL,\n  \"Other_Sales\" REAL,\n  \"Global_Sales\" REAL\n)"
+            }
+        ]
+    },
+    {
+        "db_id": "24",
+        "tables": [
+            {
+                "table_id": 0,
+                "table_name": "blinkit_products",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "product_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            679284,
+                            274207,
+                            803607
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "product_name",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Dish Soap",
+                            "Spinach",
+                            "Mango Drink"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "category",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Baby Care",
+                            "Personal Care",
+                            "Pet Care"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "brand",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Datta Ltd",
+                            "Mallick PLC",
+                            "Balan, Patel and Mall"
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "price",
+                        "column_type": "real",
+                        "sample_values": [
+                            136.6,
+                            440.19,
+                            22.04
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "mrp",
+                        "column_type": "real",
+                        "sample_values": [
+                            1220.6,
+                            297.69,
+                            1330.87
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "margin_percentage",
+                        "column_type": "real",
+                        "sample_values": [
+                            35.0,
+                            15.0,
+                            20.0
+                        ]
+                    },
+                    {
+                        "column_id": 7,
+                        "column_name": "shelf_life_days",
+                        "column_type": "integer",
+                        "sample_values": [
+                            3,
+                            365,
+                            180
+                        ]
+                    },
+                    {
+                        "column_id": 8,
+                        "column_name": "min_stock_level",
+                        "column_type": "integer",
+                        "sample_values": [
+                            13,
+                            24,
+                            15
+                        ]
+                    },
+                    {
+                        "column_id": 9,
+                        "column_name": "max_stock_level",
+                        "column_type": "integer",
+                        "sample_values": [
+                            61,
+                            63,
+                            54
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"blinkit_products\" (\n\"product_id\" INTEGER,\n  \"product_name\" TEXT,\n  \"category\" TEXT,\n  \"brand\" TEXT,\n  \"price\" REAL,\n  \"mrp\" REAL,\n  \"margin_percentage\" REAL,\n  \"shelf_life_days\" INTEGER,\n  \"min_stock_level\" INTEGER,\n  \"max_stock_level\" INTEGER\n)"
+            },
+            {
+                "table_id": 1,
+                "table_name": "blinkit_marketing_performance",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "campaign_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            995422,
+                            138074,
+                            185268
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "campaign_name",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Festival Offer",
+                            "App Push Notification",
+                            "New User Discount"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "date",
+                        "column_type": "text",
+                        "sample_values": [
+                            "2023-07-08",
+                            "2023-07-23",
+                            "2023-04-14"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "target_audience",
+                        "column_type": "text",
+                        "sample_values": [
+                            "New Users",
+                            "Premium",
+                            "Inactive"
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "channel",
+                        "column_type": "text",
+                        "sample_values": [
+                            "SMS",
+                            "Social Media",
+                            "Email"
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "impressions",
+                        "column_type": "integer",
+                        "sample_values": [
+                            5533,
+                            2026,
+                            9209
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "clicks",
+                        "column_type": "integer",
+                        "sample_values": [
+                            854,
+                            612,
+                            897
+                        ]
+                    },
+                    {
+                        "column_id": 7,
+                        "column_name": "conversions",
+                        "column_type": "integer",
+                        "sample_values": [
+                            33,
+                            25,
+                            67
+                        ]
+                    },
+                    {
+                        "column_id": 8,
+                        "column_name": "spend",
+                        "column_type": "real",
+                        "sample_values": [
+                            2415.08,
+                            4570.5,
+                            2166.84
+                        ]
+                    },
+                    {
+                        "column_id": 9,
+                        "column_name": "revenue_generated",
+                        "column_type": "real",
+                        "sample_values": [
+                            9009.81,
+                            6013.29,
+                            5106.53
+                        ]
+                    },
+                    {
+                        "column_id": 10,
+                        "column_name": "roas",
+                        "column_type": "real",
+                        "sample_values": [
+                            3.6,
+                            3.26,
+                            2.23
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"blinkit_marketing_performance\" (\n\"campaign_id\" INTEGER,\n  \"campaign_name\" TEXT,\n  \"date\" TEXT,\n  \"target_audience\" TEXT,\n  \"channel\" TEXT,\n  \"impressions\" INTEGER,\n  \"clicks\" INTEGER,\n  \"conversions\" INTEGER,\n  \"spend\" REAL,\n  \"revenue_generated\" REAL,\n  \"roas\" REAL\n)"
+            },
+            {
+                "table_id": 2,
+                "table_name": "blinkit_inventory",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "product_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            41853,
+                            433521,
+                            451812
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "date",
+                        "column_type": "text",
+                        "sample_values": [
+                            "20-11-2023",
+                            "26-08-2023",
+                            "03-07-2024"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "stock_received",
+                        "column_type": "integer",
+                        "sample_values": [
+                            1,
+                            0,
+                            3
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "damaged_stock",
+                        "column_type": "integer",
+                        "sample_values": [
+                            0,
+                            2
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"blinkit_inventory\" (\n\"product_id\" INTEGER,\n  \"date\" TEXT,\n  \"stock_received\" INTEGER,\n  \"damaged_stock\" INTEGER\n)"
+            },
+            {
+                "table_id": 3,
+                "table_name": "blinkit_customer_feedback",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "feedback_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            9833616,
+                            2446665,
+                            5274905
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "order_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            173709007,
+                            6535672015,
+                            1543944105
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "customer_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            62323608,
+                            27971619,
+                            42208242
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "rating",
+                        "column_type": "integer",
+                        "sample_values": [
+                            2,
+                            1,
+                            4
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "feedback_text",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Delivery was late and I was unhappy.",
+                            "I had a bad experience.",
+                            "Taste was not as expected."
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "feedback_category",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Customer Service",
+                            "Product Quality",
+                            "App Experience"
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "sentiment",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Neutral",
+                            "Positive",
+                            "Negative"
+                        ]
+                    },
+                    {
+                        "column_id": 7,
+                        "column_name": "feedback_date",
+                        "column_type": "text",
+                        "sample_values": [
+                            "2023-04-17",
+                            "2023-12-08",
+                            "2024-01-10"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"blinkit_customer_feedback\" (\n\"feedback_id\" INTEGER,\n  \"order_id\" INTEGER,\n  \"customer_id\" INTEGER,\n  \"rating\" INTEGER,\n  \"feedback_text\" TEXT,\n  \"feedback_category\" TEXT,\n  \"sentiment\" TEXT,\n  \"feedback_date\" TEXT\n)"
+            },
+            {
+                "table_id": 4,
+                "table_name": "blinkit_inventoryNew",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "product_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            552496,
+                            18035,
+                            154179
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "date",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Jul-23",
+                            "Jan-24",
+                            "Apr-23"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "stock_received",
+                        "column_type": "integer",
+                        "sample_values": [
+                            1,
+                            4,
+                            3
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "damaged_stock",
+                        "column_type": "integer",
+                        "sample_values": [
+                            3,
+                            1,
+                            4
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"blinkit_inventoryNew\" (\n\"product_id\" INTEGER,\n  \"date\" TEXT,\n  \"stock_received\" INTEGER,\n  \"damaged_stock\" INTEGER\n)"
+            },
+            {
+                "table_id": 5,
+                "table_name": "blinkit_order_items",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "order_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            1249797614,
+                            6844277478,
+                            5844776722
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "product_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            324809,
+                            684939,
+                            952124
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "quantity",
+                        "column_type": "integer",
+                        "sample_values": [
+                            2,
+                            3,
+                            1
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "unit_price",
+                        "column_type": "real",
+                        "sample_values": [
+                            891.6,
+                            309.62,
+                            675.46
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"blinkit_order_items\" (\n\"order_id\" INTEGER,\n  \"product_id\" INTEGER,\n  \"quantity\" INTEGER,\n  \"unit_price\" REAL\n)"
+            },
+            {
+                "table_id": 6,
+                "table_name": "blinkit_customers",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "customer_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            57896058,
+                            89874335,
+                            39674723
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "customer_name",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Charles Kulkarni",
+                            "Xavier Wali",
+                            "Anvi Rajan"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "email",
+                        "column_type": "text",
+                        "sample_values": [
+                            "gautamisrinivasan@example.com",
+                            "unadig@example.net",
+                            "saksham67@example.com"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "phone",
+                        "column_type": "integer",
+                        "sample_values": [
+                            914497088467,
+                            913861368124,
+                            918297477289
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "address",
+                        "column_type": "text",
+                        "sample_values": [
+                            "75/740, Tara Road, Pali 035417",
+                            "192\nPillay Ganj, Kozhikode 553266",
+                            "106\nBhatt Street, Jamshedpur 915471"
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "area",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Barasat",
+                            "Rajahmundry",
+                            "Tiruchirappalli"
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "pincode",
+                        "column_type": "integer",
+                        "sample_values": [
+                            98666,
+                            200521,
+                            583209
+                        ]
+                    },
+                    {
+                        "column_id": 7,
+                        "column_name": "registration_date",
+                        "column_type": "text",
+                        "sample_values": [
+                            "2023-04-23",
+                            "2023-09-16",
+                            "2024-04-21"
+                        ]
+                    },
+                    {
+                        "column_id": 8,
+                        "column_name": "customer_segment",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Premium",
+                            "New",
+                            "Inactive"
+                        ]
+                    },
+                    {
+                        "column_id": 9,
+                        "column_name": "total_orders",
+                        "column_type": "integer",
+                        "sample_values": [
+                            14,
+                            15,
+                            12
+                        ]
+                    },
+                    {
+                        "column_id": 10,
+                        "column_name": "avg_order_value",
+                        "column_type": "real",
+                        "sample_values": [
+                            1910.55,
+                            1240.91,
+                            374.67
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"blinkit_customers\" (\n\"customer_id\" INTEGER,\n  \"customer_name\" TEXT,\n  \"email\" TEXT,\n  \"phone\" INTEGER,\n  \"address\" TEXT,\n  \"area\" TEXT,\n  \"pincode\" INTEGER,\n  \"registration_date\" TEXT,\n  \"customer_segment\" TEXT,\n  \"total_orders\" INTEGER,\n  \"avg_order_value\" REAL\n)"
+            },
+            {
+                "table_id": 7,
+                "table_name": "blinkit_orders",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "order_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            5331800057,
+                            4385491839,
+                            6304586678
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "customer_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            31000129,
+                            98896871,
+                            21786873
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "order_date",
+                        "column_type": "text",
+                        "sample_values": [
+                            "2024-01-30 12:43:24",
+                            "2024-04-18 15:35:40",
+                            "2024-05-13 17:00:31"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "promised_delivery_time",
+                        "column_type": "text",
+                        "sample_values": [
+                            "2023-11-12 20:17:13",
+                            "2024-04-04 14:07:44",
+                            "2024-10-20 14:54:26"
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "actual_delivery_time",
+                        "column_type": "text",
+                        "sample_values": [
+                            "2024-04-24 17:40:07",
+                            "2023-08-15 01:34:08",
+                            "2024-04-03 07:45:25"
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "delivery_status",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Significantly Delayed",
+                            "On Time",
+                            "Slightly Delayed"
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "order_total",
+                        "column_type": "real",
+                        "sample_values": [
+                            1435.29,
+                            1226.18,
+                            2830.19
+                        ]
+                    },
+                    {
+                        "column_id": 7,
+                        "column_name": "payment_method",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Cash",
+                            "Card",
+                            "Wallet"
+                        ]
+                    },
+                    {
+                        "column_id": 8,
+                        "column_name": "delivery_partner_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            50579,
+                            70293,
+                            48216
+                        ]
+                    },
+                    {
+                        "column_id": 9,
+                        "column_name": "store_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            73,
+                            3325,
+                            5588
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"blinkit_orders\" (\n\"order_id\" INTEGER,\n  \"customer_id\" INTEGER,\n  \"order_date\" TEXT,\n  \"promised_delivery_time\" TEXT,\n  \"actual_delivery_time\" TEXT,\n  \"delivery_status\" TEXT,\n  \"order_total\" REAL,\n  \"payment_method\" TEXT,\n  \"delivery_partner_id\" INTEGER,\n  \"store_id\" INTEGER\n)"
+            },
+            {
+                "table_id": 8,
+                "table_name": "blinkit_delivery_performance",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "order_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            2732162016,
+                            5396237918,
+                            1533583386
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "delivery_partner_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            96501,
+                            74072,
+                            41423
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "promised_time",
+                        "column_type": "text",
+                        "sample_values": [
+                            "2024-06-17 13:44:48",
+                            "2023-09-04 04:31:50",
+                            "2023-12-21 00:03:02"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "actual_time",
+                        "column_type": "text",
+                        "sample_values": [
+                            "2023-10-29 01:42:58",
+                            "2023-04-09 04:34:53",
+                            "2024-11-03 01:44:11"
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "delivery_time_minutes",
+                        "column_type": "real",
+                        "sample_values": [
+                            26.0,
+                            20.0,
+                            2.0
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "distance_km",
+                        "column_type": "real",
+                        "sample_values": [
+                            2.75,
+                            2.02,
+                            1.63
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "delivery_status",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Slightly Delayed",
+                            "Significantly Delayed",
+                            "On Time"
+                        ]
+                    },
+                    {
+                        "column_id": 7,
+                        "column_name": "reasons_if_delayed",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Traffic"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"blinkit_delivery_performance\" (\n\"order_id\" INTEGER,\n  \"delivery_partner_id\" INTEGER,\n  \"promised_time\" TEXT,\n  \"actual_time\" TEXT,\n  \"delivery_time_minutes\" REAL,\n  \"distance_km\" REAL,\n  \"delivery_status\" TEXT,\n  \"reasons_if_delayed\" TEXT\n)"
+            }
+        ]
+    },
+    {
+        "db_id": "14",
+        "tables": [
+            {
+                "table_id": 0,
+                "table_name": "toy_products",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "Product_ID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            9,
+                            20,
+                            12
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "Product_Name",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Gamer Headphones",
+                            "Toy Robot",
+                            "Action Figure"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "Product_Category",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Toys",
+                            "Games",
+                            "Art & Crafts"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "Product_Cost",
+                        "column_type": "text",
+                        "sample_values": [
+                            "$2.99 ",
+                            "$10.99 ",
+                            "$34.99 "
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "Product_Price",
+                        "column_type": "text",
+                        "sample_values": [
+                            "$4.99 ",
+                            "$11.99 ",
+                            "$10.99 "
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"toy_products\" (\n\"Product_ID\" INTEGER,\n  \"Product_Name\" TEXT,\n  \"Product_Category\" TEXT,\n  \"Product_Cost\" TEXT,\n  \"Product_Price\" TEXT\n)"
+            },
+            {
+                "table_id": 1,
+                "table_name": "toy_sales",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "Sale_ID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            39974,
+                            292182,
+                            51222
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "Date",
+                        "column_type": "text",
+                        "sample_values": [
+                            "2018-04-28",
+                            "2018-01-24",
+                            "2017-12-08"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "Store_ID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            30,
+                            41,
+                            26
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "Product_ID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            19,
+                            7,
+                            9
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "Units",
+                        "column_type": "integer",
+                        "sample_values": [
+                            9,
+                            1,
+                            13
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"toy_sales\" (\n\"Sale_ID\" INTEGER,\n  \"Date\" TEXT,\n  \"Store_ID\" INTEGER,\n  \"Product_ID\" INTEGER,\n  \"Units\" INTEGER\n)"
+            },
+            {
+                "table_id": 2,
+                "table_name": "toy_stores",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "Store_ID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            42,
+                            7,
+                            47
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "Store_Name",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Maven Toys Toluca 1",
+                            "Maven Toys Tuxtla Gutierrez 1",
+                            "Maven Toys Monterrey 2"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "Store_City",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Santiago",
+                            "Oaxaca",
+                            "Puebla"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "Store_Location",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Commercial",
+                            "Downtown",
+                            "Residential"
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "Store_Open_Date",
+                        "column_type": "text",
+                        "sample_values": [
+                            "2004-10-15",
+                            "2005-01-14",
+                            "2006-08-30"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"toy_stores\" (\n\"Store_ID\" INTEGER,\n  \"Store_Name\" TEXT,\n  \"Store_City\" TEXT,\n  \"Store_Location\" TEXT,\n  \"Store_Open_Date\" TEXT\n)"
+            },
+            {
+                "table_id": 3,
+                "table_name": "toy_inventory",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "Store_ID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            18,
+                            50,
+                            33
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "Product_ID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            18,
+                            20,
+                            28
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "Stock_On_Hand",
+                        "column_type": "integer",
+                        "sample_values": [
+                            63,
+                            100,
+                            48
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"toy_inventory\" (\n\"Store_ID\" INTEGER,\n  \"Product_ID\" INTEGER,\n  \"Stock_On_Hand\" INTEGER\n)"
+            }
+        ]
+    },
+    {
+        "db_id": "16",
+        "tables": [
+            {
+                "table_id": 0,
+                "table_name": "school_students",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "StudentID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            4,
+                            1,
+                            11
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "FirstName",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Aisha",
+                            "Fatima",
+                            "Suleiman"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "LastName",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Ali",
+                            "Mohammed",
+                            "Said"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "DateOfBirth",
+                        "column_type": "text",
+                        "sample_values": [
+                            "1999-01-08",
+                            "1998-10-20",
+                            "1998-01-14"
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "Address",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Zanzibar, Tanzania",
+                            "Nakuru, Kenya",
+                            "Dar es Salaam, Tanzania"
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "ContactNumber",
+                        "column_type": "integer",
+                        "sample_values": [
+                            254711223344,
+                            254723456789,
+                            250782345678
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "Email",
+                        "column_type": "text",
+                        "sample_values": [
+                            "grace.wambui@example.com",
+                            "daniel.girma@example.com",
+                            "halima.abdi@example.com"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"school_students\" (\n\"StudentID\" INTEGER,\n  \"FirstName\" TEXT,\n  \"LastName\" TEXT,\n  \"DateOfBirth\" TEXT,\n  \"Address\" TEXT,\n  \"ContactNumber\" INTEGER,\n  \"Email\" TEXT\n)"
+            },
+            {
+                "table_id": 1,
+                "table_name": "school_teachers",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "TeacherID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            4,
+                            1,
+                            10
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "FirstName",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Moses",
+                            "Mohammed",
+                            "Joseph"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "LastName",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Mwangi",
+                            "Kamau",
+                            "Wambua"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "DateOfBirth",
+                        "column_type": "text",
+                        "sample_values": [
+                            "1982-02-28",
+                            "1985-06-22",
+                            "1982-07-02"
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "Address",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Asmara, Eritrea",
+                            "Kigali, Rwanda",
+                            "Mogadishu, Somalia"
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "ContactNumber",
+                        "column_type": "integer",
+                        "sample_values": [
+                            254723456789,
+                            255712345678,
+                            25366123456
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "Email",
+                        "column_type": "text",
+                        "sample_values": [
+                            "alice.wambua@example.com",
+                            "moses.tewolde@example.com",
+                            "aisha.said@example.com"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"school_teachers\" (\n\"TeacherID\" INTEGER,\n  \"FirstName\" TEXT,\n  \"LastName\" TEXT,\n  \"DateOfBirth\" TEXT,\n  \"Address\" TEXT,\n  \"ContactNumber\" INTEGER,\n  \"Email\" TEXT\n)"
+            },
+            {
+                "table_id": 2,
+                "table_name": "school_marks",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "MarkID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            138,
+                            174,
+                            18
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "StudentID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            15,
+                            4,
+                            9
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "SubjectID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            4,
+                            6,
+                            5
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "TeacherID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            9,
+                            8,
+                            6
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "MarkObtained",
+                        "column_type": "integer",
+                        "sample_values": [
+                            90,
+                            96,
+                            78
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "ExamDate",
+                        "column_type": "text",
+                        "sample_values": [
+                            "2023-11-22"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"school_marks\" (\n\"MarkID\" INTEGER,\n  \"StudentID\" INTEGER,\n  \"SubjectID\" INTEGER,\n  \"TeacherID\" INTEGER,\n  \"MarkObtained\" INTEGER,\n  \"ExamDate\" TEXT\n)"
+            },
+            {
+                "table_id": 3,
+                "table_name": "school_subjects",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "SubjectID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            10,
+                            3,
+                            2
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "SubjectName",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Physics",
+                            "Chemistry",
+                            "Biology"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"school_subjects\" (\n\"SubjectID\" INTEGER,\n  \"SubjectName\" TEXT\n)"
+            }
+        ]
+    },
+    {
+        "db_id": "4",
+        "tables": [
+            {
+                "table_id": 0,
+                "table_name": "finance_factoring_data",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "countryCode",
+                        "column_type": "integer",
+                        "sample_values": [
+                            818,
+                            406,
+                            391
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "customerID",
+                        "column_type": "text",
+                        "sample_values": [
+                            "1447-YZKCL",
+                            "6833-ETVHD",
+                            "3831-FXWYK"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "PaperlessDate",
+                        "column_type": "text",
+                        "sample_values": [
+                            "1/11/2013",
+                            "3/17/2012",
+                            "11/20/2013"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "invoiceNumber",
+                        "column_type": "integer",
+                        "sample_values": [
+                            9938539742,
+                            1519561145,
+                            689403769
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "InvoiceDate",
+                        "column_type": "text",
+                        "sample_values": [
+                            "1/22/2013",
+                            "11/27/2012",
+                            "4/22/2013"
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "DueDate",
+                        "column_type": "text",
+                        "sample_values": [
+                            "4/5/2013",
+                            "6/1/2012",
+                            "12/19/2013"
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "InvoiceAmount",
+                        "column_type": "real",
+                        "sample_values": [
+                            7.78,
+                            49.73,
+                            79.42
+                        ]
+                    },
+                    {
+                        "column_id": 7,
+                        "column_name": "Disputed",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Yes",
+                            "No"
+                        ]
+                    },
+                    {
+                        "column_id": 8,
+                        "column_name": "SettledDate",
+                        "column_type": "text",
+                        "sample_values": [
+                            "8/21/2012",
+                            "2/11/2013",
+                            "5/31/2012"
+                        ]
+                    },
+                    {
+                        "column_id": 9,
+                        "column_name": "PaperlessBill",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Electronic",
+                            "Paper"
+                        ]
+                    },
+                    {
+                        "column_id": 10,
+                        "column_name": "DaysToSettle",
+                        "column_type": "integer",
+                        "sample_values": [
+                            44,
+                            37,
+                            21
+                        ]
+                    },
+                    {
+                        "column_id": 11,
+                        "column_name": "DaysLate",
+                        "column_type": "integer",
+                        "sample_values": [
+                            14,
+                            5,
+                            24
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"finance_factoring_data\" (\n\"countryCode\" INTEGER,\n  \"customerID\" TEXT,\n  \"PaperlessDate\" TEXT,\n  \"invoiceNumber\" INTEGER,\n  \"InvoiceDate\" TEXT,\n  \"DueDate\" TEXT,\n  \"InvoiceAmount\" REAL,\n  \"Disputed\" TEXT,\n  \"SettledDate\" TEXT,\n  \"PaperlessBill\" TEXT,\n  \"DaysToSettle\" INTEGER,\n  \"DaysLate\" INTEGER\n)"
+            }
+        ]
+    },
+    {
+        "db_id": "19",
+        "tables": [
+            {
+                "table_id": 0,
+                "table_name": "alcohol_life_expectancy_verbose",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "index",
+                        "column_type": "integer",
+                        "sample_values": []
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "GhoCode",
+                        "column_type": "text",
+                        "sample_values": []
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "GhoDisplay",
+                        "column_type": "text",
+                        "sample_values": []
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "PublishStateCode",
+                        "column_type": "text",
+                        "sample_values": []
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "PublishStateDisplay",
+                        "column_type": "text",
+                        "sample_values": []
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "YearCode",
+                        "column_type": "integer",
+                        "sample_values": []
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "YearDisplay",
+                        "column_type": "integer",
+                        "sample_values": []
+                    },
+                    {
+                        "column_id": 7,
+                        "column_name": "RegionCode",
+                        "column_type": "text",
+                        "sample_values": []
+                    },
+                    {
+                        "column_id": 8,
+                        "column_name": "RegionDisplay",
+                        "column_type": "text",
+                        "sample_values": []
+                    },
+                    {
+                        "column_id": 9,
+                        "column_name": "WorldBankIncomeGroupGroupCode",
+                        "column_type": "text",
+                        "sample_values": []
+                    },
+                    {
+                        "column_id": 10,
+                        "column_name": "WorldBankIncomeGroupDisplay",
+                        "column_type": "text",
+                        "sample_values": []
+                    },
+                    {
+                        "column_id": 11,
+                        "column_name": "CountryCode",
+                        "column_type": "text",
+                        "sample_values": []
+                    },
+                    {
+                        "column_id": 12,
+                        "column_name": "CountryDisplay",
+                        "column_type": "text",
+                        "sample_values": []
+                    },
+                    {
+                        "column_id": 13,
+                        "column_name": "SexCode",
+                        "column_type": "text",
+                        "sample_values": []
+                    },
+                    {
+                        "column_id": 14,
+                        "column_name": "SexDisplay",
+                        "column_type": "text",
+                        "sample_values": []
+                    },
+                    {
+                        "column_id": 15,
+                        "column_name": "DisplayValue",
+                        "column_type": "integer",
+                        "sample_values": []
+                    },
+                    {
+                        "column_id": 16,
+                        "column_name": "Numeric",
+                        "column_type": "real",
+                        "sample_values": []
+                    }
+                ],
+                "ddl": ""
+            },
+            {
+                "table_id": 1,
+                "table_name": "alcohol_drinks",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "index",
+                        "column_type": "integer",
+                        "sample_values": [
+                            116,
+                            158,
+                            85
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "country",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Norway",
+                            "France",
+                            "Germany"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "beer_servings",
+                        "column_type": "integer",
+                        "sample_values": [
+                            89,
+                            32,
+                            147
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "spirit_servings",
+                        "column_type": "integer",
+                        "sample_values": [
+                            22,
+                            179,
+                            237
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "wine_servings",
+                        "column_type": "integer",
+                        "sample_values": [
+                            278,
+                            280,
+                            175
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "total_litres_of_pure_alcohol",
+                        "column_type": "real",
+                        "sample_values": [
+                            0.7,
+                            5.8,
+                            5.7
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"alcohol_drinks\" (\n\"index\" INTEGER,\n  \"country\" TEXT,\n  \"beer_servings\" INTEGER,\n  \"spirit_servings\" INTEGER,\n  \"wine_servings\" INTEGER,\n  \"total_litres_of_pure_alcohol\" REAL\n)"
+            }
+        ]
+    },
+    {
+        "db_id": "17",
+        "tables": [
+            {
+                "table_id": 0,
+                "table_name": "ecommerce_order_items",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "order_id",
+                        "column_type": "text",
+                        "sample_values": [
+                            "bZFqy2PEMhhc",
+                            "O0D3th8M88nF",
+                            "CYxJJSQS8Lbo"
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "product_id",
+                        "column_type": "text",
+                        "sample_values": [
+                            "1slxdgbgWFax",
+                            "YLYPEDYgvdfH",
+                            "HOJj2KbHY8er"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "seller_id",
+                        "column_type": "text",
+                        "sample_values": [
+                            "5Ja2lH0N2OZt",
+                            "smK689qrlIx3",
+                            "XLxN4hdOlYco"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "price",
+                        "column_type": "real",
+                        "sample_values": [
+                            820.0,
+                            2139.99,
+                            42.89
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "shipping_charges",
+                        "column_type": "real",
+                        "sample_values": [
+                            20.65,
+                            56.8,
+                            23.87
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"ecommerce_order_items\" (\n\"order_id\" TEXT,\n  \"product_id\" TEXT,\n  \"seller_id\" TEXT,\n  \"price\" REAL,\n  \"shipping_charges\" REAL\n)"
+            },
+            {
+                "table_id": 1,
+                "table_name": "ecommerce_payments",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "order_id",
+                        "column_type": "text",
+                        "sample_values": [
+                            "kUkQCFPtDvrC",
+                            "CKtqZeTFa6Ov",
+                            "OoHJ0WBqlxln"
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "payment_sequential",
+                        "column_type": "integer",
+                        "sample_values": [
+                            1
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "payment_type",
+                        "column_type": "text",
+                        "sample_values": [
+                            "wallet",
+                            "credit_card",
+                            "voucher"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "payment_installments",
+                        "column_type": "integer",
+                        "sample_values": [
+                            5,
+                            3,
+                            4
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "payment_value",
+                        "column_type": "real",
+                        "sample_values": [
+                            284.09,
+                            155.77,
+                            204.4
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"ecommerce_payments\" (\n\"order_id\" TEXT,\n  \"payment_sequential\" INTEGER,\n  \"payment_type\" TEXT,\n  \"payment_installments\" INTEGER,\n  \"payment_value\" REAL\n)"
+            },
+            {
+                "table_id": 2,
+                "table_name": "ecommerce_products",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "product_id",
+                        "column_type": "text",
+                        "sample_values": [
+                            "CApN1zdCu8Ad",
+                            "W5lSpNbHbIjE",
+                            "h6MCbrwh5kiC"
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "product_category_name",
+                        "column_type": "text",
+                        "sample_values": [
+                            "electronics",
+                            "health_beauty",
+                            "furniture_decor"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "product_weight_g",
+                        "column_type": "real",
+                        "sample_values": [
+                            12850.0,
+                            1000.0,
+                            375.0
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "product_length_cm",
+                        "column_type": "real",
+                        "sample_values": [
+                            19.0,
+                            22.0,
+                            60.0
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "product_height_cm",
+                        "column_type": "real",
+                        "sample_values": [
+                            16.0,
+                            56.0,
+                            7.0
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "product_width_cm",
+                        "column_type": "real",
+                        "sample_values": [
+                            11.0,
+                            20.0,
+                            18.0
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"ecommerce_products\" (\n\"product_id\" TEXT,\n  \"product_category_name\" TEXT,\n  \"product_weight_g\" REAL,\n  \"product_length_cm\" REAL,\n  \"product_height_cm\" REAL,\n  \"product_width_cm\" REAL\n)"
+            },
+            {
+                "table_id": 3,
+                "table_name": "ecommerce_orders",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "order_id",
+                        "column_type": "text",
+                        "sample_values": [
+                            "kUkQCFPtDvrC",
+                            "CKtqZeTFa6Ov",
+                            "I28liQek73i2"
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "customer_id",
+                        "column_type": "text",
+                        "sample_values": [
+                            "o3yCAPMIPtLj",
+                            "ViMUFfeZLwv5",
+                            "9rXAwNe0G0m5"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "order_purchase_timestamp",
+                        "column_type": "text",
+                        "sample_values": [
+                            "2018-03-15 10:00:16",
+                            "2017-02-28 17:28:52",
+                            "2018-01-08 11:01:30"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "order_approved_at",
+                        "column_type": "text",
+                        "sample_values": [
+                            "2018-07-09 03:50:07",
+                            "2018-05-28 23:35:19",
+                            "2017-03-07 04:03:33"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"ecommerce_orders\" (\n\"order_id\" TEXT,\n  \"customer_id\" TEXT,\n  \"order_purchase_timestamp\" TEXT,\n  \"order_approved_at\" TEXT\n)"
+            },
+            {
+                "table_id": 4,
+                "table_name": "ecommerce_customers",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "customer_id",
+                        "column_type": "text",
+                        "sample_values": [
+                            "o3yCAPMIPtLj",
+                            "dQ0dqI8Qwlj8",
+                            "I1orDozbJsZY"
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "customer_zip_code_prefix",
+                        "column_type": "integer",
+                        "sample_values": [
+                            89284,
+                            23020,
+                            8571
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "customer_city",
+                        "column_type": "text",
+                        "sample_values": [
+                            "anapolis",
+                            "sao bento do sul",
+                            "sao paulo"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "customer_state",
+                        "column_type": "text",
+                        "sample_values": [
+                            "RS",
+                            "DF",
+                            "SP"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"ecommerce_customers\" (\n\"customer_id\" TEXT,\n  \"customer_zip_code_prefix\" INTEGER,\n  \"customer_city\" TEXT,\n  \"customer_state\" TEXT\n)"
+            }
+        ]
+    },
+    {
+        "db_id": "18",
+        "tables": [
+            {
+                "table_id": 0,
+                "table_name": "world_economic_tourism",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "country",
+                        "column_type": "text",
+                        "sample_values": [
+                            "United States",
+                            "Belgium",
+                            "Turkey"
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "tourists_in_millions",
+                        "column_type": "real",
+                        "sample_values": [
+                            117.1,
+                            12.4,
+                            2.7
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "receipts_in_billions",
+                        "column_type": "real",
+                        "sample_values": [
+                            11.4,
+                            2.92,
+                            1.42
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "receipts_per_tourist",
+                        "column_type": "integer",
+                        "sample_values": [
+                            2500,
+                            1018,
+                            24601
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "percentage_of_gdp",
+                        "column_type": "real",
+                        "sample_values": [
+                            4.2,
+                            0.5,
+                            6.9
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"world_economic_tourism\" (\n\"country\" TEXT,\n  \"tourists_in_millions\" REAL,\n  \"receipts_in_billions\" REAL,\n  \"receipts_per_tourist\" INTEGER,\n  \"percentage_of_gdp\" REAL\n)"
+            },
+            {
+                "table_id": 1,
+                "table_name": "world_economic_cost_of_living",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "country",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Suriname",
+                            "Ivory Coast",
+                            "Vietnam"
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "cost_index",
+                        "column_type": "real",
+                        "sample_values": [
+                            29.9,
+                            77.9,
+                            63.2
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "monthly_income",
+                        "column_type": "integer",
+                        "sample_values": [
+                            991,
+                            370,
+                            3284
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "purchasing_power_index",
+                        "column_type": "real",
+                        "sample_values": [
+                            13.2,
+                            32.0,
+                            37.4
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"world_economic_cost_of_living\" (\n\"country\" TEXT,\n  \"cost_index\" REAL,\n  \"monthly_income\" INTEGER,\n  \"purchasing_power_index\" REAL\n)"
+            },
+            {
+                "table_id": 2,
+                "table_name": "world_economic_richest_countries",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "country",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Greece",
+                            "Luxembourg",
+                            "Australia"
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "gdp_per_capita",
+                        "column_type": "integer",
+                        "sample_values": [
+                            63767,
+                            55807,
+                            46420
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"world_economic_richest_countries\" (\n\"country\" TEXT,\n  \"gdp_per_capita\" INTEGER\n)"
+            },
+            {
+                "table_id": 3,
+                "table_name": "world_economic_unemployment",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "country",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Saudi Arabia",
+                            "Germany",
+                            "Philippines"
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "unemployment_rate",
+                        "column_type": "real",
+                        "sample_values": [
+                            0.6,
+                            1.2,
+                            3.0
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"world_economic_unemployment\" (\n\"country\" TEXT,\n  \"unemployment_rate\" REAL\n)"
+            },
+            {
+                "table_id": 4,
+                "table_name": "world_economic_corruption",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "country",
+                        "column_type": "text",
+                        "sample_values": [
+                            "India",
+                            "Sweden",
+                            "Cameroon"
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "annual_income",
+                        "column_type": "integer",
+                        "sample_values": [
+                            7720,
+                            1040,
+                            500
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "corruption_index",
+                        "column_type": "integer",
+                        "sample_values": [
+                            31,
+                            86,
+                            41
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"world_economic_corruption\" (\n\"country\" TEXT,\n  \"annual_income\" INTEGER,\n  \"corruption_index\" INTEGER\n)"
+            }
+        ]
+    },
+    {
+        "db_id": "20",
+        "tables": [
+            {
+                "table_id": 0,
+                "table_name": "city_ride_drivers_data",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "Driver_ID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            199,
+                            129,
+                            170
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "Name",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Brittany Cruz",
+                            "Andrew Heath",
+                            "Manuel Smith"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "Age",
+                        "column_type": "integer",
+                        "sample_values": [
+                            57,
+                            35,
+                            45
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "City",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Miami",
+                            "Los Angeles",
+                            "Chicago"
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "Experience_Years",
+                        "column_type": "integer",
+                        "sample_values": [
+                            3,
+                            12,
+                            14
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "Average_Rating",
+                        "column_type": "real",
+                        "sample_values": [
+                            4.1,
+                            4.4,
+                            4.2
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "Active_Status",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Active",
+                            "Inactive"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"city_ride_drivers_data\" (\n\"Driver_ID\" INTEGER,\n  \"Name\" TEXT,\n  \"Age\" INTEGER,\n  \"City\" TEXT,\n  \"Experience_Years\" INTEGER,\n  \"Average_Rating\" REAL,\n  \"Active_Status\" TEXT\n)"
+            },
+            {
+                "table_id": 1,
+                "table_name": "city_ride_rides_data",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "Ride_ID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            428,
+                            496,
+                            271
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "Driver_ID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            190,
+                            180,
+                            112
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "City",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Chicago",
+                            "San Francisco",
+                            "Miami"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "Date",
+                        "column_type": "text",
+                        "sample_values": [
+                            "11/6/2024",
+                            "11/4/2024",
+                            "11/3/2024"
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "Distance_km",
+                        "column_type": "real",
+                        "sample_values": [
+                            38.5,
+                            25.3,
+                            40.7
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "Duration_min",
+                        "column_type": "integer",
+                        "sample_values": [
+                            42,
+                            15,
+                            79
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "Fare",
+                        "column_type": "real",
+                        "sample_values": [
+                            40.63,
+                            71.47,
+                            64.88
+                        ]
+                    },
+                    {
+                        "column_id": 7,
+                        "column_name": "Rating",
+                        "column_type": "real",
+                        "sample_values": [
+                            4.5,
+                            3.6,
+                            4.7
+                        ]
+                    },
+                    {
+                        "column_id": 8,
+                        "column_name": "Promo_Code",
+                        "column_type": "text",
+                        "sample_values": [
+                            "SAVE20",
+                            "WELCOME5",
+                            "DISCOUNT10"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"city_ride_rides_data\" (\n\"Ride_ID\" INTEGER,\n  \"Driver_ID\" INTEGER,\n  \"City\" TEXT,\n  \"Date\" TEXT,\n  \"Distance_km\" REAL,\n  \"Duration_min\" INTEGER,\n  \"Fare\" REAL,\n  \"Rating\" REAL,\n  \"Promo_Code\" TEXT\n)"
+            }
+        ]
+    },
+    {
+        "db_id": "28",
+        "tables": [
+            {
+                "table_id": 0,
+                "table_name": "online_shop_reviews",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "review_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            469,
+                            158,
+                            985
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "product_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            26,
+                            31,
+                            1540
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "customer_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            6060,
+                            6070,
+                            9022
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "rating",
+                        "column_type": "integer",
+                        "sample_values": [
+                            3,
+                            1,
+                            5
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "review_text",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Good quality but instructions unclear.",
+                            "Mixed feelings about this one.",
+                            "Really impressed with the quality."
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "review_date",
+                        "column_type": "text",
+                        "sample_values": [
+                            "2024-06-17",
+                            "2024-10-02",
+                            "2024-06-29"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"online_shop_reviews\" (\n\"review_id\" INTEGER,\n  \"product_id\" INTEGER,\n  \"customer_id\" INTEGER,\n  \"rating\" INTEGER,\n  \"review_text\" TEXT,\n  \"review_date\" TEXT\n)"
+            },
+            {
+                "table_id": 1,
+                "table_name": "online_shop_shipments",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "shipment_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            14567,
+                            6162,
+                            11288
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "order_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            12844,
+                            12088,
+                            7018
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "shipment_date",
+                        "column_type": "text",
+                        "sample_values": [
+                            "2024-05-29",
+                            "2024-08-21",
+                            "2024-06-20"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "carrier",
+                        "column_type": "text",
+                        "sample_values": [
+                            "UPS",
+                            "DHL",
+                            "FedEx"
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "tracking_number",
+                        "column_type": "text",
+                        "sample_values": [
+                            "TRK618105",
+                            "TRK923936",
+                            "TRK757814"
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "delivery_date",
+                        "column_type": "text",
+                        "sample_values": [
+                            "2024-04-20",
+                            "2024-06-15",
+                            "2024-05-07"
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "shipment_status",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Delivered",
+                            "Pending",
+                            "Shipped"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"online_shop_shipments\" (\n\"shipment_id\" INTEGER,\n  \"order_id\" INTEGER,\n  \"shipment_date\" TEXT,\n  \"carrier\" TEXT,\n  \"tracking_number\" TEXT,\n  \"delivery_date\" TEXT,\n  \"shipment_status\" TEXT\n)"
+            },
+            {
+                "table_id": 2,
+                "table_name": "online_shop_order_items",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "order_item_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            1170,
+                            14012,
+                            16169
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "order_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            4820,
+                            3841,
+                            8427
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "product_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            1781,
+                            698,
+                            1690
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "quantity",
+                        "column_type": "integer",
+                        "sample_values": [
+                            10,
+                            3,
+                            5
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "price_at_purchase",
+                        "column_type": "real",
+                        "sample_values": [
+                            104.79,
+                            83.1,
+                            133.7
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"online_shop_order_items\" (\n\"order_item_id\" INTEGER,\n  \"order_id\" INTEGER,\n  \"product_id\" INTEGER,\n  \"quantity\" INTEGER,\n  \"price_at_purchase\" REAL\n)"
+            },
+            {
+                "table_id": 3,
+                "table_name": "online_shop_customers",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "customer_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            4867,
+                            1127,
+                            4508
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "first_name",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Mary",
+                            "James",
+                            "John"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "last_name",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Grace",
+                            "Rodriguez",
+                            "Cynthia"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "address",
+                        "column_type": "text",
+                        "sample_values": [
+                            "444 Magnolia Blvd, Mountain View, AZ",
+                            "121 Forest Ln, Emerald Heights, WI",
+                            "575 Vista Rd, Eagle Point, ID"
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "email",
+                        "column_type": "text",
+                        "sample_values": [
+                            "mgregory4929@customer.com",
+                            "jralph3639@customer.com",
+                            "jalexander531@customer.com"
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "phone_number",
+                        "column_type": "text",
+                        "sample_values": [
+                            "555-807-5657",
+                            "555-660-3092",
+                            "555-368-0171"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"online_shop_customers\" (\n\"customer_id\" INTEGER,\n  \"first_name\" TEXT,\n  \"last_name\" TEXT,\n  \"address\" TEXT,\n  \"email\" TEXT,\n  \"phone_number\" TEXT\n)"
+            },
+            {
+                "table_id": 4,
+                "table_name": "online_shop_orders",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "order_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            10318,
+                            8936,
+                            2084
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "order_date",
+                        "column_type": "text",
+                        "sample_values": [
+                            "2024-07-17",
+                            "2024-02-05",
+                            "2024-07-31"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "customer_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            2154,
+                            9784,
+                            6335
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "total_price",
+                        "column_type": "real",
+                        "sample_values": [
+                            5200.11,
+                            4107.84,
+                            9632.8
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"online_shop_orders\" (\n\"order_id\" INTEGER,\n  \"order_date\" TEXT,\n  \"customer_id\" INTEGER,\n  \"total_price\" REAL\n)"
+            },
+            {
+                "table_id": 5,
+                "table_name": "online_shop_suppliers",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "supplier_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            600,
+                            525,
+                            502
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "supplier_name",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Unified Trading Co.",
+                            "Reliable Resources Inc.",
+                            "Mega Suppliers"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "contact_name",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Kevin Scott",
+                            "Rebecca Roger",
+                            "Steven Samuel"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "address",
+                        "column_type": "text",
+                        "sample_values": [
+                            "565 Summit Rd, High Point, NC",
+                            "252 Coast Dr, Sunset Beach, MS",
+                            "909 Dogwood Ln, Steel City, PA"
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "phone_number",
+                        "column_type": "text",
+                        "sample_values": [
+                            "(555) 141-6342",
+                            "(555) 047-4283",
+                            "(555) 008-5612"
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "email",
+                        "column_type": "text",
+                        "sample_values": [
+                            "grose@supplier.com",
+                            "nlauren@supplier.com",
+                            "wfrank@supplier.com"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"online_shop_suppliers\" (\n\"supplier_id\" INTEGER,\n  \"supplier_name\" TEXT,\n  \"contact_name\" TEXT,\n  \"address\" TEXT,\n  \"phone_number\" TEXT,\n  \"email\" TEXT\n)"
+            },
+            {
+                "table_id": 6,
+                "table_name": "online_shop_products",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "product_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            329,
+                            931,
+                            881
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "product_name",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Document Scanner",
+                            "Portable Charger",
+                            "External SSD"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "category",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Accessories",
+                            "Electronics",
+                            "Home & Kitchen"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "price",
+                        "column_type": "real",
+                        "sample_values": [
+                            826.55,
+                            190.12,
+                            677.76
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "supplier_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            520,
+                            539,
+                            560
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"online_shop_products\" (\n\"product_id\" INTEGER,\n  \"product_name\" TEXT,\n  \"category\" TEXT,\n  \"price\" REAL,\n  \"supplier_id\" INTEGER\n)"
+            },
+            {
+                "table_id": 7,
+                "table_name": "online_shop_payment",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "payment_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            773,
+                            6334,
+                            7003
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "order_id",
+                        "column_type": "integer",
+                        "sample_values": [
+                            6833,
+                            310,
+                            3866
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "payment_method",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Credit Card"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "amount",
+                        "column_type": "real",
+                        "sample_values": [
+                            141.64,
+                            450.66,
+                            447.23
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "transaction_status",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Pending",
+                            "Completed",
+                            "Failed"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"online_shop_payment\" (\n\"payment_id\" INTEGER,\n  \"order_id\" INTEGER,\n  \"payment_method\" TEXT,\n  \"amount\" REAL,\n  \"transaction_status\" TEXT\n)"
+            }
+        ]
+    },
+    {
+        "db_id": "9",
+        "tables": [
+            {
+                "table_id": 0,
+                "table_name": "internet_users_data",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "id",
+                        "column_type": "INTEGER",
+                        "sample_values": [
+                            3646,
+                            1033,
+                            8238
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "entity",
+                        "column_type": "TEXT",
+                        "sample_values": [
+                            "Luxembourg",
+                            "Cote d'Ivoire",
+                            "Ghana"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "code",
+                        "column_type": "TEXT",
+                        "sample_values": [
+                            "NPL",
+                            "ARE",
+                            "JAM"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "year",
+                        "column_type": "INTEGER",
+                        "sample_values": [
+                            1999,
+                            1990,
+                            2013
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "cellular_subscription",
+                        "column_type": "REAL",
+                        "sample_values": [
+                            37.39612579,
+                            17.98612976,
+                            44.30651093
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "internet_users",
+                        "column_type": "REAL",
+                        "sample_values": [
+                            8.29886055,
+                            42.0,
+                            2.898985624
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "no_of_internet_users",
+                        "column_type": "INTEGER",
+                        "sample_values": [
+                            150762,
+                            250001,
+                            4498006
+                        ]
+                    },
+                    {
+                        "column_id": 7,
+                        "column_name": "broadband_subscription",
+                        "column_type": "REAL",
+                        "sample_values": [
+                            29.12184715,
+                            2.728659868,
+                            0.840836585
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"internet_users_data\" (\n\"id\" INTEGER,\n  \"entity\" TEXT,\n  \"code\" TEXT,\n  \"year\" INTEGER,\n  \"cellular_subscription\" REAL,\n  \"internet_users\" REAL,\n  \"no_of_internet_users\" INTEGER,\n  \"broadband_subscription\" REAL\n)"
+            }
+        ]
+    },
+    {
+        "db_id": "15",
+        "tables": [
+            {
+                "table_id": 0,
+                "table_name": "credit_card_customer_base",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "Cust_ID",
+                        "column_type": "text",
+                        "sample_values": [
+                            "CC39355",
+                            "CC11868",
+                            "CC96223"
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "Age",
+                        "column_type": "integer",
+                        "sample_values": [
+                            26,
+                            45,
+                            47
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "Customer_Segment",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Diamond",
+                            "Gold",
+                            "Platinum"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "Customer_Vintage_Group",
+                        "column_type": "text",
+                        "sample_values": [
+                            "VG3",
+                            "VG2",
+                            "VG1"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"credit_card_customer_base\" (\n\"Cust_ID\" TEXT,\n  \"Age\" INTEGER,\n  \"Customer_Segment\" TEXT,\n  \"Customer_Vintage_Group\" TEXT\n)"
+            },
+            {
+                "table_id": 1,
+                "table_name": "credit_card_transaction_base",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "Transaction_ID",
+                        "column_type": "text",
+                        "sample_values": [
+                            "CTID76327445",
+                            "CTID12210128",
+                            "CTID92301798"
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "Transaction_Date",
+                        "column_type": "text",
+                        "sample_values": [
+                            "25-Sep-16",
+                            "12-Aug-16",
+                            "7-Jan-16"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "Credit_Card_ID",
+                        "column_type": "text",
+                        "sample_values": [
+                            "2649-6876-7496-4123",
+                            "6785-6309-6247-3002",
+                            "4220-2591-3295-3300"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "Transaction_Value",
+                        "column_type": "integer",
+                        "sample_values": [
+                            5360,
+                            5749,
+                            45658
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "Transaction_Segment",
+                        "column_type": "text",
+                        "sample_values": [
+                            "SEG14",
+                            "SEG15",
+                            "SEG13"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"credit_card_transaction_base\" (\n\"Transaction_ID\" TEXT,\n  \"Transaction_Date\" TEXT,\n  \"Credit_Card_ID\" TEXT,\n  \"Transaction_Value\" INTEGER,\n  \"Transaction_Segment\" TEXT\n)"
+            },
+            {
+                "table_id": 2,
+                "table_name": "credit_card_fraud_base",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "Transaction_ID",
+                        "column_type": "text",
+                        "sample_values": [
+                            "CTID85085771",
+                            "CTID36309710",
+                            "CTID24913963"
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "Fraud_Flag",
+                        "column_type": "integer",
+                        "sample_values": [
+                            1
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"credit_card_fraud_base\" (\n\"Transaction_ID\" TEXT,\n  \"Fraud_Flag\" INTEGER\n)"
+            },
+            {
+                "table_id": 3,
+                "table_name": "credit_card_card_base",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "Card_Number",
+                        "column_type": "text",
+                        "sample_values": [
+                            "4092-8604-7363-3393",
+                            "1629-9566-3285-2123",
+                            "9961-2869-2603-3317"
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "Card_Family",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Gold",
+                            "Platinum",
+                            "Premium"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "Credit_Limit",
+                        "column_type": "integer",
+                        "sample_values": [
+                            405000,
+                            167000,
+                            621000
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "Cust_ID",
+                        "column_type": "text",
+                        "sample_values": [
+                            "CC53373",
+                            "CC66044",
+                            "CC65031"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"credit_card_card_base\" (\n\"Card_Number\" TEXT,\n  \"Card_Family\" TEXT,\n  \"Credit_Limit\" INTEGER,\n  \"Cust_ID\" TEXT\n)"
+            }
+        ]
+    },
+    {
+        "db_id": "5",
+        "tables": [
+            {
+                "table_id": 0,
+                "table_name": "unicorns_data",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "Company",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Valgen Medtech",
+                            "Gousto",
+                            "Tezign"
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "Valuation",
+                        "column_type": "text",
+                        "sample_values": [
+                            "$11 ",
+                            "$7 ",
+                            "$2.85 "
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "Date Joined",
+                        "column_type": "text",
+                        "sample_values": [
+                            "8/4/2016",
+                            "12/8/2021",
+                            "9/15/2017"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "Country",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Israel",
+                            "Vietnam",
+                            "Australia"
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "City",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Los Angeles",
+                            "Sacramento",
+                            "San Ramon"
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "Industry",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Temasek, Guggenheim Investments, Qatar Investment Authority",
+                            "Hardware",
+                            "Other"
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "Investors",
+                        "column_type": "text",
+                        "sample_values": [
+                            "ICONIQ Growth, Bain Capital Ventures, Summit Partners",
+                            "G Squared, UiPath Ventures, General Catalyst",
+                            "Insight Partners, Sequoia Capital, Index Ventures"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"unicorns_data\" (\n\"Company\" TEXT,\n  \"Valuation\" TEXT,\n  \"Date Joined\" TEXT,\n  \"Country\" TEXT,\n  \"City\" TEXT,\n  \"Industry\" TEXT,\n  \"Investors\" TEXT\n)"
+            }
+        ]
+    },
+    {
+        "db_id": "8",
+        "tables": [
+            {
+                "table_id": 0,
+                "table_name": "googleplaystore",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "app",
+                        "column_type": "TEXT",
+                        "sample_values": [
+                            "Backgammon NJ for Android",
+                            "Invasion: Defend EU",
+                            "CR Calculator"
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "category",
+                        "column_type": "TEXT",
+                        "sample_values": [
+                            "SHOPPING",
+                            "ART_AND_DESIGN",
+                            "BEAUTY"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "rating",
+                        "column_type": "REAL",
+                        "sample_values": [
+                            4.3,
+                            4.5,
+                            3.6
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "reviews",
+                        "column_type": "TEXT",
+                        "sample_values": [
+                            50060,
+                            4128732,
+                            47340
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "size",
+                        "column_type": "TEXT",
+                        "sample_values": [
+                            "170k",
+                            "953k",
+                            "647k"
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "installs",
+                        "column_type": "TEXT",
+                        "sample_values": [
+                            0,
+                            "100,000+",
+                            "50,000+"
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "type",
+                        "column_type": "TEXT",
+                        "sample_values": [
+                            "Paid",
+                            0,
+                            "Free"
+                        ]
+                    },
+                    {
+                        "column_id": 7,
+                        "column_name": "price",
+                        "column_type": "TEXT",
+                        "sample_values": [
+                            "$2.60",
+                            "$5.49",
+                            "$3.90"
+                        ]
+                    },
+                    {
+                        "column_id": 8,
+                        "column_name": "content_rating",
+                        "column_type": "TEXT",
+                        "sample_values": [
+                            "Unrated",
+                            "Teen",
+                            "Mature 17+"
+                        ]
+                    },
+                    {
+                        "column_id": 9,
+                        "column_name": "genres",
+                        "column_type": "TEXT",
+                        "sample_values": [
+                            "Tools;Education",
+                            "Role Playing;Brain Games",
+                            "Tools"
+                        ]
+                    },
+                    {
+                        "column_id": 10,
+                        "column_name": "last_updated",
+                        "column_type": "TEXT",
+                        "sample_values": [
+                            "2014-09-06",
+                            "2015-10-03",
+                            "2015-01-15"
+                        ]
+                    },
+                    {
+                        "column_id": 11,
+                        "column_name": "current_ver",
+                        "column_type": "TEXT",
+                        "sample_values": [
+                            5.38,
+                            15,
+                            "2.14.36"
+                        ]
+                    },
+                    {
+                        "column_id": 12,
+                        "column_name": "android_ver",
+                        "column_type": "TEXT",
+                        "sample_values": [
+                            "4.1 - 7.1.1",
+                            "4.0.3 - 7.1.1",
+                            "4.4W and up"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"googleplaystore\" (\n\"app\" TEXT,\n  \"category\" TEXT,\n  \"rating\" REAL,\n  \"reviews\" TEXT,\n  \"size\" TEXT,\n  \"installs\" TEXT,\n  \"type\" TEXT,\n  \"price\" TEXT,\n  \"content_rating\" TEXT,\n  \"genres\" TEXT,\n  \"last_updated\" TEXT,\n  \"current_ver\" TEXT,\n  \"android_ver\" TEXT\n)"
+            }
+        ]
+    },
+    {
+        "db_id": "26",
+        "tables": [
+            {
+                "table_id": 0,
+                "table_name": "football_appearances",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "gameID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            12604,
+                            8694,
+                            4576
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "playerID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            9460,
+                            928,
+                            4358
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "goals",
+                        "column_type": "integer",
+                        "sample_values": [
+                            3,
+                            5,
+                            2
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "ownGoals",
+                        "column_type": "integer",
+                        "sample_values": [
+                            0,
+                            2,
+                            1
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "shots",
+                        "column_type": "integer",
+                        "sample_values": [
+                            10,
+                            9,
+                            4
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "xGoals",
+                        "column_type": "real",
+                        "sample_values": [
+                            0.0233916230499744,
+                            0.0817675814032555,
+                            0.554566502571106
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "xGoalsChain",
+                        "column_type": "real",
+                        "sample_values": [
+                            0.110285677015781,
+                            0.133460283279419,
+                            0.259422689676285
+                        ]
+                    },
+                    {
+                        "column_id": 7,
+                        "column_name": "xGoalsBuildup",
+                        "column_type": "real",
+                        "sample_values": [
+                            0.0152912409976125,
+                            0.933240473270416,
+                            0.375519186258316
+                        ]
+                    },
+                    {
+                        "column_id": 8,
+                        "column_name": "assists",
+                        "column_type": "integer",
+                        "sample_values": [
+                            2,
+                            1,
+                            3
+                        ]
+                    },
+                    {
+                        "column_id": 9,
+                        "column_name": "keyPasses",
+                        "column_type": "integer",
+                        "sample_values": [
+                            0,
+                            8,
+                            3
+                        ]
+                    },
+                    {
+                        "column_id": 10,
+                        "column_name": "xAssists",
+                        "column_type": "real",
+                        "sample_values": [
+                            0.0246882271021605,
+                            0.138587713241577,
+                            1.01042568683624
+                        ]
+                    },
+                    {
+                        "column_id": 11,
+                        "column_name": "position",
+                        "column_type": "text",
+                        "sample_values": [
+                            "DC",
+                            "FWL",
+                            "Sub"
+                        ]
+                    },
+                    {
+                        "column_id": 12,
+                        "column_name": "positionOrder",
+                        "column_type": "integer",
+                        "sample_values": [
+                            11,
+                            13,
+                            14
+                        ]
+                    },
+                    {
+                        "column_id": 13,
+                        "column_name": "yellowCard",
+                        "column_type": "integer",
+                        "sample_values": [
+                            1,
+                            0
+                        ]
+                    },
+                    {
+                        "column_id": 14,
+                        "column_name": "redCard",
+                        "column_type": "integer",
+                        "sample_values": [
+                            1,
+                            0
+                        ]
+                    },
+                    {
+                        "column_id": 15,
+                        "column_name": "time",
+                        "column_type": "integer",
+                        "sample_values": [
+                            69,
+                            59,
+                            85
+                        ]
+                    },
+                    {
+                        "column_id": 16,
+                        "column_name": "substituteIn",
+                        "column_type": "integer",
+                        "sample_values": [
+                            469230,
+                            34622,
+                            310093
+                        ]
+                    },
+                    {
+                        "column_id": 17,
+                        "column_name": "substituteOut",
+                        "column_type": "integer",
+                        "sample_values": [
+                            438799,
+                            144447,
+                            396470
+                        ]
+                    },
+                    {
+                        "column_id": 18,
+                        "column_name": "leagueID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            5,
+                            2,
+                            1
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"football_appearances\" (\n\"gameID\" INTEGER,\n  \"playerID\" INTEGER,\n  \"goals\" INTEGER,\n  \"ownGoals\" INTEGER,\n  \"shots\" INTEGER,\n  \"xGoals\" REAL,\n  \"xGoalsChain\" REAL,\n  \"xGoalsBuildup\" REAL,\n  \"assists\" INTEGER,\n  \"keyPasses\" INTEGER,\n  \"xAssists\" REAL,\n  \"position\" TEXT,\n  \"positionOrder\" INTEGER,\n  \"yellowCard\" INTEGER,\n  \"redCard\" INTEGER,\n  \"time\" INTEGER,\n  \"substituteIn\" INTEGER,\n  \"substituteOut\" INTEGER,\n  \"leagueID\" INTEGER\n)"
+            },
+            {
+                "table_id": 1,
+                "table_name": "football_teams",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "teamID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            110,
+                            153,
+                            234
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "name",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Osasuna",
+                            "Getafe",
+                            "Barcelona"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"football_teams\" (\n\"teamID\" INTEGER,\n  \"name\" TEXT\n)"
+            },
+            {
+                "table_id": 2,
+                "table_name": "football_games",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "gameID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            8186,
+                            14941,
+                            5304
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "leagueID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            3,
+                            1,
+                            5
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "season",
+                        "column_type": "integer",
+                        "sample_values": [
+                            2020,
+                            2015,
+                            2014
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "date",
+                        "column_type": "text",
+                        "sample_values": [
+                            "2017-08-27 16:00:00",
+                            "2018-04-01 14:00:00",
+                            "2016-01-10 15:00:00"
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "homeTeamID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            133,
+                            181,
+                            173
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "awayTeamID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            125,
+                            108,
+                            223
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "homeGoals",
+                        "column_type": "integer",
+                        "sample_values": [
+                            0,
+                            1,
+                            4
+                        ]
+                    },
+                    {
+                        "column_id": 7,
+                        "column_name": "awayGoals",
+                        "column_type": "integer",
+                        "sample_values": [
+                            2,
+                            1,
+                            6
+                        ]
+                    },
+                    {
+                        "column_id": 8,
+                        "column_name": "homeProbability",
+                        "column_type": "real",
+                        "sample_values": [
+                            0.1382,
+                            0.1518,
+                            0.3244
+                        ]
+                    },
+                    {
+                        "column_id": 9,
+                        "column_name": "drawProbability",
+                        "column_type": "real",
+                        "sample_values": [
+                            0.0926,
+                            0.3451,
+                            0.0799
+                        ]
+                    },
+                    {
+                        "column_id": 10,
+                        "column_name": "awayProbability",
+                        "column_type": "real",
+                        "sample_values": [
+                            0.1554,
+                            0.3825,
+                            0.6452
+                        ]
+                    },
+                    {
+                        "column_id": 11,
+                        "column_name": "homeGoalsHalfTime",
+                        "column_type": "integer",
+                        "sample_values": [
+                            1,
+                            3,
+                            6
+                        ]
+                    },
+                    {
+                        "column_id": 12,
+                        "column_name": "awayGoalsHalfTime",
+                        "column_type": "integer",
+                        "sample_values": [
+                            1,
+                            3,
+                            0
+                        ]
+                    },
+                    {
+                        "column_id": 13,
+                        "column_name": "B365H",
+                        "column_type": "real",
+                        "sample_values": [
+                            2.87,
+                            3.9,
+                            2.88
+                        ]
+                    },
+                    {
+                        "column_id": 14,
+                        "column_name": "B365D",
+                        "column_type": "real",
+                        "sample_values": [
+                            3.9,
+                            4.33,
+                            2.89
+                        ]
+                    },
+                    {
+                        "column_id": 15,
+                        "column_name": "B365A",
+                        "column_type": "real",
+                        "sample_values": [
+                            1.64,
+                            1.75,
+                            27.0
+                        ]
+                    },
+                    {
+                        "column_id": 16,
+                        "column_name": "BWH",
+                        "column_type": "real",
+                        "sample_values": [
+                            2.55,
+                            11.5,
+                            1.35
+                        ]
+                    },
+                    {
+                        "column_id": 17,
+                        "column_name": "BWD",
+                        "column_type": "real",
+                        "sample_values": [
+                            3.55,
+                            3.35,
+                            4.85
+                        ]
+                    },
+                    {
+                        "column_id": 18,
+                        "column_name": "BWA",
+                        "column_type": "real",
+                        "sample_values": [
+                            2.05,
+                            6.25,
+                            3.05
+                        ]
+                    },
+                    {
+                        "column_id": 19,
+                        "column_name": "IWH",
+                        "column_type": "real",
+                        "sample_values": [
+                            1.5,
+                            2.4,
+                            4.1
+                        ]
+                    },
+                    {
+                        "column_id": 20,
+                        "column_name": "IWD",
+                        "column_type": "real",
+                        "sample_values": [
+                            9.1,
+                            2.7,
+                            4.8
+                        ]
+                    },
+                    {
+                        "column_id": 21,
+                        "column_name": "IWA",
+                        "column_type": "real",
+                        "sample_values": [
+                            9.8,
+                            6.3,
+                            1.22
+                        ]
+                    },
+                    {
+                        "column_id": 22,
+                        "column_name": "PSH",
+                        "column_type": "real",
+                        "sample_values": [
+                            5.98,
+                            4.44,
+                            3.58
+                        ]
+                    },
+                    {
+                        "column_id": 23,
+                        "column_name": "PSD",
+                        "column_type": "real",
+                        "sample_values": [
+                            12.19,
+                            7.8,
+                            5.26
+                        ]
+                    },
+                    {
+                        "column_id": 24,
+                        "column_name": "PSA",
+                        "column_type": "real",
+                        "sample_values": [
+                            17.75,
+                            5.85,
+                            4.04
+                        ]
+                    },
+                    {
+                        "column_id": 25,
+                        "column_name": "WHH",
+                        "column_type": "real",
+                        "sample_values": [
+                            1.4,
+                            3.9,
+                            1.7
+                        ]
+                    },
+                    {
+                        "column_id": 26,
+                        "column_name": "WHD",
+                        "column_type": "real",
+                        "sample_values": [
+                            3.3,
+                            4.2,
+                            6.23
+                        ]
+                    },
+                    {
+                        "column_id": 27,
+                        "column_name": "WHA",
+                        "column_type": "real",
+                        "sample_values": [
+                            3.0,
+                            1.18,
+                            26.0
+                        ]
+                    },
+                    {
+                        "column_id": 28,
+                        "column_name": "VCH",
+                        "column_type": "real",
+                        "sample_values": [
+                            2.62,
+                            1.5,
+                            3.2
+                        ]
+                    },
+                    {
+                        "column_id": 29,
+                        "column_name": "VCD",
+                        "column_type": "real",
+                        "sample_values": [
+                            3.4,
+                            4.4,
+                            9.5
+                        ]
+                    },
+                    {
+                        "column_id": 30,
+                        "column_name": "VCA",
+                        "column_type": "real",
+                        "sample_values": [
+                            41.0,
+                            1.93,
+                            1.33
+                        ]
+                    },
+                    {
+                        "column_id": 31,
+                        "column_name": "PSCH",
+                        "column_type": "real",
+                        "sample_values": [
+                            18.5,
+                            1.2,
+                            2.27
+                        ]
+                    },
+                    {
+                        "column_id": 32,
+                        "column_name": "PSCD",
+                        "column_type": "real",
+                        "sample_values": [
+                            4.28,
+                            9.23,
+                            2.8
+                        ]
+                    },
+                    {
+                        "column_id": 33,
+                        "column_name": "PSCA",
+                        "column_type": "real",
+                        "sample_values": [
+                            6.58,
+                            7.25,
+                            13.14
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"football_games\" (\n\"gameID\" INTEGER,\n  \"leagueID\" INTEGER,\n  \"season\" INTEGER,\n  \"date\" TEXT,\n  \"homeTeamID\" INTEGER,\n  \"awayTeamID\" INTEGER,\n  \"homeGoals\" INTEGER,\n  \"awayGoals\" INTEGER,\n  \"homeProbability\" REAL,\n  \"drawProbability\" REAL,\n  \"awayProbability\" REAL,\n  \"homeGoalsHalfTime\" INTEGER,\n  \"awayGoalsHalfTime\" INTEGER,\n  \"B365H\" REAL,\n  \"B365D\" REAL,\n  \"B365A\" REAL,\n  \"BWH\" REAL,\n  \"BWD\" REAL,\n  \"BWA\" REAL,\n  \"IWH\" REAL,\n  \"IWD\" REAL,\n  \"IWA\" REAL,\n  \"PSH\" REAL,\n  \"PSD\" REAL,\n  \"PSA\" REAL,\n  \"WHH\" REAL,\n  \"WHD\" REAL,\n  \"WHA\" REAL,\n  \"VCH\" REAL,\n  \"VCD\" REAL,\n  \"VCA\" REAL,\n  \"PSCH\" REAL,\n  \"PSCD\" REAL,\n  \"PSCA\" REAL\n)"
+            },
+            {
+                "table_id": 3,
+                "table_name": "football_teamstats",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "gameID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            7297,
+                            3254,
+                            15414
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "teamID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            116,
+                            97,
+                            161
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "season",
+                        "column_type": "integer",
+                        "sample_values": [
+                            2016,
+                            2017,
+                            2015
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "date",
+                        "column_type": "text",
+                        "sample_values": [
+                            "2018-02-09 19:30:00",
+                            "2020-12-31 13:00:00",
+                            "2021-04-21 20:00:00"
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "location",
+                        "column_type": "text",
+                        "sample_values": [
+                            "a",
+                            "h"
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "goals",
+                        "column_type": "integer",
+                        "sample_values": [
+                            5,
+                            1,
+                            8
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "xGoals",
+                        "column_type": "real",
+                        "sample_values": [
+                            1.24379,
+                            0.850155,
+                            1.60224
+                        ]
+                    },
+                    {
+                        "column_id": 7,
+                        "column_name": "shots",
+                        "column_type": "integer",
+                        "sample_values": [
+                            23,
+                            13,
+                            26
+                        ]
+                    },
+                    {
+                        "column_id": 8,
+                        "column_name": "shotsOnTarget",
+                        "column_type": "integer",
+                        "sample_values": [
+                            1,
+                            4,
+                            14
+                        ]
+                    },
+                    {
+                        "column_id": 9,
+                        "column_name": "deep",
+                        "column_type": "integer",
+                        "sample_values": [
+                            9,
+                            32,
+                            37
+                        ]
+                    },
+                    {
+                        "column_id": 10,
+                        "column_name": "ppda",
+                        "column_type": "real",
+                        "sample_values": [
+                            10.2258,
+                            6.931,
+                            16.2222
+                        ]
+                    },
+                    {
+                        "column_id": 11,
+                        "column_name": "fouls",
+                        "column_type": "integer",
+                        "sample_values": [
+                            20,
+                            6,
+                            1
+                        ]
+                    },
+                    {
+                        "column_id": 12,
+                        "column_name": "corners",
+                        "column_type": "integer",
+                        "sample_values": [
+                            11,
+                            1,
+                            9
+                        ]
+                    },
+                    {
+                        "column_id": 13,
+                        "column_name": "yellowCards",
+                        "column_type": "integer",
+                        "sample_values": [
+                            1.0,
+                            2.0,
+                            8.0
+                        ]
+                    },
+                    {
+                        "column_id": 14,
+                        "column_name": "redCards",
+                        "column_type": "integer",
+                        "sample_values": [
+                            0,
+                            3,
+                            2
+                        ]
+                    },
+                    {
+                        "column_id": 15,
+                        "column_name": "result",
+                        "column_type": "text",
+                        "sample_values": [
+                            "D",
+                            "L",
+                            "W"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"football_teamstats\" (\n\"gameID\" INTEGER,\n  \"teamID\" INTEGER,\n  \"season\" INTEGER,\n  \"date\" TEXT,\n  \"location\" TEXT,\n  \"goals\" INTEGER,\n  \"xGoals\" REAL,\n  \"shots\" INTEGER,\n  \"shotsOnTarget\" INTEGER,\n  \"deep\" INTEGER,\n  \"ppda\" REAL,\n  \"fouls\" INTEGER,\n  \"corners\" INTEGER,\n  \"yellowCards\" REAL,\n  \"redCards\" INTEGER,\n  \"result\" TEXT\n)"
+            },
+            {
+                "table_id": 4,
+                "table_name": "football_shots",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "gameID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            5585,
+                            15351,
+                            14522
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "shooterID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            206,
+                            6006,
+                            28
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "assisterID",
+                        "column_type": "real",
+                        "sample_values": [
+                            1253.0,
+                            8892.0,
+                            1997.0
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "minute",
+                        "column_type": "integer",
+                        "sample_values": [
+                            70,
+                            83,
+                            67
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "situation",
+                        "column_type": "text",
+                        "sample_values": [
+                            "SetPiece",
+                            "Penalty",
+                            "FromCorner"
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "lastAction",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Dispossessed",
+                            "Rebound",
+                            "CrossNotClaimed"
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "shotType",
+                        "column_type": "text",
+                        "sample_values": [
+                            "OtherBodyPart",
+                            "RightFoot",
+                            "LeftFoot"
+                        ]
+                    },
+                    {
+                        "column_id": 7,
+                        "column_name": "shotResult",
+                        "column_type": "text",
+                        "sample_values": [
+                            "MissedShots",
+                            "ShotOnPost",
+                            "Goal"
+                        ]
+                    },
+                    {
+                        "column_id": 8,
+                        "column_name": "xGoal",
+                        "column_type": "real",
+                        "sample_values": [
+                            0.0185456443578005,
+                            0.319666683673859,
+                            0.0222436971962452
+                        ]
+                    },
+                    {
+                        "column_id": 9,
+                        "column_name": "positionX",
+                        "column_type": "real",
+                        "sample_values": [
+                            0.1,
+                            0.587999992370606,
+                            0.675
+                        ]
+                    },
+                    {
+                        "column_id": 10,
+                        "column_name": "positionY",
+                        "column_type": "real",
+                        "sample_values": [
+                            0.580999984741211,
+                            0.243999996185303,
+                            0.0480000019073486
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"football_shots\" (\n\"gameID\" INTEGER,\n  \"shooterID\" INTEGER,\n  \"assisterID\" REAL,\n  \"minute\" INTEGER,\n  \"situation\" TEXT,\n  \"lastAction\" TEXT,\n  \"shotType\" TEXT,\n  \"shotResult\" TEXT,\n  \"xGoal\" REAL,\n  \"positionX\" REAL,\n  \"positionY\" REAL\n)"
+            },
+            {
+                "table_id": 5,
+                "table_name": "football_leagues",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "leagueID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            1,
+                            2,
+                            4
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "name",
+                        "column_type": "text",
+                        "sample_values": [
+                            "La Liga",
+                            "Serie A",
+                            "Ligue 1"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "understatNotation",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Serie_A",
+                            "Bundesliga",
+                            "Ligue_1"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"football_leagues\" (\n\"leagueID\" INTEGER,\n  \"name\" TEXT,\n  \"understatNotation\" TEXT\n)"
+            },
+            {
+                "table_id": 6,
+                "table_name": "football_players",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "playerID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            1596,
+                            1431,
+                            3390
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "name",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Peter Pekarík",
+                            "Álex Martínez",
+                            "Tim Maciejewski"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"football_players\" (\n\"playerID\" INTEGER,\n  \"name\" TEXT\n)"
+            }
+        ]
+    },
+    {
+        "db_id": "21",
+        "tables": [
+            {
+                "table_id": 0,
+                "table_name": "e_customers",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "CustomerID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            18,
+                            118,
+                            49
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "FirstName",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Oscar",
+                            "Sam",
+                            "Alice"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "LastName",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Davis",
+                            "Taylor",
+                            "Smith"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "Email",
+                        "column_type": "text",
+                        "sample_values": [
+                            "eve.jones@example.com",
+                            "oscar.davis@example.com",
+                            "charlie.johnson@example.com"
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "Phone",
+                        "column_type": "text",
+                        "sample_values": [
+                            "752-853-4709",
+                            "483-663-5946",
+                            "605-466-9335"
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "Address",
+                        "column_type": "text",
+                        "sample_values": [
+                            "456 Oak St.",
+                            "123 Maple St.",
+                            "789 Pine St."
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "City",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Casablanca",
+                            "Rabat",
+                            "Fes"
+                        ]
+                    },
+                    {
+                        "column_id": 7,
+                        "column_name": "ZipCode",
+                        "column_type": "integer",
+                        "sample_values": [
+                            20000,
+                            30000,
+                            40000
+                        ]
+                    },
+                    {
+                        "column_id": 8,
+                        "column_name": "SignupDate",
+                        "column_type": "text",
+                        "sample_values": [
+                            "2015-12-06",
+                            "2015-02-08",
+                            "2017-11-06"
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"e_customers\" (\n\"CustomerID\" INTEGER,\n  \"FirstName\" TEXT,\n  \"LastName\" TEXT,\n  \"Email\" TEXT,\n  \"Phone\" TEXT,\n  \"Address\" TEXT,\n  \"City\" TEXT,\n  \"ZipCode\" INTEGER,\n  \"SignupDate\" TEXT\n)"
+            },
+            {
+                "table_id": 1,
+                "table_name": "e_products",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "ProductID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            1004,
+                            1003,
+                            1002
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "ProductName",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Widget B",
+                            "Widget C",
+                            "Widget A"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "Category",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Widgets",
+                            "Tools",
+                            "Gadgets"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "Price",
+                        "column_type": "real",
+                        "sample_values": [
+                            100.0,
+                            90.0,
+                            150.0
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "StockQuantity",
+                        "column_type": "integer",
+                        "sample_values": [
+                            5,
+                            0,
+                            3
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"e_products\" (\n\"ProductID\" INTEGER,\n  \"ProductName\" TEXT,\n  \"Category\" TEXT,\n  \"Price\" REAL,\n  \"StockQuantity\" INTEGER\n)"
+            },
+            {
+                "table_id": 2,
+                "table_name": "e_orders",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "OrderID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            251,
+                            217,
+                            102
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "CustomerID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            39,
+                            63,
+                            40
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "ProductID",
+                        "column_type": "integer",
+                        "sample_values": [
+                            1001,
+                            1004,
+                            1002
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "OrderDate",
+                        "column_type": "text",
+                        "sample_values": [
+                            "2020-12-01",
+                            "2022-08-25",
+                            "2020-12-15"
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "Quantity",
+                        "column_type": "integer",
+                        "sample_values": [
+                            4,
+                            1,
+                            5
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "OrderStatus",
+                        "column_type": "text",
+                        "sample_values": [
+                            "Returned",
+                            "Canceled",
+                            "Shipped"
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "TotalAmount",
+                        "column_type": "real",
+                        "sample_values": [
+                            190.92,
+                            218.06,
+                            217.37
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"e_orders\" (\n\"OrderID\" INTEGER,\n  \"CustomerID\" INTEGER,\n  \"ProductID\" INTEGER,\n  \"OrderDate\" TEXT,\n  \"Quantity\" INTEGER,\n  \"OrderStatus\" TEXT,\n  \"TotalAmount\" REAL\n)"
+            }
+        ]
+    },
+    {
+        "db_id": "",
+        "tables": [
+            {
+                "table_id": 0,
+                "table_name": "internet_users_data",
+                "columns": [
+                    {
+                        "column_id": 0,
+                        "column_name": "id",
+                        "column_type": "INTEGER",
+                        "sample_values": [
+                            7848,
+                            8720,
+                            7704
+                        ]
+                    },
+                    {
+                        "column_id": 1,
+                        "column_name": "entity",
+                        "column_type": "TEXT",
+                        "sample_values": [
+                            "Australia",
+                            "Liberia",
+                            "Solomon Islands"
+                        ]
+                    },
+                    {
+                        "column_id": 2,
+                        "column_name": "code",
+                        "column_type": "TEXT",
+                        "sample_values": [
+                            "TUV",
+                            "USA",
+                            "NCL"
+                        ]
+                    },
+                    {
+                        "column_id": 3,
+                        "column_name": "year",
+                        "column_type": "INTEGER",
+                        "sample_values": [
+                            2008,
+                            2016,
+                            1995
+                        ]
+                    },
+                    {
+                        "column_id": 4,
+                        "column_name": "cellular_subscription",
+                        "column_type": "REAL",
+                        "sample_values": [
+                            5.26708746,
+                            34.57746506,
+                            0.103028879
+                        ]
+                    },
+                    {
+                        "column_id": 5,
+                        "column_name": "internet_users",
+                        "column_type": "REAL",
+                        "sample_values": [
+                            44.40105057,
+                            36.22880173,
+                            78.6896286
+                        ]
+                    },
+                    {
+                        "column_id": 6,
+                        "column_name": "no_of_internet_users",
+                        "column_type": "INTEGER",
+                        "sample_values": [
+                            7672096,
+                            53206613,
+                            20369957
+                        ]
+                    },
+                    {
+                        "column_id": 7,
+                        "column_name": "broadband_subscription",
+                        "column_type": "REAL",
+                        "sample_values": [
+                            1.884961009,
+                            0.007344289,
+                            44.77576828
+                        ]
+                    }
+                ],
+                "ddl": "CREATE TABLE \"internet_users_data\" (\n\"id\" INTEGER,\n  \"entity\" TEXT,\n  \"code\" TEXT,\n  \"year\" INTEGER,\n  \"cellular_subscription\" REAL,\n  \"internet_users\" REAL,\n  \"no_of_internet_users\" INTEGER,\n  \"broadband_subscription\" REAL\n)"
+            }
+        ]
+    }
+]
