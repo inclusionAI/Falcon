@@ -1,12 +1,15 @@
 <div align="center">
+  <a href="README_zh.md">🇨🇳 中文版</a>
+</div>
+
+<div align="center">
 
 # 🦅 Falcon: Enterprise-Grade Text-to-SQL Benchmark
 
 **A Comprehensive Chinese Text-to-SQL Benchmark for Complex, Cross-Domain Analytical Scenarios**
 
-[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-007ec6.svg)](LICENSE)
-[![arXiv: 2510.24762](https://img.shields.io/badge/arXiv-2510.24762-b31b1b.svg)](https://arxiv.org/abs/2510.24762)
-[![Data: HuggingFace](https://img.shields.io/badge/Data-HuggingFace-dfb317.svg)](https://huggingface.co/datasets/eosphoros-ai/Falcon)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+[![arXiv](https://img.shields.io/badge/arXiv-2510.24762-b31b1b.svg)](https://arxiv.org/abs/2510.24762)
 
 [**Introduction**](#-introduction) | [**Dataset Structure**](#-dataset-structure) | [**Getting Started**](#-getting-started) | [**Citation**](#-citation)
 
@@ -38,12 +41,12 @@ FALCON/
 ├── dev_data/                   # Development Set
 │   ├── dev.json                # Questions, SQL, and Execution Results
 │   ├── tables.json             # Schema definitions (PK/FK/Columns)
-│   └── db/                     # SQLite/CSV source files for execution
+│   └── dev_databases/          # SQLite/CSV source files for execution
 │
 ├── test_data/                  # Test Set
 │   ├── test.json               # Questions ONLY (Ground truth hidden)
 │   ├── tables.json             # Schema definitions
-│   └── db/                     # SQLite/CSV source files
+│   └── test_databases/         # SQLite/CSV source files
 │
 ├── simple_agent/               # [NEW] Lightweight Evaluation Scripts
 │   ├── comparator.py           # SQL execution result comparator
@@ -121,9 +124,23 @@ The `simple_agent` directory contains a lightweight evaluation pipeline. You can
 
 ### Method 2: DB-GPT (GUI-based)
 
-*Coming Soon.*
+Falcon is fully integrated into **DB-GPT**, allowing you to evaluate both **Models** (LLMs) and **Agents** through a visual interface.
 
-We are integrating Falcon benchmark support into **DB-GPT**. This will allow you to complete the leaderboard challenge through a visual interactive interface. Detailed instructions and configuration guides for this method will be updated here shortly.
+1.  **Configuration & Execution**
+    Please refer to the official **[DB-GPT Evaluation Documentation](https://www.yuque.com/eosphoros/dbgpt-docs/hpowc4o7134xnixn#H2MYu)** for detailed steps on how to:
+    *   Import the Falcon benchmark dataset.
+    *   Configure your Model or Agent.
+    *   Run the evaluation pipeline via the "Models Evaluation" module.
+
+2.  **Format Submission**
+    DB-GPT will generate an evaluation report in **Excel (`.xlsx`)** format. To submit your results to the Falcon leaderboard, you must convert this file into the required ZIP format using our helper script.
+
+    ```bash
+    # Run the formatting script
+    python submission/format_submission.py --input <path_to_dbgpt_output.xlsx> --output submission.zip
+    ```
+
+    > **Note:** The generated `submission.zip` will contain the required `result_sql` and `result_csv` folders formatted correctly for the leaderboard.
 
 ---
 
@@ -132,7 +149,7 @@ We are integrating Falcon benchmark support into **DB-GPT**. This will allow you
 Once you have generated your SQL queries (and execution results), please refer to the `submission/` directory for format requirements.
 
 *   **Examples**: Check `submission/example_submission_csv` and `submission/example_submission_sql` for the expected file structure.
-*   **Guidelines**: Please refer to the [Falcon Submission Guidelines](https://docs.google.com/document/d/16KWw1GjrF6aUwumQxxsi_N3GEB5LPzzzHSqHsBE9TBw/edit?usp=sharing) for detailed rules.
+*   **Guidelines**: Please refer to the **[Falcon Submission Guidelines](https://docs.google.com/document/d/16KWw1GjrF6aUwumQxxsi_N3GEB5LPzzzHSqHsBE9TBw/edit?usp=sharing)** for detailed rules.
 
 ---
 
