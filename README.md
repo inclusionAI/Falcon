@@ -4,9 +4,9 @@
 
 **A Comprehensive Chinese Text-to-SQL Benchmark for Complex, Cross-Domain Analytical Scenarios**
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![arXiv](https://img.shields.io/badge/arXiv-2510.24762-b31b1b.svg)](https://arxiv.org/abs/2510.24762)
-[![Data](https://img.shields.io/badge/Data-Kaggle-20beff.svg)](https://www.kaggle.com/)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-007ec6.svg)](LICENSE)
+[![arXiv: 2510.24762](https://img.shields.io/badge/arXiv-2510.24762-b31b1b.svg)](https://arxiv.org/abs/2510.24762)
+[![Data: HuggingFace](https://img.shields.io/badge/Data-HuggingFace-dfb317.svg)](https://huggingface.co/datasets/eosphoros-ai/Falcon)
 
 [**Introduction**](#-introduction) | [**Dataset Structure**](#-dataset-structure) | [**Getting Started**](#-getting-started) | [**Citation**](#-citation)
 
@@ -35,15 +35,25 @@ To facilitate robust evaluation, the Falcon benchmark is split into a **Developm
 
 ```text
 FALCON/
-├── dev_data/                   # Development Set (300 Samples)
+├── dev_data/                   # Development Set
 │   ├── dev.json                # Questions, SQL, and Execution Results
 │   ├── tables.json             # Schema definitions (PK/FK/Columns)
 │   └── db/                     # SQLite/CSV source files for execution
 │
-├── test_data/                  # Test Set (200 Samples)
+├── test_data/                  # Test Set
 │   ├── test.json               # Questions ONLY (Ground truth hidden)
 │   ├── tables.json             # Schema definitions
 │   └── db/                     # SQLite/CSV source files
+│
+├── simple_agent/               # [NEW] Lightweight Evaluation Scripts
+│   ├── comparator.py           # SQL execution result comparator
+│   ├── utils.py                # Utilities for SQL extraction from LLM response
+│   └── simple_benchmark.py     # Main script to run dev/test evaluation
+│
+├── submission/                 # [NEW] Submission Helpers & Examples
+│   ├── example_submission_csv/ # Example CSV files for leaderboard submission
+│   ├── example_submission_sql/ # Example SQL files for leaderboard submission
+│   └── format_submission.py    # Helper to convert DB-GPT Excel output to Zip
 │
 └── README.md
 ```
@@ -58,7 +68,7 @@ Used for few-shot prompting, fine-tuning, or debugging. Contains the natural lan
   {
     "question_id": "1",
     "dataset_id": "finance_01",
-    "question": "What is the average age for each gender, ordered by age?",
+    "question": "每个性别的平均年龄是多少，按年龄排序？",
     "sql": "SELECT Gender, AVG(Age) FROM customers GROUP BY Gender ORDER BY AVG(Age)",
     "answer": {
       "Gender": ["Female", "Male"],
@@ -72,83 +82,57 @@ Used for few-shot prompting, fine-tuning, or debugging. Contains the natural lan
 #### 2. Test Data (`test_data/test.json`)
 Used for the official leaderboard. Only the question and schema reference are provided.
 
-```json
-[
-  {
-    "question_id": "201",
-    "dataset_id": "loan_approval_db",
-    "question": "Show the total amount of government bonds for each investment objective.",
-    "is_order": "0"
-  }
-]
-```
-
-#### 3. Schema Definition (`tables.json`)
-Defines the structure of the database, including table names, table ddl, column descriptions and sample values.
-
-```json
-[
-  {
-    "db_id": "20",
-    "tables": [
-      {
-        "table_id": 0,
-        "table_name": "city_ride_drivers_data",
-        "columns": [
-          {
-            "column_id": 0,
-            "column_name": "Driver_ID",
-            "column_type": "integer",
-            "sample_values": [
-              199,
-              129,
-              170
-            ]
-          }
-        ],
-        "ddl": "CREATE TABLE \"city_ride_drivers_data\" (\n\"Driver_ID\" INTEGER,\n  \"Name\" TEXT,\n  \"Age\" INTEGER,\n  \"City\" TEXT,\n  \"Experience_Years\" INTEGER,\n  \"Average_Rating\" REAL,\n  \"Active_Status\" TEXT\n)"
-      }
-    ]
-  }
-]
-```
-
 ---
-
 
 ## 🚀 Getting Started
 
+We currently provide two methods for evaluating your models on the Falcon benchmark: a lightweight script-based approach and a GUI-based approach via DB-GPT.
+
+### Method 1: Simple Agent (Script-based)
+
+The `simple_agent` directory contains a lightweight evaluation pipeline. You can use `simple_benchmark.py` to run evaluations on either the development or test sets.
+
 1.  **Clone the Repository**
     ```bash
-    git clone -b yifan_1216 https://github.com/eosphoros-ai/Falcon.git
+    git clone https://github.com/eosphoros-ai/Falcon.git
     cd Falcon
     ```
 
-2.  **Load the Development Set**
-    Use the `dev_data` to evaluate your model's baseline performance.
-    ```python
-    import json
-    with open('dev_data/dev.json', 'r') as f:
-        data = json.load(f)
-    # Iterate through questions and generate SQL
+2.  **Setup Environment**
+    Ensure you have the necessary Python dependencies installed.
+    ```bash
+    pip install openai pandas tqdm
     ```
 
-3.  **Submit Results**
-    Generate SQL queries for the `test_data/test.json` file and submit your predictions to the leaderboard.
-    [Falcon Submission Guidelines](https://docs.google.com/document/d/16KWw1GjrF6aUwumQxxsi_N3GEB5LPzzzHSqHsBE9TBw/edit?usp=sharing)
-
-4.  **Submission Helper Script**
-    For users using DB-GPT for testset execution, we provide a helper script `submission/submission_format.py`. This script converts your execution result Excel file into the required `submission.zip` format containing `result_sql` and `result_csv` folders.
-
-    ```python
-    if __name__ == "__main__":
-    # Input file name - excel
-    INPUT_FILE = "execute.xlsx" # REPLACE WITH ACTUAL EXECEL FILE NAME
-    # Output file name - zip
-    OUTPUT_ZIP = "submission.zip"
-    ```
+3.  **Run Evaluation**
     
-    > **Note:** This script handles SQL and Result packaging. You must provide the execution trace separately if required.
+    *   **Development Set**: Run the benchmark on the dev set to check performance against ground truth.
+        ```bash
+        cd simple_agent
+        python simple_benchmark.py dev
+        ```
+    
+    *   **Test Set**: Run the benchmark on the test set to generate predictions.
+        ```bash
+        cd simple_agent
+        python simple_benchmark.py test
+        ```
+        **Note on Submission:** After execution, a `submission.zip` will be automatically generated. For official leaderboard submission, a **trace log** (we recommend `.jsonl` format) is required. Please ensure you manually include your trace log in the final ZIP before submitting.
+
+### Method 2: DB-GPT (GUI-based)
+
+*Coming Soon.*
+
+We are integrating Falcon benchmark support into **DB-GPT**. This will allow you to complete the leaderboard challenge through a visual interactive interface. Detailed instructions and configuration guides for this method will be updated here shortly.
+
+---
+
+## 📤 Submission
+
+Once you have generated your SQL queries (and execution results), please refer to the `submission/` directory for format requirements.
+
+*   **Examples**: Check `submission/example_submission_csv` and `submission/example_submission_sql` for the expected file structure.
+*   **Guidelines**: Please refer to the [Falcon Submission Guidelines](https://docs.google.com/document/d/16KWw1GjrF6aUwumQxxsi_N3GEB5LPzzzHSqHsBE9TBw/edit?usp=sharing) for detailed rules.
 
 ---
 
@@ -172,8 +156,6 @@ If you use Falcon in your research or development, please cite our paper:
 
 This project is licensed under the **Apache License, Version 2.0**.  
 See the [LICENSE](LICENSE) file for the full text.
-
-> "License" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.
 
 ---
 
