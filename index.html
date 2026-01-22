@@ -421,115 +421,6 @@
 </div> 
 
 <div class="container">
-    
-    <section id="introduction">
-        <h2>
-            <span lang="en">📖 Introduction</span>
-            <span lang="zh">📖 项目简介</span>
-        </h2>
-        <p lang="en">
-            Falcon is a continuously evolving, high-quality benchmark designed to bridge the gap between academic Text-to-SQL datasets and real-world enterprise requirements. Unlike traditional benchmarks, Falcon focuses on <strong>MaxCompute/Hive dialects</strong> and stresses models with complex SQL patterns and linguistic ambiguities common in production environments.
-        </p>
-        <p lang="zh">
-            Falcon 是一个持续迭代的高质量基准测试，旨在弥合学术界 Text-to-SQL 数据集与真实企业需求之间的差距。与传统基准测试不同，Falcon 专注于 <strong>MaxCompute/Hive 方言</strong>，并着重测试模型在生产环境中常见的复杂 SQL 模式和语言歧义处理能力。
-        </p>
-
-        <div class="features-grid">
-            <div class="feature-card">
-                <h3>
-                    <span lang="en">SQL Complexity</span>
-                    <span lang="zh">SQL 复杂度</span>
-                </h3>
-                <ul>
-                    <li lang="en">Heavy focus on multi-table joins (77% of samples)</li>
-                    <li lang="zh">重点关注多表关联（77% 的样本）</li>
-                    
-                    <li lang="en">Nested CTEs (Common Table Expressions)</li>
-                    <li lang="zh">嵌套 CTE（公用表表达式）</li>
-                    
-                    <li lang="en">Window functions & Ranking</li>
-                    <li lang="zh">窗口函数与排名计算</li>
-                    
-                    <li lang="en">Type casting & Regular-expression filters</li>
-                    <li lang="zh">类型转换与正则表达式过滤</li>
-                </ul>
-            </div>
-            <div class="feature-card">
-                <h3>
-                    <span lang="en">Linguistic Challenges</span>
-                    <span lang="zh">语言挑战</span>
-                </h3>
-                <ul>
-                    <li lang="en">Chinese fuzzy time expressions</li>
-                    <li lang="zh">中文模糊时间表达</li>
-                    
-                    <li lang="en">Colloquial business jargon</li>
-                    <li lang="zh">口语化业务术语</li>
-                    
-                    <li lang="en">Ellipsis (omitted information)</li>
-                    <li lang="zh">省略表达（信息缺失）</li>
-                    
-                    <li lang="en">Multi-intent questions</li>
-                    <li lang="zh">多意图复杂提问</li>
-                </ul>
-            </div>
-            <div class="feature-card">
-                <h3>
-                    <span lang="en">Enterprise Scale</span>
-                    <span lang="zh">企业级规模</span>
-                </h3>
-                <ul>
-                    <li lang="en">Schemas involve denormalized fields</li>
-                    <li lang="zh">包含非规范化字段的 Schema</li>
-                    
-                    <li lang="en">Implicit foreign keys</li>
-                    <li lang="zh">隐式外键关系</li>
-                    
-                    <li lang="en">Domain-specific synonyms</li>
-                    <li lang="zh">领域特定同义词</li>
-                    
-                    <li lang="en">Real-world "dirty" data scenarios</li>
-                    <li lang="zh">真实世界的“脏数据”场景</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <section id="structure">
-        <h2>
-            <span lang="en">📂 Dataset Structure</span>
-            <span lang="zh">📂 数据集结构</span>
-        </h2>
-        <p lang="en">The Falcon benchmark is split into a <strong>Development Set</strong> (with ground truth) and a <strong>Test Set</strong> (blind). The repository structure is designed for easy integration with evaluation pipelines.</p>
-        <p lang="zh">Falcon 基准测试分为 <strong>开发集 (Development Set)</strong>（包含标准答案）和 <strong>测试集 (Test Set)</strong>（盲测）。仓库结构设计便于与评估流程集成。</p>
-        
-        <div class="code-header">
-            <span lang="en">Repository Layout</span>
-            <span lang="zh">仓库目录结构</span>
-        </div>
-        <pre><code>FALCON/
-├── dev_data/                   # Development Set (开发集)
-│   ├── dev.json                # Questions, SQL, and Execution Results
-│   ├── tables.json             # Schema definitions (PK/FK/Columns)
-│   └── dev_databases/          # SQLite/CSV source files for execution
-│
-├── test_data/                  # Test Set (测试集)
-│   ├── test.json               # Questions ONLY (Ground truth hidden)
-│   ├── tables.json             # Schema definitions
-│   └── test_databases/         # SQLite/CSV source files
-│
-├── simple_agent/               # [NEW] Lightweight Evaluation Scripts (轻量级评估脚本)
-│   ├── comparator.py           # SQL execution result comparator
-│   ├── utils.py                # Utilities for SQL extraction
-│   └── simple_benchmark.py     # Main script to run dev/test evaluation
-│
-├── submission/                 # [NEW] Submission Helpers & Examples (提交辅助工具)
-│   ├── example_submission_csv/ # Example CSV files for leaderboard
-│   ├── example_submission_sql/ # Example SQL files for leaderboard
-│   └── format_submission.py    # Helper to convert DB-GPT Excel output
-│
-└── README.md</code></pre>
-    </section>
 
     <section id="leaderboard">
         <h2>
@@ -736,6 +627,115 @@
                 </tbody>
             </table>
         </div>
+    </section>
+    
+    <section id="introduction">
+        <h2>
+            <span lang="en">📖 Introduction</span>
+            <span lang="zh">📖 项目简介</span>
+        </h2>
+        <p lang="en">
+            Falcon is a continuously evolving, high-quality benchmark designed to bridge the gap between academic Text-to-SQL datasets and real-world enterprise requirements. Unlike traditional benchmarks, Falcon focuses on <strong>MaxCompute/Hive dialects</strong> and stresses models with complex SQL patterns and linguistic ambiguities common in production environments.
+        </p>
+        <p lang="zh">
+            Falcon 是一个持续迭代的高质量基准测试，旨在弥合学术界 Text-to-SQL 数据集与真实企业需求之间的差距。与传统基准测试不同，Falcon 专注于 <strong>MaxCompute/Hive 方言</strong>，并着重测试模型在生产环境中常见的复杂 SQL 模式和语言歧义处理能力。
+        </p>
+
+        <div class="features-grid">
+            <div class="feature-card">
+                <h3>
+                    <span lang="en">SQL Complexity</span>
+                    <span lang="zh">SQL 复杂度</span>
+                </h3>
+                <ul>
+                    <li lang="en">Heavy focus on multi-table joins (77% of samples)</li>
+                    <li lang="zh">重点关注多表关联（77% 的样本）</li>
+                    
+                    <li lang="en">Nested CTEs (Common Table Expressions)</li>
+                    <li lang="zh">嵌套 CTE（公用表表达式）</li>
+                    
+                    <li lang="en">Window functions & Ranking</li>
+                    <li lang="zh">窗口函数与排名计算</li>
+                    
+                    <li lang="en">Type casting & Regular-expression filters</li>
+                    <li lang="zh">类型转换与正则表达式过滤</li>
+                </ul>
+            </div>
+            <div class="feature-card">
+                <h3>
+                    <span lang="en">Linguistic Challenges</span>
+                    <span lang="zh">语言挑战</span>
+                </h3>
+                <ul>
+                    <li lang="en">Chinese fuzzy time expressions</li>
+                    <li lang="zh">中文模糊时间表达</li>
+                    
+                    <li lang="en">Colloquial business jargon</li>
+                    <li lang="zh">口语化业务术语</li>
+                    
+                    <li lang="en">Ellipsis (omitted information)</li>
+                    <li lang="zh">省略表达（信息缺失）</li>
+                    
+                    <li lang="en">Multi-intent questions</li>
+                    <li lang="zh">多意图复杂提问</li>
+                </ul>
+            </div>
+            <div class="feature-card">
+                <h3>
+                    <span lang="en">Enterprise Scale</span>
+                    <span lang="zh">企业级规模</span>
+                </h3>
+                <ul>
+                    <li lang="en">Schemas involve denormalized fields</li>
+                    <li lang="zh">包含非规范化字段的 Schema</li>
+                    
+                    <li lang="en">Implicit foreign keys</li>
+                    <li lang="zh">隐式外键关系</li>
+                    
+                    <li lang="en">Domain-specific synonyms</li>
+                    <li lang="zh">领域特定同义词</li>
+                    
+                    <li lang="en">Real-world "dirty" data scenarios</li>
+                    <li lang="zh">真实世界的“脏数据”场景</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="structure">
+        <h2>
+            <span lang="en">📂 Dataset Structure</span>
+            <span lang="zh">📂 数据集结构</span>
+        </h2>
+        <p lang="en">The Falcon benchmark is split into a <strong>Development Set</strong> (with ground truth) and a <strong>Test Set</strong> (blind). The repository structure is designed for easy integration with evaluation pipelines.</p>
+        <p lang="zh">Falcon 基准测试分为 <strong>开发集 (Development Set)</strong>（包含标准答案）和 <strong>测试集 (Test Set)</strong>（盲测）。仓库结构设计便于与评估流程集成。</p>
+        
+        <div class="code-header">
+            <span lang="en">Repository Layout</span>
+            <span lang="zh">仓库目录结构</span>
+        </div>
+        <pre><code>FALCON/
+├── dev_data/                   # Development Set (开发集)
+│   ├── dev.json                # Questions, SQL, and Execution Results
+│   ├── tables.json             # Schema definitions (PK/FK/Columns)
+│   └── dev_databases/          # SQLite/CSV source files for execution
+│
+├── test_data/                  # Test Set (测试集)
+│   ├── test.json               # Questions ONLY (Ground truth hidden)
+│   ├── tables.json             # Schema definitions
+│   └── test_databases/         # SQLite/CSV source files
+│
+├── simple_agent/               # [NEW] Lightweight Evaluation Scripts (轻量级评估脚本)
+│   ├── comparator.py           # SQL execution result comparator
+│   ├── utils.py                # Utilities for SQL extraction
+│   └── simple_benchmark.py     # Main script to run dev/test evaluation
+│
+├── submission/                 # [NEW] Submission Helpers & Examples (提交辅助工具)
+│   ├── example_submission_csv/ # Example CSV files for leaderboard
+│   ├── example_submission_sql/ # Example SQL files for leaderboard
+│   └── format_submission.py    # Helper to convert DB-GPT Excel output
+│
+└── README.md</code></pre>
     </section>
 
     <section id="getting-started">
