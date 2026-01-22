@@ -31,16 +31,21 @@
             scroll-behavior: smooth;
         }
 
-        /* --- 语言切换逻辑 --- */
-        /* 默认隐藏中文 */
-        [lang="zh"] { display: none; }
+        /* --- 语言切换逻辑 (修复版) --- */
         
-        /* 当 body 有 .lang-zh 类时，隐藏英文，显示中文 */
-        body.lang-zh [lang="en"] { display: none !important; }
-        body.lang-zh [lang="zh"] { display: block; }
-        body.lang-zh span[lang="zh"], 
-        body.lang-zh strong[lang="zh"],
-        body.lang-zh a[lang="zh"] { display: inline; }
+        /* 1. 默认状态 (English Mode): body 没有 .lang-zh 类 */
+        /* 强制隐藏所有 lang="zh" 的元素，使用 !important 覆盖其他 display 设置 */
+        body:not(.lang-zh) [lang="zh"] { 
+            display: none !important; 
+        }
+
+        /* 2. 中文模式 (Chinese Mode): body 有 .lang-zh 类 */
+        /* 强制隐藏所有 lang="en" 的元素 */
+        body.lang-zh [lang="en"] { 
+            display: none !important; 
+        }
+
+        /* 注意：显示的元素会自动采用其原本的 display 属性 (block/inline)，无需在此处重置 */
 
         /* 导航栏 */
         .navbar {
@@ -308,7 +313,11 @@
         .method-step {
             margin-bottom: 1rem;
         }
-        .method-step strong { display: block; color: var(--dark); margin-bottom: 0.25rem; }
+        .method-step strong { 
+            display: block; 
+            color: var(--dark); 
+            margin-bottom: 0.25rem; 
+        }
         .method-step code { 
             background: var(--silver-bg); 
             padding: 2px 5px; 
