@@ -127,7 +127,7 @@ FALCON/
 Falcon 已完全集成到 **DB-GPT** 中，支持通过可视化界面评估 **模型 (Models)** 和 **智能体 (Agents)**。
 
 1.  **配置与执行**
-    请参考官方 **[DB-GPT 评测文档]** 获取详细步骤，包括：
+    请参考官方 **[DB-GPT 评测文档](https://www.yuque.com/eosphoros/dbgpt-docs/hpowc4o7134xnixn#H2MYu)** 获取详细步骤，包括：
     *   导入 Falcon 评测数据集。
     *   配置您的模型或智能体。
     *   通过 "Models Evaluation"（模型评测）模块运行评测流水线。
